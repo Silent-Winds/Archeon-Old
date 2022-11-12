@@ -1,7 +1,7 @@
 # Archeon
 ![](https://media.discordapp.net/attachments/938106904129986590/992778838889222184/unknown.png?width=886&height=498)
 
-## ⁉ What's this about?
+## 🏷️ Welcome to Archeon: Rebirth of History
 
 The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, and filled with a magical energy made by the Wand of Nature!
 
@@ -28,4 +28,9 @@ Tim Rurkowski, musician.
  
 ## 📜 Credits
 
-The rights to this mod belong to The Aether Team, (Gilded Games) and all its developers, and the devs of Team Razor, 345boneshoss, Aethyus, TunefulTurnip, and darksonic300. Logo by Aethyus, and background by EnderCristy.
+The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski).
+Special Thanks/Contributors: Paros974, Mystoxi.
+
+## 💖 Enjoy the mod? Contribute with us!
+
+If you’d like to contribute what we do, check out our Discord server, or DM Aethyus#4467 on Discord! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
