@@ -32,6 +32,10 @@ Tim Rurkowski, musician.
 The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski).
 Special Thanks/Contributors: Paros974, Mystoxi.
 
+## 💎 Found an Issue?
+
+If you find any issue/bug, report it in the issue tracker of our mod, here, on our GitHub. Detail it, what version of the mod, did your game crashes, etc. Any bug report helps us to make Archeon better!
+
 ## 💖 Enjoy the mod? Contribute with us!
 
 If you’d like to help/contribute in any thing (texture making, music, development, modeler, translator, etc) contact us on our Discord server! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
