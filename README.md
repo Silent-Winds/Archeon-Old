@@ -10,16 +10,21 @@ The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension
 
 ## 🧱 Team
 
-Aethyus, main developer, game designer. <a class="github-button" href="https://twitter.com/ArcheonAethyus
-" data-icon="octicon-comment-discussion" aria-label="Follow Aethyus on Twitter"> 💬 Follow Aethyus on Twitter</a>
-Aeramisu/Tiramisu, game designer, lorist, musician. <a class="github-button" href="https://soundcloud.com/aeramisu
-" data-icon="octicon-comment-discussion" aria-label="Listen to Aeramisu's Music"> 💬 Listen to Aeramisu's Music</a>
-Aerod, game designer. <a class="github-button" href="https://twitter.com/AerodDev
-" data-icon="octicon-comment-discussion" aria-label="Follow Aerod on Twitter"> 💬 Follow Aerod on Twitter</a>
-Scarecrowman, musician. <a class="github-button" href="https://soundcloud.com/scarecr0wman
-" data-icon="octicon-comment-discussion" aria-label="Listen to Scarecrowman's Music"> 💬 Listen to Scarecrowman's Music</a>
-Tim Rurkowski, musician. <a class="github-button" href="https://timrurkowski.bandcamp.com/ 
-" data-icon="octicon-comment-discussion" aria-label="Listen to Tim Rurkowski's Music"> 💬 Listen to Tim Rurkowski's Music</a>
+Aethyus, main developer, game designer.
+<a class="github-button" href="https://twitter.com/ArcheonAethyus
+" data-icon="octicon-comment-discussion" aria-label="Follow Aethyus on Twitter"> Follow Aethyus on Twitter</a>
+Aeramisu/Tiramisu, game designer, lorist, musician.
+<a class="github-button" href="https://soundcloud.com/aeramisu
+" data-icon="octicon-comment-discussion" aria-label="Listen to Aeramisu's Music"> Listen to Aeramisu's Music</a>
+Aerod, game designer.
+<a class="github-button" href="https://twitter.com/AerodDev
+" data-icon="octicon-comment-discussion" aria-label="Follow Aerod on Twitter"> Follow Aerod on Twitter</a>
+Scarecrowman, musician.
+<a class="github-button" href="https://soundcloud.com/scarecr0wman
+" data-icon="octicon-comment-discussion" aria-label="Listen to Scarecrowman's Music"> Listen to Scarecrowman's Music</a>
+Tim Rurkowski, musician.
+<a class="github-button" href="https://timrurkowski.bandcamp.com/ 
+" data-icon="octicon-comment-discussion" aria-label="Listen to Tim Rurkowski's Music"> Listen to Tim Rurkowski's Music</a>
  
 ## 📜 Credits
 
