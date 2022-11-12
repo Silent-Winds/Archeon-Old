@@ -30,7 +30,7 @@ Tim Rurkowski, musician.
 ## 📜 Credits
 
 The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski).
-Special Thanks/Contributors: Paros974, Mystoxi.
+Special Thanks/Contributors: Paros974, Mystoxi. The use of the Archeon's assets is prohibited. 
 
 ## 💎 Found an Issue?
 
