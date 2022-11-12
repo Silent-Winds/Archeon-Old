@@ -7,7 +7,8 @@ The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension
 
 <a class="github-button" href="https://discord.gg/hhGPj8sMzT
 " data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
-##  Requirements
+
+## :sparks: Requirements
 
 You'll need of course:
  - Forge
