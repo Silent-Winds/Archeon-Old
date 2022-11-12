@@ -11,15 +11,15 @@ The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension
 ## 🧱 Team
 
 Aethyus, main developer, game designer. <a class="github-button" href="https://twitter.com/ArcheonAethyus
-" data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
+" data-icon="octicon-comment-discussion" aria-label="Follow Aethyus on Twitter"> 💬 Chat on Discord</a>
 Aeramisu/Tiramisu, game designer, lorist, musician. <a class="github-button" href="https://soundcloud.com/aeramisu
-" data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
+" data-icon="octicon-comment-discussion" aria-label="Listen to Aeramisu's Music"> 💬 Chat on Discord</a>
 Aerod, game designer. <a class="github-button" href="https://twitter.com/AerodDev
-" data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
+" data-icon="octicon-comment-discussion" aria-label="Follow Aerod on Twitter"> 💬 Chat on Discord</a>
 Scarecrowman, musician. <a class="github-button" href="https://soundcloud.com/scarecr0wman
-" data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
+" data-icon="octicon-comment-discussion" aria-label="Listen to Scarecrowman's Music"> 💬 Chat on Discord</a>
 Tim Rurkowski, musician. <a class="github-button" href="https://timrurkowski.bandcamp.com/ 
-" data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
+" data-icon="octicon-comment-discussion" aria-label="Listen to Tim Rurkowski's Music"> 💬 Chat on Discord</a>
  
 ## 📜 Credits
 
