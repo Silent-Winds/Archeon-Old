@@ -4,8 +4,9 @@
 # What is this about, what's new?
 
 The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, and filled with a magical energy made by the Wand of Nature!
- 
-[!Discord](https://discord.gg/hhGPj8sMzT?style=shield)](https://discord.gg/hhGPj8sMzT)
+
+<a class="github-button" href="https://discord.gg/hhGPj8sMzT
+" data-icon="octicon-comment-discussion" aria-label="Chat on Discord">Discuss</a>
 # Requirements
 
 You'll need of course:
