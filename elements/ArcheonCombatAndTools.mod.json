@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Archeon: Combat & Tools",
+    "icon": {
+      "value": "CUSTOM:Tropicstone_ToolsSword"
+    },
+    "showSearch": false
+  }
+}

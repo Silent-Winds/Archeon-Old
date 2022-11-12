@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:aketite"
+    },
+    "3": {
+      "item": "archeon:aketite"
+    },
+    "4": {
+      "item": "archeon:aketite"
+    },
+    "6": {
+      "item": "archeon:aketite"
+    },
+    "7": {
+      "item": "archeon:aketite"
+    },
+    "8": {
+      "item": "archeon:aketite"
+    }
+  },
+  "result": {
+    "item": "archeon:aketite_stairs",
+    "count": 4
+  }
+}

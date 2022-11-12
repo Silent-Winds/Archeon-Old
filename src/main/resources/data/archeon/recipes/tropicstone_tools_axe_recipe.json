@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "1": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "2": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "archeon:tropicstone_tools_axe",
+    "count": 1
+  }
+}

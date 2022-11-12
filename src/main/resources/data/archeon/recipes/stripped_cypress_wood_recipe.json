@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:stripped_cypress_log"
+    },
+    "1": {
+      "item": "archeon:stripped_cypress_log"
+    },
+    "2": {
+      "item": "archeon:stripped_cypress_log"
+    },
+    "3": {
+      "item": "archeon:stripped_cypress_log"
+    }
+  },
+  "result": {
+    "item": "archeon:stripped_cypress_wood",
+    "count": 4
+  }
+}

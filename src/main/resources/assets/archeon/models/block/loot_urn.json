@@ -1,0 +1,11 @@
+{
+  "parent": "archeon:custom/loot_urn",
+  "textures": {
+    "all": "archeon:blocks/pot_block_bottom",
+    "particle": "archeon:blocks/pot_block_bottom",
+    "pot_block_center_top": "archeon:blocks/pot_block_center_top",
+    "pot_block_top": "archeon:blocks/pot_block_top",
+    "pot_block_bottom": "archeon:blocks/pot_block_bottom",
+    "pot_block_center": "archeon:blocks/pot_block_center"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SouthstoneColumn"
+      },
+      {
+        "value": "CUSTOM:SouthstoneColumn"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SouthstoneColumn"
+      },
+      {
+        "value": "CUSTOM:SouthstoneColumn"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SouthstonePillar"
+    },
+    "name": "southstone_pillar_recipe",
+    "namespace": "mod"
+  }
+}

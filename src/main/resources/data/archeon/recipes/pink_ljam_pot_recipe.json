@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:jam_pot"
+    },
+    "1": {
+      "item": "archeon:pink_lycoris_petal"
+    },
+    "2": {
+      "item": "archeon:pink_lycoris_petal"
+    },
+    "3": {
+      "item": "archeon:pink_lycoris_petal"
+    }
+  },
+  "result": {
+    "item": "archeon:pink_lycoris_jam_pot",
+    "count": 1
+  }
+}

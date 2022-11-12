@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "1": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "2": {
+      "item": "archeon:tropicstone_cobblestone"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "archeon:tropicstone_tools_pickaxe",
+    "count": 1
+  }
+}

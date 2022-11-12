@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "3": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "4": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "5": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "7": {
+      "item": "archeon:artemnite_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:chiseled_artemnite",
+    "count": 5
+  }
+}

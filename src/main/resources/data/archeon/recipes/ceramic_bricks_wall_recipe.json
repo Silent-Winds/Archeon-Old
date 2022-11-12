@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "1": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "2": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "3": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "4": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "5": {
+      "item": "archeon:ceramic_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:ceramic_bricks_wall",
+    "count": 6
+  }
+}

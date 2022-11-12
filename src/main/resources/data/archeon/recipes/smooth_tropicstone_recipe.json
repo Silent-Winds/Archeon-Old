@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:tropicstone_bricks_slab"
+    },
+    "1": {
+      "item": "archeon:tropicstone_bricks_slab"
+    }
+  },
+  "result": {
+    "item": "archeon:smooth_tropicstone",
+    "count": 1
+  }
+}

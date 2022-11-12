@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "1": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "2": {
+      "item": "archeon:block_of_ceramic"
+    }
+  },
+  "result": {
+    "item": "archeon:ceramic_slab",
+    "count": 6
+  }
+}

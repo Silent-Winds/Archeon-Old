@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:faelite_block"
+    },
+    "title": {
+      "translate": "advancements.the_super_shiny_one.title"
+    },
+    "description": {
+      "translate": "advancements.the_super_shiny_one.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_super_shiny_one": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:faelite_block",
+            "count": {
+              "min": 64,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "archeon:archeon"
+}

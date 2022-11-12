@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_planks"
+    },
+    "1": {
+      "item": "archeon:palm_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:palm_pressure_plate",
+    "count": 1
+  }
+}

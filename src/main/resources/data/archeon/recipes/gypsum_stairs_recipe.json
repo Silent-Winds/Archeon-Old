@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:gypsum_block"
+    },
+    "3": {
+      "item": "archeon:gypsum_block"
+    },
+    "4": {
+      "item": "archeon:gypsum_block"
+    },
+    "6": {
+      "item": "archeon:gypsum_block"
+    },
+    "7": {
+      "item": "archeon:gypsum_block"
+    },
+    "8": {
+      "item": "archeon:gypsum_block"
+    }
+  },
+  "result": {
+    "item": "archeon:gypsum_stairs",
+    "count": 4
+  }
+}

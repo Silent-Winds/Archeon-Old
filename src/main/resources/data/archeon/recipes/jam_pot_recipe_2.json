@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:dune_sand_glass"
+    },
+    "3": {
+      "item": "archeon:dune_sand_glass"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    },
+    "5": {
+      "item": "archeon:dune_sand_glass"
+    },
+    "7": {
+      "item": "archeon:dune_sand_glass"
+    }
+  },
+  "result": {
+    "item": "archeon:jam_pot",
+    "count": 2
+  }
+}

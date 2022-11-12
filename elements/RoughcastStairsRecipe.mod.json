@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Roughcast"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Roughcast"
+      },
+      {
+        "value": "CUSTOM:Roughcast"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Roughcast"
+      },
+      {
+        "value": "CUSTOM:Roughcast"
+      },
+      {
+        "value": "CUSTOM:Roughcast"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RoughcastStairs"
+    },
+    "name": "roughcast_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_log"
+    },
+    "1": {
+      "item": "archeon:palm_log"
+    },
+    "2": {
+      "item": "archeon:palm_log"
+    },
+    "3": {
+      "item": "archeon:palm_log"
+    }
+  },
+  "result": {
+    "item": "archeon:palm_wood",
+    "count": 3
+  }
+}

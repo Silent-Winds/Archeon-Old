@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AketiteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AketiteBricks"
+      },
+      {
+        "value": "CUSTOM:Aketite"
+      },
+      {
+        "value": "CUSTOM:AketiteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AketiteBricks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChiseledAketite"
+    },
+    "name": "chiseled_aketite_recipe_2",
+    "namespace": "mod"
+  }
+}

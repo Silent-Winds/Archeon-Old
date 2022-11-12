@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CypressLog"
+      },
+      {
+        "value": "CUSTOM:CypressLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CypressLog"
+      },
+      {
+        "value": "CUSTOM:CypressLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CypressWood"
+    },
+    "name": "cypress_wood_recipe",
+    "namespace": "mod"
+  }
+}

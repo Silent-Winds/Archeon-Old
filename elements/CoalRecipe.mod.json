@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ExyrianeCrystal"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:Salt"
+    },
+    "smithingReturnStack": {
+      "value": "Items.COAL#0"
+    },
+    "name": "coal_recipe",
+    "namespace": "mod"
+  }
+}

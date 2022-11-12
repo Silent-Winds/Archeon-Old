@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "3": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "4": {
+      "item": "archeon:raw_apaflorite_block"
+    },
+    "5": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "archeon:apaflorite_saber",
+    "count": 1
+  }
+}

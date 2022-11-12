@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:plant_fiber"
+    },
+    "2": {
+      "item": "archeon:plant_fiber"
+    },
+    "3": {
+      "item": "archeon:plant_fiber"
+    },
+    "4": {
+      "item": "archeon:pink_shell"
+    },
+    "5": {
+      "item": "archeon:plant_fiber"
+    },
+    "6": {
+      "item": "archeon:pink_shell"
+    },
+    "7": {
+      "item": "archeon:plant_fiber"
+    },
+    "8": {
+      "item": "archeon:pink_shell"
+    }
+  },
+  "result": {
+    "item": "archeon:clothes_chestplate",
+    "count": 1
+  }
+}

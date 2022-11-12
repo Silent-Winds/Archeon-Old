@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:mossy_artemnite_bricks"
+    },
+    "1": {
+      "item": "archeon:mossy_artemnite_bricks"
+    },
+    "2": {
+      "item": "archeon:mossy_artemnite_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:mossy_artemnite_bricks_slab",
+    "count": 6
+  }
+}

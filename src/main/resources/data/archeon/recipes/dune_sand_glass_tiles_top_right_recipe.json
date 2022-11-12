@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 45",
+    "  8"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:dune_sand_glass_tiles"
+    },
+    "1": {
+      "item": "archeon:dune_sand_glass_tiles"
+    },
+    "2": {
+      "item": "archeon:dune_sand_glass_tiles"
+    },
+    "4": {
+      "item": "archeon:dune_sand_glass_tiles"
+    },
+    "5": {
+      "item": "archeon:dune_sand_glass_tiles"
+    },
+    "8": {
+      "item": "archeon:dune_sand_glass_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:dune_sand_glass_tiles_top_right",
+    "count": 6
+  }
+}

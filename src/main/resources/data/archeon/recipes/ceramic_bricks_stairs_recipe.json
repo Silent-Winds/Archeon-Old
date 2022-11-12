@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "3": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "4": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "6": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "7": {
+      "item": "archeon:ceramic_bricks"
+    },
+    "8": {
+      "item": "archeon:ceramic_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:ceramic_bricks_stairs",
+    "count": 4
+  }
+}

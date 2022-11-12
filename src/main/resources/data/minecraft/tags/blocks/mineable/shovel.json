@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "archeon:tropical_sand",
+    "archeon:shellsand",
+    "archeon:salt_block",
+    "archeon:golden_sand",
+    "archeon:sandy_soil",
+    "archeon:dust",
+    "archeon:dunesand_castle"
+  ]
+}

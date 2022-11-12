@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:moss_ball"
+    },
+    "1": {
+      "item": "archeon:moss_ball"
+    },
+    "2": {
+      "item": "archeon:moss_ball"
+    },
+    "3": {
+      "item": "archeon:moss_ball"
+    }
+  },
+  "result": {
+    "item": "archeon:plant_fiber",
+    "count": 2
+  }
+}

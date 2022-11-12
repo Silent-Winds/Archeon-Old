@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:xetulian_sugar_cane"
+    },
+    "1": {
+      "item": "archeon:xetulian_sugar_cane"
+    },
+    "2": {
+      "item": "archeon:xetulian_sugar_cane"
+    }
+  },
+  "result": {
+    "item": "archeon:manuscript",
+    "count": 3
+  }
+}

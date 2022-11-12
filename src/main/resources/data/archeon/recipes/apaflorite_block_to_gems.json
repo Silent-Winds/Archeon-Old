@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:apaflorite_block"
+    }
+  },
+  "result": {
+    "item": "archeon:apaflorite_gemstone",
+    "count": 9
+  }
+}

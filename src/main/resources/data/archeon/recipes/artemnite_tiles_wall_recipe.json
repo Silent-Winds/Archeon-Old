@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "1": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "2": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "3": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "4": {
+      "item": "archeon:artemnite_tiles"
+    },
+    "5": {
+      "item": "archeon:artemnite_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:artemnite_tiles_wall",
+    "count": 6
+  }
+}

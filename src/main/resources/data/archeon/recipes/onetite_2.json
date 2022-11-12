@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "1": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "2": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "3": {
+      "item": "archeon:block_of_ceramic"
+    }
+  },
+  "result": {
+    "item": "minecraft:smithing_table",
+    "count": 1
+  }
+}

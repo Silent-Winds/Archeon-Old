@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:gilded_cobbled_southstone"
+    },
+    "3": {
+      "item": "archeon:gilded_cobbled_southstone"
+    },
+    "4": {
+      "item": "archeon:gilded_cobbled_southstone"
+    },
+    "6": {
+      "item": "archeon:gilded_cobbled_southstone"
+    },
+    "7": {
+      "item": "archeon:gilded_cobbled_southstone"
+    },
+    "8": {
+      "item": "archeon:gilded_cobbled_southstone"
+    }
+  },
+  "result": {
+    "item": "archeon:gilded_cobbled_southstone_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:gear"
+    },
+    "title": {
+      "translate": "advancements.be_meticulous.title"
+    },
+    "description": {
+      "translate": "advancements.be_meticulous.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "be_meticulous": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:gear",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "archeon:archeon"
+}

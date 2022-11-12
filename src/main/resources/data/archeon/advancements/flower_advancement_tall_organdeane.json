@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:organdeane_tall"
+    },
+    "title": {
+      "translate": "advancements.flower_advancement_tall_organdeane.title"
+    },
+    "description": {
+      "translate": "advancements.flower_advancement_tall_organdeane.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flower_advancement_tall_organdeane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:organdeane_tall",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "archeon:flower_advancement_organdeane"
+}

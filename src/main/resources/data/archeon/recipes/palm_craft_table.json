@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_planks"
+    },
+    "1": {
+      "item": "archeon:palm_planks"
+    },
+    "2": {
+      "item": "archeon:palm_planks"
+    },
+    "3": {
+      "item": "archeon:palm_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

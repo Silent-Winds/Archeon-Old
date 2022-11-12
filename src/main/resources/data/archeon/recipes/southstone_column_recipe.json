@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:chiseled_tropicstone"
+    },
+    "1": {
+      "item": "archeon:chiseled_tropicstone"
+    }
+  },
+  "result": {
+    "item": "archeon:southstone_column",
+    "count": 2
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothTropicstoneStairs"
+    },
+    "name": "smooth_t_recipe",
+    "namespace": "mod"
+  }
+}

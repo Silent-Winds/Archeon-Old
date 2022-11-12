@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:cooked_heifer"
+    },
+    "title": {
+      "translate": "advancements.yummy_and_greasy.title"
+    },
+    "description": {
+      "translate": "advancements.yummy_and_greasy.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "yummy_and_greasy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:raw_heifer",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "archeon:look_at_my_pink_diamonds"
+}

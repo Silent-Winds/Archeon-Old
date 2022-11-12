@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      },
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      },
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      },
+      {
+        "value": "CUSTOM:BlockOfCeramic"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CeramicStairs"
+    },
+    "name": "ceramic_stairs_recipe",
+    "namespace": "mod"
+  }
+}

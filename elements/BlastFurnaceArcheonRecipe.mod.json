@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      },
+      {
+        "value": "CUSTOM:SmoothTropicstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.BLAST_FURNACE"
+    },
+    "name": "blast_furnace_archeon_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:manuscript"
+    },
+    "1": {
+      "item": "archeon:manuscript"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 2
+  }
+}

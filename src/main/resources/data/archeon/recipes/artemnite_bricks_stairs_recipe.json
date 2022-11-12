@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "3": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "4": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "6": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "7": {
+      "item": "archeon:artemnite_bricks"
+    },
+    "8": {
+      "item": "archeon:artemnite_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:artemnite_bricks_stairs",
+    "count": 4
+  }
+}

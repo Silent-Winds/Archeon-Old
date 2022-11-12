@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_planks"
+    },
+    "1": {
+      "item": "archeon:palm_planks"
+    },
+    "2": {
+      "item": "archeon:palm_planks"
+    },
+    "3": {
+      "item": "archeon:palm_planks"
+    },
+    "5": {
+      "item": "archeon:palm_planks"
+    },
+    "6": {
+      "item": "archeon:palm_planks"
+    },
+    "7": {
+      "item": "archeon:palm_planks"
+    },
+    "8": {
+      "item": "archeon:palm_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}

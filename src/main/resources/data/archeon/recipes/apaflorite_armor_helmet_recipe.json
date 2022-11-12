@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "1": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "2": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "3": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "5": {
+      "item": "archeon:apaflorite_gemstone"
+    }
+  },
+  "result": {
+    "item": "archeon:apaflorite_armor_helmet",
+    "count": 1
+  }
+}

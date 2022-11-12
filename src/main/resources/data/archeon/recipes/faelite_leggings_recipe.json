@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:faelite_ingot"
+    },
+    "1": {
+      "item": "archeon:faelite_ingot"
+    },
+    "2": {
+      "item": "archeon:faelite_ingot"
+    },
+    "3": {
+      "item": "archeon:faelite_ingot"
+    },
+    "5": {
+      "item": "archeon:faelite_ingot"
+    },
+    "6": {
+      "item": "archeon:faelite_ingot"
+    },
+    "8": {
+      "item": "archeon:faelite_ingot"
+    }
+  },
+  "result": {
+    "item": "archeon:faelite_armor_leggings",
+    "count": 1
+  }
+}

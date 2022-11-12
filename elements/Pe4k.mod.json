@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_1",
+    "name": "Music Disc",
+    "description": "Tim Rurkowski - Pe4k",
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonMisc"
+    },
+    "music": {
+      "value": "CUSTOM:pe4k"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

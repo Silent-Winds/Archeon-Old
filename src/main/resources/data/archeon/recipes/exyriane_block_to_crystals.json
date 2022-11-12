@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_block"
+    }
+  },
+  "result": {
+    "item": "archeon:exyriane_crystal",
+    "count": 9
+  }
+}

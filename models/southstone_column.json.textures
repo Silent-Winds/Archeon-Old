@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "2": "southstone_column_top",
+        "3": "southstone_column"
+      },
+      "name": "default"
+    }
+  }
+}

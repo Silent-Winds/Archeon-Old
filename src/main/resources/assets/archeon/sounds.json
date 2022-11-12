@@ -1,0 +1,29 @@
+{
+  "devouring": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:devouring_-_flashing_images_loud_noises",
+        "stream": true
+      }
+    ]
+  },
+  "pe4k": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:pe4k",
+        "stream": true
+      }
+    ]
+  },
+  "ambient": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:ambient",
+        "stream": false
+      }
+    ]
+  }
+}

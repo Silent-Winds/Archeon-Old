@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:raw_apaflorite"
+    },
+    "1": {
+      "item": "archeon:raw_apaflorite"
+    },
+    "2": {
+      "item": "archeon:raw_apaflorite"
+    },
+    "3": {
+      "item": "archeon:raw_apaflorite"
+    }
+  },
+  "result": {
+    "item": "archeon:raw_apaflorite_block",
+    "count": 1
+  }
+}

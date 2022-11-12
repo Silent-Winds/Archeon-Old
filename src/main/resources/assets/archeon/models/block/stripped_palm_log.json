@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "archeon:blocks/stripped_palm_log_top",
+    "up": "archeon:blocks/stripped_palm_log_top",
+    "north": "archeon:blocks/stripped_palm_log_side",
+    "east": "archeon:blocks/stripped_palm_log_side",
+    "south": "archeon:blocks/stripped_palm_log_side",
+    "west": "archeon:blocks/stripped_palm_log_side",
+    "particle": "archeon:blocks/stripped_palm_log_top"
+  }
+}

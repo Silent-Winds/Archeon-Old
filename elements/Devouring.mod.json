@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "broken_disc",
+    "name": "Music Disc",
+    "description": "TiramisuAudio - Devouring",
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonMisc"
+    },
+    "music": {
+      "value": "CUSTOM:devouring"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

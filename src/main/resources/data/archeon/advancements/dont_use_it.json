@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:herbicide"
+    },
+    "title": {
+      "translate": "advancements.dont_use_it.title"
+    },
+    "description": {
+      "translate": "advancements.dont_use_it.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dont_use_it": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:herbicide",
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "archeon:deleted_mod_element"
+}

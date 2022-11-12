@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "1": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "2": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "3": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "4": {
+      "item": "archeon:block_of_ceramic"
+    },
+    "5": {
+      "item": "archeon:block_of_ceramic"
+    }
+  },
+  "result": {
+    "item": "archeon:ceramic_fence",
+    "count": 3
+  }
+}

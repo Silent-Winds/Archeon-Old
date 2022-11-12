@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "archeon:palm_wood",
+    "archeon:palm_log",
+    "archeon:palm_planks",
+    "archeon:antropy_wood",
+    "archeon:antropy_log",
+    "archeon:antropy_planks",
+    "archeon:antropy_trapdoor",
+    "archeon:antropy_door",
+    "archeon:cypress_wood",
+    "archeon:cypress_log",
+    "archeon:hollow_cypress_log",
+    "archeon:cypress_planks",
+    "archeon:stripped_cypress_log",
+    "archeon:stripped_cypress_wood",
+    "archeon:stripped_neclane_log",
+    "archeon:stripped_neclane_wood",
+    "archeon:stripped_palm_log",
+    "archeon:stripped_palm_wood"
+  ]
+}

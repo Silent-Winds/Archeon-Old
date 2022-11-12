@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:AntropyWood"
+      },
+      {
+        "value": "CUSTOM:AntropyLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "antropy_log",
+    "namespace": "forge"
+  }
+}

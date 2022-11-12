@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:roughcast"
+    },
+    "1": {
+      "item": "archeon:roughcast"
+    },
+    "2": {
+      "item": "archeon:roughcast"
+    }
+  },
+  "result": {
+    "item": "archeon:roughcast_slab",
+    "count": 6
+  }
+}

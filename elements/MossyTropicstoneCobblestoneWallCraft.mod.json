@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyTropicstoneCobblestoneWall"
+    },
+    "name": "mossy_tropicstone_cobblestone_wall_craft",
+    "namespace": "mod"
+  }
+}

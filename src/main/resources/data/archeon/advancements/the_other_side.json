@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:wet_grass_block"
+    },
+    "title": {
+      "translate": "advancements.the_other_side.title"
+    },
+    "description": {
+      "translate": "advancements.the_other_side.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_other_side": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "archeon:rocky_fields"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "archeon:archeon"
+}

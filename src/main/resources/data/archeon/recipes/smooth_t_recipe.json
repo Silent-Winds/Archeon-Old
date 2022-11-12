@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:smooth_tropicstone"
+    },
+    "3": {
+      "item": "archeon:smooth_tropicstone"
+    },
+    "4": {
+      "item": "archeon:smooth_tropicstone"
+    },
+    "6": {
+      "item": "archeon:smooth_tropicstone"
+    },
+    "7": {
+      "item": "archeon:smooth_tropicstone"
+    },
+    "8": {
+      "item": "archeon:smooth_tropicstone"
+    }
+  },
+  "result": {
+    "item": "archeon:smooth_tropicstone_stairs",
+    "count": 4
+  }
+}

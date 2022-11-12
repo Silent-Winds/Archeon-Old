@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      },
+      {
+        "value": "CUSTOM:DuneSandGlassPaneTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DuneSandGlassPaneTilesBottomRight"
+    },
+    "name": "dune_sand_glass_pane_bottom_right_recipe_1",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:FaeliteOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:FaeliteIngot"
+    },
+    "name": "faelite_ore_blasting",
+    "namespace": "mod"
+  }
+}

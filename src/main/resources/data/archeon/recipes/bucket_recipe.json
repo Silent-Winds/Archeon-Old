@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "2": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "4": {
+      "item": "archeon:exyriane_crystal"
+    }
+  },
+  "result": {
+    "item": "minecraft:bucket",
+    "count": 1
+  }
+}

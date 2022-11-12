@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:gypsum_bricks"
+    },
+    "1": {
+      "item": "archeon:gypsum_bricks"
+    },
+    "2": {
+      "item": "archeon:gypsum_bricks"
+    },
+    "3": {
+      "item": "archeon:gypsum_bricks"
+    },
+    "4": {
+      "item": "archeon:gypsum_bricks"
+    },
+    "5": {
+      "item": "archeon:gypsum_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:gypsum_bricks_wall",
+    "count": 6
+  }
+}

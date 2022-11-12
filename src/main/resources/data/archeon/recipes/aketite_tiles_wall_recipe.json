@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:aketite_tiles"
+    },
+    "1": {
+      "item": "archeon:aketite_tiles"
+    },
+    "2": {
+      "item": "archeon:aketite_tiles"
+    },
+    "3": {
+      "item": "archeon:aketite_tiles"
+    },
+    "4": {
+      "item": "archeon:aketite_tiles"
+    },
+    "5": {
+      "item": "archeon:aketite_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:aketite_wall",
+    "count": 6
+  }
+}

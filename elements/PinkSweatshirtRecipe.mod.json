@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": "CUSTOM:PinkShell"
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": "CUSTOM:PinkShell"
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": "CUSTOM:PinkShell"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Clothes.body"
+    },
+    "name": "pink_sweatshirt_recipe",
+    "namespace": "mod"
+  }
+}

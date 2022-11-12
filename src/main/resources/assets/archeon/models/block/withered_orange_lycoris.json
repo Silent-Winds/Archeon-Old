@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "archeon:blocks/fflower7",
+    "particle": "archeon:blocks/fflower7"
+  }
+}

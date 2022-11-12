@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:ExyrianeCrystal"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:ApafloriteGemstone"
+    },
+    "smithingReturnStack": {
+      "value": "Items.DYE#4"
+    },
+    "name": "apaflorite_and_exyriane_to_lapis_lazuli",
+    "namespace": "mod"
+  }
+}

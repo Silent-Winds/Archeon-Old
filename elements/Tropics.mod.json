@@ -1,0 +1,51 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:TropicalOcean"
+      },
+      {
+        "value": "CUSTOM:AntropyGrove"
+      },
+      {
+        "value": "CUSTOM:SouthMeadows"
+      },
+      {
+        "value": "CUSTOM:RockyFields"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Tropicstone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:MysteriousStone"
+    },
+    "portalParticles": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "portalLuminance": 9,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Nature Wand",
+    "igniterTab": {
+      "value": "CUSTOM:ArcheonCombatAndTools"
+    },
+    "texture": "new_nature_wand",
+    "portalTexture": "archeon_portal",
+    "enablePortal": true
+  }
+}

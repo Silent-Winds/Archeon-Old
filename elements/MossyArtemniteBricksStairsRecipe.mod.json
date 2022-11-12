@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      },
+      {
+        "value": "CUSTOM:MossyArtemniteBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MossyArtemniteBricksStairs"
+    },
+    "name": "mossy_artemnite_bricks_stairs_recipe",
+    "namespace": "mod"
+  }
+}

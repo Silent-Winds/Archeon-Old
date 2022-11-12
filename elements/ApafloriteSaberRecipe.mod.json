@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ApafloriteGemstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ApafloriteGemstone"
+      },
+      {
+        "value": "CUSTOM:RawApafloriteBlock"
+      },
+      {
+        "value": "CUSTOM:ApafloriteGemstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ApafloriteSaber"
+    },
+    "name": "apaflorite_saber_recipe",
+    "namespace": "mod"
+  }
+}

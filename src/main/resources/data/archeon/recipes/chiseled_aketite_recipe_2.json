@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:aketite_bricks"
+    },
+    "3": {
+      "item": "archeon:aketite_bricks"
+    },
+    "4": {
+      "item": "archeon:aketite"
+    },
+    "5": {
+      "item": "archeon:aketite_bricks"
+    },
+    "7": {
+      "item": "archeon:aketite_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:chiseled_aketite",
+    "count": 5
+  }
+}

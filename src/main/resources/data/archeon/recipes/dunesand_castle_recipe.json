@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:tropical_sand"
+    },
+    "2": {
+      "item": "archeon:tropical_sand"
+    },
+    "3": {
+      "item": "archeon:tropical_sand"
+    },
+    "4": {
+      "item": "archeon:tropical_sand"
+    },
+    "5": {
+      "item": "archeon:tropical_sand"
+    }
+  },
+  "result": {
+    "item": "archeon:dunesand_castle",
+    "count": 1
+  }
+}

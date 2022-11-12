@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cypress_log",
+        "1": "cypress_log_top",
+        "2": "stripped_cypress_log",
+        "missing": "stripped_cypress_log_top"
+      },
+      "name": "default"
+    }
+  }
+}

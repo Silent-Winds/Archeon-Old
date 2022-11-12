@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:antropy_planks"
+    },
+    "1": {
+      "item": "archeon:antropy_planks"
+    },
+    "2": {
+      "item": "archeon:antropy_planks"
+    },
+    "3": {
+      "item": "archeon:antropy_planks"
+    },
+    "4": {
+      "item": "archeon:antropy_planks"
+    },
+    "5": {
+      "item": "archeon:antropy_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:antropy_door",
+    "count": 3
+  }
+}

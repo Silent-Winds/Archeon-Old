@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    },
+    "1": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    },
+    "2": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    },
+    "3": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    },
+    "4": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    },
+    "5": {
+      "item": "archeon:mossy_tropicstone_bricks"
+    }
+  },
+  "result": {
+    "item": "archeon:mossy_tropicstone_cobblestone_wall",
+    "count": 6
+  }
+}

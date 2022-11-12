@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "1": {
+      "item": "archeon:salt"
+    },
+    "2": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "3": {
+      "item": "archeon:salt"
+    },
+    "4": {
+      "item": "archeon:grape"
+    },
+    "5": {
+      "item": "archeon:salt"
+    },
+    "6": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "7": {
+      "item": "archeon:salt"
+    },
+    "8": {
+      "item": "archeon:exyriane_crystal"
+    }
+  },
+  "result": {
+    "item": "archeon:golden_grape",
+    "count": 3
+  }
+}

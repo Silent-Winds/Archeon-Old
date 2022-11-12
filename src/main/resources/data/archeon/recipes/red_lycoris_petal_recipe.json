@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:moss_ball"
+    },
+    "1": {
+      "item": "archeon:red_lycoris"
+    },
+    "2": {
+      "item": "archeon:red_lycoris"
+    }
+  },
+  "result": {
+    "item": "archeon:red_lycoris_petal",
+    "count": 2
+  }
+}

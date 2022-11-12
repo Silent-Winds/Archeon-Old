@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawExyrianeCrystal"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:ExyrianeCrystal"
+    },
+    "name": "raw_exyriane_crystal_blasting",
+    "namespace": "mod"
+  }
+}

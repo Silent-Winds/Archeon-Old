@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "6 8"
+  ],
+  "key": {
+    "2": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "4": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "5": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "8": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "archeon:exyriane_fishing_rod",
+    "count": 1
+  }
+}

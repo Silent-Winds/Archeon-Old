@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawExyrianeCrystal"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ExyrianeCrystal"
+    },
+    "name": "raw_exyriane_crystal_smelting",
+    "namespace": "mod"
+  }
+}

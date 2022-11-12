@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "archeon:block/raw_exyriane_block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "archeon:block/raw_exyriane_block"
+    },
+    "axis=z": {
+      "model": "archeon:block/raw_exyriane_block",
+      "x": 90
+    }
+  }
+}

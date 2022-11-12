@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      },
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      },
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      },
+      {
+        "value": "CUSTOM:GildedCobbledSouthstone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GildedCobbledSouthstoneStairs"
+    },
+    "name": "gilded_cobbled_southstone_stairs_recipe",
+    "namespace": "mod"
+  }
+}

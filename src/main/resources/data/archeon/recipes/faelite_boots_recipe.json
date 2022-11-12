@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:faelite_ingot"
+    },
+    "2": {
+      "item": "archeon:faelite_ingot"
+    },
+    "3": {
+      "item": "archeon:faelite_ingot"
+    },
+    "5": {
+      "item": "archeon:faelite_ingot"
+    }
+  },
+  "result": {
+    "item": "archeon:faelite_armor_boots",
+    "count": 1
+  }
+}

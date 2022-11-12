@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:plant_fiber"
+    },
+    "1": {
+      "item": "archeon:yellow_shell"
+    },
+    "2": {
+      "item": "archeon:plant_fiber"
+    },
+    "3": {
+      "item": "archeon:plant_fiber"
+    },
+    "5": {
+      "item": "archeon:plant_fiber"
+    },
+    "6": {
+      "item": "archeon:yellow_shell"
+    },
+    "8": {
+      "item": "archeon:yellow_shell"
+    }
+  },
+  "result": {
+    "item": "archeon:clothes_leggings",
+    "count": 1
+  }
+}

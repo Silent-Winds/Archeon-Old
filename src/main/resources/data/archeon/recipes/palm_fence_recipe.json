@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "archeon:palm_planks"
+    },
+    "3": {
+      "item": "archeon:palm_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "archeon:palm_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:palm_fence",
+    "count": 3
+  }
+}

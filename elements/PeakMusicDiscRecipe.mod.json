@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RecordFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RecordFragment"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:RecordFragment"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RecordFragment"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pe4k"
+    },
+    "name": "peak_music_disc_recipe",
+    "namespace": "mod"
+  }
+}

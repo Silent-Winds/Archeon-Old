@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "2": {
+      "item": "archeon:exyriane_crystal"
+    }
+  },
+  "result": {
+    "item": "minecraft:shears",
+    "count": 1
+  }
+}

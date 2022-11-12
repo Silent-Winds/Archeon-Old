@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "archeon:blocks/terracotta_urn_5",
+    "top": "archeon:blocks/terracotta_urn_5",
+    "side": "archeon:blocks/terracotta_urn_5"
+  }
+}

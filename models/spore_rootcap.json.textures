@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "fungus_middle_2",
+        "4": "fungus_middle_2_top",
+        "5": "fungus_bottom",
+        "6": "fungus_middle_1",
+        "7": "fungus_middle_1_top",
+        "8": "fungus_top"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "1": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "2": {
+      "item": "archeon:cypress_planks"
+    },
+    "3": {
+      "item": "archeon:cypress_planks"
+    },
+    "4": {
+      "item": "archeon:cypress_planks"
+    },
+    "5": {
+      "item": "archeon:cypress_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:smithing_table",
+    "count": 1
+  }
+}

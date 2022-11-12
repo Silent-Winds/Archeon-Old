@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:artemnite"
+    },
+    "1": {
+      "item": "archeon:artemnite"
+    },
+    "2": {
+      "item": "archeon:artemnite"
+    },
+    "3": {
+      "item": "archeon:artemnite"
+    }
+  },
+  "result": {
+    "item": "archeon:artemnite_bricks",
+    "count": 4
+  }
+}
