@@ -46,9 +46,9 @@ public class ArcheonModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ArcheonModElements() {
-		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
 		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
 		sounds.put(new ResourceLocation("archeon", "ambient"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "ambient")));
+		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

@@ -33,6 +33,7 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Direction;
 import net.minecraft.potion.Effects;
 import net.minecraft.item.Item;
+import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -120,6 +121,11 @@ public class WetFernBlock extends ArcheonModElements.ModElement {
 		@Override
 		public int getStewEffectDuration() {
 			return 5;
+		}
+
+		@Override
+		public boolean isReplaceable(BlockState state, BlockItemUseContext useContext) {
+			return useContext.getItem().getItem() != this.asItem();
 		}
 
 		@Override
