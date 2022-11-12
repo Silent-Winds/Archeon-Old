@@ -5,9 +5,7 @@
 
 The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, and filled with a magical energy made by the Wand of Nature!
  
-[![Slient-Winds](https://discord.gg/hhGPj8sMzT?style=shield)]
-[![Gilded-Games](https://circleci.com/gh/Gilded-Games/The-Aether/tree/1.19.svg?style=shield)](https://app.circleci.com/pipelines/github/Gilded-Games/The-Aether?branch=1.19)
-[![Silent-Winds](https://discord.gg/hhGPj8sMzT?style=shield)](https://discord.gg/hhGPj8sMzT)
+[!Join our Discord Server!](https://discord.gg/hhGPj8sMzT?style=shield)](https://discord.gg/hhGPj8sMzT)
 # Requirements
 
 You'll need of course:
