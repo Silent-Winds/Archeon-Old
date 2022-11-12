@@ -3,7 +3,8 @@
 
 ## 🏷️ Welcome to Archeon: Rebirth of History
 
-The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, and filled with a magical energy made by the Wand of Nature!
+The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, currently in a retexture phase. The dimension for now includes only blocks and items, and at the moment only 1 mob, but this will change in a bit of time! Archeon: Rebirth of History is the second update of the mod, the first named Archeon: The Adventure Begins. Snapshots of the new update can be downloaded on our Discord server, and the currnt realease on our <a class="github-button" href="https://curseforge.com/minecraft/mc-mods/archeon
+" data-icon="octicon-comment-discussion" aria-label="CurseForge page"> CurseForge page</a> . Want to contribute with us? Check the article at the bottom of this page. 
 
 <a class="github-button" href="https://discord.gg/hhGPj8sMzT
 " data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
@@ -33,4 +34,4 @@ Special Thanks/Contributors: Paros974, Mystoxi.
 
 ## 💖 Enjoy the mod? Contribute with us!
 
-If you’d like to contribute what we do, check out our Discord server, or DM Aethyus#4467 on Discord! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
+If you’d like to help/contribute in any thing (texture making, music, development, modeler, translator, etc) contact us on our Discord server! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
