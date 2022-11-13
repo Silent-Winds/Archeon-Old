@@ -9,6 +9,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.shapes.VoxelShapes;
+import net.minecraft.util.math.shapes.VoxelShape;
+import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -62,7 +66,7 @@ public class SouthstoneColumnBlock extends ArcheonModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 2).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 			setRegistryName("southstone_column");
 		}
@@ -75,6 +79,14 @@ public class SouthstoneColumnBlock extends ArcheonModElements.ModElement {
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 0;
+		}
+
+		@Override
+		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
+			Vector3d offset = state.getOffset(world, pos);
+			return VoxelShapes.or(makeCuboidShape(1, 0, 1, 15, 16, 15))
+
+					.withOffset(offset.x, offset.y, offset.z);
 		}
 
 		@Override
