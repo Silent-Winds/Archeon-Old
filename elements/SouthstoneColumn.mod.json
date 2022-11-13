@@ -10,7 +10,7 @@
     "textureBack": "",
     "renderType": 2,
     "customModelName": "southstone_column:default",
-    "rotationMode": 0,
+    "rotationMode": 5,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,

@@ -14,9 +14,11 @@ import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.Rotation;
 import net.minecraft.util.Direction;
 import net.minecraft.state.properties.BlockStateProperties;
 import net.minecraft.state.StateContainer;
+import net.minecraft.state.EnumProperty;
 import net.minecraft.state.BooleanProperty;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -62,12 +64,13 @@ public class SouthstoneColumnBlock extends ArcheonModElements.ModElement {
 	}
 
 	public static class CustomBlock extends Block implements IWaterLoggable {
+		public static final EnumProperty<Direction.Axis> AXIS = BlockStateProperties.AXIS;
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 2).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
+			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y).with(WATERLOGGED, false));
 			setRegistryName("southstone_column");
 		}
 
@@ -84,20 +87,44 @@ public class SouthstoneColumnBlock extends ArcheonModElements.ModElement {
 		@Override
 		public VoxelShape getShape(BlockState state, IBlockReader world, BlockPos pos, ISelectionContext context) {
 			Vector3d offset = state.getOffset(world, pos);
-			return VoxelShapes.or(makeCuboidShape(1, 0, 1, 15, 16, 15))
+			switch ((Direction.Axis) state.get(AXIS)) {
+				case X :
+					return VoxelShapes.or(makeCuboidShape(0, 1, 1, 16, 15, 15))
 
-					.withOffset(offset.x, offset.y, offset.z);
+							.withOffset(offset.x, offset.y, offset.z);
+				case Y :
+				default :
+					return VoxelShapes.or(makeCuboidShape(1, 0, 1, 15, 16, 15))
+
+							.withOffset(offset.x, offset.y, offset.z);
+				case Z :
+					return VoxelShapes.or(makeCuboidShape(1, 1, 16, 15, 15, 0))
+
+							.withOffset(offset.x, offset.y, offset.z);
+			}
 		}
 
 		@Override
 		protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
-			builder.add(WATERLOGGED);
+			builder.add(AXIS, WATERLOGGED);
 		}
 
 		@Override
 		public BlockState getStateForPlacement(BlockItemUseContext context) {
 			boolean flag = context.getWorld().getFluidState(context.getPos()).getFluid() == Fluids.WATER;
-			return this.getDefaultState().with(WATERLOGGED, flag);
+			return this.getDefaultState().with(AXIS, context.getFace().getAxis()).with(WATERLOGGED, flag);
+		}
+
+		@Override
+		public BlockState rotate(BlockState state, Rotation rot) {
+			if (rot == Rotation.CLOCKWISE_90 || rot == Rotation.COUNTERCLOCKWISE_90) {
+				if ((Direction.Axis) state.get(AXIS) == Direction.Axis.X) {
+					return state.with(AXIS, Direction.Axis.Z);
+				} else if ((Direction.Axis) state.get(AXIS) == Direction.Axis.Z) {
+					return state.with(AXIS, Direction.Axis.X);
+				}
+			}
+			return state;
 		}
 
 		@Override
