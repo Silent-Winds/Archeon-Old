@@ -18,7 +18,7 @@ public class RawExyrianeCrystalItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RawExyrianeCrystalItem(ArcheonModElements instance) {
-		super(instance, 244);
+		super(instance, 272);
 	}
 
 	@Override

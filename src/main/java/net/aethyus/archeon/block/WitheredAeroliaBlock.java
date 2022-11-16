@@ -58,7 +58,7 @@ public class WitheredAeroliaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredAeroliaBlock(ArcheonModElements instance) {
-		super(instance, 216);
+		super(instance, 207);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

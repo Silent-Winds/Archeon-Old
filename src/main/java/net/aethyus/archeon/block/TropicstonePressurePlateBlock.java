@@ -31,7 +31,7 @@ public class TropicstonePressurePlateBlock extends ArcheonModElements.ModElement
 	public static final Block block = null;
 
 	public TropicstonePressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 44);
+		super(instance, 55);
 	}
 
 	@Override

@@ -47,7 +47,7 @@ public class AketiteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AketiteBlock(ArcheonModElements instance) {
-		super(instance, 94);
+		super(instance, 105);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -27,7 +27,7 @@ public class ChiseledTropicstoneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ChiseledTropicstoneBlock(ArcheonModElements instance) {
-		super(instance, 65);
+		super(instance, 76);
 	}
 
 	@Override

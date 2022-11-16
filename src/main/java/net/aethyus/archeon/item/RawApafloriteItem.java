@@ -18,7 +18,7 @@ public class RawApafloriteItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RawApafloriteItem(ArcheonModElements instance) {
-		super(instance, 247);
+		super(instance, 275);
 	}
 
 	@Override

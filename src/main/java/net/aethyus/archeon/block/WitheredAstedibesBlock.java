@@ -58,7 +58,7 @@ public class WitheredAstedibesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredAstedibesBlock(ArcheonModElements instance) {
-		super(instance, 180);
+		super(instance, 209);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

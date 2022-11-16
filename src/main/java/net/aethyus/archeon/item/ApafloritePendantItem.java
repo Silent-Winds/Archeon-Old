@@ -28,7 +28,7 @@ public class ApafloritePendantItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloritePendantItem(ArcheonModElements instance) {
-		super(instance, 257);
+		super(instance, 285);
 	}
 
 	@Override

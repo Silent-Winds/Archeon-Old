@@ -59,7 +59,7 @@ public class WitheredAscendiaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredAscendiaBlock(ArcheonModElements instance) {
-		super(instance, 189);
+		super(instance, 218);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -27,7 +27,7 @@ public class FalseCrackedSouthstoneBricksBlock extends ArcheonModElements.ModEle
 	public static final Block block = null;
 
 	public FalseCrackedSouthstoneBricksBlock(ArcheonModElements instance) {
-		super(instance, 77);
+		super(instance, 88);
 	}
 
 	@Override

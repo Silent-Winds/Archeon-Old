@@ -27,7 +27,7 @@ public class AketiteTileBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AketiteTileBlock(ArcheonModElements instance) {
-		super(instance, 99);
+		super(instance, 110);
 	}
 
 	@Override

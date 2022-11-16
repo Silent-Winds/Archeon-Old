@@ -19,7 +19,7 @@ public class CypressToolsHoeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsHoeItem(ArcheonModElements instance) {
-		super(instance, 234);
+		super(instance, 262);
 	}
 
 	@Override

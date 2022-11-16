@@ -33,7 +33,7 @@ public class SouthstonePillarBottomBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SouthstonePillarBottomBlock(ArcheonModElements instance) {
-		super(instance, 60);
+		super(instance, 71);
 	}
 
 	@Override

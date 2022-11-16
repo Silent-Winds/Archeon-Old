@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "1": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "2": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "3": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "4": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "5": {
+      "item": "archeon:vuxancia_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:vuxancia_trapdoor",
+    "count": 4
+  }
+}

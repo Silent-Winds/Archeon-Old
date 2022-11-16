@@ -54,7 +54,7 @@ public class CokiplantBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CokiplantBlock(ArcheonModElements instance) {
-		super(instance, 211);
+		super(instance, 242);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

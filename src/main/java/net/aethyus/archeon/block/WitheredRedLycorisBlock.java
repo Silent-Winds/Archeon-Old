@@ -58,7 +58,7 @@ public class WitheredRedLycorisBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredRedLycorisBlock(ArcheonModElements instance) {
-		super(instance, 185);
+		super(instance, 214);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

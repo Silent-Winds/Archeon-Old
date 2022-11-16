@@ -27,7 +27,7 @@ public class ApafloriteBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ApafloriteBlockBlock(ArcheonModElements instance) {
-		super(instance, 84);
+		super(instance, 95);
 	}
 
 	@Override

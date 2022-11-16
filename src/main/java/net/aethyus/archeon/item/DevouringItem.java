@@ -17,7 +17,7 @@ public class DevouringItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public DevouringItem(ArcheonModElements instance) {
-		super(instance, 256);
+		super(instance, 284);
 	}
 
 	@Override

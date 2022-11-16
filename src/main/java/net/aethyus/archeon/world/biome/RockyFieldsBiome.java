@@ -44,7 +44,7 @@ public class RockyFieldsBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public RockyFieldsBiome(ArcheonModElements instance) {
-		super(instance, 595);
+		super(instance, 623);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
