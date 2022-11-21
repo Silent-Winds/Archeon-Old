@@ -2940,54 +2940,6 @@
       "registry_name": "apaflorite_gemstone"
     },
     {
-      "name": "RawApafloriteBlock",
-      "type": "block",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_apaflorite_block"
-    },
-    {
-      "name": "ApafloriteRawBlockByGems",
-      "type": "recipe",
-      "sortid": 516,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apaflorite_raw_block_by_gems"
-    },
-    {
-      "name": "ApafloriteRawBlockToGems",
-      "type": "recipe",
-      "sortid": 517,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "apaflorite_raw_block_to_gems"
-    },
-    {
-      "name": "RawExyrianeBlock",
-      "type": "block",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_block"
-    },
-    {
-      "name": "RawExyrianeBlockRecipe",
-      "type": "recipe",
-      "sortid": 518,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_block_recipe"
-    },
-    {
-      "name": "RawExyrianeBlockToGems",
-      "type": "recipe",
-      "sortid": 519,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_block_to_gems"
-    },
-    {
       "name": "ApafloriteBlock",
       "type": "block",
       "sortid": 95,
@@ -3068,30 +3020,6 @@
       "registry_name": "apaflorite_pickaxe_recipe"
     },
     {
-      "name": "RawExyrianeCrystal",
-      "type": "item",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_crystal"
-    },
-    {
-      "name": "RawExyrianeCrystalSmelting",
-      "type": "recipe",
-      "sortid": 526,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_crystal_smelting"
-    },
-    {
-      "name": "RawExyrianeCrystalBlasting",
-      "type": "recipe",
-      "sortid": 527,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_exyriane_crystal_blasting"
-    },
-    {
       "name": "ApafloriteAxe",
       "type": "tool",
       "sortid": 253,
@@ -3114,30 +3042,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_shovel"
-    },
-    {
-      "name": "RawApaflorite",
-      "type": "item",
-      "sortid": 275,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_apaflorite"
-    },
-    {
-      "name": "RawApafloriteSmelting",
-      "type": "recipe",
-      "sortid": 528,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_apaflorite_smelting"
-    },
-    {
-      "name": "RawApafloriteBlasting",
-      "type": "recipe",
-      "sortid": 529,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_apaflorite_blasting"
     },
     {
       "name": "Devouring",
@@ -6680,6 +6584,46 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_vuxancia_wood_recipe_4"
+    },
+    {
+      "name": "LeavesCarpetZial",
+      "type": "block",
+      "sortid": 817,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_carpet_zial"
+    },
+    {
+      "name": "LeavesCarpetOrian",
+      "type": "block",
+      "sortid": 818,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_carpet_orian"
+    },
+    {
+      "name": "LeavesCarpetPnevantial",
+      "type": "block",
+      "sortid": 819,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_carpet_pnevantial"
+    },
+    {
+      "name": "LeavesCarpetVale",
+      "type": "block",
+      "sortid": 820,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_carpet_vale"
+    },
+    {
+      "name": "LeavesCarpetStreian",
+      "type": "block",
+      "sortid": 821,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leaves_carpet_streian"
     }
   ],
   "variable_elements": [],
@@ -6730,7 +6674,6 @@
       "block.archeon.ceramic_slab": "Ceramic Slab",
       "block.archeon.dust": "Dust",
       "block.archeon.vuxancia_leaves_orian_hanging_middle": "Hanging Orian Vuxancia Leaves",
-      "item.archeon.raw_exyriane_crystal": "Raw Exyriane",
       "subtitles.brise": "Music",
       "block.archeon.cypress_fence_gate": "Cypress Fence Gate",
       "advancements.stone_confection.descr": "Craft a stack of Southstone Columns.",
@@ -6822,8 +6765,8 @@
       "block.archeon.astedibes": "Astedibes",
       "block.archeon.tropicstone_bricks_wall": "Southstone Brick Wall",
       "item.archeon.cypress_tools_hoe": "Cypress Wood Hoe",
-      "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
+      "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "subtitles.flyingcoconuts": "Music",
       "subtitles.morningwish": "Music",
       "block.archeon.vuxancia_fence": "Vuxancia Fence",
@@ -6868,6 +6811,7 @@
       "block.archeon.artemnite_tiles_stairs": "Artemnite Tiles Stairs",
       "block.archeon.ceramic_bricks_slab": "Ceramic Brick Slab",
       "item.archeon.heifer_spawn_egg": "Heifer Spawn Egg",
+      "block.archeon.leaves_carpet_zial": "Carpet of Zial Vuxancia Leaves",
       "block.archeon.stripped_cypress_log": "Stripped Cypress Log",
       "advancements.fungustairs.title": "Fungustairs!",
       "block.archeon.aketite_brick_wall": "Aketite Brick Wall",
@@ -6905,7 +6849,6 @@
       "advancements.flower_advancement_septiceolia.descr": "Discover a Septiceolia.",
       "item.archeon.apaflorite_pendant": "Apaflorite Pendant",
       "subtitles.parallelify": "Music",
-      "block.archeon.raw_exyriane_block": "Raw Exyriane Block",
       "block.archeon.gypsum_bricks": "Gypsum Bricks",
       "block.archeon.exyriane_block": "Block of Exyriane",
       "block.archeon.gypsum_bricks_fence": "Gypsum Brick Fence",
@@ -6981,7 +6924,6 @@
       "block.archeon.palm_pressure_plate": "Palm Pressure Plate",
       "block.archeon.flowered_neclane_leaves": "Flowered Neclane Leaves",
       "advancements.holy_food.descr": "Obtain a golden grape.",
-      "item.archeon.raw_apaflorite": "Raw Apaflorite",
       "block.archeon.gypsum_slab": "Gypsum Slab",
       "block.archeon.block_of_ceramic": "Block of Ceramic",
       "block.archeon.artemnite_bricks_wall": "Artemnite Brick Wall",
@@ -7036,6 +6978,7 @@
       "subtitles.noisestorm": "Music",
       "advancements.adib_style.descr": "Strange but cool look.",
       "itemGroup.tabarcheon_fauna": "Archeon: Flora",
+      "block.archeon.leaves_carpet_orian": "Carpet of Orian Vuxancia Leaves",
       "advancements.like_when_you_were_little.descr": "Craft and place a dunesand castle.",
       "block.archeon.mossy_artemnite_bricks_slab": "Mossy Artemnite Brick Slab",
       "block.archeon.stripped_neclane_wood": "Stripped Neclane Wood",
@@ -7055,6 +6998,7 @@
       "biome.archeon.south_meadows": "South Meadows",
       "block.archeon.antropy_pressure_plate": "Neclane Pressure Plate",
       "item.archeon.yellow_shell": "Yellow Seashell",
+      "block.archeon.leaves_carpet_streian": "Carpet of Streian Vuxancia Leaves",
       "block.archeon.orchid_withered": "Withered Sunset Orchid",
       "block.archeon.antropy_stairs": "Neclane Stairs",
       "item.archeon.neclane_wood_sword": "Neclane Wood Sword",
@@ -7097,11 +7041,13 @@
       "block.archeon.palm_stairs": "Palm Stairs",
       "block.archeon.stripped_cypress_wood": "Stripped Cypress Wood",
       "block.archeon.vuxancia_leaves_zial_hanging_bottom": "Hanging Zial Vuxancia Leaves",
+      "block.archeon.leaves_carpet_vale": "Carpet of Vale Vuxancia Leaves",
       "block.archeon.dune_sand_glass_tiles": "Dune Sand Glass Tiles",
       "block.archeon.vuxancia_leaves_pnevantial_hanging_middle": "Hanging Pnevantial Vuxancia Leaves",
       "block.archeon.vuxancia_leaves_orian": "Orian Vuxancia Leaves",
       "item.archeon.plant_fiber": "Plant Fiber",
       "block.archeon.tropicstone_cobblestone": "Cobbled Southstone",
+      "block.archeon.leaves_carpet_pnevantial": "Carpet of Pnevantial Vuxancia Leaves",
       "advancements.stone_confection.title": "Stone Confection",
       "block.archeon.withered_red_lycoris": "Withered Red Lycoris",
       "advancements.the_super_shiny_one.title": "The Super Shiny One",
@@ -7112,7 +7058,6 @@
       "block.archeon.tropicstone_bricks_slab": "Southstone Brick Slab",
       "block.archeon.tropicstone": "Southstone",
       "block.archeon.vuxancia_trapdoor": "Vuxancia Trapdoor",
-      "block.archeon.raw_apaflorite_block": "Raw Apaflorite Block",
       "block.archeon.vuxancia_leaves_streian_hanging_bottom": "Hanging Streian Vuxancia Leaves",
       "block.archeon.vuxancia_leaves_vale_hanging_middle": "Hanging Vale Vuxancia Leaves",
       "block.archeon.ceramic_bricks_wall": "Ceramic Brick Wall",
@@ -7148,7 +7093,6 @@
       "block.archeon.ceramic_slab": "Dalle en céramique",
       "block.archeon.dust": "Cendres",
       "block.archeon.vuxancia_leaves_orian_hanging_middle": "Feuilles de vuxancia oriènes pendantes",
-      "item.archeon.raw_exyriane_crystal": "Éxyriane brute",
       "subtitles.brise": "Musique",
       "block.archeon.cypress_fence_gate": "Portillon de cyprès",
       "advancements.stone_confection.descr": "Fabriquez 64 colonnes en sousthone. Tu es dorénavant une pierre, une vraie.",
@@ -7240,8 +7184,8 @@
       "block.archeon.astedibes": "Astédibées",
       "block.archeon.tropicstone_bricks_wall": "Muret de southstone taillée",
       "item.archeon.cypress_tools_hoe": "Houe en bois de cyprès",
-      "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
       "block.archeon.gilded_cobbled_southstone_slab": "Dalle de pierres de southstone dorées",
+      "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
       "subtitles.morningwish": "Musique",
       "subtitles.flyingcoconuts": "Musique",
       "block.archeon.vuxancia_fence": "Barrière en vuxancia",
@@ -7286,6 +7230,7 @@
       "block.archeon.artemnite_tiles_stairs": "Escalier d\u0027artémnite carrelée",
       "block.archeon.ceramic_bricks_slab": "Dalle en tuiles de céramique",
       "item.archeon.heifer_spawn_egg": "Oeuf d\u0027apparition de génisse",
+      "block.archeon.leaves_carpet_zial": "Tapis de feuilles de vuxancia zialées",
       "block.archeon.stripped_cypress_log": "Bûche de cyprès écorcée",
       "block.archeon.aketite_brick_wall": "Muret en akétite taillée",
       "advancements.fungustairs.title": "Champi-scaliers !",
@@ -7323,7 +7268,6 @@
       "advancements.flower_advancement_septiceolia.descr": "Trouvez une septicéolia.",
       "item.archeon.apaflorite_pendant": "Talisman d\u0027apaflorite",
       "subtitles.parallelify": "Musique",
-      "block.archeon.raw_exyriane_block": "Bloc d\u0027éxyriane brute",
       "block.archeon.gypsum_bricks": "Gypse taillé",
       "block.archeon.exyriane_block": "Bloc d\u0027éxyriane",
       "block.archeon.palm_planks": "Planches de palmier",
@@ -7399,7 +7343,6 @@
       "block.archeon.palm_pressure_plate": "Plaque de pression de palmier",
       "block.archeon.flowered_neclane_leaves": "Feuilles de néclane fleuries",
       "advancements.holy_food.descr": "Obtenez du raisin sacré.",
-      "item.archeon.raw_apaflorite": "Apaflorite brute",
       "block.archeon.gypsum_slab": "Dalle de gypse",
       "block.archeon.block_of_ceramic": "Bloc de céramique",
       "block.archeon.artemnite_bricks_wall": "Muret d\u0027artémnite taillée",
@@ -7454,6 +7397,7 @@
       "subtitles.noisestorm": "Musique",
       "advancements.adib_style.descr": "Un look étrange mais pas mal non plus.",
       "itemGroup.tabarcheon_fauna": "Archeon - Flore",
+      "block.archeon.leaves_carpet_orian": "Tapis de feuilles de vuxancia oriènes",
       "advancements.like_when_you_were_little.descr": "Faites de vos mains, le plus beau des châteaux de sable !",
       "block.archeon.mossy_artemnite_bricks_slab": "Dalle en artémnite taillée moussue",
       "block.archeon.stripped_neclane_wood": "Bois de néclane écorcé",
@@ -7473,6 +7417,7 @@
       "biome.archeon.south_meadows": "Prairies du Sud",
       "block.archeon.antropy_pressure_plate": "Plaque de pression de néclane",
       "item.archeon.yellow_shell": "Coquillage jaune",
+      "block.archeon.leaves_carpet_streian": "Tapis de feuilles de vuxancia stréyènes",
       "block.archeon.orchid_withered": "Orchidée du crépuscule fanée",
       "block.archeon.antropy_stairs": "Escalier de néclane",
       "item.archeon.neclane_wood_sword": "Épée en bois de néclane",
@@ -7515,11 +7460,13 @@
       "block.archeon.palm_stairs": "Escalier de palmier",
       "block.archeon.stripped_cypress_wood": "Bois de cyprès écorcé",
       "block.archeon.vuxancia_leaves_zial_hanging_bottom": "Feuilles de vuxancia zialées pendantes",
+      "block.archeon.leaves_carpet_vale": "Tapis de feuilles de vuxancia vialiennes",
       "block.archeon.dune_sand_glass_tiles": "Verre en sable des dunes carrelé",
       "block.archeon.vuxancia_leaves_pnevantial_hanging_middle": "Feuilles de vuxancia pnéventielles pendantes",
       "block.archeon.vuxancia_leaves_orian": "Feuilles de vuxancia oriènes",
       "item.archeon.plant_fiber": "Fibres végétales",
       "block.archeon.tropicstone_cobblestone": "Pierres de southstone",
+      "block.archeon.leaves_carpet_pnevantial": "Tapis de feuilles de vuxancia pnéventielles",
       "advancements.stone_confection.title": "Architecte",
       "block.archeon.withered_red_lycoris": "Lycoris rouge fanée",
       "advancements.the_super_shiny_one.title": "Ça brille !",
@@ -7530,7 +7477,6 @@
       "block.archeon.tropicstone_bricks_slab": "Dalle de southstone taillée",
       "block.archeon.tropicstone": "Southstone",
       "block.archeon.vuxancia_trapdoor": "Trappe en vuxancia",
-      "block.archeon.raw_apaflorite_block": "Bloc d\u0027apaflorite brute",
       "block.archeon.vuxancia_leaves_streian_hanging_bottom": "Feuilles de vuxancia stréyènes pendantes",
       "block.archeon.vuxancia_leaves_vale_hanging_middle": "Feuilles de vuxancia vialiennes pendantes",
       "block.archeon.ceramic_bricks_wall": "Muret en tuiles de céramique",

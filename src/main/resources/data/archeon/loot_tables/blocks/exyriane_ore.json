@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeon:raw_exyriane_crystal",
+          "name": "archeon:exyriane_crystal",
           "weight": 1,
           "conditions": [
             {
@@ -30,9 +30,14 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 1
+                "min": 2,
+                "max": 4
               }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
             }
           ]
         }

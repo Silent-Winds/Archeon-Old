@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeon:raw_apaflorite",
+          "name": "archeon:apaflorite_gemstone",
           "weight": 1,
           "conditions": [
             {

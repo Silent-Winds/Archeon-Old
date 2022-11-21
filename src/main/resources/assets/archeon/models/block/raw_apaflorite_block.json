@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "archeon:blocks/raw_apaflorite_block",
-    "particle": "archeon:blocks/raw_apaflorite_block"
-  }
-}

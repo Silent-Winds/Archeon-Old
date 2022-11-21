@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:RawApaflorite"
+              "value": "CUSTOM:ApafloriteGemstone"
             },
             "weight": 1,
             "minCount": 1,
