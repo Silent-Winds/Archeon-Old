@@ -96,6 +96,10 @@ public class RockyFieldsWater7Structure {
 		boolean biomeCriteria = false;
 		if (new ResourceLocation("archeon:rocky_fields").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("archeon:vuxancia_forest").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("archeon:vuxancia_forest_magical").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);

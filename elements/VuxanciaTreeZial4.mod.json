@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "vuxancia_zial4",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 300000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 1,
+    "spawnXOffset": -2,
+    "spawnZOffset": -2,
+    "spawnWorldTypes": [
+      "CUSTOM:Tropics"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:WetGrassBlock"
+      },
+      {
+        "value": "CUSTOM:WetDirt"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:VuxanciaForestMagical"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+  }
+}

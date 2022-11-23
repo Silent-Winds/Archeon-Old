@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": 5284883525189338100,
       "temperature_noise": {
-        "firstOctave": -5.74,
+        "firstOctave": -6.16,
         "amplitudes": [
           2,
           2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -5.74,
+        "firstOctave": -6.16,
         "amplitudes": [
           2,
           2
         ]
       },
       "altitude_noise": {
-        "firstOctave": -5.74,
+        "firstOctave": -6.16,
         "amplitudes": [
           2,
           2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -5.74,
+        "firstOctave": -6.16,
         "amplitudes": [
           2,
           2
@@ -36,7 +36,7 @@
       },
       "biomes": [
         {
-          "biome": "archeon:tropical_ocean",
+          "biome": "archeon:vuxancia_forest",
           "parameters": {
             "temperature": 1,
             "humidity": -1,
@@ -46,10 +46,30 @@
           }
         },
         {
+          "biome": "archeon:tropical_ocean",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": -0.6,
+            "altitude": -0.75,
+            "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "archeon:vuxancia_forest_magical",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": -0.2,
+            "altitude": 0.75,
+            "weirdness": -1.5,
+            "offset": 0
+          }
+        },
+        {
           "biome": "archeon:rocky_fields",
           "parameters": {
-            "temperature": 0.333333333334,
-            "humidity": -0.333333333334,
+            "temperature": -0.2,
+            "humidity": 0.2,
             "altitude": -0.75,
             "weirdness": 1.5,
             "offset": 0
@@ -58,8 +78,8 @@
         {
           "biome": "archeon:antropy_grove",
           "parameters": {
-            "temperature": -0.333333333334,
-            "humidity": 0.333333333334,
+            "temperature": -0.6,
+            "humidity": 0.6,
             "altitude": 0.75,
             "weirdness": -1.5,
             "offset": 0

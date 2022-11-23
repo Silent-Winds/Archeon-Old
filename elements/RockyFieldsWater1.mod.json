@@ -23,6 +23,12 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:RockyFields"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForest"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForestMagical"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

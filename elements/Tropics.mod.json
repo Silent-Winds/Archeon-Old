@@ -14,6 +14,12 @@
       },
       {
         "value": "CUSTOM:RockyFields"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForest"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForestMagical"
       }
     ],
     "worldGenType": "Normal world gen",

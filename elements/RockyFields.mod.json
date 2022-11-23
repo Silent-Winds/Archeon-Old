@@ -42,7 +42,7 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "NONE",
+    "biomeCategory": "FOREST",
     "rainingPossibility": 0.6,
     "temperature": 0.4,
     "baseHeight": 0.30000000000000004,
@@ -52,9 +52,7 @@
     "spawnInCaves": false,
     "biomeWeight": 2,
     "biomeDictionaryTypes": [
-      "PLAINS",
-      "WASTELAND",
-      "SWAMP"
+      "FOREST"
     ],
     "grassPerChunk": 4,
     "seagrassPerChunk": 0,

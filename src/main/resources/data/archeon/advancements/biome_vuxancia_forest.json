@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:vuxancia_leaves_streian_hanging_bottom"
+    },
+    "title": {
+      "translate": "advancements.biome_vuxancia_forest.title"
+    },
+    "description": {
+      "translate": "advancements.biome_vuxancia_forest.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "biome_vuxancia_forest": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "archeon:vuxancia_forest"
+      }
+    }
+  },
+  "parent": "archeon:archeon"
+}
