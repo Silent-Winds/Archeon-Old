@@ -62,7 +62,7 @@ public class AstedibesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AstedibesBlock(ArcheonModElements instance) {
-		super(instance, 208);
+		super(instance, 211);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

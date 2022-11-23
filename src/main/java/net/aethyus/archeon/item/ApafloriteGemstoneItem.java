@@ -18,7 +18,7 @@ public class ApafloriteGemstoneItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloriteGemstoneItem(ArcheonModElements instance) {
-		super(instance, 274);
+		super(instance, 276);
 	}
 
 	@Override

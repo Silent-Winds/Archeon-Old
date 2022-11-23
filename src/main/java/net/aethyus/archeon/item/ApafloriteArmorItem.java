@@ -30,7 +30,7 @@ public class ApafloriteArmorItem extends ArcheonModElements.ModElement {
 	public static final Item boots = null;
 
 	public ApafloriteArmorItem(ArcheonModElements instance) {
-		super(instance, 256);
+		super(instance, 259);
 	}
 
 	@Override

@@ -60,7 +60,7 @@ public class SouthWheatBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SouthWheatBlock(ArcheonModElements instance) {
-		super(instance, 237);
+		super(instance, 240);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

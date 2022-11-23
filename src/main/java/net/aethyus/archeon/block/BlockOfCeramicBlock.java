@@ -33,7 +33,7 @@ public class BlockOfCeramicBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public BlockOfCeramicBlock(ArcheonModElements instance) {
-		super(instance, 166);
+		super(instance, 169);
 	}
 
 	@Override

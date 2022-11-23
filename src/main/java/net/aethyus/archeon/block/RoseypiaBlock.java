@@ -62,7 +62,7 @@ public class RoseypiaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public RoseypiaBlock(ArcheonModElements instance) {
-		super(instance, 205);
+		super(instance, 208);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -56,7 +56,7 @@ public class XetulianSugarCaneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public XetulianSugarCaneBlock(ArcheonModElements instance) {
-		super(instance, 243);
+		super(instance, 246);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
