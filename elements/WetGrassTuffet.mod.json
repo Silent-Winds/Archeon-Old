@@ -11,7 +11,7 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
+    "staticPlantGenerationType": "Grass",
     "suspiciousStewEffect": "SPEED",
     "suspiciousStewDuration": 5,
     "growapableSpawnType": "Plains",
@@ -113,10 +113,12 @@
         "value": "CUSTOM:MossyTropicstoneBricks"
       }
     ],
-    "frequencyOnChunks": 3,
-    "spawnWorldTypes": [],
+    "frequencyOnChunks": 7,
+    "spawnWorldTypes": [
+      "CUSTOM:Tropics"
+    ],
     "restrictionBiomes": [],
-    "patchSize": 5,
+    "patchSize": 25,
     "generateAtAnyHeight": false
   }
 }

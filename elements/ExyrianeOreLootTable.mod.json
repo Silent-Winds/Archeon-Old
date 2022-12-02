@@ -17,8 +17,8 @@
               "value": "CUSTOM:ExyrianeCrystal"
             },
             "weight": 1,
-            "minCount": 2,
-            "maxCount": 4,
+            "minCount": 3,
+            "maxCount": 6,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

@@ -25,18 +25,18 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "CUSTOM:ambient"
+      "value": ""
     },
     "additionsSound": {
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:geometric_fall"
     },
     "moodSound": {
-      "value": ""
+      "value": "CUSTOM:no_ones_around"
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 100,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

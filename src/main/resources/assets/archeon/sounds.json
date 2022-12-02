@@ -1,13 +1,4 @@
 {
-  "pe4k": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "archeon:pe4k",
-        "stream": true
-      }
-    ]
-  },
   "ambient": {
     "category": "ambient",
     "sounds": [
@@ -17,12 +8,122 @@
       }
     ]
   },
+  "dotted_sky": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:dotted_sky",
+        "stream": false
+      }
+    ]
+  },
+  "sunny": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:sunny",
+        "stream": false
+      }
+    ]
+  },
+  "wild_breath": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:wild_breath",
+        "stream": false
+      }
+    ]
+  },
+  "reside": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:reside",
+        "stream": false
+      }
+    ]
+  },
+  "rising": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:rising",
+        "stream": false
+      }
+    ]
+  },
+  "parallelify": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:parallelify",
+        "stream": false
+      }
+    ]
+  },
+  "genesis": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:genesis",
+        "stream": false
+      }
+    ]
+  },
+  "geometric_fall": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:geometric_fall",
+        "stream": false
+      }
+    ]
+  },
+  "hoxa": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:hoxa",
+        "stream": false
+      }
+    ]
+  },
+  "no_ones_around": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:no_ones_around",
+        "stream": false
+      }
+    ]
+  },
+  "pe4k": {
+    "category": "record",
+    "subtitle": "subtitles.pe4k",
+    "sounds": [
+      {
+        "name": "archeon:pe4k",
+        "stream": true
+      }
+    ]
+  },
   "devouring": {
     "category": "record",
+    "subtitle": "subtitles.devouring",
     "sounds": [
       {
         "name": "archeon:devouring",
         "stream": true
+      }
+    ]
+  },
+  "brile": {
+    "category": "ambient",
+    "sounds": [
+      {
+        "name": "archeon:brile",
+        "stream": false
       }
     ]
   }

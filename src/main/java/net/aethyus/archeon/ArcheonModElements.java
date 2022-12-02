@@ -46,9 +46,22 @@ public class ArcheonModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ArcheonModElements() {
-		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
 		sounds.put(new ResourceLocation("archeon", "ambient"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "ambient")));
+		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
+		sounds.put(new ResourceLocation("archeon", "sunny"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "sunny")));
+		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
+		sounds.put(new ResourceLocation("archeon", "reside"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "reside")));
+		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
+		sounds.put(new ResourceLocation("archeon", "parallelify"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "parallelify")));
+		sounds.put(new ResourceLocation("archeon", "genesis"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "genesis")));
+		sounds.put(new ResourceLocation("archeon", "geometric_fall"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "geometric_fall")));
+		sounds.put(new ResourceLocation("archeon", "hoxa"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "hoxa")));
+		sounds.put(new ResourceLocation("archeon", "no_ones_around"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "no_ones_around")));
+		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
 		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
+		sounds.put(new ResourceLocation("archeon", "brile"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "brile")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
