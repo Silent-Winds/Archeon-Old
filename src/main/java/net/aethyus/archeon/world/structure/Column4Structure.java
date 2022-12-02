@@ -29,8 +29,6 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
-import net.aethyus.archeon.block.WetGrassBlockBlock;
-import net.aethyus.archeon.block.WetDirtBlock;
 import net.aethyus.archeon.block.TropicalSandBlock;
 
 import java.util.Random;
@@ -55,7 +53,7 @@ public class Column4Structure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 10000) {
+					if ((random.nextInt(1000000) + 1) <= 300) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -65,10 +63,6 @@ public class Column4Structure {
 							BlockState blockAt = world.getBlockState(new BlockPos(i, j, k));
 							boolean blockCriteria = false;
 							if (blockAt.getBlock() == TropicalSandBlock.block)
-								blockCriteria = true;
-							if (blockAt.getBlock() == WetGrassBlockBlock.block)
-								blockCriteria = true;
-							if (blockAt.getBlock() == WetDirtBlock.block)
 								blockCriteria = true;
 							if (!blockCriteria)
 								continue;
@@ -99,6 +93,11 @@ public class Column4Structure {
 
 	@SubscribeEvent
 	public static void addFeatureToBiomes(BiomeLoadingEvent event) {
+		boolean biomeCriteria = false;
+		if (new ResourceLocation("archeon:tropical_ocean").equals(event.getName()))
+			biomeCriteria = true;
+		if (!biomeCriteria)
+			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);
 	}
 }

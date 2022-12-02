@@ -5,7 +5,7 @@
     "structure": "column4",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 10000,
+    "spawnProbability": 300,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -18,15 +18,13 @@
     "restrictionBlocks": [
       {
         "value": "CUSTOM:TropicalSand"
-      },
-      {
-        "value": "CUSTOM:WetGrassBlock"
-      },
-      {
-        "value": "CUSTOM:WetDirt"
       }
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TropicalOcean"
+      }
+    ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
   }
 }

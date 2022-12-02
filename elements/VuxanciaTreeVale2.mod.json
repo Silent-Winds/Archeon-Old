@@ -28,6 +28,12 @@
         "value": "CUSTOM:VuxanciaForestMagical"
       }
     ],
-    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "VuxanciaTreeOrian1AdditionalGenerationCondition"
+    },
+    "onStructureGenerated": {
+      "name": "VuxanciaTreeOrian1OnStructureInstanceGenerated"
+    }
   }
 }

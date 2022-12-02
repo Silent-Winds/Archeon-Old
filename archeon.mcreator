@@ -6928,6 +6928,63 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_vuxancia_forest_magical"
+    },
+    {
+      "name": "VuxanciaTreeOrian1OnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 847,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_1_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VuxanciaTreeOrian1AdditionalGenerationCondition",
+      "type": "procedure",
+      "sortid": 848,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_1_additional_generation_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -7816,7 +7873,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3-snapshot-1.2.1",
+    "version": "1.1.3-snapshot-1.2.2",
     "description": "Archeon is a Minecraft mod adding a brand new dimension to the game. Explore the nature, build with tons of new blocks, defeat mobs, and more.",
     "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski). Contributors: Paros974, Mystoxi.",
     "websiteURL": "Our CurseForge page: https://www.curseforge.com/minecraft/mc-mods/archeon   Listen to the Archeon\u0027s OST by Tim Rurkowski:  https://timrurkowski.bandcamp.com/  Follow the development here: https://twitter.com/ArcheonDev    Join our Official Discord server: https://discord.gg/hhGPj8sMzT",
