@@ -31,12 +31,12 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:geometric_fall"
+      "value": ""
     },
     "moodSound": {
       "value": "CUSTOM:no_ones_around"
     },
-    "moodSoundDelay": 100,
+    "moodSoundDelay": 300,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

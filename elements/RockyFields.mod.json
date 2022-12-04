@@ -31,12 +31,12 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:dotted_sky"
+      "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:rising"
+      "value": "CUSTOM:dotted_sky"
     },
-    "moodSoundDelay": 100,
+    "moodSoundDelay": 300,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

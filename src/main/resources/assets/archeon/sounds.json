@@ -1,103 +1,4 @@
 {
-  "ambient": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:ambient",
-        "stream": false
-      }
-    ]
-  },
-  "dotted_sky": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:dotted_sky",
-        "stream": false
-      }
-    ]
-  },
-  "sunny": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:sunny",
-        "stream": false
-      }
-    ]
-  },
-  "wild_breath": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:wild_breath",
-        "stream": false
-      }
-    ]
-  },
-  "reside": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:reside",
-        "stream": false
-      }
-    ]
-  },
-  "rising": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:rising",
-        "stream": false
-      }
-    ]
-  },
-  "parallelify": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:parallelify",
-        "stream": false
-      }
-    ]
-  },
-  "genesis": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:genesis",
-        "stream": false
-      }
-    ]
-  },
-  "geometric_fall": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:geometric_fall",
-        "stream": false
-      }
-    ]
-  },
-  "hoxa": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:hoxa",
-        "stream": false
-      }
-    ]
-  },
-  "no_ones_around": {
-    "category": "ambient",
-    "sounds": [
-      {
-        "name": "archeon:no_ones_around",
-        "stream": false
-      }
-    ]
-  },
   "pe4k": {
     "category": "record",
     "subtitle": "subtitles.pe4k",
@@ -118,12 +19,111 @@
       }
     ]
   },
-  "brile": {
+  "ambient": {
     "category": "ambient",
     "sounds": [
       {
-        "name": "archeon:brile",
+        "name": "archeon:ambient",
         "stream": false
+      }
+    ]
+  },
+  "dotted_sky": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:dotted_sky",
+        "stream": true
+      }
+    ]
+  },
+  "sunny": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:sunny",
+        "stream": true
+      }
+    ]
+  },
+  "wild_breath": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:wild_breath",
+        "stream": true
+      }
+    ]
+  },
+  "rising": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:rising",
+        "stream": true
+      }
+    ]
+  },
+  "reside": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:reside",
+        "stream": true
+      }
+    ]
+  },
+  "parallelify": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:parallelify",
+        "stream": true
+      }
+    ]
+  },
+  "geometric_fall": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:geometric_fall",
+        "stream": true
+      }
+    ]
+  },
+  "genesis": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:genesis",
+        "stream": true
+      }
+    ]
+  },
+  "hoxa": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:hoxa",
+        "stream": true
+      }
+    ]
+  },
+  "no_ones_around": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:no_ones_around",
+        "stream": true
+      }
+    ]
+  },
+  "brile": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:brile",
+        "stream": true
       }
     ]
   }

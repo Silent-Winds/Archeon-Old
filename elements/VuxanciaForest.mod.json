@@ -23,12 +23,12 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:sunny"
+      "value": ""
     },
     "moodSound": {
-      "value": "CUSTOM:wild_breath"
+      "value": "CUSTOM:genesis"
     },
-    "moodSoundDelay": 100,
+    "moodSoundDelay": 300,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

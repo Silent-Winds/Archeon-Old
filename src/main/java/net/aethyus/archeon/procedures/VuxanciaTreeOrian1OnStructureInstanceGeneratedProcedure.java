@@ -38,7 +38,7 @@ public class VuxanciaTreeOrian1OnStructureInstanceGeneratedProcedure {
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		boolean Is_air_under = false;
 		while (Is_air_under == true) {
-			if ((world.getBlockState(new BlockPos(x, y - 1, z))).getBlock() == Blocks.AIR) {
+			if ((world.getBlockState(new BlockPos(x + 0, y - 1, z + 0))).getBlock() == Blocks.AIR) {
 				world.setBlockState(new BlockPos(x, y, z), FaeliteBlockBlock.block.getDefaultState(), 3);
 				Is_air_under = (true);
 			} else {

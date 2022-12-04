@@ -6985,98 +6985,26 @@
           }
         ]
       }
+    },
+    {
+      "name": "ArtemniteBaseboard",
+      "type": "block",
+      "sortid": 849,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "artemnite_baseboard"
+    },
+    {
+      "name": "AketiteBaseboard",
+      "type": "block",
+      "sortid": 850,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aketite_baseboard"
     }
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "ambient",
-      "files": [
-        "ambient"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "dotted_sky",
-      "files": [
-        "dotted_sky"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "sunny",
-      "files": [
-        "sunny"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "wild_breath",
-      "files": [
-        "wild_breath"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "reside",
-      "files": [
-        "reside"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "rising",
-      "files": [
-        "rising"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "parallelify",
-      "files": [
-        "parallelify"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "genesis",
-      "files": [
-        "genesis"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "geometric_fall",
-      "files": [
-        "geometric_fall"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "hoxa",
-      "files": [
-        "hoxa"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
-    {
-      "name": "no_ones_around",
-      "files": [
-        "no_ones_around"
-      ],
-      "category": "ambient",
-      "subtitle": ""
-    },
     {
       "name": "pe4k",
       "files": [
@@ -7094,11 +7022,99 @@
       "subtitle": "TiramisuAudio - Devouring"
     },
     {
+      "name": "ambient",
+      "files": [
+        "ambient"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    },
+    {
+      "name": "dotted_sky",
+      "files": [
+        "dotted_sky"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "sunny",
+      "files": [
+        "sunny"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "wild_breath",
+      "files": [
+        "wild_breath"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "rising",
+      "files": [
+        "rising"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "reside",
+      "files": [
+        "reside"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "parallelify",
+      "files": [
+        "parallelify"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "geometric_fall",
+      "files": [
+        "geometric_fall"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "genesis",
+      "files": [
+        "genesis"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "hoxa",
+      "files": [
+        "hoxa"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "no_ones_around",
+      "files": [
+        "no_ones_around"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
       "name": "brile",
       "files": [
         "brile"
       ],
-      "category": "ambient",
+      "category": "music",
       "subtitle": ""
     }
   ],
@@ -7288,6 +7304,7 @@
       "block.archeon.vuxancia_leaves_vale_hanging_bottom": "Hanging Vale Vuxancia Leaves",
       "item.archeon.tropicstone_tools_pickaxe": "Southstone Pickaxe",
       "block.archeon.spore_rootcap": "Spore Rootcap",
+      "block.archeon.artemnite_baseboard": "Artemnite Baseboard",
       "block.archeon.roughcast_slab": "Roughcast Slab",
       "advancements.like_a_blue_amber.descr": "Obtain an exyriane crystal.",
       "block.archeon.gypsum_bricks_stairs": "Gypsum Brick Stairs",
@@ -7475,6 +7492,7 @@
       "item.archeon.apaflorite_shovel": "Apaflorite Shovel",
       "block.archeon.cypress_planks": "Cypress Planks",
       "subtitles.no_ones_around": "",
+      "block.archeon.aketite_baseboard": "Aketite Baseboard",
       "block.archeon.ceramic_bricks_stairs": "Ceramic Brick Stairs",
       "item.archeon.devouring": "Music Disc",
       "block.archeon.craqueled_tropicstone_bricks": "Cracked Southstone Bricks",
@@ -7708,6 +7726,7 @@
       "block.archeon.vuxancia_leaves_vale_hanging_bottom": "Feuilles de vuxancia vialiennes pendantes",
       "item.archeon.tropicstone_tools_pickaxe": "Pioche en southstone",
       "block.archeon.spore_rootcap": "Champignon sporifère",
+      "block.archeon.artemnite_baseboard": "Chiseled Artemnite",
       "block.archeon.roughcast_slab": "Dalle de crépi",
       "advancements.like_a_blue_amber.descr": "Obtenez un crystal d\u0027éxyriane.",
       "block.archeon.gypsum_bricks_stairs": "Escalier de gypse taillé",
@@ -7895,6 +7914,7 @@
       "item.archeon.apaflorite_shovel": "Pelle en apaflorite",
       "block.archeon.cypress_planks": "Planches de cyprès",
       "subtitles.no_ones_around": "",
+      "block.archeon.aketite_baseboard": "Chiseled Artemnite",
       "block.archeon.ceramic_bricks_stairs": "Escalier en tuiles de céramique",
       "item.archeon.devouring": "Disque",
       "block.archeon.craqueled_tropicstone_bricks": "Southstone taillée craquelée",
@@ -7958,7 +7978,7 @@
     "license": "All Rights Reserved, Archeon, 2022.",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "modPicture": "archeon_project_banner",
+    "modPicture": "archeon_banner",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
