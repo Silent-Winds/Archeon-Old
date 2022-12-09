@@ -33,7 +33,7 @@
       "name": "VuxanciaTreeOrian1AdditionalGenerationCondition"
     },
     "onStructureGenerated": {
-      "name": "VuxanciaTreeOrian1OnStructureInstanceGenerated"
+      "name": "VuxanciaPlacementProcedure"
     }
   }
 }

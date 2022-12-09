@@ -58,7 +58,7 @@ public class WitheredPinkLycorisBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredPinkLycorisBlock(ArcheonModElements instance) {
-		super(instance, 215);
+		super(instance, 220);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

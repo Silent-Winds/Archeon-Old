@@ -28,7 +28,7 @@ public class AntropyButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyButtonBlock(ArcheonModElements instance) {
-		super(instance, 28);
+		super(instance, 30);
 	}
 
 	@Override

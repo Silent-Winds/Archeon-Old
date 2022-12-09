@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "archeon:blocks/asterin_palm_leaves",
+    "particle": "archeon:blocks/asterin_palm_leaves"
+  }
+}

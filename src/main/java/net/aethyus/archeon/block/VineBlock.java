@@ -61,7 +61,7 @@ public class VineBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VineBlock(ArcheonModElements instance) {
-		super(instance, 242);
+		super(instance, 247);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -11,7 +11,7 @@
     "spawnLocation": "Ground",
     "spawnHeightOffset": 1,
     "spawnXOffset": -2,
-    "spawnZOffset": -3,
+    "spawnZOffset": -2,
     "spawnWorldTypes": [
       "CUSTOM:Tropics"
     ],
@@ -33,7 +33,7 @@
       "name": "VuxanciaTreeOrian1AdditionalGenerationCondition"
     },
     "onStructureGenerated": {
-      "name": "VuxanciaTreeOrian1OnStructureInstanceGenerated"
+      "name": "VuxanciaPlacementProcedure"
     }
   }
 }

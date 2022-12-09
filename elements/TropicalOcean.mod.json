@@ -12,6 +12,14 @@
     "underwaterBlock": {
       "value": "Blocks.SAND#0"
     },
+    "grassColor": {
+      "value": -9399763,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -9399763,
+      "falpha": 0.0
+    },
     "waterColor": {
       "value": -14892886,
       "falpha": 0.0
@@ -28,7 +36,7 @@
     "moodSound": {
       "value": "CUSTOM:brile"
     },
-    "moodSoundDelay": 300,
+    "moodSoundDelay": 1000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -27,7 +27,7 @@ public class AketiteBaseboardBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AketiteBaseboardBlock(ArcheonModElements instance) {
-		super(instance, 850);
+		super(instance, 119);
 	}
 
 	@Override

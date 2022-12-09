@@ -27,7 +27,7 @@ public class SmoothArtemniteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SmoothArtemniteBlock(ArcheonModElements instance) {
-		super(instance, 127);
+		super(instance, 130);
 	}
 
 	@Override

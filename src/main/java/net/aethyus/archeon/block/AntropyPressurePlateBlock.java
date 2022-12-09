@@ -33,7 +33,7 @@ public class AntropyPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 27);
+		super(instance, 29);
 	}
 
 	@Override

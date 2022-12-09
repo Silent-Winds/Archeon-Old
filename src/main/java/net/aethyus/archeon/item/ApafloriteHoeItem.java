@@ -17,7 +17,7 @@ public class ApafloriteHoeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloriteHoeItem(ArcheonModElements instance) {
-		super(instance, 257);
+		super(instance, 262);
 	}
 
 	@Override

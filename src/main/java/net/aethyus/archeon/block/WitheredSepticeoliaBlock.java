@@ -58,7 +58,7 @@ public class WitheredSepticeoliaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredSepticeoliaBlock(ArcheonModElements instance) {
-		super(instance, 233);
+		super(instance, 238);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

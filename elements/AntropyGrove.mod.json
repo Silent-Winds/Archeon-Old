@@ -36,7 +36,7 @@
     "moodSound": {
       "value": "CUSTOM:hoxa"
     },
-    "moodSoundDelay": 300,
+    "moodSoundDelay": 1000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

@@ -26,7 +26,7 @@ public class CeramicPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CeramicPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 177);
+		super(instance, 182);
 	}
 
 	@Override

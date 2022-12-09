@@ -30,7 +30,7 @@ public class PalmTrapdoorBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmTrapdoorBlock(ArcheonModElements instance) {
-		super(instance, 19);
+		super(instance, 21);
 	}
 
 	@Override

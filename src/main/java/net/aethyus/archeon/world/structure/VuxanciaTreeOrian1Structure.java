@@ -29,8 +29,8 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
-import net.aethyus.archeon.procedures.VuxanciaTreeOrian1OnStructureInstanceGeneratedProcedure;
 import net.aethyus.archeon.procedures.VuxanciaTreeOrian1AdditionalGenerationConditionProcedure;
+import net.aethyus.archeon.procedures.VuxanciaPlacementProcedureProcedure;
 import net.aethyus.archeon.block.WetGrassBlockBlock;
 import net.aethyus.archeon.block.WetDirtBlock;
 
@@ -94,7 +94,7 @@ public class VuxanciaTreeOrian1Structure {
 									.addProcessor(BlockIgnoreStructureProcessor.AIR_AND_STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
 									random);
 
-							VuxanciaTreeOrian1OnStructureInstanceGeneratedProcedure.executeProcedure(Stream
+							VuxanciaPlacementProcedureProcedure.executeProcedure(Stream
 									.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 											new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

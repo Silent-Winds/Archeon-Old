@@ -27,7 +27,7 @@ public class BushLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public BushLeavesBlock(ArcheonModElements instance) {
-		super(instance, 148);
+		super(instance, 153);
 	}
 
 	@Override

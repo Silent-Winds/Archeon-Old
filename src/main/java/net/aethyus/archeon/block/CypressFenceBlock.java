@@ -29,7 +29,7 @@ public class CypressFenceBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressFenceBlock(ArcheonModElements instance) {
-		super(instance, 37);
+		super(instance, 39);
 	}
 
 	@Override

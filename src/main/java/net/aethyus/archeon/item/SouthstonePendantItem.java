@@ -28,7 +28,7 @@ public class SouthstonePendantItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public SouthstonePendantItem(ArcheonModElements instance) {
-		super(instance, 287);
+		super(instance, 292);
 	}
 
 	@Override

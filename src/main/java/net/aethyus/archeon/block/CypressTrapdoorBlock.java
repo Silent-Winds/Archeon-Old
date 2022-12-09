@@ -30,7 +30,7 @@ public class CypressTrapdoorBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressTrapdoorBlock(ArcheonModElements instance) {
-		super(instance, 42);
+		super(instance, 44);
 	}
 
 	@Override

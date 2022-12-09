@@ -34,7 +34,7 @@ public class VuxanciaSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaSlabBlock(ArcheonModElements instance) {
-		super(instance, 47);
+		super(instance, 49);
 	}
 
 	@Override

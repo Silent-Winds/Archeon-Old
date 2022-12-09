@@ -31,7 +31,7 @@ public class GildedCobbledSouthstoneStairsBlock extends ArcheonModElements.ModEl
 	public static final Block block = null;
 
 	public GildedCobbledSouthstoneStairsBlock(ArcheonModElements instance) {
-		super(instance, 66);
+		super(instance, 68);
 	}
 
 	@Override

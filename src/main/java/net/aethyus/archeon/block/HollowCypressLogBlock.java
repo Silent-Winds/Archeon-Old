@@ -42,7 +42,7 @@ public class HollowCypressLogBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public HollowCypressLogBlock(ArcheonModElements instance) {
-		super(instance, 33);
+		super(instance, 35);
 	}
 
 	@Override

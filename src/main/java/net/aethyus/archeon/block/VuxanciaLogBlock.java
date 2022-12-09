@@ -33,7 +33,7 @@ public class VuxanciaLogBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaLogBlock(ArcheonModElements instance) {
-		super(instance, 44);
+		super(instance, 46);
 	}
 
 	@Override

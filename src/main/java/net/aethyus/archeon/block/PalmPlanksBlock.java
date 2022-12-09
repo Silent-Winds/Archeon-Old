@@ -28,7 +28,7 @@ public class PalmPlanksBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmPlanksBlock(ArcheonModElements instance) {
-		super(instance, 11);
+		super(instance, 13);
 	}
 
 	@Override

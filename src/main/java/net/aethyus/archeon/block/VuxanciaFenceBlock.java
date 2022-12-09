@@ -29,7 +29,7 @@ public class VuxanciaFenceBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaFenceBlock(ArcheonModElements instance) {
-		super(instance, 48);
+		super(instance, 50);
 	}
 
 	@Override

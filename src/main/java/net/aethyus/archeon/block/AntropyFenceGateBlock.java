@@ -28,7 +28,7 @@ public class AntropyFenceGateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyFenceGateBlock(ArcheonModElements instance) {
-		super(instance, 26);
+		super(instance, 28);
 	}
 
 	@Override

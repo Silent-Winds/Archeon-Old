@@ -29,7 +29,7 @@ public class PalmFenceBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmFenceBlock(ArcheonModElements instance) {
-		super(instance, 14);
+		super(instance, 16);
 	}
 
 	@Override

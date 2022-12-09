@@ -28,7 +28,7 @@ public class PalmButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmButtonBlock(ArcheonModElements instance) {
-		super(instance, 17);
+		super(instance, 19);
 	}
 
 	@Override

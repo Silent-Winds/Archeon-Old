@@ -19,7 +19,7 @@ public class CypressToolsPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsPickaxeItem(ArcheonModElements instance) {
-		super(instance, 261);
+		super(instance, 266);
 	}
 
 	@Override

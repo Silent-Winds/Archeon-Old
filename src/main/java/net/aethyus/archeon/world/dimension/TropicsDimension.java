@@ -79,7 +79,7 @@ public class TropicsDimension extends ArcheonModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public TropicsDimension(ArcheonModElements instance) {
-		super(instance, 248);
+		super(instance, 253);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
 

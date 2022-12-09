@@ -33,7 +33,7 @@ public class PalmLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmLeavesBlock(ArcheonModElements instance) {
-		super(instance, 144);
+		super(instance, 148);
 	}
 
 	@Override

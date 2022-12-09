@@ -68,7 +68,7 @@ public class LycorisSanguineaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LycorisSanguineaBlock(ArcheonModElements instance) {
-		super(instance, 218);
+		super(instance, 223);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
