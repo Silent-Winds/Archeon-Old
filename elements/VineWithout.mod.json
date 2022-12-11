@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "vine_without",
+    "texture": "bush",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",

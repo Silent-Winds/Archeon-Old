@@ -33,7 +33,7 @@ public class TropicstoneBlock extends ArcheonModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2.5f, 10f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 10f).setLightLevel(s -> 0));
 			setRegistryName("tropicstone");
 		}
 

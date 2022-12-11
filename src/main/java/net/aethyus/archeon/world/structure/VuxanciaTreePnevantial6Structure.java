@@ -29,7 +29,6 @@ import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
 import net.minecraft.block.BlockState;
 
-import net.aethyus.archeon.procedures.VuxanciaTreeOrian1AdditionalGenerationConditionProcedure;
 import net.aethyus.archeon.procedures.VuxanciaPlacementProcedureProcedure;
 import net.aethyus.archeon.block.WetGrassBlockBlock;
 import net.aethyus.archeon.block.WetDirtBlock;
@@ -60,7 +59,7 @@ public class VuxanciaTreePnevantial6Structure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 300000) {
+					if ((random.nextInt(1000000) + 1) <= 140000) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -81,11 +80,6 @@ public class VuxanciaTreePnevantial6Structure {
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
-							if (!VuxanciaTreeOrian1AdditionalGenerationConditionProcedure.executeProcedure(Stream
-									.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
-											new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
-									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll)))
-								continue;
 							Template template = world.getWorld().getStructureTemplateManager()
 									.getTemplateDefaulted(new ResourceLocation("archeon", "vuxancia_pnevantial6"));
 							if (template == null)

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:goblet"
+    },
+    "1": {
+      "item": "archeon:blood_orange"
+    }
+  },
+  "result": {
+    "item": "archeon:goblet_blood_orange_juice",
+    "count": 1
+  }
+}

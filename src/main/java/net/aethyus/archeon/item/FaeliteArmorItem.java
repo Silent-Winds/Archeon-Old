@@ -77,34 +77,34 @@ public class FaeliteArmorItem extends ArcheonModElements.ModElement {
 				return 0.1f;
 			}
 		};
-		elements.items
-				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab)) {
-					@Override
-					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-					}
-				}.setRegistryName("faelite_armor_helmet"));
-		elements.items
-				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab)) {
-					@Override
-					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-					}
-				}.setRegistryName("faelite_armor_chestplate"));
-		elements.items
-				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab)) {
-					@Override
-					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-					}
-				}.setRegistryName("faelite_armor_leggings"));
-		elements.items
-				.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab)) {
-					@Override
-					public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-						return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-					}
-				}.setRegistryName("faelite_armor_boots"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD,
+				new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+		}.setRegistryName("faelite_armor_helmet"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST,
+				new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+		}.setRegistryName("faelite_armor_chestplate"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS,
+				new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+		}.setRegistryName("faelite_armor_leggings"));
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET,
+				new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
+			@Override
+			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
+				return "archeon:textures/models/armor/faelite__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+		}.setRegistryName("faelite_armor_boots"));
 	}
 
 }

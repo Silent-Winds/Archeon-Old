@@ -18,7 +18,7 @@ public class WhiteShellItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public WhiteShellItem(ArcheonModElements instance) {
-		super(instance, 282);
+		super(instance, 288);
 	}
 
 	@Override

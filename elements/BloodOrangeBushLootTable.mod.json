@@ -40,8 +40,8 @@
               "value": "CUSTOM:BloodOrange"
             },
             "weight": 1,
-            "minCount": 1,
-            "maxCount": 3,
+            "minCount": 2,
+            "maxCount": 5,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

@@ -19,7 +19,7 @@ public class CypressToolsShovelItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsShovelItem(ArcheonModElements instance) {
-		super(instance, 269);
+		super(instance, 274);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class CypressToolsShovelItem extends ArcheonModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 2f;
 			}
 
 			public float getAttackDamage() {
@@ -38,7 +38,7 @@ public class CypressToolsShovelItem extends ArcheonModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 0;
 			}
 
 			public int getEnchantability() {

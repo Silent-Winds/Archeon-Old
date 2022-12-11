@@ -48,7 +48,7 @@ public class VuxanciaWoodBlock extends ArcheonModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(0)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
 			setRegistryName("vuxancia_wood");
 		}

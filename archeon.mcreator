@@ -83,7 +83,7 @@
     {
       "name": "PalmItemsTag",
       "type": "tag",
-      "sortid": 310,
+      "sortid": 319,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_items_tag"
@@ -91,7 +91,7 @@
     {
       "name": "PalmWoodRecipe",
       "type": "recipe",
-      "sortid": 311,
+      "sortid": 320,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_wood_recipe"
@@ -99,7 +99,7 @@
     {
       "name": "PalmPlanksRecipe",
       "type": "recipe",
-      "sortid": 312,
+      "sortid": 321,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_planks_recipe"
@@ -107,7 +107,7 @@
     {
       "name": "PalmStairsRecipe",
       "type": "recipe",
-      "sortid": 313,
+      "sortid": 322,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_stairs_recipe"
@@ -115,7 +115,7 @@
     {
       "name": "PalmSlabRecipe",
       "type": "recipe",
-      "sortid": 314,
+      "sortid": 323,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_slab_recipe"
@@ -123,7 +123,7 @@
     {
       "name": "PalmFenceRecipe",
       "type": "recipe",
-      "sortid": 315,
+      "sortid": 324,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_fence_recipe"
@@ -131,7 +131,7 @@
     {
       "name": "PalmFenceGateRecipe",
       "type": "recipe",
-      "sortid": 316,
+      "sortid": 325,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_fence_gate_recipe"
@@ -139,7 +139,7 @@
     {
       "name": "PalmPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 317,
+      "sortid": 326,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_pressure_plate_recipe"
@@ -147,7 +147,7 @@
     {
       "name": "PalmButtonRecipe",
       "type": "recipe",
-      "sortid": 318,
+      "sortid": 327,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_button_recipe"
@@ -155,7 +155,7 @@
     {
       "name": "PalmStickRecipe",
       "type": "recipe",
-      "sortid": 319,
+      "sortid": 328,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_stick_recipe"
@@ -163,7 +163,7 @@
     {
       "name": "PalmCraftTable",
       "type": "recipe",
-      "sortid": 320,
+      "sortid": 329,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_craft_table"
@@ -283,7 +283,7 @@
     {
       "name": "AntropyItemsTag",
       "type": "tag",
-      "sortid": 321,
+      "sortid": 330,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_items_tag"
@@ -291,7 +291,7 @@
     {
       "name": "AntropyWoodRecipe",
       "type": "recipe",
-      "sortid": 322,
+      "sortid": 331,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_wood_recipe"
@@ -299,7 +299,7 @@
     {
       "name": "AntropyPlanksRecipe",
       "type": "recipe",
-      "sortid": 323,
+      "sortid": 332,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_planks_recipe"
@@ -307,7 +307,7 @@
     {
       "name": "AntropyStairsRecipe",
       "type": "recipe",
-      "sortid": 324,
+      "sortid": 333,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_stairs_recipe"
@@ -315,7 +315,7 @@
     {
       "name": "AntropySlabRecipe",
       "type": "recipe",
-      "sortid": 325,
+      "sortid": 334,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_slab_recipe"
@@ -323,7 +323,7 @@
     {
       "name": "AntropyFenceRecipe",
       "type": "recipe",
-      "sortid": 326,
+      "sortid": 335,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_fence_recipe"
@@ -331,7 +331,7 @@
     {
       "name": "AntropyFenceGateRecipe",
       "type": "recipe",
-      "sortid": 327,
+      "sortid": 336,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_fence_gate_recipe"
@@ -339,7 +339,7 @@
     {
       "name": "AntropyPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 328,
+      "sortid": 337,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_pressure_plate_recipe"
@@ -347,7 +347,7 @@
     {
       "name": "AntropyButtonRecipe",
       "type": "recipe",
-      "sortid": 329,
+      "sortid": 338,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_button_recipe"
@@ -355,7 +355,7 @@
     {
       "name": "AntropyStickRecipe",
       "type": "recipe",
-      "sortid": 330,
+      "sortid": 339,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_stick_recipe"
@@ -430,7 +430,7 @@
     {
       "name": "TropicsActivatorRecipe",
       "type": "recipe",
-      "sortid": 331,
+      "sortid": 340,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropics_activator_recipe"
@@ -438,7 +438,7 @@
     {
       "name": "TropicalOcean",
       "type": "biome",
-      "sortid": 332,
+      "sortid": 341,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropical_ocean"
@@ -446,7 +446,7 @@
     {
       "name": "Palm1",
       "type": "structure",
-      "sortid": 333,
+      "sortid": 342,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_1"
@@ -454,7 +454,7 @@
     {
       "name": "Palm2",
       "type": "structure",
-      "sortid": 334,
+      "sortid": 343,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_2"
@@ -462,7 +462,7 @@
     {
       "name": "Palm3",
       "type": "structure",
-      "sortid": 335,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_3"
@@ -470,7 +470,7 @@
     {
       "name": "Antropy1",
       "type": "structure",
-      "sortid": 336,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_1"
@@ -478,7 +478,7 @@
     {
       "name": "Antropy2",
       "type": "structure",
-      "sortid": 337,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_2"
@@ -486,7 +486,7 @@
     {
       "name": "Antropy3",
       "type": "structure",
-      "sortid": 338,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_3"
@@ -494,7 +494,7 @@
     {
       "name": "Antropy4",
       "type": "structure",
-      "sortid": 339,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_4"
@@ -534,7 +534,7 @@
     {
       "name": "TropicstoneBricksRecipe",
       "type": "recipe",
-      "sortid": 340,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_bricks_recipe"
@@ -542,7 +542,7 @@
     {
       "name": "TropicstoneBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 341,
+      "sortid": 350,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_bricks_stairs_recipe"
@@ -550,7 +550,7 @@
     {
       "name": "TropicstoneBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 342,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_bricks_slab_recipe"
@@ -566,7 +566,7 @@
     {
       "name": "ArcheonBlocks",
       "type": "tab",
-      "sortid": 343,
+      "sortid": 352,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archeon_blocks"
@@ -574,7 +574,7 @@
     {
       "name": "ArcheonFauna",
       "type": "tab",
-      "sortid": 344,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archeon_fauna"
@@ -622,7 +622,7 @@
     {
       "name": "Tropicstone_ToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 345,
+      "sortid": 354,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_tools_pickaxe_recipe"
@@ -630,7 +630,7 @@
     {
       "name": "Tropicstone_ToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 346,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_tools_axe_recipe"
@@ -638,7 +638,7 @@
     {
       "name": "Tropicstone_ToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 347,
+      "sortid": 356,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_tools_sword_recipe"
@@ -646,7 +646,7 @@
     {
       "name": "Tropicstone_ToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 348,
+      "sortid": 357,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_tools_shovel_recipe"
@@ -654,7 +654,7 @@
     {
       "name": "Tropicstone_ToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 349,
+      "sortid": 358,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_tools_hoe_recipe"
@@ -662,7 +662,7 @@
     {
       "name": "ArcheonCombatAndTools",
       "type": "tab",
-      "sortid": 350,
+      "sortid": 359,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archeon_combat_and_tools"
@@ -670,7 +670,7 @@
     {
       "name": "ArcheonMisc",
       "type": "tab",
-      "sortid": 351,
+      "sortid": 360,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archeon_misc"
@@ -678,7 +678,7 @@
     {
       "name": "Gear",
       "type": "item",
-      "sortid": 277,
+      "sortid": 315,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gear"
@@ -686,7 +686,7 @@
     {
       "name": "GearRecipe",
       "type": "recipe",
-      "sortid": 352,
+      "sortid": 361,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gear_recipe"
@@ -694,7 +694,7 @@
     {
       "name": "SouthMeadows",
       "type": "biome",
-      "sortid": 353,
+      "sortid": 362,
       "compiles": true,
       "locked_code": false,
       "registry_name": "south_meadows"
@@ -710,7 +710,7 @@
     {
       "name": "BlueByRoseypia",
       "type": "recipe",
-      "sortid": 354,
+      "sortid": 363,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_by_roseypia"
@@ -718,7 +718,7 @@
     {
       "name": "AntropyGrove",
       "type": "biome",
-      "sortid": 355,
+      "sortid": 364,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_grove"
@@ -806,7 +806,7 @@
     {
       "name": "CypressItemsTag",
       "type": "tag",
-      "sortid": 356,
+      "sortid": 365,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_items_tag"
@@ -814,7 +814,7 @@
     {
       "name": "CypressWoodRecipe",
       "type": "recipe",
-      "sortid": 357,
+      "sortid": 366,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_wood_recipe"
@@ -822,7 +822,7 @@
     {
       "name": "CypressPlanksRecipe",
       "type": "recipe",
-      "sortid": 358,
+      "sortid": 367,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_planks_recipe"
@@ -830,7 +830,7 @@
     {
       "name": "CypressStairsRecipe",
       "type": "recipe",
-      "sortid": 359,
+      "sortid": 368,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_stairs_recipe"
@@ -838,7 +838,7 @@
     {
       "name": "CypressSlabRecipe",
       "type": "recipe",
-      "sortid": 360,
+      "sortid": 369,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_slab_recipe"
@@ -846,7 +846,7 @@
     {
       "name": "CypressFenceRecipe",
       "type": "recipe",
-      "sortid": 361,
+      "sortid": 370,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_fence_recipe"
@@ -854,7 +854,7 @@
     {
       "name": "CypressFenceGateRecipe",
       "type": "recipe",
-      "sortid": 362,
+      "sortid": 371,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_fence_gate_recipe"
@@ -862,7 +862,7 @@
     {
       "name": "CypressPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 363,
+      "sortid": 372,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_pressure_plate_recipe"
@@ -870,7 +870,7 @@
     {
       "name": "CypressButtonRecipe",
       "type": "recipe",
-      "sortid": 364,
+      "sortid": 373,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_button_recipe"
@@ -878,7 +878,7 @@
     {
       "name": "CypressStickRecipe",
       "type": "recipe",
-      "sortid": 365,
+      "sortid": 374,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_stick_recipe"
@@ -886,7 +886,7 @@
     {
       "name": "AntropyDoorCraft",
       "type": "recipe",
-      "sortid": 366,
+      "sortid": 375,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_door_craft"
@@ -894,7 +894,7 @@
     {
       "name": "PalmDoorCraft",
       "type": "recipe",
-      "sortid": 367,
+      "sortid": 376,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_door_craft"
@@ -926,7 +926,7 @@
     {
       "name": "Cypress1",
       "type": "structure",
-      "sortid": 368,
+      "sortid": 377,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_1"
@@ -934,7 +934,7 @@
     {
       "name": "Cypress2",
       "type": "structure",
-      "sortid": 369,
+      "sortid": 378,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_2"
@@ -942,7 +942,7 @@
     {
       "name": "Cypress3",
       "type": "structure",
-      "sortid": 370,
+      "sortid": 379,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_3"
@@ -950,7 +950,7 @@
     {
       "name": "Cypress4",
       "type": "structure",
-      "sortid": 371,
+      "sortid": 380,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_4"
@@ -958,7 +958,7 @@
     {
       "name": "Cypress5",
       "type": "structure",
-      "sortid": 372,
+      "sortid": 381,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_5"
@@ -966,7 +966,7 @@
     {
       "name": "Cypress6",
       "type": "structure",
-      "sortid": 373,
+      "sortid": 382,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_6"
@@ -982,7 +982,7 @@
     {
       "name": "CraftPinkOrchid",
       "type": "recipe",
-      "sortid": 374,
+      "sortid": 383,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_pink_orchid"
@@ -990,7 +990,7 @@
     {
       "name": "CraftPurpleAerolia",
       "type": "recipe",
-      "sortid": 375,
+      "sortid": 384,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_purple_aerolia"
@@ -998,7 +998,7 @@
     {
       "name": "WhiteShell",
       "type": "item",
-      "sortid": 282,
+      "sortid": 288,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_shell"
@@ -1006,7 +1006,7 @@
     {
       "name": "BlueShell",
       "type": "item",
-      "sortid": 283,
+      "sortid": 289,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_shell"
@@ -1014,7 +1014,7 @@
     {
       "name": "PinkShell",
       "type": "item",
-      "sortid": 284,
+      "sortid": 290,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_shell"
@@ -1022,7 +1022,7 @@
     {
       "name": "YellowShell",
       "type": "item",
-      "sortid": 285,
+      "sortid": 291,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_shell"
@@ -1030,7 +1030,7 @@
     {
       "name": "WhiteShellToWhite",
       "type": "recipe",
-      "sortid": 376,
+      "sortid": 385,
       "compiles": true,
       "locked_code": false,
       "registry_name": "white_shell_to_white"
@@ -1038,7 +1038,7 @@
     {
       "name": "BlueShellToBlue",
       "type": "recipe",
-      "sortid": 377,
+      "sortid": 386,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blue_shell_to_blue"
@@ -1046,7 +1046,7 @@
     {
       "name": "PinkShellToPink",
       "type": "recipe",
-      "sortid": 378,
+      "sortid": 387,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_shell_to_pink"
@@ -1054,7 +1054,7 @@
     {
       "name": "YellowShellToYellow",
       "type": "recipe",
-      "sortid": 379,
+      "sortid": 388,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_shell_to_yellow"
@@ -1062,7 +1062,7 @@
     {
       "name": "ShellsandLootTable",
       "type": "loottable",
-      "sortid": 380,
+      "sortid": 389,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shellsand_loot_table"
@@ -1070,7 +1070,7 @@
     {
       "name": "CraftFurnaceTropicstone",
       "type": "recipe",
-      "sortid": 381,
+      "sortid": 390,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_furnace_tropicstone"
@@ -1078,7 +1078,7 @@
     {
       "name": "TableTropic1",
       "type": "recipe",
-      "sortid": 382,
+      "sortid": 391,
       "compiles": true,
       "locked_code": false,
       "registry_name": "table_tropic_1"
@@ -1086,7 +1086,7 @@
     {
       "name": "TableTropic2",
       "type": "recipe",
-      "sortid": 383,
+      "sortid": 392,
       "compiles": true,
       "locked_code": false,
       "registry_name": "table_tropic_2"
@@ -1094,7 +1094,7 @@
     {
       "name": "TableTropic3",
       "type": "recipe",
-      "sortid": 384,
+      "sortid": 393,
       "compiles": true,
       "locked_code": false,
       "registry_name": "table_tropic_3"
@@ -1102,7 +1102,7 @@
     {
       "name": "CraftFurnaceAketite",
       "type": "recipe",
-      "sortid": 385,
+      "sortid": 394,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_furnace_aketite"
@@ -1118,7 +1118,7 @@
     {
       "name": "CokiplantLootTable",
       "type": "loottable",
-      "sortid": 386,
+      "sortid": 395,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cokiplant_loot_table"
@@ -1134,7 +1134,7 @@
     {
       "name": "AketiteBricksCraft",
       "type": "recipe",
-      "sortid": 387,
+      "sortid": 396,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_bricks_craft"
@@ -1150,7 +1150,7 @@
     {
       "name": "AketiteStairsCraft",
       "type": "recipe",
-      "sortid": 388,
+      "sortid": 397,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_stairs_craft"
@@ -1166,7 +1166,7 @@
     {
       "name": "AketiteSlabCraft",
       "type": "recipe",
-      "sortid": 389,
+      "sortid": 398,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_slab_craft"
@@ -1182,7 +1182,7 @@
     {
       "name": "AketiteWallCraft",
       "type": "recipe",
-      "sortid": 390,
+      "sortid": 399,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_wall_craft"
@@ -1222,7 +1222,7 @@
     {
       "name": "CypressDoorCraft",
       "type": "recipe",
-      "sortid": 391,
+      "sortid": 400,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_door_craft"
@@ -1230,7 +1230,7 @@
     {
       "name": "CypressTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 392,
+      "sortid": 401,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_trapdoor_recipe"
@@ -1238,7 +1238,7 @@
     {
       "name": "AntropyTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 393,
+      "sortid": 402,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_trapdoor_recipe"
@@ -1246,7 +1246,7 @@
     {
       "name": "PalmTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 394,
+      "sortid": 403,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_trapdoor_recipe"
@@ -1254,7 +1254,7 @@
     {
       "name": "TropicstoneButton",
       "type": "recipe",
-      "sortid": 395,
+      "sortid": 404,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_button"
@@ -1262,7 +1262,7 @@
     {
       "name": "TropicstonePressurePlateRecipe",
       "type": "recipe",
-      "sortid": 396,
+      "sortid": 405,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_pressure_plate_recipe"
@@ -1270,7 +1270,7 @@
     {
       "name": "Onetite1",
       "type": "recipe",
-      "sortid": 397,
+      "sortid": 406,
       "compiles": true,
       "locked_code": false,
       "registry_name": "onetite_1"
@@ -1278,7 +1278,7 @@
     {
       "name": "Onetite2",
       "type": "recipe",
-      "sortid": 398,
+      "sortid": 407,
       "compiles": true,
       "locked_code": false,
       "registry_name": "onetite_2"
@@ -1286,7 +1286,7 @@
     {
       "name": "Onetite3",
       "type": "recipe",
-      "sortid": 399,
+      "sortid": 408,
       "compiles": true,
       "locked_code": false,
       "registry_name": "onetite_3"
@@ -1302,7 +1302,7 @@
     {
       "name": "Manuscript",
       "type": "item",
-      "sortid": 286,
+      "sortid": 282,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manuscript"
@@ -1310,7 +1310,7 @@
     {
       "name": "Manuscprit",
       "type": "recipe",
-      "sortid": 400,
+      "sortid": 409,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manuscprit"
@@ -1326,7 +1326,7 @@
     {
       "name": "TropicobbleToTropicstone",
       "type": "recipe",
-      "sortid": 401,
+      "sortid": 410,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicobble_to_tropicstone"
@@ -1358,7 +1358,7 @@
     {
       "name": "SmoothTropicstoneRecipe",
       "type": "recipe",
-      "sortid": 402,
+      "sortid": 411,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_tropicstone_recipe"
@@ -1366,7 +1366,7 @@
     {
       "name": "SmoothTRecipe",
       "type": "recipe",
-      "sortid": 403,
+      "sortid": 412,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_t_recipe"
@@ -1374,7 +1374,7 @@
     {
       "name": "SmoothTRecipe2",
       "type": "recipe",
-      "sortid": 404,
+      "sortid": 413,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_t_recipe_2"
@@ -1390,7 +1390,7 @@
     {
       "name": "ChiseledTropicstoneRecipe",
       "type": "recipe",
-      "sortid": 405,
+      "sortid": 414,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_tropicstone_recipe"
@@ -1422,7 +1422,7 @@
     {
       "name": "TropicstoneCobblestoneStairsRecipe",
       "type": "recipe",
-      "sortid": 406,
+      "sortid": 415,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_cobblestone_stairs_recipe"
@@ -1430,7 +1430,7 @@
     {
       "name": "TropicstoneCobblestoneSlabRecipe",
       "type": "recipe",
-      "sortid": 407,
+      "sortid": 416,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_cobblestone_slab_recipe"
@@ -1438,7 +1438,7 @@
     {
       "name": "TropicstoneCobblestoneWallRecipe",
       "type": "recipe",
-      "sortid": 408,
+      "sortid": 417,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_cobblestone_wall_recipe"
@@ -1446,7 +1446,7 @@
     {
       "name": "Heifer",
       "type": "livingentity",
-      "sortid": 287,
+      "sortid": 318,
       "compiles": true,
       "locked_code": false,
       "registry_name": "heifer"
@@ -1454,7 +1454,7 @@
     {
       "name": "NameTag",
       "type": "recipe",
-      "sortid": 409,
+      "sortid": 418,
       "compiles": true,
       "locked_code": false,
       "registry_name": "name_tag"
@@ -1462,7 +1462,7 @@
     {
       "name": "Map1",
       "type": "recipe",
-      "sortid": 410,
+      "sortid": 419,
       "compiles": true,
       "locked_code": false,
       "registry_name": "map_1"
@@ -1478,7 +1478,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe",
       "type": "recipe",
-      "sortid": 411,
+      "sortid": 420,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe"
@@ -1486,7 +1486,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe2",
       "type": "recipe",
-      "sortid": 412,
+      "sortid": 421,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_2"
@@ -1494,7 +1494,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe3",
       "type": "recipe",
-      "sortid": 413,
+      "sortid": 422,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_3"
@@ -1502,7 +1502,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe4",
       "type": "recipe",
-      "sortid": 414,
+      "sortid": 423,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_4"
@@ -1510,7 +1510,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe5",
       "type": "recipe",
-      "sortid": 415,
+      "sortid": 424,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_5"
@@ -1518,7 +1518,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe6",
       "type": "recipe",
-      "sortid": 416,
+      "sortid": 425,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_6"
@@ -1526,7 +1526,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe7",
       "type": "recipe",
-      "sortid": 417,
+      "sortid": 426,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_7"
@@ -1534,7 +1534,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe8",
       "type": "recipe",
-      "sortid": 418,
+      "sortid": 427,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_8"
@@ -1542,7 +1542,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe9",
       "type": "recipe",
-      "sortid": 419,
+      "sortid": 428,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_9"
@@ -1550,7 +1550,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe10",
       "type": "recipe",
-      "sortid": 420,
+      "sortid": 429,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_10"
@@ -1558,7 +1558,7 @@
     {
       "name": "MossyTropicstoneBricksRecipe11",
       "type": "recipe",
-      "sortid": 421,
+      "sortid": 430,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_recipe_11"
@@ -1566,7 +1566,7 @@
     {
       "name": "XetulianSugarCane1",
       "type": "recipe",
-      "sortid": 422,
+      "sortid": 431,
       "compiles": true,
       "locked_code": false,
       "registry_name": "xetulian_sugar_cane_1"
@@ -1574,7 +1574,7 @@
     {
       "name": "Stick1",
       "type": "recipe",
-      "sortid": 423,
+      "sortid": 432,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_1"
@@ -1582,7 +1582,7 @@
     {
       "name": "Stick2",
       "type": "recipe",
-      "sortid": 424,
+      "sortid": 433,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_2"
@@ -1590,7 +1590,7 @@
     {
       "name": "Stick3",
       "type": "recipe",
-      "sortid": 425,
+      "sortid": 434,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stick_3"
@@ -1614,7 +1614,7 @@
     {
       "name": "MossyTropicstoneCobblestone1",
       "type": "recipe",
-      "sortid": 426,
+      "sortid": 435,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_1"
@@ -1622,7 +1622,7 @@
     {
       "name": "MossyTropicstoneCobblestone2",
       "type": "recipe",
-      "sortid": 427,
+      "sortid": 436,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_2"
@@ -1630,7 +1630,7 @@
     {
       "name": "MossyTropicstoneCobblestone3",
       "type": "recipe",
-      "sortid": 428,
+      "sortid": 437,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_3"
@@ -1638,7 +1638,7 @@
     {
       "name": "MossyTropicstoneCobblestone4",
       "type": "recipe",
-      "sortid": 429,
+      "sortid": 438,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_4"
@@ -1646,7 +1646,7 @@
     {
       "name": "MossyTropicstoneCobblestone5",
       "type": "recipe",
-      "sortid": 430,
+      "sortid": 439,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_5"
@@ -1654,7 +1654,7 @@
     {
       "name": "MossyTropicstoneCobblestone6",
       "type": "recipe",
-      "sortid": 431,
+      "sortid": 440,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_6"
@@ -1662,7 +1662,7 @@
     {
       "name": "MossyTropicstoneCobblestone7",
       "type": "recipe",
-      "sortid": 432,
+      "sortid": 441,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_7"
@@ -1670,7 +1670,7 @@
     {
       "name": "MossyTropicstoneCobblestone8",
       "type": "recipe",
-      "sortid": 433,
+      "sortid": 442,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_8"
@@ -1678,7 +1678,7 @@
     {
       "name": "MossyTropicstoneCobblestone9",
       "type": "recipe",
-      "sortid": 434,
+      "sortid": 443,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_9"
@@ -1686,7 +1686,7 @@
     {
       "name": "MossyTropicstoneCobblestone10",
       "type": "recipe",
-      "sortid": 435,
+      "sortid": 444,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_10"
@@ -1694,7 +1694,7 @@
     {
       "name": "MossyTropicstoneCobblestone11",
       "type": "recipe",
-      "sortid": 436,
+      "sortid": 445,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_11"
@@ -1702,7 +1702,7 @@
     {
       "name": "CraqueledTropicstoneBricksRecipe",
       "type": "recipe",
-      "sortid": 437,
+      "sortid": 446,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craqueled_tropicstone_bricks_recipe"
@@ -1734,7 +1734,7 @@
     {
       "name": "MossyTropicstoneCobblestoneStairsCraft",
       "type": "recipe",
-      "sortid": 438,
+      "sortid": 447,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_stairs_craft"
@@ -1742,7 +1742,7 @@
     {
       "name": "MossyTropicstoneCobblestoneSlabCraft",
       "type": "recipe",
-      "sortid": 439,
+      "sortid": 448,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_slab_craft"
@@ -1750,7 +1750,7 @@
     {
       "name": "MossyTropicstoneCobblestoneWallCraft",
       "type": "recipe",
-      "sortid": 440,
+      "sortid": 449,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_cobblestone_wall_craft"
@@ -1782,7 +1782,7 @@
     {
       "name": "MossyTropicstoneBricksStairsCraft",
       "type": "recipe",
-      "sortid": 441,
+      "sortid": 450,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_stairs_craft"
@@ -1790,7 +1790,7 @@
     {
       "name": "MossyTropicstoneBricksWallCraft",
       "type": "recipe",
-      "sortid": 442,
+      "sortid": 451,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_wall_craft"
@@ -1798,7 +1798,7 @@
     {
       "name": "MossyTropicstoneBricksSlabCraft",
       "type": "recipe",
-      "sortid": 443,
+      "sortid": 452,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_tropicstone_bricks_slab_craft"
@@ -1854,7 +1854,7 @@
     {
       "name": "TwilightRoseToWhite",
       "type": "recipe",
-      "sortid": 444,
+      "sortid": 453,
       "compiles": true,
       "locked_code": false,
       "registry_name": "twilight_rose_to_white"
@@ -1870,7 +1870,7 @@
     {
       "name": "LycorisToMagenta",
       "type": "recipe",
-      "sortid": 445,
+      "sortid": 454,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lycoris_to_magenta"
@@ -1878,7 +1878,7 @@
     {
       "name": "LycorisRadiataMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 446,
+      "sortid": 455,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lycoris_radiata_mobplayer_collides_with_plant",
@@ -1902,7 +1902,7 @@
     {
       "name": "RedLycorisToDye",
       "type": "recipe",
-      "sortid": 447,
+      "sortid": 456,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_lycoris_to_dye"
@@ -1910,7 +1910,7 @@
     {
       "name": "RedLycorisMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 448,
+      "sortid": 457,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_lycoris_mobplayer_collides_with_plant",
@@ -1934,7 +1934,7 @@
     {
       "name": "LycorisSanguineaToOrangeDye",
       "type": "recipe",
-      "sortid": 449,
+      "sortid": 458,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lycoris_sanguinea_to_orange_dye"
@@ -1942,7 +1942,7 @@
     {
       "name": "LycorisSanguineaMobplayerCollidesWithPlant",
       "type": "procedure",
-      "sortid": 450,
+      "sortid": 459,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lycoris_sanguinea_mobplayer_collides_with_plant",
@@ -2006,7 +2006,7 @@
     {
       "name": "SmeltExyrianeOre",
       "type": "recipe",
-      "sortid": 451,
+      "sortid": 460,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelt_exyriane_ore"
@@ -2014,7 +2014,7 @@
     {
       "name": "AscendiaToYellow",
       "type": "recipe",
-      "sortid": 452,
+      "sortid": 461,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ascendia_to_yellow"
@@ -2022,7 +2022,7 @@
     {
       "name": "OeaToWhite",
       "type": "recipe",
-      "sortid": 453,
+      "sortid": 462,
       "compiles": true,
       "locked_code": false,
       "registry_name": "oea_to_white"
@@ -2030,7 +2030,7 @@
     {
       "name": "IopeaToBlue",
       "type": "recipe",
-      "sortid": 454,
+      "sortid": 463,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iopea_to_blue"
@@ -2038,7 +2038,7 @@
     {
       "name": "SepticeoliaToMagenta",
       "type": "recipe",
-      "sortid": 455,
+      "sortid": 464,
       "compiles": true,
       "locked_code": false,
       "registry_name": "septiceolia_to_magenta"
@@ -2046,7 +2046,7 @@
     {
       "name": "OrgandeaneToPurple",
       "type": "recipe",
-      "sortid": 456,
+      "sortid": 465,
       "compiles": true,
       "locked_code": false,
       "registry_name": "organdeane_to_purple"
@@ -2054,7 +2054,7 @@
     {
       "name": "AstedibesToBrown",
       "type": "recipe",
-      "sortid": 457,
+      "sortid": 466,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astedibes_to_brown"
@@ -2078,7 +2078,7 @@
     {
       "name": "OrnateAketiteRecipe1",
       "type": "recipe",
-      "sortid": 458,
+      "sortid": 467,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_aketite_recipe_1"
@@ -2086,7 +2086,7 @@
     {
       "name": "OrnateAketiteRecipe2",
       "type": "recipe",
-      "sortid": 459,
+      "sortid": 468,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_aketite_recipe_2"
@@ -2094,7 +2094,7 @@
     {
       "name": "OrnateAketiteRecipe3",
       "type": "recipe",
-      "sortid": 460,
+      "sortid": 469,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_aketite_recipe_3"
@@ -2102,7 +2102,7 @@
     {
       "name": "CraftSugarSugarCaneXetulion",
       "type": "recipe",
-      "sortid": 461,
+      "sortid": 470,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_sugar_sugar_cane_xetulion"
@@ -2118,7 +2118,7 @@
     {
       "name": "AketiteTileRecipe1",
       "type": "recipe",
-      "sortid": 462,
+      "sortid": 471,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tile_recipe_1"
@@ -2126,7 +2126,7 @@
     {
       "name": "AketiteTileRecipe2",
       "type": "recipe",
-      "sortid": 463,
+      "sortid": 472,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tile_recipe_2"
@@ -2142,7 +2142,7 @@
     {
       "name": "ChiseledAketiteRecipe1",
       "type": "recipe",
-      "sortid": 464,
+      "sortid": 473,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_aketite_recipe_1"
@@ -2150,7 +2150,7 @@
     {
       "name": "ChiseledAketiteRecipe2",
       "type": "recipe",
-      "sortid": 465,
+      "sortid": 474,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_aketite_recipe_2"
@@ -2198,7 +2198,7 @@
     {
       "name": "ArtemniteBricksRecipe",
       "type": "recipe",
-      "sortid": 466,
+      "sortid": 475,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_bricks_recipe"
@@ -2206,7 +2206,7 @@
     {
       "name": "ArtemniteBricksRecipe2",
       "type": "recipe",
-      "sortid": 467,
+      "sortid": 476,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_bricks_recipe_2"
@@ -2214,7 +2214,7 @@
     {
       "name": "ArtemniteBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 468,
+      "sortid": 477,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_bricks_stairs_recipe"
@@ -2222,7 +2222,7 @@
     {
       "name": "ArtemniteBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 469,
+      "sortid": 478,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_bricks_slab_recipe"
@@ -2230,7 +2230,7 @@
     {
       "name": "ArtemniteBricksWallRecipe",
       "type": "recipe",
-      "sortid": 470,
+      "sortid": 479,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_bricks_wall_recipe"
@@ -2262,7 +2262,7 @@
     {
       "name": "ArtemniteTilesWallRecipe",
       "type": "recipe",
-      "sortid": 471,
+      "sortid": 480,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_tiles_wall_recipe"
@@ -2270,7 +2270,7 @@
     {
       "name": "ArtemniteTilesStairsRecipe",
       "type": "recipe",
-      "sortid": 472,
+      "sortid": 481,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_tiles_stairs_recipe"
@@ -2278,7 +2278,7 @@
     {
       "name": "ArtemniteTilesSlabRecipe",
       "type": "recipe",
-      "sortid": 473,
+      "sortid": 482,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_tiles_slab_recipe"
@@ -2302,7 +2302,7 @@
     {
       "name": "CraqueledArtemniteBricksRecipe",
       "type": "recipe",
-      "sortid": 474,
+      "sortid": 483,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craqueled_artemnite_bricks_recipe"
@@ -2310,7 +2310,7 @@
     {
       "name": "CraqueledAketiteBricksRecipe",
       "type": "recipe",
-      "sortid": 475,
+      "sortid": 484,
       "compiles": true,
       "locked_code": false,
       "registry_name": "craqueled_aketite_bricks_recipe"
@@ -2318,7 +2318,7 @@
     {
       "name": "ArtemniteTilesRecipe",
       "type": "recipe",
-      "sortid": 476,
+      "sortid": 485,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_tiles_recipe"
@@ -2326,7 +2326,7 @@
     {
       "name": "ArtemniteTilesRecipe2",
       "type": "recipe",
-      "sortid": 477,
+      "sortid": 486,
       "compiles": true,
       "locked_code": false,
       "registry_name": "artemnite_tiles_recipe_2"
@@ -2342,7 +2342,7 @@
     {
       "name": "SmoothArtemniteRecipe2",
       "type": "recipe",
-      "sortid": 478,
+      "sortid": 487,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_artemnite_recipe_2"
@@ -2350,7 +2350,7 @@
     {
       "name": "SmoothArtemniteRecipe1",
       "type": "recipe",
-      "sortid": 479,
+      "sortid": 488,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smooth_artemnite_recipe_1"
@@ -2382,7 +2382,7 @@
     {
       "name": "OrnateArtemnite3Recipe",
       "type": "recipe",
-      "sortid": 480,
+      "sortid": 489,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_artemnite_3_recipe"
@@ -2390,7 +2390,7 @@
     {
       "name": "OrnateArtemnite2Recipe",
       "type": "recipe",
-      "sortid": 481,
+      "sortid": 490,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_artemnite_2_recipe"
@@ -2398,7 +2398,7 @@
     {
       "name": "OrnateArtemnite1Recipe",
       "type": "recipe",
-      "sortid": 482,
+      "sortid": 491,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ornate_artemnite_1_recipe"
@@ -2446,7 +2446,7 @@
     {
       "name": "AketiteTilesRecipe1",
       "type": "recipe",
-      "sortid": 483,
+      "sortid": 492,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tiles_recipe_1"
@@ -2454,7 +2454,7 @@
     {
       "name": "AketiteTilesRecipe2",
       "type": "recipe",
-      "sortid": 484,
+      "sortid": 493,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tiles_recipe_2"
@@ -2462,7 +2462,7 @@
     {
       "name": "AketiteTilesStairsRecipe",
       "type": "recipe",
-      "sortid": 485,
+      "sortid": 494,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tiles_stairs_recipe"
@@ -2470,7 +2470,7 @@
     {
       "name": "AketiteTilesSlabRecipe",
       "type": "recipe",
-      "sortid": 486,
+      "sortid": 495,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tiles_slab_recipe"
@@ -2478,7 +2478,7 @@
     {
       "name": "AketiteTilesWallRecipe",
       "type": "recipe",
-      "sortid": 487,
+      "sortid": 496,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aketite_tiles_wall_recipe"
@@ -2486,7 +2486,7 @@
     {
       "name": "ChiseledArtemnite1Recipe",
       "type": "recipe",
-      "sortid": 488,
+      "sortid": 497,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_artemnite_1_recipe"
@@ -2494,7 +2494,7 @@
     {
       "name": "ChiseledArtemnite2Recipe",
       "type": "recipe",
-      "sortid": 489,
+      "sortid": 498,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chiseled_artemnite_2_recipe"
@@ -2502,7 +2502,7 @@
     {
       "name": "CookedHeiferRecipe1",
       "type": "recipe",
-      "sortid": 490,
+      "sortid": 499,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_heifer_recipe_1"
@@ -2510,7 +2510,7 @@
     {
       "name": "CookedHeiferRecipe2",
       "type": "recipe",
-      "sortid": 491,
+      "sortid": 500,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_heifer_recipe_2"
@@ -2518,7 +2518,7 @@
     {
       "name": "JamPot",
       "type": "item",
-      "sortid": 288,
+      "sortid": 296,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jam_pot"
@@ -2526,7 +2526,7 @@
     {
       "name": "OrangeLjamPotRecipe",
       "type": "recipe",
-      "sortid": 492,
+      "sortid": 501,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_ljam_pot_recipe"
@@ -2534,7 +2534,7 @@
     {
       "name": "RedLjamPotRecipe",
       "type": "recipe",
-      "sortid": 493,
+      "sortid": 502,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_ljam_pot_recipe"
@@ -2542,7 +2542,7 @@
     {
       "name": "PinkLjamPotRecipe",
       "type": "recipe",
-      "sortid": 494,
+      "sortid": 503,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_ljam_pot_recipe"
@@ -2606,7 +2606,7 @@
     {
       "name": "WitheredOeaToGrey",
       "type": "recipe",
-      "sortid": 495,
+      "sortid": 504,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_oea_to_grey"
@@ -2614,7 +2614,7 @@
     {
       "name": "WitheredArgandeaneBlossomToGray",
       "type": "recipe",
-      "sortid": 496,
+      "sortid": 505,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_argandeane_blossom_to_gray"
@@ -2622,7 +2622,7 @@
     {
       "name": "WitheredRedLycorisToGray",
       "type": "recipe",
-      "sortid": 497,
+      "sortid": 506,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_red_lycoris_to_gray"
@@ -2630,7 +2630,7 @@
     {
       "name": "WitheredPinkLycorisToGray",
       "type": "recipe",
-      "sortid": 498,
+      "sortid": 507,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_pink_lycoris_to_gray"
@@ -2638,7 +2638,7 @@
     {
       "name": "WitheredOrangeLycorisToGray",
       "type": "recipe",
-      "sortid": 499,
+      "sortid": 508,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_orange_lycoris_to_gray"
@@ -2646,7 +2646,7 @@
     {
       "name": "WitheredSepticeoliaToGray",
       "type": "recipe",
-      "sortid": 500,
+      "sortid": 509,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_septiceolia_to_gray"
@@ -2654,7 +2654,7 @@
     {
       "name": "WitheredAscendiaToGray",
       "type": "recipe",
-      "sortid": 501,
+      "sortid": 510,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_ascendia_to_gray"
@@ -2662,7 +2662,7 @@
     {
       "name": "WitheredAstedibesToGray",
       "type": "recipe",
-      "sortid": 502,
+      "sortid": 511,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_astedibes_to_gray"
@@ -2670,7 +2670,7 @@
     {
       "name": "WitheredIopeaToGray",
       "type": "recipe",
-      "sortid": 503,
+      "sortid": 512,
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_iopea_to_gray"
@@ -2678,7 +2678,7 @@
     {
       "name": "Salt",
       "type": "item",
-      "sortid": 293,
+      "sortid": 305,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt"
@@ -2686,7 +2686,7 @@
     {
       "name": "SaltRecipe",
       "type": "recipe",
-      "sortid": 504,
+      "sortid": 513,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_recipe"
@@ -2694,7 +2694,7 @@
     {
       "name": "SaltblockToSalt",
       "type": "recipe",
-      "sortid": 505,
+      "sortid": 514,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saltblock_to_salt"
@@ -2702,7 +2702,7 @@
     {
       "name": "PumpkinPieWlJrecipe1",
       "type": "recipe",
-      "sortid": 506,
+      "sortid": 515,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pumpkin_pie_wl_jrecipe_1"
@@ -2710,7 +2710,7 @@
     {
       "name": "PumpkinPieWlJrecipe2",
       "type": "recipe",
-      "sortid": 507,
+      "sortid": 516,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pumpkin_pie_wl_jrecipe_2"
@@ -2718,7 +2718,7 @@
     {
       "name": "PumpkinPieWlJrecipe3",
       "type": "recipe",
-      "sortid": 508,
+      "sortid": 517,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pumpkin_pie_wl_jrecipe_3"
@@ -2726,7 +2726,7 @@
     {
       "name": "ExyrianeCrystal",
       "type": "item",
-      "sortid": 279,
+      "sortid": 283,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_crystal"
@@ -2734,7 +2734,7 @@
     {
       "name": "ExyrianeBlockToCrystals",
       "type": "recipe",
-      "sortid": 509,
+      "sortid": 518,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_block_to_crystals"
@@ -2742,7 +2742,7 @@
     {
       "name": "ExyrianeCrystalsToAblock",
       "type": "recipe",
-      "sortid": 510,
+      "sortid": 519,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_crystals_to_ablock"
@@ -2750,7 +2750,7 @@
     {
       "name": "BlastingExyrianeOre",
       "type": "recipe",
-      "sortid": 511,
+      "sortid": 520,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blasting_exyriane_ore"
@@ -2782,7 +2782,7 @@
     {
       "name": "JamPotRecipe",
       "type": "recipe",
-      "sortid": 512,
+      "sortid": 521,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jam_pot_recipe"
@@ -2806,7 +2806,7 @@
     {
       "name": "ChestRecipe1",
       "type": "recipe",
-      "sortid": 513,
+      "sortid": 522,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chest_recipe_1"
@@ -2814,7 +2814,7 @@
     {
       "name": "ChestRecipe2",
       "type": "recipe",
-      "sortid": 514,
+      "sortid": 523,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chest_recipe_2"
@@ -2822,7 +2822,7 @@
     {
       "name": "ChestRecipe3",
       "type": "recipe",
-      "sortid": 515,
+      "sortid": 524,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chest_recipe_3"
@@ -2830,7 +2830,7 @@
     {
       "name": "JukeboxRecipe1",
       "type": "recipe",
-      "sortid": 516,
+      "sortid": 525,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jukebox_recipe_1"
@@ -2838,7 +2838,7 @@
     {
       "name": "JukeboxRecipe2",
       "type": "recipe",
-      "sortid": 517,
+      "sortid": 526,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jukebox_recipe_2"
@@ -2846,7 +2846,7 @@
     {
       "name": "JukeboxRecipe3",
       "type": "recipe",
-      "sortid": 518,
+      "sortid": 527,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jukebox_recipe_3"
@@ -2870,7 +2870,7 @@
     {
       "name": "StrippedCypressWoodRecipe",
       "type": "recipe",
-      "sortid": 519,
+      "sortid": 528,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_cypress_wood_recipe"
@@ -2894,7 +2894,7 @@
     {
       "name": "StrippedNeclaneWoodRecipe",
       "type": "recipe",
-      "sortid": 520,
+      "sortid": 529,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_neclane_wood_recipe"
@@ -2918,7 +2918,7 @@
     {
       "name": "StrippedPalmWoodRecipe",
       "type": "recipe",
-      "sortid": 521,
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_palm_wood_recipe"
@@ -2934,7 +2934,7 @@
     {
       "name": "ApafloriteGemstone",
       "type": "item",
-      "sortid": 281,
+      "sortid": 285,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_gemstone"
@@ -2950,7 +2950,7 @@
     {
       "name": "ApafloriteBlockToGems",
       "type": "recipe",
-      "sortid": 522,
+      "sortid": 531,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_block_to_gems"
@@ -2958,7 +2958,7 @@
     {
       "name": "ApafloriteBlockByGems",
       "type": "recipe",
-      "sortid": 523,
+      "sortid": 532,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_block_by_gems"
@@ -2982,7 +2982,7 @@
     {
       "name": "ApafloriteOreSmelting",
       "type": "recipe",
-      "sortid": 524,
+      "sortid": 533,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_ore_smelting"
@@ -2990,7 +2990,7 @@
     {
       "name": "ApafloriteOreBlasting",
       "type": "recipe",
-      "sortid": 525,
+      "sortid": 534,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_ore_blasting"
@@ -2998,7 +2998,7 @@
     {
       "name": "ApafloriteSaberRecipe",
       "type": "recipe",
-      "sortid": 526,
+      "sortid": 535,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_saber_recipe"
@@ -3014,7 +3014,7 @@
     {
       "name": "ApafloritePickaxeRecipe",
       "type": "recipe",
-      "sortid": 527,
+      "sortid": 536,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_pickaxe_recipe"
@@ -3046,7 +3046,7 @@
     {
       "name": "Devouring",
       "type": "musicdisc",
-      "sortid": 290,
+      "sortid": 304,
       "compiles": true,
       "locked_code": false,
       "registry_name": "devouring"
@@ -3054,7 +3054,7 @@
     {
       "name": "ApafloriteAxeRecipe",
       "type": "recipe",
-      "sortid": 528,
+      "sortid": 537,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_axe_recipe"
@@ -3062,7 +3062,7 @@
     {
       "name": "ApafloriteHoeRecipe",
       "type": "recipe",
-      "sortid": 529,
+      "sortid": 538,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_hoe_recipe"
@@ -3070,7 +3070,7 @@
     {
       "name": "ApafloriteShovelRecipe",
       "type": "recipe",
-      "sortid": 530,
+      "sortid": 539,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_shovel_recipe"
@@ -3086,7 +3086,7 @@
     {
       "name": "CeramicBlockRecipe1",
       "type": "recipe",
-      "sortid": 531,
+      "sortid": 540,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_block_recipe_1"
@@ -3094,7 +3094,7 @@
     {
       "name": "CeramicBlockRecipe2",
       "type": "recipe",
-      "sortid": 532,
+      "sortid": 541,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_block_recipe_2"
@@ -3116,7 +3116,7 @@
     {
       "name": "ApafloriteArmorHelmetRecipe",
       "type": "recipe",
-      "sortid": 533,
+      "sortid": 542,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_armor_helmet_recipe"
@@ -3124,7 +3124,7 @@
     {
       "name": "ApafloriteArmorBodyRecipe",
       "type": "recipe",
-      "sortid": 534,
+      "sortid": 543,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_armor_body_recipe"
@@ -3132,7 +3132,7 @@
     {
       "name": "ApafloriteArmorLeggingsRecipe",
       "type": "recipe",
-      "sortid": 535,
+      "sortid": 544,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_armor_leggings_recipe"
@@ -3140,7 +3140,7 @@
     {
       "name": "ApafloriteArmorBootsRecipe",
       "type": "recipe",
-      "sortid": 536,
+      "sortid": 545,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_armor_boots_recipe"
@@ -3172,7 +3172,7 @@
     {
       "name": "CeramicSlabRecipe",
       "type": "recipe",
-      "sortid": 537,
+      "sortid": 546,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_slab_recipe"
@@ -3180,7 +3180,7 @@
     {
       "name": "CeramicFenceRecipe",
       "type": "recipe",
-      "sortid": 538,
+      "sortid": 547,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_fence_recipe"
@@ -3188,7 +3188,7 @@
     {
       "name": "CeramicStairsRecipe",
       "type": "recipe",
-      "sortid": 539,
+      "sortid": 548,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_stairs_recipe"
@@ -3212,7 +3212,7 @@
     {
       "name": "CeramicPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 540,
+      "sortid": 549,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_pressure_plate_recipe"
@@ -3220,7 +3220,7 @@
     {
       "name": "CeramicButtonRecipe",
       "type": "recipe",
-      "sortid": 541,
+      "sortid": 550,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_button_recipe"
@@ -3260,7 +3260,7 @@
     {
       "name": "CeramicBricksRecipe",
       "type": "recipe",
-      "sortid": 542,
+      "sortid": 551,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_bricks_recipe"
@@ -3268,7 +3268,7 @@
     {
       "name": "CeramicBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 543,
+      "sortid": 552,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_bricks_slab_recipe"
@@ -3276,7 +3276,7 @@
     {
       "name": "CeramicBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 544,
+      "sortid": 553,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_bricks_stairs_recipe"
@@ -3284,7 +3284,7 @@
     {
       "name": "CeramicBricksWallRecipe",
       "type": "recipe",
-      "sortid": 545,
+      "sortid": 554,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ceramic_bricks_wall_recipe"
@@ -3324,7 +3324,7 @@
     {
       "name": "GypsumStairsRecipe",
       "type": "recipe",
-      "sortid": 546,
+      "sortid": 555,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_stairs_recipe"
@@ -3332,7 +3332,7 @@
     {
       "name": "GypsumSlabRecipe",
       "type": "recipe",
-      "sortid": 547,
+      "sortid": 556,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_slab_recipe"
@@ -3340,7 +3340,7 @@
     {
       "name": "GypsumWallRecipe",
       "type": "recipe",
-      "sortid": 548,
+      "sortid": 557,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_wall_recipe"
@@ -3380,7 +3380,7 @@
     {
       "name": "RoughcastRecipe",
       "type": "recipe",
-      "sortid": 549,
+      "sortid": 558,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roughcast_recipe"
@@ -3388,7 +3388,7 @@
     {
       "name": "RoughcastSlabRecipe",
       "type": "recipe",
-      "sortid": 550,
+      "sortid": 559,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roughcast_slab_recipe"
@@ -3396,7 +3396,7 @@
     {
       "name": "RoughcastWallRecipe",
       "type": "recipe",
-      "sortid": 551,
+      "sortid": 560,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roughcast_wall_recipe"
@@ -3404,7 +3404,7 @@
     {
       "name": "RoughcastStairsRecipe",
       "type": "recipe",
-      "sortid": 552,
+      "sortid": 561,
       "compiles": true,
       "locked_code": false,
       "registry_name": "roughcast_stairs_recipe"
@@ -3412,7 +3412,7 @@
     {
       "name": "Antropy5",
       "type": "structure",
-      "sortid": 553,
+      "sortid": 562,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_5"
@@ -3420,7 +3420,7 @@
     {
       "name": "NeclaneWoodToPlanks",
       "type": "recipe",
-      "sortid": 554,
+      "sortid": 563,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_to_planks"
@@ -3428,7 +3428,7 @@
     {
       "name": "NeclaneStrippedLogToPlanks",
       "type": "recipe",
-      "sortid": 555,
+      "sortid": 564,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_stripped_log_to_planks"
@@ -3436,7 +3436,7 @@
     {
       "name": "NeclaneStrippedWoodToPlanks",
       "type": "recipe",
-      "sortid": 556,
+      "sortid": 565,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_stripped_wood_to_planks"
@@ -3444,7 +3444,7 @@
     {
       "name": "PalmWoodToPlanks",
       "type": "recipe",
-      "sortid": 557,
+      "sortid": 566,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_wood_to_planks"
@@ -3452,7 +3452,7 @@
     {
       "name": "PalmStrippedLogToPlanks",
       "type": "recipe",
-      "sortid": 558,
+      "sortid": 567,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_stripped_log_to_planks"
@@ -3460,7 +3460,7 @@
     {
       "name": "PalmStrippedWoodToPlanks",
       "type": "recipe",
-      "sortid": 559,
+      "sortid": 568,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_stripped_wood_to_planks"
@@ -3468,7 +3468,7 @@
     {
       "name": "CypressWoodToPlanks",
       "type": "recipe",
-      "sortid": 560,
+      "sortid": 569,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_wood_to_planks"
@@ -3476,7 +3476,7 @@
     {
       "name": "CypressWoodStrippedToPlanks",
       "type": "recipe",
-      "sortid": 561,
+      "sortid": 570,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_wood_stripped_to_planks"
@@ -3484,7 +3484,7 @@
     {
       "name": "CypressStrippedLogToPlanks",
       "type": "recipe",
-      "sortid": 562,
+      "sortid": 571,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_stripped_log_to_planks"
@@ -3492,7 +3492,7 @@
     {
       "name": "EnchantingTableRecipe",
       "type": "recipe",
-      "sortid": 563,
+      "sortid": 572,
       "compiles": true,
       "locked_code": false,
       "registry_name": "enchanting_table_recipe"
@@ -3500,7 +3500,7 @@
     {
       "name": "ApafloriteAndExyrianeToLapisLazuli",
       "type": "recipe",
-      "sortid": 564,
+      "sortid": 573,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_and_exyriane_to_lapis_lazuli"
@@ -3508,7 +3508,7 @@
     {
       "name": "SmithingTableRecipeByArcheon",
       "type": "recipe",
-      "sortid": 565,
+      "sortid": 574,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smithing_table_recipe_by_archeon"
@@ -3516,7 +3516,7 @@
     {
       "name": "SmithingTable2RecipeByArcheon",
       "type": "recipe",
-      "sortid": 566,
+      "sortid": 575,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smithing_table_2_recipe_by_archeon"
@@ -3524,7 +3524,7 @@
     {
       "name": "SmithingTable3RecipeByArcheon",
       "type": "recipe",
-      "sortid": 567,
+      "sortid": 576,
       "compiles": true,
       "locked_code": false,
       "registry_name": "smithing_table_3_recipe_by_archeon"
@@ -3532,7 +3532,7 @@
     {
       "name": "DunesandCastleRecipe",
       "type": "recipe",
-      "sortid": 568,
+      "sortid": 577,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dunesand_castle_recipe"
@@ -3548,7 +3548,7 @@
     {
       "name": "ManuscriptToPaper",
       "type": "recipe",
-      "sortid": 569,
+      "sortid": 578,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manuscript_to_paper"
@@ -3556,7 +3556,7 @@
     {
       "name": "Archeon",
       "type": "achievement",
-      "sortid": 570,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
       "registry_name": "archeon"
@@ -3564,7 +3564,7 @@
     {
       "name": "TheOtherSide",
       "type": "achievement",
-      "sortid": 571,
+      "sortid": 580,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_other_side"
@@ -3572,7 +3572,7 @@
     {
       "name": "LikeABlueAmber",
       "type": "achievement",
-      "sortid": 572,
+      "sortid": 581,
       "compiles": true,
       "locked_code": false,
       "registry_name": "like_a_blue_amber"
@@ -3580,7 +3580,7 @@
     {
       "name": "LookAtMyPinkDiamonds",
       "type": "achievement",
-      "sortid": 573,
+      "sortid": 582,
       "compiles": true,
       "locked_code": false,
       "registry_name": "look_at_my_pink_diamonds"
@@ -3588,7 +3588,7 @@
     {
       "name": "YummyAndGreasy",
       "type": "achievement",
-      "sortid": 574,
+      "sortid": 583,
       "compiles": true,
       "locked_code": false,
       "registry_name": "yummy_and_greasy"
@@ -3596,7 +3596,7 @@
     {
       "name": "BeMeticulous",
       "type": "achievement",
-      "sortid": 575,
+      "sortid": 584,
       "compiles": true,
       "locked_code": false,
       "registry_name": "be_meticulous"
@@ -3604,7 +3604,7 @@
     {
       "name": "TheStonePickaxesReborn",
       "type": "achievement",
-      "sortid": 576,
+      "sortid": 585,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_stone_pickaxes_reborn"
@@ -3612,7 +3612,7 @@
     {
       "name": "ItsMarked",
       "type": "achievement",
-      "sortid": 577,
+      "sortid": 586,
       "compiles": true,
       "locked_code": false,
       "registry_name": "its_marked"
@@ -3620,7 +3620,7 @@
     {
       "name": "Pots",
       "type": "achievement",
-      "sortid": 578,
+      "sortid": 587,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pots"
@@ -3628,7 +3628,7 @@
     {
       "name": "LikeWhenYouWereLittle",
       "type": "achievement",
-      "sortid": 579,
+      "sortid": 588,
       "compiles": true,
       "locked_code": false,
       "registry_name": "like_when_you_were_little"
@@ -3636,7 +3636,7 @@
     {
       "name": "RuinedSouthPortal",
       "type": "structure",
-      "sortid": 580,
+      "sortid": 589,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ruined_south_portal"
@@ -3644,7 +3644,7 @@
     {
       "name": "NatureWandRecipe2",
       "type": "recipe",
-      "sortid": 581,
+      "sortid": 590,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nature_wand_recipe_2"
@@ -3652,7 +3652,7 @@
     {
       "name": "OrangeLycorisJamPotFoodEaten",
       "type": "procedure",
-      "sortid": 582,
+      "sortid": 591,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_lycoris_jam_pot_food_eaten",
@@ -3668,7 +3668,7 @@
     {
       "name": "RedLycorisJamPotFoodEaten",
       "type": "procedure",
-      "sortid": 583,
+      "sortid": 592,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_lycoris_jam_pot_food_eaten",
@@ -3684,7 +3684,7 @@
     {
       "name": "PinkLycorisJamPotFoodEaten",
       "type": "procedure",
-      "sortid": 584,
+      "sortid": 593,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_lycoris_jam_pot_food_eaten",
@@ -3700,7 +3700,7 @@
     {
       "name": "CypressToolsPickaxe",
       "type": "tool",
-      "sortid": 266,
+      "sortid": 271,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_pickaxe"
@@ -3708,7 +3708,7 @@
     {
       "name": "CypressToolsAxe",
       "type": "tool",
-      "sortid": 267,
+      "sortid": 272,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_axe"
@@ -3716,7 +3716,7 @@
     {
       "name": "CypressToolsSword",
       "type": "tool",
-      "sortid": 268,
+      "sortid": 273,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_sword"
@@ -3724,7 +3724,7 @@
     {
       "name": "CypressToolsShovel",
       "type": "tool",
-      "sortid": 269,
+      "sortid": 274,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_shovel"
@@ -3732,7 +3732,7 @@
     {
       "name": "CypressToolsHoe",
       "type": "tool",
-      "sortid": 270,
+      "sortid": 275,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_hoe"
@@ -3740,7 +3740,7 @@
     {
       "name": "CypressToolsPickaxeRecipe",
       "type": "recipe",
-      "sortid": 585,
+      "sortid": 594,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_pickaxe_recipe"
@@ -3748,7 +3748,7 @@
     {
       "name": "CypressToolsAxeRecipe",
       "type": "recipe",
-      "sortid": 586,
+      "sortid": 595,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_axe_recipe"
@@ -3756,7 +3756,7 @@
     {
       "name": "CypressToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 587,
+      "sortid": 596,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_sword_recipe"
@@ -3764,7 +3764,7 @@
     {
       "name": "CypressToolsShovelRecipe",
       "type": "recipe",
-      "sortid": 588,
+      "sortid": 597,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_shovel_recipe"
@@ -3772,7 +3772,7 @@
     {
       "name": "CypressToolsHoeRecipe",
       "type": "recipe",
-      "sortid": 589,
+      "sortid": 598,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_tools_hoe_recipe"
@@ -3780,7 +3780,7 @@
     {
       "name": "Antropy6",
       "type": "structure",
-      "sortid": 590,
+      "sortid": 599,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_6"
@@ -3788,7 +3788,7 @@
     {
       "name": "NeclaneWoodPickaxe",
       "type": "tool",
-      "sortid": 271,
+      "sortid": 276,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_pickaxe"
@@ -3796,7 +3796,7 @@
     {
       "name": "NeclaneWoodAxe",
       "type": "tool",
-      "sortid": 272,
+      "sortid": 277,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_axe"
@@ -3804,7 +3804,7 @@
     {
       "name": "NeclaneWoodSword",
       "type": "tool",
-      "sortid": 273,
+      "sortid": 278,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_sword"
@@ -3812,7 +3812,7 @@
     {
       "name": "NeclaneWoodShovel",
       "type": "tool",
-      "sortid": 274,
+      "sortid": 279,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_shovel"
@@ -3820,7 +3820,7 @@
     {
       "name": "NeclaneWoodHoe",
       "type": "tool",
-      "sortid": 275,
+      "sortid": 280,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_hoe"
@@ -3828,7 +3828,7 @@
     {
       "name": "NeclaneWoodPickaxeRecipe",
       "type": "recipe",
-      "sortid": 591,
+      "sortid": 600,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_pickaxe_recipe"
@@ -3836,7 +3836,7 @@
     {
       "name": "NeclaneWoodAxeRecipe",
       "type": "recipe",
-      "sortid": 592,
+      "sortid": 601,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_axe_recipe"
@@ -3844,7 +3844,7 @@
     {
       "name": "NeclaneWoodSwordRecipe",
       "type": "recipe",
-      "sortid": 593,
+      "sortid": 602,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_sword_recipe"
@@ -3852,7 +3852,7 @@
     {
       "name": "NeclaneWoodShovelRecipe",
       "type": "recipe",
-      "sortid": 594,
+      "sortid": 603,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_shovel_recipe"
@@ -3860,7 +3860,7 @@
     {
       "name": "NeclaneWoodHoeRecipe",
       "type": "recipe",
-      "sortid": 595,
+      "sortid": 604,
       "compiles": true,
       "locked_code": false,
       "registry_name": "neclane_wood_hoe_recipe"
@@ -3868,7 +3868,7 @@
     {
       "name": "StrippedPlamLogRecipe",
       "type": "recipe",
-      "sortid": 596,
+      "sortid": 605,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_plam_log_recipe"
@@ -3876,7 +3876,7 @@
     {
       "name": "StrippedCypressLogRecipe",
       "type": "recipe",
-      "sortid": 597,
+      "sortid": 606,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_cypress_log_recipe"
@@ -3884,7 +3884,7 @@
     {
       "name": "StrippedNeclaneLogRecipe",
       "type": "recipe",
-      "sortid": 598,
+      "sortid": 607,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_neclane_log_recipe"
@@ -3892,7 +3892,7 @@
     {
       "name": "ApafloritePendant",
       "type": "item",
-      "sortid": 291,
+      "sortid": 313,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_pendant"
@@ -3900,7 +3900,7 @@
     {
       "name": "PlayerApafloritePendantInInventory",
       "type": "procedure",
-      "sortid": 599,
+      "sortid": 608,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_apaflorite_pendant_in_inventory",
@@ -3916,7 +3916,7 @@
     {
       "name": "SouthstonePendant",
       "type": "item",
-      "sortid": 292,
+      "sortid": 314,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_pendant"
@@ -3924,7 +3924,7 @@
     {
       "name": "PlayerSouthstonePendantInInventory",
       "type": "procedure",
-      "sortid": 600,
+      "sortid": 609,
       "compiles": true,
       "locked_code": false,
       "registry_name": "player_southstone_pendant_in_inventory",
@@ -3956,7 +3956,7 @@
     {
       "name": "VinePlantDestroyedByPlayer",
       "type": "procedure",
-      "sortid": 601,
+      "sortid": 610,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vine_plant_destroyed_by_player",
@@ -3984,7 +3984,7 @@
     {
       "name": "GoldenGrapeFoodEaten",
       "type": "procedure",
-      "sortid": 602,
+      "sortid": 611,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_grape_food_eaten",
@@ -4000,7 +4000,7 @@
     {
       "name": "HolyFood",
       "type": "achievement",
-      "sortid": 603,
+      "sortid": 612,
       "compiles": true,
       "locked_code": false,
       "registry_name": "holy_food"
@@ -4008,7 +4008,7 @@
     {
       "name": "GoldenGrapeRecipe",
       "type": "recipe",
-      "sortid": 604,
+      "sortid": 613,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_grape_recipe"
@@ -4056,7 +4056,7 @@
     {
       "name": "GypsumBricksRecipe",
       "type": "recipe",
-      "sortid": 605,
+      "sortid": 614,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_bricks_recipe"
@@ -4064,7 +4064,7 @@
     {
       "name": "GypsumBricksFenceRecipe",
       "type": "recipe",
-      "sortid": 606,
+      "sortid": 615,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_bricks_fence_recipe"
@@ -4072,7 +4072,7 @@
     {
       "name": "GypsumBricksWallRecipe",
       "type": "recipe",
-      "sortid": 607,
+      "sortid": 616,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_bricks_wall_recipe"
@@ -4080,7 +4080,7 @@
     {
       "name": "GypsumBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 608,
+      "sortid": 617,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_bricks_stairs_recipe"
@@ -4088,7 +4088,7 @@
     {
       "name": "GypsumBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 609,
+      "sortid": 618,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gypsum_bricks_slab_recipe"
@@ -4096,7 +4096,7 @@
     {
       "name": "CoalRecipe",
       "type": "recipe",
-      "sortid": 610,
+      "sortid": 619,
       "compiles": true,
       "locked_code": false,
       "registry_name": "coal_recipe"
@@ -4104,7 +4104,7 @@
     {
       "name": "ExyrianeFishingRod",
       "type": "tool",
-      "sortid": 276,
+      "sortid": 281,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_fishing_rod"
@@ -4112,7 +4112,7 @@
     {
       "name": "ExyrianeFishingRodRecipe",
       "type": "recipe",
-      "sortid": 611,
+      "sortid": 620,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_fishing_rod_recipe"
@@ -4120,7 +4120,7 @@
     {
       "name": "ExyrianeShearsRecipe",
       "type": "recipe",
-      "sortid": 612,
+      "sortid": 621,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_shears_recipe"
@@ -4128,7 +4128,7 @@
     {
       "name": "ExyrianeFishingRodRecipe2",
       "type": "recipe",
-      "sortid": 613,
+      "sortid": 622,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_fishing_rod_recipe_2"
@@ -4144,7 +4144,7 @@
     {
       "name": "GoldenGrapeRecipe2",
       "type": "recipe",
-      "sortid": 614,
+      "sortid": 623,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_grape_recipe_2"
@@ -4152,7 +4152,7 @@
     {
       "name": "TorchRecipeExyriane",
       "type": "recipe",
-      "sortid": 615,
+      "sortid": 624,
       "compiles": true,
       "locked_code": false,
       "registry_name": "torch_recipe_exyriane"
@@ -4160,7 +4160,7 @@
     {
       "name": "Talisman1Recipe",
       "type": "recipe",
-      "sortid": 616,
+      "sortid": 625,
       "compiles": true,
       "locked_code": false,
       "registry_name": "talisman_1_recipe"
@@ -4168,7 +4168,7 @@
     {
       "name": "Talisman2Recipe",
       "type": "recipe",
-      "sortid": 617,
+      "sortid": 626,
       "compiles": true,
       "locked_code": false,
       "registry_name": "talisman_2_recipe"
@@ -4176,7 +4176,7 @@
     {
       "name": "SaddleRecipe",
       "type": "recipe",
-      "sortid": 618,
+      "sortid": 627,
       "compiles": true,
       "locked_code": false,
       "registry_name": "saddle_recipe"
@@ -4184,7 +4184,7 @@
     {
       "name": "RecordFragment",
       "type": "item",
-      "sortid": 294,
+      "sortid": 316,
       "compiles": true,
       "locked_code": false,
       "registry_name": "record_fragment"
@@ -4192,7 +4192,7 @@
     {
       "name": "RawHeifer",
       "type": "item",
-      "sortid": 295,
+      "sortid": 306,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_heifer"
@@ -4200,7 +4200,7 @@
     {
       "name": "CookedHeifer",
       "type": "item",
-      "sortid": 296,
+      "sortid": 307,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cooked_heifer"
@@ -4232,7 +4232,7 @@
     {
       "name": "PumpkinPieWithLycorisJam",
       "type": "item",
-      "sortid": 300,
+      "sortid": 308,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pumpkin_pie_with_lycoris_jam"
@@ -4240,7 +4240,7 @@
     {
       "name": "BloodOrange",
       "type": "item",
-      "sortid": 301,
+      "sortid": 309,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_orange"
@@ -4248,7 +4248,7 @@
     {
       "name": "Grape",
       "type": "item",
-      "sortid": 302,
+      "sortid": 310,
       "compiles": true,
       "locked_code": false,
       "registry_name": "grape"
@@ -4256,7 +4256,7 @@
     {
       "name": "GoldenGrape",
       "type": "item",
-      "sortid": 303,
+      "sortid": 311,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_grape"
@@ -4264,7 +4264,7 @@
     {
       "name": "NatureWandTrade",
       "type": "villagertrade",
-      "sortid": 619,
+      "sortid": 628,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nature_wand_trade"
@@ -4272,7 +4272,7 @@
     {
       "name": "IronToExyrianeTrade",
       "type": "villagertrade",
-      "sortid": 620,
+      "sortid": 629,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_to_exyriane_trade"
@@ -4280,7 +4280,7 @@
     {
       "name": "RockyFields",
       "type": "biome",
-      "sortid": 621,
+      "sortid": 630,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields"
@@ -4288,7 +4288,7 @@
     {
       "name": "RockyFieldsRock1",
       "type": "structure",
-      "sortid": 622,
+      "sortid": 631,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_1"
@@ -4296,7 +4296,7 @@
     {
       "name": "RockyFieldsRock2",
       "type": "structure",
-      "sortid": 623,
+      "sortid": 632,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_2"
@@ -4304,7 +4304,7 @@
     {
       "name": "RockyFieldsRock3",
       "type": "structure",
-      "sortid": 624,
+      "sortid": 633,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_3"
@@ -4312,7 +4312,7 @@
     {
       "name": "RockyFieldsRock4",
       "type": "structure",
-      "sortid": 625,
+      "sortid": 634,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_4"
@@ -4320,7 +4320,7 @@
     {
       "name": "RockyFieldsRock5",
       "type": "structure",
-      "sortid": 626,
+      "sortid": 635,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_5"
@@ -4328,7 +4328,7 @@
     {
       "name": "RockyFieldsRock6",
       "type": "structure",
-      "sortid": 627,
+      "sortid": 636,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_6"
@@ -4336,7 +4336,7 @@
     {
       "name": "RockyFieldsRock7",
       "type": "structure",
-      "sortid": 628,
+      "sortid": 637,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_7"
@@ -4344,7 +4344,7 @@
     {
       "name": "RockyFieldsRock8",
       "type": "structure",
-      "sortid": 629,
+      "sortid": 638,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_8"
@@ -4352,7 +4352,7 @@
     {
       "name": "RockyFieldsRock9",
       "type": "structure",
-      "sortid": 630,
+      "sortid": 639,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_rock_9"
@@ -4360,7 +4360,7 @@
     {
       "name": "RockyFieldsWater1",
       "type": "structure",
-      "sortid": 631,
+      "sortid": 640,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_1"
@@ -4368,7 +4368,7 @@
     {
       "name": "RockyFieldsWater2",
       "type": "structure",
-      "sortid": 632,
+      "sortid": 641,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_2"
@@ -4376,7 +4376,7 @@
     {
       "name": "RockyFieldsWater3",
       "type": "structure",
-      "sortid": 633,
+      "sortid": 642,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_3"
@@ -4384,7 +4384,7 @@
     {
       "name": "RockyFieldsWater4",
       "type": "structure",
-      "sortid": 634,
+      "sortid": 643,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_4"
@@ -4392,7 +4392,7 @@
     {
       "name": "RockyFieldsWater5",
       "type": "structure",
-      "sortid": 635,
+      "sortid": 644,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_5"
@@ -4400,7 +4400,7 @@
     {
       "name": "RockyFieldsWater6",
       "type": "structure",
-      "sortid": 636,
+      "sortid": 645,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_6"
@@ -4408,7 +4408,7 @@
     {
       "name": "RockyFieldsWater7",
       "type": "structure",
-      "sortid": 637,
+      "sortid": 646,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_7"
@@ -4416,7 +4416,7 @@
     {
       "name": "RockyFieldsWater8",
       "type": "structure",
-      "sortid": 638,
+      "sortid": 647,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_8"
@@ -4424,7 +4424,7 @@
     {
       "name": "RockyFieldsWater10",
       "type": "structure",
-      "sortid": 639,
+      "sortid": 648,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_10"
@@ -4432,7 +4432,7 @@
     {
       "name": "RockyFieldsWater9",
       "type": "structure",
-      "sortid": 640,
+      "sortid": 649,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_9"
@@ -4440,7 +4440,7 @@
     {
       "name": "RockyFieldsWater11",
       "type": "structure",
-      "sortid": 641,
+      "sortid": 650,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rocky_fields_water_11"
@@ -4448,7 +4448,7 @@
     {
       "name": "Menhir1",
       "type": "structure",
-      "sortid": 642,
+      "sortid": 651,
       "compiles": true,
       "locked_code": false,
       "registry_name": "menhir_1"
@@ -4456,7 +4456,7 @@
     {
       "name": "Menhir2",
       "type": "structure",
-      "sortid": 643,
+      "sortid": 652,
       "compiles": true,
       "locked_code": false,
       "registry_name": "menhir_2"
@@ -4464,7 +4464,7 @@
     {
       "name": "Pe4k",
       "type": "musicdisc",
-      "sortid": 289,
+      "sortid": 303,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pe_4k"
@@ -4488,7 +4488,7 @@
     {
       "name": "WetGrassLootTable",
       "type": "loottable",
-      "sortid": 644,
+      "sortid": 653,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wet_grass_loot_table"
@@ -4496,7 +4496,7 @@
     {
       "name": "SouthWheatLootTable",
       "type": "loottable",
-      "sortid": 645,
+      "sortid": 654,
       "compiles": true,
       "locked_code": false,
       "registry_name": "south_wheat_loot_table"
@@ -4504,7 +4504,7 @@
     {
       "name": "TallSouthWheatLootTable",
       "type": "loottable",
-      "sortid": 646,
+      "sortid": 655,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_south_wheat_loot_table"
@@ -4512,7 +4512,7 @@
     {
       "name": "TallWetGrassLootTable",
       "type": "loottable",
-      "sortid": 647,
+      "sortid": 656,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_wet_grass_loot_table"
@@ -4520,7 +4520,7 @@
     {
       "name": "TallWetFernLootTable",
       "type": "loottable",
-      "sortid": 648,
+      "sortid": 657,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_wet_fern_loot_table"
@@ -4528,7 +4528,7 @@
     {
       "name": "WetFernLootTable",
       "type": "loottable",
-      "sortid": 649,
+      "sortid": 658,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wet_fern_loot_table"
@@ -4536,7 +4536,7 @@
     {
       "name": "VineLootTable",
       "type": "loottable",
-      "sortid": 650,
+      "sortid": 659,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vine_loot_table"
@@ -4544,7 +4544,7 @@
     {
       "name": "VineWithoutLootTable",
       "type": "loottable",
-      "sortid": 651,
+      "sortid": 660,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vine_without_loot_table"
@@ -4552,7 +4552,7 @@
     {
       "name": "BloodOrangeBushLootTable",
       "type": "loottable",
-      "sortid": 652,
+      "sortid": 661,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blood_orange_bush_loot_table"
@@ -4560,7 +4560,7 @@
     {
       "name": "PalmLeavesLootTable",
       "type": "loottable",
-      "sortid": 653,
+      "sortid": 662,
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_leaves_loot_table"
@@ -4568,7 +4568,7 @@
     {
       "name": "AntropyLeavesLootTable",
       "type": "loottable",
-      "sortid": 654,
+      "sortid": 663,
       "compiles": true,
       "locked_code": false,
       "registry_name": "antropy_leaves_loot_table"
@@ -4576,7 +4576,7 @@
     {
       "name": "CypressLeavesLootTable",
       "type": "loottable",
-      "sortid": 655,
+      "sortid": 664,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cypress_leaves_loot_table"
@@ -4584,7 +4584,7 @@
     {
       "name": "FloweredNeclaneLeavesLootTable",
       "type": "loottable",
-      "sortid": 656,
+      "sortid": 665,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flowered_neclane_leaves_loot_table"
@@ -4592,7 +4592,7 @@
     {
       "name": "SaltBlockLootTable",
       "type": "loottable",
-      "sortid": 657,
+      "sortid": 666,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_block_loot_table"
@@ -4600,7 +4600,7 @@
     {
       "name": "TropicstoneLootTable",
       "type": "loottable",
-      "sortid": 658,
+      "sortid": 667,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tropicstone_loot_table"
@@ -4608,7 +4608,7 @@
     {
       "name": "ApafloriteOreLootTable",
       "type": "loottable",
-      "sortid": 659,
+      "sortid": 668,
       "compiles": true,
       "locked_code": false,
       "registry_name": "apaflorite_ore_loot_table"
@@ -4616,7 +4616,7 @@
     {
       "name": "ExyrianeOreLootTable",
       "type": "loottable",
-      "sortid": 660,
+      "sortid": 669,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_ore_loot_table"
@@ -4624,7 +4624,7 @@
     {
       "name": "Fungustairs",
       "type": "achievement",
-      "sortid": 661,
+      "sortid": 670,
       "compiles": true,
       "locked_code": false,
       "registry_name": "fungustairs"
@@ -4632,7 +4632,7 @@
     {
       "name": "WetGrassBlockLootTable",
       "type": "loottable",
-      "sortid": 662,
+      "sortid": 671,
       "compiles": true,
       "locked_code": false,
       "registry_name": "wet_grass_block_loot_table"
@@ -4640,7 +4640,7 @@
     {
       "name": "BiomeDecorationCypressTrunk1",
       "type": "structure",
-      "sortid": 663,
+      "sortid": 672,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_1"
@@ -4648,7 +4648,7 @@
     {
       "name": "BiomeDecorationCypressTrunk2",
       "type": "structure",
-      "sortid": 664,
+      "sortid": 673,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_2"
@@ -4656,7 +4656,7 @@
     {
       "name": "BiomeDecorationCypressTrunk3",
       "type": "structure",
-      "sortid": 665,
+      "sortid": 674,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_3"
@@ -4664,7 +4664,7 @@
     {
       "name": "BiomeDecorationCypressTrunk4",
       "type": "structure",
-      "sortid": 666,
+      "sortid": 675,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_4"
@@ -4672,7 +4672,7 @@
     {
       "name": "BiomeDecorationCypressTrunk5",
       "type": "structure",
-      "sortid": 667,
+      "sortid": 676,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_5"
@@ -4680,7 +4680,7 @@
     {
       "name": "BiomeDecorationCypressTrunk6",
       "type": "structure",
-      "sortid": 668,
+      "sortid": 677,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_6"
@@ -4688,7 +4688,7 @@
     {
       "name": "BiomeDecorationCypressTrunk7",
       "type": "structure",
-      "sortid": 669,
+      "sortid": 678,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_7"
@@ -4696,7 +4696,7 @@
     {
       "name": "BiomeDecorationCypressTrunk8",
       "type": "structure",
-      "sortid": 670,
+      "sortid": 679,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_8"
@@ -4704,7 +4704,7 @@
     {
       "name": "BiomeDecorationCypressTrunk9",
       "type": "structure",
-      "sortid": 671,
+      "sortid": 680,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_9"
@@ -4712,7 +4712,7 @@
     {
       "name": "BiomeDecorationCypressTrunk10",
       "type": "structure",
-      "sortid": 672,
+      "sortid": 681,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_10"
@@ -4720,7 +4720,7 @@
     {
       "name": "BiomeDecorationCypressTrunk11",
       "type": "structure",
-      "sortid": 673,
+      "sortid": 682,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_11"
@@ -4728,7 +4728,7 @@
     {
       "name": "BiomeDecorationCypressTrunk12",
       "type": "structure",
-      "sortid": 674,
+      "sortid": 683,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_decoration_cypress_trunk_12"
@@ -4744,7 +4744,7 @@
     {
       "name": "BushLeavesLootTable",
       "type": "loottable",
-      "sortid": 675,
+      "sortid": 684,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bush_leaves_loot_table"
@@ -4752,7 +4752,7 @@
     {
       "name": "Bush1",
       "type": "structure",
-      "sortid": 676,
+      "sortid": 685,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bush_1"
@@ -4760,7 +4760,7 @@
     {
       "name": "Bush2",
       "type": "structure",
-      "sortid": 677,
+      "sortid": 686,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bush_2"
@@ -4768,7 +4768,7 @@
     {
       "name": "BigBush1",
       "type": "structure",
-      "sortid": 678,
+      "sortid": 687,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_bush_1"
@@ -4776,7 +4776,7 @@
     {
       "name": "BigBush2",
       "type": "structure",
-      "sortid": 679,
+      "sortid": 688,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_bush_2"
@@ -4784,7 +4784,7 @@
     {
       "name": "BigBush3",
       "type": "structure",
-      "sortid": 680,
+      "sortid": 689,
       "compiles": true,
       "locked_code": false,
       "registry_name": "big_bush_3"
@@ -4792,7 +4792,7 @@
     {
       "name": "BugBush4",
       "type": "structure",
-      "sortid": 681,
+      "sortid": 690,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug_bush_4"
@@ -4800,7 +4800,7 @@
     {
       "name": "SticksToPlanks",
       "type": "recipe",
-      "sortid": 682,
+      "sortid": 691,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sticks_to_planks"
@@ -4846,7 +4846,7 @@
     {
       "name": "FaeliteIngot",
       "type": "item",
-      "sortid": 280,
+      "sortid": 284,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_ingot"
@@ -4854,7 +4854,7 @@
     {
       "name": "FaeliteChestplateRecipe",
       "type": "recipe",
-      "sortid": 683,
+      "sortid": 692,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_chestplate_recipe"
@@ -4862,7 +4862,7 @@
     {
       "name": "FaeliteHelmetRecipe",
       "type": "recipe",
-      "sortid": 684,
+      "sortid": 693,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_helmet_recipe"
@@ -4870,7 +4870,7 @@
     {
       "name": "FaeliteLeggingsRecipe",
       "type": "recipe",
-      "sortid": 685,
+      "sortid": 694,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_leggings_recipe"
@@ -4878,7 +4878,7 @@
     {
       "name": "FaeliteBootsRecipe",
       "type": "recipe",
-      "sortid": 686,
+      "sortid": 695,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_boots_recipe"
@@ -4894,7 +4894,7 @@
     {
       "name": "FaeliteBlockRecipe",
       "type": "recipe",
-      "sortid": 687,
+      "sortid": 696,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_block_recipe"
@@ -4902,7 +4902,7 @@
     {
       "name": "FaeliteBlockRecipeIngots",
       "type": "recipe",
-      "sortid": 688,
+      "sortid": 697,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_block_recipe_ingots"
@@ -4918,7 +4918,7 @@
     {
       "name": "SouthstoneCoalOreLootTable",
       "type": "loottable",
-      "sortid": 689,
+      "sortid": 698,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_coal_ore_loot_table"
@@ -4926,7 +4926,7 @@
     {
       "name": "SouthstoneEmeraldOreLootTable",
       "type": "loottable",
-      "sortid": 690,
+      "sortid": 699,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_emerald_ore_loot_table"
@@ -4934,7 +4934,7 @@
     {
       "name": "FaeliteOreSmelting",
       "type": "recipe",
-      "sortid": 691,
+      "sortid": 700,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_ore_smelting"
@@ -4942,7 +4942,7 @@
     {
       "name": "SouthstoneEmeraldOreSmelting",
       "type": "recipe",
-      "sortid": 692,
+      "sortid": 701,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_emerald_ore_smelting"
@@ -4950,7 +4950,7 @@
     {
       "name": "SouthstoneGoldOreSmelting",
       "type": "recipe",
-      "sortid": 693,
+      "sortid": 702,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_gold_ore_smelting"
@@ -4958,7 +4958,7 @@
     {
       "name": "SouthstoneCoalOreSmelting",
       "type": "recipe",
-      "sortid": 694,
+      "sortid": 703,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_coal_ore_smelting"
@@ -4966,7 +4966,7 @@
     {
       "name": "BlastFurnaceArcheonRecipe",
       "type": "recipe",
-      "sortid": 695,
+      "sortid": 704,
       "compiles": true,
       "locked_code": false,
       "registry_name": "blast_furnace_archeon_recipe"
@@ -4974,7 +4974,7 @@
     {
       "name": "SouthstoneEmeraldOreBlasting",
       "type": "recipe",
-      "sortid": 696,
+      "sortid": 705,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_emerald_ore_blasting"
@@ -4982,7 +4982,7 @@
     {
       "name": "SouthstoneGoldOreBlasting",
       "type": "recipe",
-      "sortid": 697,
+      "sortid": 706,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_gold_ore_blasting"
@@ -4990,7 +4990,7 @@
     {
       "name": "SouthstoneCoalOreBlasting",
       "type": "recipe",
-      "sortid": 698,
+      "sortid": 707,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_coal_ore_blasting"
@@ -4998,7 +4998,7 @@
     {
       "name": "HerbicideItemIsDroppedByPlayer",
       "type": "procedure",
-      "sortid": 699,
+      "sortid": 708,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herbicide_item_is_dropped_by_player",
@@ -5026,7 +5026,7 @@
     {
       "name": "Herbicide",
       "type": "item",
-      "sortid": 304,
+      "sortid": 317,
       "compiles": true,
       "locked_code": false,
       "registry_name": "herbicide"
@@ -5034,7 +5034,7 @@
     {
       "name": "PlantFiber",
       "type": "item",
-      "sortid": 278,
+      "sortid": 286,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plant_fiber"
@@ -5042,7 +5042,7 @@
     {
       "name": "HollowCypressLogLootTable",
       "type": "loottable",
-      "sortid": 700,
+      "sortid": 709,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hollow_cypress_log_loot_table"
@@ -5050,7 +5050,7 @@
     {
       "name": "MossBall",
       "type": "item",
-      "sortid": 305,
+      "sortid": 287,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moss_ball"
@@ -5058,7 +5058,7 @@
     {
       "name": "PlantFiberRecipe",
       "type": "recipe",
-      "sortid": 701,
+      "sortid": 710,
       "compiles": true,
       "locked_code": false,
       "registry_name": "plant_fiber_recipe"
@@ -5090,7 +5090,7 @@
     {
       "name": "SandySoilLootTable",
       "type": "loottable",
-      "sortid": 702,
+      "sortid": 711,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sandy_soil_loot_table"
@@ -5098,7 +5098,7 @@
     {
       "name": "DustLootTable",
       "type": "loottable",
-      "sortid": 703,
+      "sortid": 712,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dust_loot_table"
@@ -5106,7 +5106,7 @@
     {
       "name": "GoldenSandLootTable",
       "type": "loottable",
-      "sortid": 704,
+      "sortid": 713,
       "compiles": true,
       "locked_code": false,
       "registry_name": "golden_sand_loot_table"
@@ -5114,7 +5114,7 @@
     {
       "name": "Clothes",
       "type": "armor",
-      "sortid": 306,
+      "sortid": 312,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clothes",
@@ -5128,7 +5128,7 @@
     {
       "name": "PinkSweatshirtRecipe",
       "type": "recipe",
-      "sortid": 705,
+      "sortid": 714,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_sweatshirt_recipe"
@@ -5136,7 +5136,7 @@
     {
       "name": "BeigeTrousersRecipe",
       "type": "recipe",
-      "sortid": 706,
+      "sortid": 715,
       "compiles": true,
       "locked_code": false,
       "registry_name": "beige_trousers_recipe"
@@ -5144,7 +5144,7 @@
     {
       "name": "OrangeAndOrange",
       "type": "achievement",
-      "sortid": 707,
+      "sortid": 716,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_and_orange"
@@ -5152,7 +5152,7 @@
     {
       "name": "TheSuperShinyOne",
       "type": "achievement",
-      "sortid": 708,
+      "sortid": 717,
       "compiles": true,
       "locked_code": false,
       "registry_name": "the_super_shiny_one"
@@ -5160,7 +5160,7 @@
     {
       "name": "DontUseIt",
       "type": "achievement",
-      "sortid": 709,
+      "sortid": 718,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dont_use_it"
@@ -5168,7 +5168,7 @@
     {
       "name": "AdibStyle",
       "type": "achievement",
-      "sortid": 710,
+      "sortid": 719,
       "compiles": true,
       "locked_code": false,
       "registry_name": "adib_style"
@@ -5176,7 +5176,7 @@
     {
       "name": "PeakMusicDiscRecipe",
       "type": "recipe",
-      "sortid": 711,
+      "sortid": 720,
       "compiles": true,
       "locked_code": false,
       "registry_name": "peak_music_disc_recipe"
@@ -5184,7 +5184,7 @@
     {
       "name": "Planks1",
       "type": "itemextension",
-      "sortid": 712,
+      "sortid": 721,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks_1"
@@ -5192,7 +5192,7 @@
     {
       "name": "Planks2",
       "type": "itemextension",
-      "sortid": 713,
+      "sortid": 722,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks_2"
@@ -5200,7 +5200,7 @@
     {
       "name": "Planks3",
       "type": "itemextension",
-      "sortid": 714,
+      "sortid": 723,
       "compiles": true,
       "locked_code": false,
       "registry_name": "planks_3"
@@ -5208,7 +5208,7 @@
     {
       "name": "Log1",
       "type": "itemextension",
-      "sortid": 715,
+      "sortid": 724,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_1"
@@ -5216,7 +5216,7 @@
     {
       "name": "Log2",
       "type": "itemextension",
-      "sortid": 716,
+      "sortid": 725,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_2"
@@ -5224,7 +5224,7 @@
     {
       "name": "Log3",
       "type": "itemextension",
-      "sortid": 717,
+      "sortid": 726,
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_3"
@@ -5232,7 +5232,7 @@
     {
       "name": "ManuscriptBurn",
       "type": "itemextension",
-      "sortid": 718,
+      "sortid": 727,
       "compiles": true,
       "locked_code": false,
       "registry_name": "manuscript_burn"
@@ -5240,7 +5240,7 @@
     {
       "name": "ExyrianeBurn",
       "type": "itemextension",
-      "sortid": 719,
+      "sortid": 728,
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_burn"
@@ -5248,7 +5248,7 @@
     {
       "name": "Shell1",
       "type": "itemextension",
-      "sortid": 720,
+      "sortid": 729,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shell_1"
@@ -5256,7 +5256,7 @@
     {
       "name": "Shell2",
       "type": "itemextension",
-      "sortid": 721,
+      "sortid": 730,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shell_2"
@@ -5264,7 +5264,7 @@
     {
       "name": "Shell3",
       "type": "itemextension",
-      "sortid": 722,
+      "sortid": 731,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shell_3"
@@ -5272,7 +5272,7 @@
     {
       "name": "Shell4",
       "type": "itemextension",
-      "sortid": 723,
+      "sortid": 732,
       "compiles": true,
       "locked_code": false,
       "registry_name": "shell_4"
@@ -5296,7 +5296,7 @@
     {
       "name": "TallOrgandeaneToPurple",
       "type": "recipe",
-      "sortid": 724,
+      "sortid": 733,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tall_organdeane_to_purple"
@@ -5304,7 +5304,7 @@
     {
       "name": "OrchidWitheredToGray",
       "type": "recipe",
-      "sortid": 725,
+      "sortid": 734,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orchid_withered_to_gray"
@@ -5344,7 +5344,7 @@
     {
       "name": "LootUrnLootTable",
       "type": "loottable",
-      "sortid": 726,
+      "sortid": 735,
       "compiles": true,
       "locked_code": false,
       "registry_name": "loot_urn_loot_table"
@@ -5352,7 +5352,7 @@
     {
       "name": "SaltHeiferMeat",
       "type": "recipe",
-      "sortid": 727,
+      "sortid": 736,
       "compiles": true,
       "locked_code": false,
       "registry_name": "salt_heifer_meat"
@@ -5392,7 +5392,7 @@
     {
       "name": "MossyArtemniteBricksRecipe",
       "type": "recipe",
-      "sortid": 728,
+      "sortid": 737,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_recipe"
@@ -5400,7 +5400,7 @@
     {
       "name": "MossyArtemniteBricksRecipe2",
       "type": "recipe",
-      "sortid": 729,
+      "sortid": 738,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_recipe_2"
@@ -5408,7 +5408,7 @@
     {
       "name": "MossyArtemniteBricksRecipe3",
       "type": "recipe",
-      "sortid": 730,
+      "sortid": 739,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_recipe_3"
@@ -5416,7 +5416,7 @@
     {
       "name": "MossyArtemniteBricksStairsRecipe",
       "type": "recipe",
-      "sortid": 731,
+      "sortid": 740,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_stairs_recipe"
@@ -5424,7 +5424,7 @@
     {
       "name": "MossyArtemniteBricksSlabRecipe",
       "type": "recipe",
-      "sortid": 732,
+      "sortid": 741,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_slab_recipe"
@@ -5432,7 +5432,7 @@
     {
       "name": "MossyArtemniteBricksWallRecipe",
       "type": "recipe",
-      "sortid": 733,
+      "sortid": 742,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mossy_artemnite_bricks_wall_recipe"
@@ -5440,7 +5440,7 @@
     {
       "name": "CreepyMusicDiscRecipe",
       "type": "recipe",
-      "sortid": 734,
+      "sortid": 743,
       "compiles": true,
       "locked_code": false,
       "registry_name": "creepy_music_disc_recipe"
@@ -5448,7 +5448,7 @@
     {
       "name": "FaeliteOreBlasting",
       "type": "recipe",
-      "sortid": 735,
+      "sortid": 744,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_ore_blasting"
@@ -5456,7 +5456,7 @@
     {
       "name": "LeatherRecipe",
       "type": "recipe",
-      "sortid": 736,
+      "sortid": 745,
       "compiles": true,
       "locked_code": false,
       "registry_name": "leather_recipe"
@@ -5464,7 +5464,7 @@
     {
       "name": "LeadRecipe",
       "type": "recipe",
-      "sortid": 737,
+      "sortid": 746,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lead_recipe"
@@ -5472,7 +5472,7 @@
     {
       "name": "IronNuggetRecipe",
       "type": "recipe",
-      "sortid": 738,
+      "sortid": 747,
       "compiles": true,
       "locked_code": false,
       "registry_name": "iron_nugget_recipe"
@@ -5480,7 +5480,7 @@
     {
       "name": "SignRecipeOak",
       "type": "recipe",
-      "sortid": 739,
+      "sortid": 748,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sign_recipe_oak"
@@ -5488,7 +5488,7 @@
     {
       "name": "RecipeSpruceSign",
       "type": "recipe",
-      "sortid": 740,
+      "sortid": 749,
       "compiles": true,
       "locked_code": false,
       "registry_name": "recipe_spruce_sign"
@@ -5496,7 +5496,7 @@
     {
       "name": "AcaciaSignRecipe",
       "type": "recipe",
-      "sortid": 741,
+      "sortid": 750,
       "compiles": true,
       "locked_code": false,
       "registry_name": "acacia_sign_recipe"
@@ -5600,7 +5600,7 @@
     {
       "name": "RawAketiteStairsRecipe",
       "type": "recipe",
-      "sortid": 742,
+      "sortid": 751,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aketite_stairs_recipe"
@@ -5608,7 +5608,7 @@
     {
       "name": "RawAketiteSlabRecipe",
       "type": "recipe",
-      "sortid": 743,
+      "sortid": 752,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aketite_slab_recipe"
@@ -5616,7 +5616,7 @@
     {
       "name": "RawAketiteWallRecipe",
       "type": "recipe",
-      "sortid": 744,
+      "sortid": 753,
       "compiles": true,
       "locked_code": false,
       "registry_name": "raw_aketite_wall_recipe"
@@ -5624,7 +5624,7 @@
     {
       "name": "PinkLycorisPetal",
       "type": "item",
-      "sortid": 307,
+      "sortid": 302,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_lycoris_petal"
@@ -5632,7 +5632,7 @@
     {
       "name": "RedLycorisPetal",
       "type": "item",
-      "sortid": 308,
+      "sortid": 301,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_lycoris_petal"
@@ -5640,7 +5640,7 @@
     {
       "name": "OrangeLycorisPetal",
       "type": "item",
-      "sortid": 309,
+      "sortid": 300,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_lycoris_petal"
@@ -5648,7 +5648,7 @@
     {
       "name": "PinkLycorisPetalRecipe",
       "type": "recipe",
-      "sortid": 745,
+      "sortid": 754,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pink_lycoris_petal_recipe"
@@ -5656,7 +5656,7 @@
     {
       "name": "RedLycorisPetalRecipe",
       "type": "recipe",
-      "sortid": 746,
+      "sortid": 755,
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_lycoris_petal_recipe"
@@ -5664,7 +5664,7 @@
     {
       "name": "OrangeLycorisPetalRecipe",
       "type": "recipe",
-      "sortid": 747,
+      "sortid": 756,
       "compiles": true,
       "locked_code": false,
       "registry_name": "orange_lycoris_petal_recipe"
@@ -5768,7 +5768,7 @@
     {
       "name": "DuneSandGlassRecipe",
       "type": "recipe",
-      "sortid": 748,
+      "sortid": 757,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_recipe"
@@ -5776,7 +5776,7 @@
     {
       "name": "DuneSandGlassTilesRecipe",
       "type": "recipe",
-      "sortid": 749,
+      "sortid": 758,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_recipe"
@@ -5784,7 +5784,7 @@
     {
       "name": "DuneSandGlassTilesTopLeftRecipe1",
       "type": "recipe",
-      "sortid": 750,
+      "sortid": 759,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_top_left_recipe_1"
@@ -5792,7 +5792,7 @@
     {
       "name": "DuneSandGlassTilesTopRightRecipe",
       "type": "recipe",
-      "sortid": 751,
+      "sortid": 760,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_top_right_recipe"
@@ -5800,7 +5800,7 @@
     {
       "name": "DuneSandGlassTilesTopRightRecipe2",
       "type": "recipe",
-      "sortid": 752,
+      "sortid": 761,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_top_right_recipe_2"
@@ -5808,7 +5808,7 @@
     {
       "name": "DuneSandGlassTilesTopLeftRecipe2",
       "type": "recipe",
-      "sortid": 753,
+      "sortid": 762,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_top_left_recipe_2"
@@ -5816,7 +5816,7 @@
     {
       "name": "DuneSandGlassTilesBottomLeftRecipe1",
       "type": "recipe",
-      "sortid": 754,
+      "sortid": 763,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_bottom_left_recipe_1"
@@ -5824,7 +5824,7 @@
     {
       "name": "DuneSandGlassTilesBottomRightRecipe1",
       "type": "recipe",
-      "sortid": 755,
+      "sortid": 764,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_bottom_right_recipe_1"
@@ -5832,7 +5832,7 @@
     {
       "name": "DuneSandGlassTilesBottomLeftRecipe2",
       "type": "recipe",
-      "sortid": 756,
+      "sortid": 765,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_bottom_left_recipe_2"
@@ -5840,7 +5840,7 @@
     {
       "name": "DuneSandGlassTilesBottomRightRecipe2",
       "type": "recipe",
-      "sortid": 757,
+      "sortid": 766,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_tiles_bottom_right_recipe_2"
@@ -5848,7 +5848,7 @@
     {
       "name": "DuneSandGlassPaneRecipe",
       "type": "recipe",
-      "sortid": 758,
+      "sortid": 767,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_recipe"
@@ -5856,7 +5856,7 @@
     {
       "name": "DuneSandGlassPaneTopLeftRecipe1",
       "type": "recipe",
-      "sortid": 759,
+      "sortid": 768,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_top_left_recipe_1"
@@ -5864,7 +5864,7 @@
     {
       "name": "DuneSandGlassPaneTopRightRecipe1",
       "type": "recipe",
-      "sortid": 760,
+      "sortid": 769,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_top_right_recipe_1"
@@ -5872,7 +5872,7 @@
     {
       "name": "DuneSandGlassPaneTilesRecipe",
       "type": "recipe",
-      "sortid": 761,
+      "sortid": 770,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_tiles_recipe"
@@ -5880,7 +5880,7 @@
     {
       "name": "DuneSandGlassPaneTopLeftRecipe2",
       "type": "recipe",
-      "sortid": 762,
+      "sortid": 771,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_top_left_recipe_2"
@@ -5888,7 +5888,7 @@
     {
       "name": "DuneSandGlassPaneTopRightRecipe2",
       "type": "recipe",
-      "sortid": 763,
+      "sortid": 772,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_top_right_recipe_2"
@@ -5896,7 +5896,7 @@
     {
       "name": "DuneSandGlassPaneBottomLeftRecipe1",
       "type": "recipe",
-      "sortid": 764,
+      "sortid": 773,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_bottom_left_recipe_1"
@@ -5904,7 +5904,7 @@
     {
       "name": "DuneSandGlassPaneBottomRightRecipe1",
       "type": "recipe",
-      "sortid": 765,
+      "sortid": 774,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_bottom_right_recipe_1"
@@ -5912,7 +5912,7 @@
     {
       "name": "DuneSandGlassPaneBottomLeftRecipe2",
       "type": "recipe",
-      "sortid": 766,
+      "sortid": 775,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_bottom_left_recipe_2"
@@ -5920,7 +5920,7 @@
     {
       "name": "DuneSandGlassPaneBottomRightRecipe2",
       "type": "recipe",
-      "sortid": 767,
+      "sortid": 776,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_pane_bottom_right_recipe_2"
@@ -5968,7 +5968,7 @@
     {
       "name": "GildedCobbledSouthstoneStairsRecipe",
       "type": "recipe",
-      "sortid": 768,
+      "sortid": 777,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gilded_cobbled_southstone_stairs_recipe"
@@ -5976,7 +5976,7 @@
     {
       "name": "GildedCobbledSouthstoneSlabRecipe",
       "type": "recipe",
-      "sortid": 769,
+      "sortid": 778,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gilded_cobbled_southstone_slab_recipe"
@@ -5984,7 +5984,7 @@
     {
       "name": "GildedCobbledSouthstoneWallRecipe",
       "type": "recipe",
-      "sortid": 770,
+      "sortid": 779,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gilded_cobbled_southstone_wall_recipe"
@@ -5992,7 +5992,7 @@
     {
       "name": "SouthstoneColumnRecipe",
       "type": "recipe",
-      "sortid": 771,
+      "sortid": 780,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_column_recipe"
@@ -6000,7 +6000,7 @@
     {
       "name": "SouthstonePillarTopRecipe",
       "type": "recipe",
-      "sortid": 772,
+      "sortid": 781,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_pillar_top_recipe"
@@ -6008,7 +6008,7 @@
     {
       "name": "SouthstonePillarBottomRecipe",
       "type": "recipe",
-      "sortid": 773,
+      "sortid": 782,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_pillar_bottom_recipe"
@@ -6016,7 +6016,7 @@
     {
       "name": "SouthstonePillarRecipe",
       "type": "recipe",
-      "sortid": 774,
+      "sortid": 783,
       "compiles": true,
       "locked_code": false,
       "registry_name": "southstone_pillar_recipe"
@@ -6024,7 +6024,7 @@
     {
       "name": "DuneSandGlassToGlassBottle",
       "type": "recipe",
-      "sortid": 775,
+      "sortid": 784,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dune_sand_glass_to_glass_bottle"
@@ -6032,7 +6032,7 @@
     {
       "name": "JamPotRecipe2",
       "type": "recipe",
-      "sortid": 776,
+      "sortid": 785,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jam_pot_recipe_2"
@@ -6040,7 +6040,7 @@
     {
       "name": "BucketRecipe",
       "type": "recipe",
-      "sortid": 777,
+      "sortid": 786,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bucket_recipe"
@@ -6048,7 +6048,7 @@
     {
       "name": "HiddenInTheDark",
       "type": "achievement",
-      "sortid": 778,
+      "sortid": 787,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hidden_in_the_dark"
@@ -6056,7 +6056,7 @@
     {
       "name": "StoneConfection",
       "type": "achievement",
-      "sortid": 779,
+      "sortid": 788,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stone_confection"
@@ -6064,7 +6064,7 @@
     {
       "name": "GlassConfection",
       "type": "achievement",
-      "sortid": 780,
+      "sortid": 789,
       "compiles": true,
       "locked_code": false,
       "registry_name": "glass_confection"
@@ -6072,7 +6072,7 @@
     {
       "name": "FlowerAdvancementOrchid",
       "type": "achievement",
-      "sortid": 781,
+      "sortid": 790,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_orchid"
@@ -6080,7 +6080,7 @@
     {
       "name": "FlowerAdvancementAerolia",
       "type": "achievement",
-      "sortid": 782,
+      "sortid": 791,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_aerolia"
@@ -6088,7 +6088,7 @@
     {
       "name": "FlowerAdvancementRoseypia",
       "type": "achievement",
-      "sortid": 783,
+      "sortid": 792,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_roseypia"
@@ -6096,7 +6096,7 @@
     {
       "name": "FlowerAdvancementCokiplant",
       "type": "achievement",
-      "sortid": 784,
+      "sortid": 793,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_cokiplant"
@@ -6104,7 +6104,7 @@
     {
       "name": "FlowerAdvancementAstedibes",
       "type": "achievement",
-      "sortid": 785,
+      "sortid": 794,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_astedibes"
@@ -6112,7 +6112,7 @@
     {
       "name": "FlowerAdvancementPinkLycoris",
       "type": "achievement",
-      "sortid": 786,
+      "sortid": 795,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_pink_lycoris"
@@ -6120,7 +6120,7 @@
     {
       "name": "FlowerAdvancementRedLycoris",
       "type": "achievement",
-      "sortid": 787,
+      "sortid": 796,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_red_lycoris"
@@ -6128,7 +6128,7 @@
     {
       "name": "FlowerAdvancementOrangeLycoris",
       "type": "achievement",
-      "sortid": 788,
+      "sortid": 797,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_orange_lycoris"
@@ -6136,7 +6136,7 @@
     {
       "name": "FlowerAdvancementPinkLycorisPetal",
       "type": "achievement",
-      "sortid": 789,
+      "sortid": 798,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_pink_lycoris_petal"
@@ -6144,7 +6144,7 @@
     {
       "name": "FlowerAdvancementRedLycorisPetal",
       "type": "achievement",
-      "sortid": 790,
+      "sortid": 799,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_red_lycoris_petal"
@@ -6152,7 +6152,7 @@
     {
       "name": "FlowerAdvancementOrangeLycorisPetal",
       "type": "achievement",
-      "sortid": 791,
+      "sortid": 800,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_orange_lycoris_petal"
@@ -6160,7 +6160,7 @@
     {
       "name": "FlowerAdvancementAscendia",
       "type": "achievement",
-      "sortid": 792,
+      "sortid": 801,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_ascendia"
@@ -6168,7 +6168,7 @@
     {
       "name": "FlowerAdvancementOea",
       "type": "achievement",
-      "sortid": 793,
+      "sortid": 802,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_oea"
@@ -6176,7 +6176,7 @@
     {
       "name": "FlowerAdvancementIopea",
       "type": "achievement",
-      "sortid": 794,
+      "sortid": 803,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_iopea"
@@ -6184,7 +6184,7 @@
     {
       "name": "FlowerAdvancementTallIopea",
       "type": "achievement",
-      "sortid": 795,
+      "sortid": 804,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_tall_iopea"
@@ -6192,7 +6192,7 @@
     {
       "name": "FlowerAdvancementOrgandeane",
       "type": "achievement",
-      "sortid": 796,
+      "sortid": 805,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_organdeane"
@@ -6200,7 +6200,7 @@
     {
       "name": "FlowerAdvancementTallOrgandeane",
       "type": "achievement",
-      "sortid": 797,
+      "sortid": 806,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_tall_organdeane"
@@ -6208,7 +6208,7 @@
     {
       "name": "FlowerAdvancementSepticeolia",
       "type": "achievement",
-      "sortid": 798,
+      "sortid": 807,
       "compiles": true,
       "locked_code": false,
       "registry_name": "flower_advancement_septiceolia"
@@ -6336,7 +6336,7 @@
     {
       "name": "VuxanciaLeavesHangingMiddleBlockValidPlacementCondition",
       "type": "procedure",
-      "sortid": 799,
+      "sortid": 808,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_leaves_hanging_middle_block_valid_placement_condition",
@@ -6436,7 +6436,7 @@
     {
       "name": "VuxanciaPlanksRecipe",
       "type": "recipe",
-      "sortid": 800,
+      "sortid": 809,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_planks_recipe"
@@ -6444,7 +6444,7 @@
     {
       "name": "VuxanciaWoodRecipe",
       "type": "recipe",
-      "sortid": 801,
+      "sortid": 810,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_wood_recipe"
@@ -6452,7 +6452,7 @@
     {
       "name": "VuxanciaWoodRecipe2",
       "type": "recipe",
-      "sortid": 802,
+      "sortid": 811,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_wood_recipe_2"
@@ -6460,7 +6460,7 @@
     {
       "name": "VuxanciaStairsRecipe",
       "type": "recipe",
-      "sortid": 803,
+      "sortid": 812,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_stairs_recipe"
@@ -6468,7 +6468,7 @@
     {
       "name": "VuxanciaSlabRecipe",
       "type": "recipe",
-      "sortid": 804,
+      "sortid": 813,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_slab_recipe"
@@ -6476,7 +6476,7 @@
     {
       "name": "VuxanciaFenceRecipe",
       "type": "recipe",
-      "sortid": 805,
+      "sortid": 814,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_fence_recipe"
@@ -6484,7 +6484,7 @@
     {
       "name": "VuxanciaFenceGateRecipe",
       "type": "recipe",
-      "sortid": 806,
+      "sortid": 815,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_fence_gate_recipe"
@@ -6492,7 +6492,7 @@
     {
       "name": "VuxanciaPressurePlateRecipe",
       "type": "recipe",
-      "sortid": 807,
+      "sortid": 816,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_pressure_plate_recipe"
@@ -6500,7 +6500,7 @@
     {
       "name": "VuxanciaButtonRecipe",
       "type": "recipe",
-      "sortid": 808,
+      "sortid": 817,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_button_recipe"
@@ -6524,7 +6524,7 @@
     {
       "name": "VuxanciaDoorRecipe",
       "type": "recipe",
-      "sortid": 809,
+      "sortid": 818,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_door_recipe"
@@ -6532,7 +6532,7 @@
     {
       "name": "VuxanciaTrapdoorRecipe",
       "type": "recipe",
-      "sortid": 810,
+      "sortid": 819,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_trapdoor_recipe"
@@ -6556,7 +6556,7 @@
     {
       "name": "StrippedVuxanciaLogRecipe1",
       "type": "recipe",
-      "sortid": 811,
+      "sortid": 820,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_vuxancia_log_recipe_1"
@@ -6564,7 +6564,7 @@
     {
       "name": "StrippedVuxanciaWoodRecipe2",
       "type": "recipe",
-      "sortid": 812,
+      "sortid": 821,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_vuxancia_wood_recipe_2"
@@ -6572,7 +6572,7 @@
     {
       "name": "StrippedVuxanciaWoodRecipe3",
       "type": "recipe",
-      "sortid": 813,
+      "sortid": 822,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_vuxancia_wood_recipe_3"
@@ -6580,7 +6580,7 @@
     {
       "name": "StrippedVuxanciaWoodRecipe4",
       "type": "recipe",
-      "sortid": 814,
+      "sortid": 823,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_vuxancia_wood_recipe_4"
@@ -6628,23 +6628,15 @@
     {
       "name": "VuxanciaForest",
       "type": "biome",
-      "sortid": 815,
+      "sortid": 824,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_forest"
     },
     {
-      "name": "VuxanciaTreeOrian1",
-      "type": "structure",
-      "sortid": 816,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_orian_1"
-    },
-    {
       "name": "VuxanciaForestMagical",
       "type": "biome",
-      "sortid": 817,
+      "sortid": 825,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_forest_magical"
@@ -6652,95 +6644,23 @@
     {
       "name": "VuxanciaTreeOrian2",
       "type": "structure",
-      "sortid": 818,
+      "sortid": 826,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_orian_2"
     },
     {
-      "name": "VuxanciaTreeOrian3",
-      "type": "structure",
-      "sortid": 819,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_orian_3"
-    },
-    {
       "name": "VuxanciaTreeOrian4",
       "type": "structure",
-      "sortid": 820,
+      "sortid": 827,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_orian_4"
     },
     {
-      "name": "VuxanciaTreeOrian5",
-      "type": "structure",
-      "sortid": 821,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_orian_5"
-    },
-    {
-      "name": "VuxanciaTreeOrian6",
-      "type": "structure",
-      "sortid": 822,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_orian_6"
-    },
-    {
-      "name": "VuxanciaTreeZial1",
-      "type": "structure",
-      "sortid": 823,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_1"
-    },
-    {
-      "name": "VuxanciaTreeZial2",
-      "type": "structure",
-      "sortid": 824,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_2"
-    },
-    {
-      "name": "VuxanciaTreeZial3",
-      "type": "structure",
-      "sortid": 825,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_3"
-    },
-    {
-      "name": "VuxanciaTreeZial4",
-      "type": "structure",
-      "sortid": 826,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_4"
-    },
-    {
-      "name": "VuxanciaTreeZial5",
-      "type": "structure",
-      "sortid": 827,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_5"
-    },
-    {
-      "name": "VuxanciaTreeZial6",
-      "type": "structure",
-      "sortid": 828,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_zial_6"
-    },
-    {
       "name": "VuxanciaTreeVale1",
       "type": "structure",
-      "sortid": 829,
+      "sortid": 828,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_vale_1"
@@ -6748,55 +6668,23 @@
     {
       "name": "VuxanciaTreeVale2",
       "type": "structure",
-      "sortid": 830,
+      "sortid": 829,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_vale_2"
     },
     {
-      "name": "VuxanciaTreeVale3",
-      "type": "structure",
-      "sortid": 831,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_vale_3"
-    },
-    {
-      "name": "VuxanciaTreeVale4",
-      "type": "structure",
-      "sortid": 832,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_vale_4"
-    },
-    {
       "name": "VuxanciaTreeVale5",
       "type": "structure",
-      "sortid": 833,
+      "sortid": 830,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_vale_5"
     },
     {
-      "name": "VuxanciaTreeVale6",
-      "type": "structure",
-      "sortid": 834,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_vale_6"
-    },
-    {
-      "name": "VuxanciaTreeStreian1",
-      "type": "structure",
-      "sortid": 835,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_streian_1"
-    },
-    {
       "name": "VuxanciaTreeStreian2",
       "type": "structure",
-      "sortid": 836,
+      "sortid": 831,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_streian_2"
@@ -6804,39 +6692,15 @@
     {
       "name": "VuxanciaTreeStreian3",
       "type": "structure",
-      "sortid": 837,
+      "sortid": 832,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_streian_3"
     },
     {
-      "name": "VuxanciaTreeStreian4",
-      "type": "structure",
-      "sortid": 838,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_streian_4"
-    },
-    {
-      "name": "VuxanciaTreeStreian5",
-      "type": "structure",
-      "sortid": 839,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_streian_5"
-    },
-    {
-      "name": "VuxanciaTreeStreian6",
-      "type": "structure",
-      "sortid": 840,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_streian_6"
-    },
-    {
       "name": "VuxanciaTreePnevantial1",
       "type": "structure",
-      "sortid": 841,
+      "sortid": 833,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_1"
@@ -6844,7 +6708,7 @@
     {
       "name": "VuxanciaTreePnevantial2",
       "type": "structure",
-      "sortid": 842,
+      "sortid": 834,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_2"
@@ -6852,7 +6716,7 @@
     {
       "name": "VuxanciaTreePnevantial3",
       "type": "structure",
-      "sortid": 843,
+      "sortid": 835,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_3"
@@ -6860,7 +6724,7 @@
     {
       "name": "VuxanciaTreePnevantial4",
       "type": "structure",
-      "sortid": 844,
+      "sortid": 836,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_4"
@@ -6868,7 +6732,7 @@
     {
       "name": "VuxanciaTreePnevantial5",
       "type": "structure",
-      "sortid": 845,
+      "sortid": 837,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_5"
@@ -6876,7 +6740,7 @@
     {
       "name": "VuxanciaTreePnevantial6",
       "type": "structure",
-      "sortid": 846,
+      "sortid": 838,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_pnevantial_6"
@@ -6884,7 +6748,7 @@
     {
       "name": "Column",
       "type": "structure",
-      "sortid": 847,
+      "sortid": 839,
       "compiles": true,
       "locked_code": false,
       "registry_name": "column"
@@ -6892,7 +6756,7 @@
     {
       "name": "Column2",
       "type": "structure",
-      "sortid": 848,
+      "sortid": 840,
       "compiles": true,
       "locked_code": false,
       "registry_name": "column_2"
@@ -6900,7 +6764,7 @@
     {
       "name": "Column3",
       "type": "structure",
-      "sortid": 849,
+      "sortid": 841,
       "compiles": true,
       "locked_code": false,
       "registry_name": "column_3"
@@ -6908,7 +6772,7 @@
     {
       "name": "Column4",
       "type": "structure",
-      "sortid": 850,
+      "sortid": 842,
       "compiles": true,
       "locked_code": false,
       "registry_name": "column_4"
@@ -6916,7 +6780,7 @@
     {
       "name": "BiomeVuxanciaForest",
       "type": "achievement",
-      "sortid": 851,
+      "sortid": 843,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_vuxancia_forest"
@@ -6924,7 +6788,7 @@
     {
       "name": "BiomeVuxanciaForestMagical",
       "type": "achievement",
-      "sortid": 852,
+      "sortid": 844,
       "compiles": true,
       "locked_code": false,
       "registry_name": "biome_vuxancia_forest_magical"
@@ -6932,40 +6796,11 @@
     {
       "name": "VuxanciaTreeOrian1OnStructureInstanceGenerated",
       "type": "procedure",
-      "sortid": 853,
+      "sortid": 845,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_tree_orian_1_on_structure_instance_generated",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "VuxanciaTreeOrian1AdditionalGenerationCondition",
-      "type": "procedure",
-      "sortid": 854,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vuxancia_tree_orian_1_additional_generation_condition",
-      "metadata": {
-        "return_type": "logic",
         "dependencies": [
           {
             "name": "x",
@@ -7005,7 +6840,7 @@
     {
       "name": "VuxanciaPlacementProcedure",
       "type": "procedure",
-      "sortid": 855,
+      "sortid": 846,
       "compiles": true,
       "locked_code": false,
       "registry_name": "vuxancia_placement_procedure",
@@ -7041,7 +6876,7 @@
     {
       "name": "AsterinPalmLeavesLootTable",
       "type": "loottable",
-      "sortid": 856,
+      "sortid": 847,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asterin_palm_leaves_loot_table"
@@ -7065,7 +6900,7 @@
     {
       "name": "AsterinPalmLogToPlanks",
       "type": "recipe",
-      "sortid": 857,
+      "sortid": 848,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asterin_palm_log_to_planks"
@@ -7073,7 +6908,7 @@
     {
       "name": "AsterinPalmWoodToPlanks",
       "type": "recipe",
-      "sortid": 858,
+      "sortid": 849,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asterin_palm_wood_to_planks"
@@ -7081,10 +6916,330 @@
     {
       "name": "AsterinPalmWoodRecipe",
       "type": "recipe",
-      "sortid": 859,
+      "sortid": 850,
       "compiles": true,
       "locked_code": false,
       "registry_name": "asterin_palm_wood_recipe"
+    },
+    {
+      "name": "StrippedPalmLogAsterinRecipe",
+      "type": "recipe",
+      "sortid": 851,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_log_asterin_recipe"
+    },
+    {
+      "name": "StrippedPalmWoodAsterinRecipe",
+      "type": "recipe",
+      "sortid": 852,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_wood_asterin_recipe"
+    },
+    {
+      "name": "VuxanciaTreeOrian1",
+      "type": "structure",
+      "sortid": 853,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_1"
+    },
+    {
+      "name": "VuxanciaTreeOrian3",
+      "type": "structure",
+      "sortid": 854,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_3"
+    },
+    {
+      "name": "VuxanciaTreeOrian5",
+      "type": "structure",
+      "sortid": 855,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_5"
+    },
+    {
+      "name": "VuxanciaTreeOrian6",
+      "type": "structure",
+      "sortid": 856,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_orian_6"
+    },
+    {
+      "name": "VuxanciaTreeVale3",
+      "type": "structure",
+      "sortid": 857,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_vale_3"
+    },
+    {
+      "name": "VuxanciaTreeVale4",
+      "type": "structure",
+      "sortid": 858,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_vale_4"
+    },
+    {
+      "name": "VuxanciaTreeVale6",
+      "type": "structure",
+      "sortid": 859,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_vale_6"
+    },
+    {
+      "name": "VuxanciaTreeStreian1",
+      "type": "structure",
+      "sortid": 860,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_streian_1"
+    },
+    {
+      "name": "VuxanciaTreeStreian4",
+      "type": "structure",
+      "sortid": 861,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_streian_4"
+    },
+    {
+      "name": "VuxanciaTreeStreian5",
+      "type": "structure",
+      "sortid": 862,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_streian_5"
+    },
+    {
+      "name": "VuxanciaTreeStreian6",
+      "type": "structure",
+      "sortid": 863,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_streian_6"
+    },
+    {
+      "name": "VuxanciaTreeZial1",
+      "type": "structure",
+      "sortid": 864,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_1"
+    },
+    {
+      "name": "VuxanciaTreeZial2",
+      "type": "structure",
+      "sortid": 865,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_2"
+    },
+    {
+      "name": "VuxanciaTreeZial3",
+      "type": "structure",
+      "sortid": 866,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_3"
+    },
+    {
+      "name": "VuxanciaTreeZial4",
+      "type": "structure",
+      "sortid": 867,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_4"
+    },
+    {
+      "name": "VuxanciaTreeZial5",
+      "type": "structure",
+      "sortid": 868,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_5"
+    },
+    {
+      "name": "VuxanciaTreeZial6",
+      "type": "structure",
+      "sortid": 869,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_tree_zial_6"
+    },
+    {
+      "name": "FaelitePickaxe",
+      "type": "tool",
+      "sortid": 267,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_pickaxe"
+    },
+    {
+      "name": "FaeliteAxe",
+      "type": "tool",
+      "sortid": 268,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_axe"
+    },
+    {
+      "name": "FaeliteSword",
+      "type": "tool",
+      "sortid": 266,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_sword"
+    },
+    {
+      "name": "FaeliteShovel",
+      "type": "tool",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_shovel"
+    },
+    {
+      "name": "FaeliteHoe",
+      "type": "tool",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_hoe"
+    },
+    {
+      "name": "FaelitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 870,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_pickaxe_recipe"
+    },
+    {
+      "name": "FaeliteAxeRecipe",
+      "type": "recipe",
+      "sortid": 871,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_axe_recipe"
+    },
+    {
+      "name": "FaeliteSwordRecipe",
+      "type": "recipe",
+      "sortid": 872,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_sword_recipe"
+    },
+    {
+      "name": "FaeliteShovelRecipe",
+      "type": "recipe",
+      "sortid": 873,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_shovel_recipe"
+    },
+    {
+      "name": "FaeliteHoeRecipe",
+      "type": "recipe",
+      "sortid": 874,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "faelite_hoe_recipe"
+    },
+    {
+      "name": "Goblet",
+      "type": "item",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet"
+    },
+    {
+      "name": "GobletWater",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_water"
+    },
+    {
+      "name": "GobletCoconutMilk",
+      "type": "item",
+      "sortid": 294,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_coconut_milk"
+    },
+    {
+      "name": "GobletCoconutMilkPlayerDrinks",
+      "type": "procedure",
+      "sortid": 875,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_coconut_milk_player_drinks",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GobletBloodOrangeJuice",
+      "type": "item",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_blood_orange_juice"
+    },
+    {
+      "name": "GobletRecipe",
+      "type": "recipe",
+      "sortid": 876,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_recipe"
+    },
+    {
+      "name": "GobletBloodOrangeJuiceRecipe",
+      "type": "recipe",
+      "sortid": 877,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_blood_orange_juice_recipe"
+    },
+    {
+      "name": "GobletWaterRecipe",
+      "type": "recipe",
+      "sortid": 878,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblet_water_recipe"
+    },
+    {
+      "name": "VuxanciaToCraftingTableRecipe",
+      "type": "recipe",
+      "sortid": 879,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_to_crafting_table_recipe"
+    },
+    {
+      "name": "StickByVuxanciaPlanksRecipe",
+      "type": "recipe",
+      "sortid": 880,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_by_vuxancia_planks_recipe"
     }
   ],
   "variable_elements": [],
@@ -7234,6 +7389,7 @@
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Cut a petal from a Pink Lycoris.",
       "block.archeon.faelite_block": "Block of Faelite",
       "advancements.orange_and_orange.title": "Orange and Orange?",
+      "item.archeon.faelite_hoe": "Faelite Hoe",
       "block.archeon.gypsum_block": "Gypsum Block",
       "block.archeon.tropicstone_bricks": "Southstone Bricks",
       "advancements.the_other_side.title": "The Other Side",
@@ -7269,6 +7425,7 @@
       "block.archeon.ornate_aketite_3": "Ornate Aketite (Lines)",
       "block.archeon.ornate_aketite_2": "Ornate Aketite (Tears)",
       "block.archeon.dune_sand_glass_tiles_top_right": "Dune Sand Glass Tiles Top Right",
+      "item.archeon.faelite_sword": "Faelite Sword",
       "block.archeon.tropicstone_cobblestone_stairs": "Cobbled Southstone Stairs",
       "item.archeon.pe_4k": "Music Disc",
       "block.archeon.vuxancia_leaves_streian": "Streian Vuxancia Leaves",
@@ -7297,6 +7454,7 @@
       "item.archeon.cypress_tools_axe": "Cypress Wood Axe",
       "subtitles.geometric_fall": "",
       "block.archeon.vuxancia_leaves_zial": "Zial Vuxancia Leaves",
+      "item.archeon.goblet_water": "Water Goblet",
       "item.archeon.herbicide": "Herbicide",
       "block.archeon.aketite_tile": "Smooth Aketite",
       "item.archeon.apaflorite_armor_boots": "Apaflorite Boots",
@@ -7312,7 +7470,9 @@
       "block.archeon.mossy_tropicstone_bricks_wall": "Mossy Southstone Brick Wal",
       "block.archeon.astedibes": "Astedibes",
       "block.archeon.asterin_palm_log": "Asterin Palm Log",
+      "item.archeon.faelite_axe": "Faelite Axe",
       "block.archeon.tropicstone_bricks_wall": "Southstone Brick Wall",
+      "item.archeon.goblet_blood_orange_juice": "Goblet of Blood Orange Juice",
       "item.archeon.cypress_tools_hoe": "Cypress Wood Hoe",
       "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
@@ -7416,6 +7576,7 @@
       "item.archeon.neclane_wood_axe": "Neclane Wood Axe",
       "item.archeon.faelite_armor_chestplate": "Faelite Chestplate",
       "block.archeon.aketite_tiles_stairs": "Aketite Tiles Stairs",
+      "item.archeon.faelite_shovel": "Faelite Shovel",
       "biome.archeon.antropy_grove": "South Meadows",
       "item.archeon.apaflorite_gemstone": "Apaflorite Gemstone",
       "entity.archeon.heifer": "Heifer",
@@ -7433,6 +7594,7 @@
       "advancements.its_marked.descr": "Craft a manuscript.",
       "advancements.be_meticulous.title": "Be Meticulous!",
       "block.archeon.tropicstone_cobblestone_slab": "Cobbled Southstone Slab",
+      "item.archeon.goblet_coconut_milk": "Coconut Milk Goblet",
       "item.archeon.golden_grape": "Golden Grape",
       "block.archeon.roughcast_stairs": "Roughcast Stairs",
       "advancements.flower_advancement_red_lycoris_petal.descr": "Cut a petal from a Red Lycoris.",
@@ -7467,6 +7629,7 @@
       "advancements.biome_vuxancia_forest_magical.title": "The Light and the Dark",
       "block.archeon.stripped_palm_log": "Stripped Palm Log",
       "block.archeon.mysterious_stone": "Mysterious Stone",
+      "item.archeon.faelite_pickaxe": "Faelite Pickaxe",
       "block.archeon.cypress_wood": "Cypress Wood",
       "advancements.dont_use_it.descr": "Just don\u0027t use it.",
       "advancements.flower_advancement_cokiplant.title": "Strange One",
@@ -7602,6 +7765,7 @@
       "block.archeon.vuxancia_leaves_orian": "Orian Vuxancia Leaves",
       "item.archeon.plant_fiber": "Plant Fiber",
       "block.archeon.tropicstone_cobblestone": "Cobbled Southstone",
+      "item.archeon.goblet": "Goblet",
       "block.archeon.leaves_carpet_pnevantial": "Carpet of Pnevantial Vuxancia Leaves",
       "advancements.stone_confection.title": "Stone Confection",
       "block.archeon.withered_red_lycoris": "Withered Red Lycoris",
@@ -7641,8 +7805,8 @@
       "item.archeon.southstone_pendant": "Talisman de southstone",
       "advancements.flower_advancement_septiceolia.title": "Belle et claire",
       "block.archeon.vuxancia_button": "Bouton en vuxancia",
-      "block.archeon.aerolia": "Aérolia",
       "item.archeon.red_lycoris_petal": "Pétal de lycoris rouge",
+      "block.archeon.aerolia": "Aérolia",
       "block.archeon.vuxancia_slab": "Dalle en vuxancia",
       "item.archeon.pink_shell": "Coquillage rose",
       "block.archeon.ceramic_slab": "Dalle en céramique",
@@ -7657,8 +7821,9 @@
       "block.archeon.ornate_artemnite_3": "Artémnite ornée (centrée)",
       "block.archeon.gypsum_wall": "Muret de gypse",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Coupez un pétal de lycoris rose.",
-      "block.archeon.faelite_block": "Bloc de faélite",
       "advancements.orange_and_orange.title": "Orange ou orange ?",
+      "block.archeon.faelite_block": "Bloc de faélite",
+      "item.archeon.faelite_hoe": "Houe en faélite",
       "block.archeon.gypsum_block": "Gypse",
       "block.archeon.tropicstone_bricks": "Southstone taillée",
       "advancements.the_other_side.title": "Le bruit des cigales",
@@ -7673,11 +7838,11 @@
       "block.archeon.gypsum_bricks_slab": "Dalle de gypse taillé",
       "advancements.yummy_and_greasy.title": "Bon car gras...",
       "subtitles.dotted_sky": "",
-      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
       "block.archeon.roughcast_wall": "Muret de crépi",
+      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
       "advancements.flower_advancement_cokiplant.descr": "Trouvez une coquillofleur.",
-      "block.archeon.dead_wet_grass_tuffet": "Touffe d\u0027herbe humide morte",
       "block.archeon.mossy_artemnite_bricks_wall": "Muret en artémnite taillée moussue",
+      "block.archeon.dead_wet_grass_tuffet": "Touffe d\u0027herbe humide morte",
       "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
       "block.archeon.tropicstone_pressure_plate": "Plaque de pression en southstone",
       "itemGroup.tabarcheon_combat_and_tools": "Archeon - Combat \u0026 Outils",
@@ -7694,6 +7859,7 @@
       "block.archeon.ornate_aketite_3": "Akétite ornée (centrée)",
       "block.archeon.ornate_aketite_2": "Akétite ornée (larmes)",
       "block.archeon.dune_sand_glass_tiles_top_right": "Verre en sable des dunes carrelé",
+      "item.archeon.faelite_sword": "Épée en faélite",
       "block.archeon.tropicstone_cobblestone_stairs": "Escalier de pierres de southstone",
       "item.archeon.pe_4k": "Disque",
       "block.archeon.vuxancia_leaves_streian": "Feuilles de vuxancia stréyènes",
@@ -7710,41 +7876,44 @@
       "block.archeon.asterin_palm_leaves": "Feuilles de palmier d\u0027astier",
       "block.archeon.antropy_trapdoor": "Trappe de néclane",
       "advancements.glass_confection.descr": "Fabriquez 64 blocs de verre carrelé de sable des dunes. Ne le casse pas tout de suite, tu en auras peut-être besoin.",
-      "block.archeon.tropistone_button": "Bouton de southstone",
       "block.archeon.dune_sand_glass_pane": "Vitre en sable des dunes",
-      "biome.archeon.tropical_ocean": "Lac d\u0027eaux chaudes",
+      "block.archeon.tropistone_button": "Bouton de southstone",
       "block.archeon.withered_argandeane_blossom": "Organdéane fanée",
+      "biome.archeon.tropical_ocean": "Lac d\u0027eaux chaudes",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Feuilles de vuxancia oriènes pendantes",
-      "item.archeon.tropicstone_tools_shovel": "Pelle en southstone",
       "subtitles.hoxa": "",
+      "item.archeon.tropicstone_tools_shovel": "Pelle en southstone",
       "item.archeon.neclane_wood_hoe": "Houe en bois de néclane",
       "block.archeon.artemnite_tiles_slab": "Dalle d\u0027artémnite carrelée",
       "item.archeon.cypress_tools_axe": "Hache en bois de cyprès",
       "subtitles.geometric_fall": "",
       "block.archeon.vuxancia_leaves_zial": "Feuilles de vuxancia zialées",
+      "item.archeon.goblet_water": "Goblet d\u0027eau",
       "item.archeon.herbicide": "Herbicide",
-      "item.archeon.apaflorite_armor_boots": "Bottes en apaflorite",
       "block.archeon.aketite_tile": "Akétite lisse",
+      "item.archeon.apaflorite_armor_boots": "Bottes en apaflorite",
       "block.archeon.roseypia": "Rosépia",
       "advancements.yummy_and_greasy.descr": "Obtenez de la viande de génisse.",
       "item.archeon.faelite_armor_boots": "Bottes en faélite",
       "block.archeon.twilight_rose": "Rose crépusculaire",
       "block.archeon.red_lycoris": "Lycoris rouge",
       "advancements.flower_advancement_iopea.title": "Ô, fleur du ciel",
-      "block.archeon.stripped_vuxancia_wood": "Bois de vuxancia écorcé",
       "subtitles.brile": "",
+      "block.archeon.stripped_vuxancia_wood": "Bois de vuxancia écorcé",
       "block.archeon.xetulian_sugar_cane": "Canne à sucre xétulienne",
       "block.archeon.mossy_tropicstone_bricks_wall": "Muret en southstone taillée moussue",
       "block.archeon.astedibes": "Astédibées",
       "block.archeon.asterin_palm_log": "Bûche de palmier d\u0027astier",
+      "item.archeon.faelite_axe": "Hache en faélite",
       "block.archeon.tropicstone_bricks_wall": "Muret de southstone taillée",
+      "item.archeon.goblet_blood_orange_juice": "Goblet de jus d\u0027orange sanguine",
       "item.archeon.cypress_tools_hoe": "Houe en bois de cyprès",
-      "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
       "block.archeon.gilded_cobbled_southstone_slab": "Dalle de pierres de southstone dorées",
+      "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
       "advancements.biome_vuxancia_forest.descr": "Entrez dans une forêt de vuxancia.",
       "block.archeon.vuxancia_fence": "Barrière en vuxancia",
-      "item.archeon.gear": "Engrenage métallique",
       "block.archeon.exyriane_ore": "Minerai d\u0027éxyriane",
+      "item.archeon.gear": "Engrenage métallique",
       "item.archeon.faelite_armor_helmet": "Casque en faélite",
       "block.archeon.lycoris_radiata": "Lycoris rose",
       "block.archeon.wet_grass": "Herbe humide",
@@ -7754,19 +7923,19 @@
       "block.archeon.chiseled_artemnite": "Artémnite sculptée",
       "item.archeon.clothes_boots": "Baskets blanches et noires",
       "block.archeon.cypress_pressure_plate": "Plaque de pression de cyprès",
-      "advancements.adib_style.title": "Le style d\u0027Adib",
       "block.archeon.tropical_sand": "Sable des dunes",
-      "block.archeon.roughcast": "Crépi",
+      "advancements.adib_style.title": "Le style d\u0027Adib",
       "block.archeon.chiseled_tropicstone": "Southstone sculptée",
+      "block.archeon.roughcast": "Crépi",
       "block.archeon.aketite_tiles": "Akétite carrelée",
       "advancements.flower_advancement_red_lycoris.title": "La plante de l\u0027assassin",
       "biome.archeon.rocky_fields": "Landes",
       "block.archeon.chiseled_aketite": "Akétite sculptée",
-      "block.archeon.palm_log": "Bûche de palmier",
       "advancements.flower_advancement_roseypia.title": "Petits bleux",
+      "block.archeon.palm_log": "Bûche de palmier",
       "block.archeon.cypress_log": "Bûche de cyprès",
-      "block.archeon.salt_block": "Bloc de sel",
       "block.archeon.dune_sand_glass": "Verre en sable des dunes",
+      "block.archeon.salt_block": "Bloc de sel",
       "block.archeon.artemnite_bricks_slab": "Dalle d\u0027artémnite taillée",
       "block.archeon.gilded_cobbled_southstone": "Pierres de southstone dorées",
       "advancements.holy_food.title": "Une nourriture divine",
@@ -7786,10 +7955,10 @@
       "item.archeon.heifer_spawn_egg": "Oeuf d\u0027apparition de génisse",
       "block.archeon.leaves_carpet_zial": "Tapis de feuilles de vuxancia zialées",
       "block.archeon.stripped_cypress_log": "Bûche de cyprès écorcée",
-      "advancements.fungustairs.title": "Champi-scaliers !",
       "block.archeon.aketite_brick_wall": "Muret en akétite taillée",
-      "block.archeon.cypress_door": "Porte de cyprès",
+      "advancements.fungustairs.title": "Champi-scaliers !",
       "block.archeon.southstone_coal_ore": "Minerai de charbon de southstone",
+      "block.archeon.cypress_door": "Porte de cyprès",
       "item.archeon.blue_shell": "Coquillage bleu",
       "item.archeon.tropicstone_tools_hoe": "Houe en southstone",
       "advancements.be_meticulous.descr": "Fabriquez un engrenage métallique.",
@@ -7841,6 +8010,7 @@
       "item.archeon.neclane_wood_axe": "Hache en bois de néclane",
       "item.archeon.faelite_armor_chestplate": "Plastron en faélite",
       "block.archeon.aketite_tiles_stairs": "Escalier d\u0027akétite carrelée",
+      "item.archeon.faelite_shovel": "Pelle en faélite",
       "biome.archeon.antropy_grove": "Prairies du Sud",
       "item.archeon.apaflorite_gemstone": "Gemme d\u0027apaflorite",
       "entity.archeon.heifer": "Génisse",
@@ -7858,6 +8028,7 @@
       "advancements.its_marked.descr": "Fabriquez ou obtenez un manuscrit.",
       "advancements.be_meticulous.title": "Soyez méticuleux !",
       "block.archeon.tropicstone_cobblestone_slab": "Dalle de pierres de southstone",
+      "item.archeon.goblet_coconut_milk": "Goblet de lait de noix de coco",
       "item.archeon.golden_grape": "Raisin sacré",
       "block.archeon.roughcast_stairs": "Escalier de crépi",
       "advancements.flower_advancement_red_lycoris_petal.descr": "Coupez un pétal de lycoris rouge.",
@@ -7892,6 +8063,7 @@
       "advancements.biome_vuxancia_forest_magical.title": "Above the Hanging Leaves",
       "block.archeon.stripped_palm_log": "Bois de palmier écorcé",
       "block.archeon.mysterious_stone": "Pierre mystérieuse",
+      "item.archeon.faelite_pickaxe": "Pioche en faélite",
       "block.archeon.cypress_wood": "Bois de cyprès",
       "advancements.dont_use_it.descr": "Pauvre Thérèse dans son jardin, elle a plein de mauvaises herbes ! Comment va-t-elle bien pouvoir éliminer celles-ci ? Je me demande bien...",
       "advancements.flower_advancement_cokiplant.title": "Est-elle mutante ?",
@@ -8027,6 +8199,7 @@
       "block.archeon.vuxancia_leaves_orian": "Feuilles de vuxancia oriènes",
       "item.archeon.plant_fiber": "Fibres végétales",
       "block.archeon.tropicstone_cobblestone": "Pierres de southstone",
+      "item.archeon.goblet": "Goblet",
       "block.archeon.leaves_carpet_pnevantial": "Tapis de feuilles de vuxancia pnéventielles",
       "advancements.stone_confection.title": "Architecte",
       "block.archeon.withered_red_lycoris": "Lycoris rouge fanée",
@@ -8061,7 +8234,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3-snapshot-1.2.3",
+    "version": "1.1.3-snapshot-1.2.6",
     "description": "Archeon is a Minecraft mod adding a brand new dimension to the game. Explore the nature, build with tons of new blocks, defeat mobs, and more.",
     "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski). Contributors: Paros974, Mystoxi.",
     "websiteURL": "Our CurseForge page: https://www.curseforge.com/minecraft/mc-mods/archeon   Listen to the Archeon\u0027s OST by Tim Rurkowski:  https://timrurkowski.bandcamp.com/  Follow the development here: https://twitter.com/ArcheonDev    Join our Official Discord server: https://discord.gg/hhGPj8sMzT",

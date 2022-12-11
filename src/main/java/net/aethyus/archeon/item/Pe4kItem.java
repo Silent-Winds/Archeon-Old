@@ -17,7 +17,7 @@ public class Pe4kItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Pe4kItem(ArcheonModElements instance) {
-		super(instance, 289);
+		super(instance, 303);
 	}
 
 	@Override

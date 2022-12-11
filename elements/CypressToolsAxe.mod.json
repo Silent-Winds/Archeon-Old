@@ -11,8 +11,8 @@
       "value": "CUSTOM:ArcheonCombatAndTools"
     },
     "toolType": "Axe",
-    "harvestLevel": 2,
-    "efficiency": 4.0,
+    "harvestLevel": 0,
+    "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 5.0,

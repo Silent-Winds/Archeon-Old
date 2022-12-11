@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "faelite_sword",
+    "customModelName": "Normal",
+    "name": "Faelite Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonCombatAndTools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 12.0,
+    "attackSpeed": 1.6,
+    "enchantability": 42,
+    "damageVsEntity": 7.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

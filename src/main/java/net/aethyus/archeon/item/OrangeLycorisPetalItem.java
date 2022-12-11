@@ -18,7 +18,7 @@ public class OrangeLycorisPetalItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public OrangeLycorisPetalItem(ArcheonModElements instance) {
-		super(instance, 309);
+		super(instance, 300);
 	}
 
 	@Override

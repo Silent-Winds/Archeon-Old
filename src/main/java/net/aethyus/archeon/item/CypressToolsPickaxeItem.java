@@ -19,7 +19,7 @@ public class CypressToolsPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsPickaxeItem(ArcheonModElements instance) {
-		super(instance, 266);
+		super(instance, 271);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class CypressToolsPickaxeItem extends ArcheonModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 2f;
 			}
 
 			public float getAttackDamage() {
@@ -38,7 +38,7 @@ public class CypressToolsPickaxeItem extends ArcheonModElements.ModElement {
 			}
 
 			public int getHarvestLevel() {
-				return 2;
+				return 0;
 			}
 
 			public int getEnchantability() {

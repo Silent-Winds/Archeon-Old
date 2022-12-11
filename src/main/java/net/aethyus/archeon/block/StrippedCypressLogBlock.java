@@ -48,7 +48,7 @@ public class StrippedCypressLogBlock extends ArcheonModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.AXE).setRequiresTool());
+					.harvestTool(ToolType.AXE));
 			this.setDefaultState(this.stateContainer.getBaseState().with(AXIS, Direction.Axis.Y));
 			setRegistryName("stripped_cypress_log");
 		}

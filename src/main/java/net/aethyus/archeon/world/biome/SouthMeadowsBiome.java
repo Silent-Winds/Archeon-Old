@@ -44,7 +44,7 @@ public class SouthMeadowsBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public SouthMeadowsBiome(ArcheonModElements instance) {
-		super(instance, 353);
+		super(instance, 362);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

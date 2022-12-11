@@ -5,7 +5,7 @@
     "structure": "vuxancia_streian3",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 300000,
+    "spawnProbability": 140000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -29,9 +29,6 @@
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK",
-    "generateCondition": {
-      "name": "VuxanciaTreeOrian1AdditionalGenerationCondition"
-    },
     "onStructureGenerated": {
       "name": "VuxanciaPlacementProcedure"
     }

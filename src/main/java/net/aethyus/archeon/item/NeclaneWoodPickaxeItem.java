@@ -19,7 +19,7 @@ public class NeclaneWoodPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public NeclaneWoodPickaxeItem(ArcheonModElements instance) {
-		super(instance, 271);
+		super(instance, 276);
 	}
 
 	@Override
@@ -30,7 +30,7 @@ public class NeclaneWoodPickaxeItem extends ArcheonModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 2f;
 			}
 
 			public float getAttackDamage() {
