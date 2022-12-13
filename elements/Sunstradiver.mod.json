@@ -2,22 +2,22 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Heifer",
+    "mobName": "Sunstradiver",
     "mobLabel": "",
-    "mobModelName": "Cow",
-    "mobModelTexture": "heifer.png",
+    "mobModelName": "Modelsunstradiver",
+    "mobModelTexture": "sunstradiver.png",
     "mobModelGlowTexture": "",
-    "modelWidth": 0.9,
-    "modelHeight": 1.4,
+    "modelWidth": 0.6,
+    "modelHeight": 1.95,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -14478842,
+      "value": -6212307,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13097203,
+      "value": -2376570,
       "falpha": 0.0
     },
     "creativeTab": {
@@ -46,27 +46,27 @@
     },
     "mobBehaviourType": "Creature",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 0,
+    "attackStrength": 3,
     "attackKnockback": 0.0,
     "knockbackResistance": 0.0,
-    "movementSpeed": 0.19999999999999998,
+    "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
     "followRange": 16,
-    "health": 20,
-    "xpAmount": 3,
+    "health": 10,
+    "xpAmount": 2,
     "waterMob": false,
-    "flyingMob": false,
+    "flyingMob": true,
     "guiBoundTo": "<NONE>",
-    "inventorySize": 0,
-    "inventoryStackSize": 1,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
     "immuneToDrowning": false,
     "immuneToLightning": false,
@@ -78,30 +78,30 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:RawHeifer"
+      "value": "CUSTOM:SunstradiverFeather"
     },
     "livingSound": {
-      "value": "entity.cow.ambient"
+      "value": "entity.parrot.ambient"
     },
     "hurtSound": {
-      "value": "entity.cow.hurt"
+      "value": "entity.parrot.hurt"
     },
     "deathSound": {
-      "value": "entity.cow.death"
+      "value": "entity.parrot.death"
     },
     "stepSound": {
-      "value": "entity.cow.step"
+      "value": "entity.parrot.fly"
     },
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "NOTE"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "hasAI": true,
-    "aiBase": "Cow",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">CUSTOM:Heifer</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -112,18 +112,11 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 50,
-    "mobSpawningType": "creature",
-    "minNumberOfMobsPerGroup": 3,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
     "maxNumberOfMobsPerGroup": 4,
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:SouthMeadows"
-      },
-      {
-        "value": "CUSTOM:AntropyGrove"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": false
   }
 }

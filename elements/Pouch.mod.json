@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "apaflorite_pendant",
+    "texture": "pouch",
     "customModelName": "Normal",
-    "name": "Apaflorite Pendant",
-    "rarity": "RARE",
+    "name": "Pouch",
+    "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -19,24 +19,24 @@
       "value": ""
     },
     "destroyAnyBlock": false,
-    "immuneToFire": true,
+    "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
-    "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "guiBoundTo": "PouchGUI",
+    "inventorySize": 27,
     "inventoryStackSize": 64,
-    "onRightClickedInAir": {
-      "name": "PlayerApafloritePendantInInventory"
-    },
     "isFood": false,
-    "nutritionalValue": 0,
-    "saturation": 0.30000001192092896,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
     "isMeat": false,
     "isAlwaysEdible": false,
-    "animation": "eat"
+    "animation": "none"
   }
 }
