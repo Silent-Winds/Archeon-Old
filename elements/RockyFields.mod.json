@@ -37,11 +37,11 @@
       "value": "CUSTOM:dotted_sky"
     },
     "moodSoundDelay": 300,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:PoiseButterfly"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.30000000000000004,
     "biomeCategory": "FOREST",
     "rainingPossibility": 0.6,
     "temperature": 0.4,

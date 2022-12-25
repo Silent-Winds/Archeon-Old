@@ -23,6 +23,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -35,6 +36,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.block.Blocks;
 
+import net.aethyus.archeon.particle.SteelButterflyParticle;
 import net.aethyus.archeon.block.TropicalSandBlock;
 import net.aethyus.archeon.block.AntropyLogBlock;
 import net.aethyus.archeon.block.AntropyLeavesBlock;
@@ -58,7 +60,7 @@ public class TropicalOceanBiome extends ArcheonModElements.ModElement {
 						.setMoodSound(new MoodSoundAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:brile")), 1000, 8,
 								2))
-						.build();
+						.setParticle(new ParticleEffectAmbience(SteelButterflyParticle.particle, 0.001f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(TropicalSandBlock.block.getDefaultState(),
 								Blocks.SAND.getDefaultState(), Blocks.SAND.getDefaultState())));

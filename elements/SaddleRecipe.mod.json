@@ -28,13 +28,13 @@
         "value": "Items.LEATHER"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:SunstradiverFeather"
       },
       {
         "value": "CUSTOM:Gear"
       },
       {
-        "value": "Items.LEATHER"
+        "value": "CUSTOM:SunstradiverFeather"
       }
     ],
     "recipeReturnStack": {

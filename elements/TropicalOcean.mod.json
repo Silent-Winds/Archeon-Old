@@ -37,11 +37,11 @@
       "value": "CUSTOM:brile"
     },
     "moodSoundDelay": 1000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "CUSTOM:SteelButterfly"
     },
-    "particlesProbability": 0.5,
+    "particlesProbability": 0.1,
     "biomeCategory": "OCEAN",
     "rainingPossibility": 0.1,
     "temperature": 0.5,

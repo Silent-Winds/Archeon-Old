@@ -23,6 +23,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -35,6 +36,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.block.Blocks;
 
+import net.aethyus.archeon.particle.GreenButterflyParticle;
 import net.aethyus.archeon.block.WetGrassBlockBlock;
 import net.aethyus.archeon.block.WetDirtBlock;
 import net.aethyus.archeon.block.AntropyLogBlock;
@@ -59,7 +61,7 @@ public class VuxanciaForestBiome extends ArcheonModElements.ModElement {
 						.setMoodSound(new MoodSoundAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:genesis")), 1500,
 								8, 2))
-						.build();
+						.setParticle(new ParticleEffectAmbience(GreenButterflyParticle.particle, 0.003f)).build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WetGrassBlockBlock.block.getDefaultState(),
 								WetDirtBlock.block.getDefaultState(), Blocks.SAND.getDefaultState())));

@@ -15,7 +15,6 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.Entity;
 
-import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.ArcheonModElements;
 
 @ArcheonModElements.ModElement.Tag
@@ -38,12 +37,12 @@ public class ClothesItem extends ArcheonModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 5;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 40;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{0, 2, 2, 0}[slot.getIndex()];
+				return new int[]{0, 2, 2, 1000}[slot.getIndex()];
 			}
 
 			@Override
@@ -77,13 +76,13 @@ public class ClothesItem extends ArcheonModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ArcheonMiscItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(null)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "archeon:textures/models/armor/clothes__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("clothes_chestplate"));
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ArcheonMiscItemGroup.tab)) {
+		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(null)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "archeon:textures/models/armor/clothes__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
