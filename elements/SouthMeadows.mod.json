@@ -37,11 +37,11 @@
       "value": "CUSTOM:no_ones_around"
     },
     "moodSoundDelay": 1500,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:AzureButterfly"
+      "value": "EXPLOSION_NORMAL"
     },
-    "particlesProbability": 0.30000000000000004,
+    "particlesProbability": 0.1,
     "biomeCategory": "PLAINS",
     "rainingPossibility": 0.1,
     "temperature": 0.7,

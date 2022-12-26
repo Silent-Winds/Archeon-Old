@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "biome",
   "definition": {
-    "name": "South Lake or Dune",
+    "name": "Lake or Dune",
     "groundBlock": {
       "value": "CUSTOM:TropicalSand"
     },
@@ -10,7 +10,7 @@
       "value": "Blocks.SAND#0"
     },
     "underwaterBlock": {
-      "value": "Blocks.SAND#0"
+      "value": "CUSTOM:SaltBlock"
     },
     "grassColor": {
       "value": -9399763,
@@ -37,9 +37,9 @@
       "value": "CUSTOM:brile"
     },
     "moodSoundDelay": 1000,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:SteelButterfly"
+      "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.1,
     "biomeCategory": "OCEAN",

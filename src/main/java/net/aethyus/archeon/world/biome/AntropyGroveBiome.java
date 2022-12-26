@@ -21,7 +21,6 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
-import net.minecraft.world.biome.ParticleEffectAmbience;
 import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
@@ -32,7 +31,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
-import net.aethyus.archeon.particle.FieryButterflyParticle;
 import net.aethyus.archeon.entity.HeiferEntity;
 import net.aethyus.archeon.block.WetGrassBlockBlock;
 import net.aethyus.archeon.block.WetDirtBlock;
@@ -58,7 +56,7 @@ public class AntropyGroveBiome extends ArcheonModElements.ModElement {
 						.setMoodSound(new MoodSoundAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:hoxa")), 1000, 8,
 								2))
-						.setParticle(new ParticleEffectAmbience(FieryButterflyParticle.particle, 0.003f)).build();
+						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WetGrassBlockBlock.block.getDefaultState(),
 								WetDirtBlock.block.getDefaultState(), Blocks.SAND.getDefaultState())));

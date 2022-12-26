@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:flint"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "archeon:sunstradiver_feather"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 4
+  }
+}

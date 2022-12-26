@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:plant_fiber"
+    },
+    "3": {
+      "item": "archeon:plant_fiber"
+    },
+    "4": {
+      "item": "archeon:pe_4k"
+    },
+    "5": {
+      "item": "archeon:plant_fiber"
+    },
+    "7": {
+      "item": "archeon:plant_fiber"
+    }
+  },
+  "result": {
+    "item": "archeon:reside",
+    "count": 1
+  }
+}

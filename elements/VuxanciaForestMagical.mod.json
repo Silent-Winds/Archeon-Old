@@ -37,11 +37,11 @@
       "value": "CUSTOM:sunny"
     },
     "moodSoundDelay": 1500,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "CUSTOM:CopperButterfly"
+      "value": "EXPLOSION_NORMAL"
     },
-    "particlesProbability": 0.30000000000000004,
+    "particlesProbability": 0.1,
     "biomeCategory": "FOREST",
     "rainingPossibility": 0.3,
     "temperature": 0.4,

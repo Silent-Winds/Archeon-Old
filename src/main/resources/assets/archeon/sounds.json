@@ -55,42 +55,6 @@
       }
     ]
   },
-  "rising": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:rising",
-        "stream": true
-      }
-    ]
-  },
-  "reside": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:reside",
-        "stream": true
-      }
-    ]
-  },
-  "parallelify": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:parallelify",
-        "stream": true
-      }
-    ]
-  },
-  "geometric_fall": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:geometric_fall",
-        "stream": true
-      }
-    ]
-  },
   "genesis": {
     "category": "music",
     "sounds": [
@@ -123,6 +87,42 @@
     "sounds": [
       {
         "name": "archeon:brile",
+        "stream": true
+      }
+    ]
+  },
+  "geometric_fall": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:geometric_fall",
+        "stream": true
+      }
+    ]
+  },
+  "reside": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:reside",
+        "stream": true
+      }
+    ]
+  },
+  "rising": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:rising",
+        "stream": true
+      }
+    ]
+  },
+  "parallelify": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:parallelify",
         "stream": true
       }
     ]

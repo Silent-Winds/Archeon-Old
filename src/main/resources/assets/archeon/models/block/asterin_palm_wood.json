@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "archeon:blocks/asterin_palm_log",
-    "particle": "archeon:blocks/asterin_palm_log"
-  }
-}

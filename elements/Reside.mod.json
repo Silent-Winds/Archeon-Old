@@ -2,14 +2,14 @@
   "_fv": 33,
   "_type": "musicdisc",
   "definition": {
-    "texture": "broken_disc",
-    "name": "Damaged Music Disc",
-    "description": "Tiramisu Audio - Devouring",
+    "texture": "music_disc_4",
+    "name": "Nature Music Disc",
+    "description": "Tiramisu Audio - Reside",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
     },
     "music": {
-      "value": "CUSTOM:devouring"
+      "value": "CUSTOM:reside"
     },
     "specialInfo": [],
     "hasGlow": false

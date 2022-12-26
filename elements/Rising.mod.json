@@ -2,14 +2,14 @@
   "_fv": 33,
   "_type": "musicdisc",
   "definition": {
-    "texture": "broken_disc",
-    "name": "Damaged Music Disc",
-    "description": "Tiramisu Audio - Devouring",
+    "texture": "music_disc_3",
+    "name": "Panopticon Music Disc",
+    "description": "Tiramisu Audio - Rising",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
     },
     "music": {
-      "value": "CUSTOM:devouring"
+      "value": "CUSTOM:rising"
     },
     "specialInfo": [],
     "hasGlow": false
