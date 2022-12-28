@@ -31,7 +31,7 @@ public class AntropyTrapdoorBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyTrapdoorBlock(ArcheonModElements instance) {
-		super(instance, 31);
+		super(instance, 29);
 	}
 
 	@Override

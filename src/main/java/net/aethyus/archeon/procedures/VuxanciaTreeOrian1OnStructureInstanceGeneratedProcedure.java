@@ -4,7 +4,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
-import net.aethyus.archeon.block.FaeliteBlockBlock;
+import net.aethyus.archeon.block.VuxanciaLogBlock;
 import net.aethyus.archeon.ArcheonMod;
 
 import java.util.Map;
@@ -39,7 +39,7 @@ public class VuxanciaTreeOrian1OnStructureInstanceGeneratedProcedure {
 		boolean Is_air_under = false;
 		while (Is_air_under == true) {
 			if ((world.getBlockState(new BlockPos(x + 0, y - 1, z + 0))).getBlock() == Blocks.AIR) {
-				world.setBlockState(new BlockPos(x, y, z), FaeliteBlockBlock.block.getDefaultState(), 3);
+				world.setBlockState(new BlockPos(x, y, z), VuxanciaLogBlock.block.getDefaultState(), 3);
 				Is_air_under = (true);
 			} else {
 				Is_air_under = (false);

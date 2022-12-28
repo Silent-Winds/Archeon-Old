@@ -46,7 +46,7 @@ public class VuxanciaForestBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public VuxanciaForestBiome(ArcheonModElements instance) {
-		super(instance, 824);
+		super(instance, 827);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
@@ -84,7 +84,7 @@ public class VuxanciaForestBiome extends ArcheonModElements.ModElement {
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.3f).scale(0.1f)
-						.temperature(0.4f).downfall(0.3f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
+						.temperature(0.4f).downfall(0.1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();
 				event.getRegistry().register(biome.setRegistryName("archeon:vuxancia_forest"));
 			}

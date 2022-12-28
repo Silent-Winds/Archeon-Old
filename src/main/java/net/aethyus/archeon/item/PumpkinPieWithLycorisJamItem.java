@@ -18,7 +18,7 @@ public class PumpkinPieWithLycorisJamItem extends ArcheonModElements.ModElement 
 	public static final Item block = null;
 
 	public PumpkinPieWithLycorisJamItem(ArcheonModElements instance) {
-		super(instance, 308);
+		super(instance, 313);
 	}
 
 	@Override

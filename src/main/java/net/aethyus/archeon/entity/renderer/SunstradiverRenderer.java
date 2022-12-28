@@ -73,33 +73,33 @@ public class SunstradiverRenderer {
 			head.addChild(feather);
 			setRotationAngle(feather, -0.2618F, 0.0F, 0.0F);
 			feather_r1 = new ModelRenderer(this);
-			feather_r1.setRotationPoint(0.0F, 9.5F, 2.5F);
+			feather_r1.setRotationPoint(0.0F, 0.5F, 0.5F);
 			feather.addChild(feather_r1);
 			setRotationAngle(feather_r1, 0.2618F, 0.0F, 0.0F);
-			feather_r1.setTextureOffset(0, 12).addBox(0.0F, -13.0F, -0.5F, 0.0F, 4.0F, 4.0F, 0.0F, false);
+			feather_r1.setTextureOffset(0, 12).addBox(0.0F, -3.789F, -0.8975F, 0.0F, 4.0F, 4.0F, 0.0F, false);
 			left_wing = new ModelRenderer(this);
-			left_wing.setRotationPoint(1.5F, -2.1F, -0.8F);
+			left_wing.setRotationPoint(2.5F, -2.1F, -2.8F);
 			bone.addChild(left_wing);
 			left_wing_rotation = new ModelRenderer(this);
-			left_wing_rotation.setRotationPoint(0.0F, 2.5F, 0.0F);
+			left_wing_rotation.setRotationPoint(-1.0F, 0.1F, 0.0F);
 			left_wing.addChild(left_wing_rotation);
 			setRotationAngle(left_wing_rotation, 0.0F, 3.1416F, 0.0F);
 			left_wing_rotation_r1 = new ModelRenderer(this);
-			left_wing_rotation_r1.setRotationPoint(-0.5F, -2.4F, 1.8F);
+			left_wing_rotation_r1.setRotationPoint(-0.5F, 0.0F, -0.2F);
 			left_wing_rotation.addChild(left_wing_rotation_r1);
-			setRotationAngle(left_wing_rotation_r1, -0.6981F, 0.0F, 0.0F);
+			setRotationAngle(left_wing_rotation_r1, -0.2472F, 0.6599F, 1.1803F);
 			left_wing_rotation_r1.setTextureOffset(14, 0).addBox(-1.0F, -0.0949F, -1.5665F, 1.0F, 6.0F, 3.0F, 0.0F, false);
 			right_wing = new ModelRenderer(this);
-			right_wing.setRotationPoint(-2.5F, -2.1F, -0.8F);
+			right_wing.setRotationPoint(-2.5F, -2.1F, -2.8F);
 			bone.addChild(right_wing);
 			right_wing_rotation = new ModelRenderer(this);
-			right_wing_rotation.setRotationPoint(0.0F, 2.5F, 0.0F);
+			right_wing_rotation.setRotationPoint(0.0F, 0.1F, 0.0F);
 			right_wing.addChild(right_wing_rotation);
 			setRotationAngle(right_wing_rotation, 0.0F, 3.1416F, 0.0F);
 			right_wing_rotation_r1 = new ModelRenderer(this);
-			right_wing_rotation_r1.setRotationPoint(-0.5F, -2.4F, 1.8F);
+			right_wing_rotation_r1.setRotationPoint(-0.5F, 0.0F, -0.2F);
 			right_wing_rotation.addChild(right_wing_rotation_r1);
-			setRotationAngle(right_wing_rotation_r1, -0.6981F, 0.0F, 0.0F);
+			setRotationAngle(right_wing_rotation_r1, -0.2472F, -0.6599F, -1.1803F);
 			right_wing_rotation_r1.setTextureOffset(13, 13).addBox(0.0F, -0.0949F, -1.5665F, 1.0F, 6.0F, 3.0F, 0.0F, false);
 			left_leg = new ModelRenderer(this);
 			left_leg.setRotationPoint(-1.0F, 2.0F, -1.0F);
@@ -113,18 +113,18 @@ public class SunstradiverRenderer {
 			tail.setRotationPoint(0.0F, 1.1F, -0.8F);
 			bone.addChild(tail);
 			tail_r1 = new ModelRenderer(this);
-			tail_r1.setRotationPoint(0.0F, 3.9F, 0.8F);
+			tail_r1.setRotationPoint(0.0F, 0.9F, 0.8F);
 			tail.addChild(tail_r1);
 			setRotationAngle(tail_r1, 1.1781F, 0.0F, 0.0F);
-			tail_r1.setTextureOffset(18, 9).addBox(-1.0F, -1.9F, 2.2F, 2.0F, 4.0F, 1.0F, 0.0F, false);
+			tail_r1.setTextureOffset(18, 9).addBox(-1.0F, -0.7519F, -0.5716F, 2.0F, 4.0F, 1.0F, 0.0F, false);
 			body = new ModelRenderer(this);
 			body.setRotationPoint(0.0F, -2.5F, -1.0F);
 			bone.addChild(body);
 			body_r1 = new ModelRenderer(this);
-			body_r1.setRotationPoint(0.0F, 7.5F, 1.0F);
+			body_r1.setRotationPoint(0.0F, 1.5F, 0.0F);
 			body.addChild(body_r1);
 			setRotationAngle(body_r1, 0.3054F, 0.0F, 0.0F);
-			body_r1.setTextureOffset(0, 0).addBox(-2.0F, -8.5F, -1.5F, 4.0F, 6.0F, 3.0F, 0.0F, false);
+			body_r1.setTextureOffset(0, 0).addBox(-2.0F, -2.477F, -2.3505F, 4.0F, 6.0F, 3.0F, 0.0F, false);
 		}
 
 		@Override
@@ -140,12 +140,10 @@ public class SunstradiverRenderer {
 		}
 
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
-			this.left_leg.rotateAngleY = MathHelper.cos(f * 1.0F) * -1.0F * f1;
-			this.right_wing.rotateAngleZ = MathHelper.cos(f * 7.0F) * 7.0F * f1;
+			this.right_wing.rotateAngleZ = MathHelper.cos(f * 6.0F) * 6.0F * f1;
 			this.head.rotateAngleY = f3 / (180F / (float) Math.PI);
 			this.head.rotateAngleX = f4 / (180F / (float) Math.PI);
-			this.right_leg.rotateAngleY = MathHelper.cos(f * 1.0F) * 1.0F * f1;
-			this.left_wing.rotateAngleZ = MathHelper.cos(f * 7.0F) * -7.0F * f1;
+			this.left_wing.rotateAngleZ = MathHelper.cos(f * 6.0F) * -6.0F * f1;
 		}
 	}
 

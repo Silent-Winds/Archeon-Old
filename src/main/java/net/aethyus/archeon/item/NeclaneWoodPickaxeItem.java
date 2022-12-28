@@ -19,7 +19,7 @@ public class NeclaneWoodPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public NeclaneWoodPickaxeItem(ArcheonModElements instance) {
-		super(instance, 276);
+		super(instance, 275);
 	}
 
 	@Override

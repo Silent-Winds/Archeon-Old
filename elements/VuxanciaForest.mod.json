@@ -43,7 +43,7 @@
     },
     "particlesProbability": 0.1,
     "biomeCategory": "FOREST",
-    "rainingPossibility": 0.3,
+    "rainingPossibility": 0.1,
     "temperature": 0.4,
     "baseHeight": 0.3,
     "heightVariation": 0.1,

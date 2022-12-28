@@ -28,7 +28,7 @@ public class CypressButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressButtonBlock(ArcheonModElements instance) {
-		super(instance, 42);
+		super(instance, 40);
 	}
 
 	@Override

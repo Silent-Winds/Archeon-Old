@@ -62,6 +62,8 @@ public class ArcheonModElements {
 		sounds.put(new ResourceLocation("archeon", "reside"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "reside")));
 		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		sounds.put(new ResourceLocation("archeon", "parallelify"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "parallelify")));
+		sounds.put(new ResourceLocation("archeon", "archeon_christmas"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "archeon_christmas")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

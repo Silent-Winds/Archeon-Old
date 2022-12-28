@@ -3,6 +3,7 @@ package net.aethyus.archeon.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -35,7 +36,7 @@ public class LootUrnBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LootUrnBlock(ArcheonModElements instance) {
-		super(instance, 210);
+		super(instance, 208);
 	}
 
 	@Override
@@ -56,7 +57,7 @@ public class LootUrnBlock extends ArcheonModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.BONE).hardnessAndResistance(0.7999999999999999f, 10f).setLightLevel(s -> 2)
-					.notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 			setRegistryName("loot_urn");
 		}

@@ -72,6 +72,7 @@ public class PouchGUIGuiWindow extends ContainerScreen<PouchGUIGui.GuiContainerM
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
+		this.font.drawString(ms, "Pouch", 7, 7, -12829636);
 	}
 
 	@Override

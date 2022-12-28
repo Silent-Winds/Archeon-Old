@@ -1,0 +1,17 @@
+{
+  "_fv": 33,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_6",
+    "name": "Snowy Music Disc",
+    "description": "Tiramisu Audio - Archeon's Christmas",
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonMisc"
+    },
+    "music": {
+      "value": "CUSTOM:archeon_christmas"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

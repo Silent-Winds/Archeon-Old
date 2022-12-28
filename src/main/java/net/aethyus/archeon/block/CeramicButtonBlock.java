@@ -26,7 +26,7 @@ public class CeramicButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CeramicButtonBlock(ArcheonModElements instance) {
-		super(instance, 183);
+		super(instance, 182);
 	}
 
 	@Override

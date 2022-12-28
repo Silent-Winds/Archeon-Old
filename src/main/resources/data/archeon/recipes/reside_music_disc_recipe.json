@@ -7,19 +7,19 @@
   ],
   "key": {
     "1": {
-      "item": "archeon:plant_fiber"
+      "item": "minecraft:end_stone"
     },
     "3": {
-      "item": "archeon:plant_fiber"
+      "item": "minecraft:end_stone"
     },
     "4": {
-      "item": "archeon:pe_4k"
+      "item": "minecraft:shulker_shell"
     },
     "5": {
-      "item": "archeon:plant_fiber"
+      "item": "minecraft:end_stone"
     },
     "7": {
-      "item": "archeon:plant_fiber"
+      "item": "minecraft:end_stone"
     }
   },
   "result": {

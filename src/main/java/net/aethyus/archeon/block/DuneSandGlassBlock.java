@@ -32,7 +32,7 @@ public class DuneSandGlassBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public DuneSandGlassBlock(ArcheonModElements instance) {
-		super(instance, 198);
+		super(instance, 196);
 	}
 
 	@Override

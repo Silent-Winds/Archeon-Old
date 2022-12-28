@@ -21,12 +21,15 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
+import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.entity.ai.controller.FlyingMovementController;
 import net.minecraft.entity.ai.attributes.Attributes;
 import net.minecraft.entity.ai.attributes.AttributeModifierMap;
 import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.CreatureEntity;
@@ -39,12 +42,13 @@ import net.aethyus.archeon.entity.renderer.SunstradiverRenderer;
 import net.aethyus.archeon.ArcheonModElements;
 
 import java.util.Random;
+import java.util.EnumSet;
 
 @ArcheonModElements.ModElement.Tag
 public class SunstradiverEntity extends ArcheonModElements.ModElement {
-	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.95f)).build("sunstradiver").setRegistryName("sunstradiver");
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(30).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
+			.size(0.4f, 0.3f)).build("sunstradiver").setRegistryName("sunstradiver");
 
 	public SunstradiverEntity(ArcheonModElements instance) {
 		super(instance, 881);
@@ -55,7 +59,7 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -6212307, -2376570, new Item.Properties().group(ArcheonMiscItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -52429, -13210, new Item.Properties().group(ArcheonMiscItemGroup.tab))
 				.setRegistryName("sunstradiver_spawn_egg"));
 	}
 
@@ -68,7 +72,7 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 12);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
@@ -84,7 +88,7 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 2;
+			experienceValue = 0;
 			setNoAI(false);
 			this.moveController = new FlyingMovementController(this, 10, true);
 			this.navigator = new FlyingPathNavigator(this, this.world);
@@ -98,7 +102,47 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 0.8, 20) {
+			this.goalSelector.addGoal(1, new Goal() {
+				{
+					this.setMutexFlags(EnumSet.of(Goal.Flag.MOVE));
+				}
+
+				public boolean shouldExecute() {
+					if (CustomEntity.this.getAttackTarget() != null && !CustomEntity.this.getMoveHelper().isUpdating()) {
+						return true;
+					} else {
+						return false;
+					}
+				}
+
+				@Override
+				public boolean shouldContinueExecuting() {
+					return CustomEntity.this.getMoveHelper().isUpdating() && CustomEntity.this.getAttackTarget() != null
+							&& CustomEntity.this.getAttackTarget().isAlive();
+				}
+
+				@Override
+				public void startExecuting() {
+					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
+					Vector3d vec3d = livingentity.getEyePosition(1);
+					CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1);
+				}
+
+				@Override
+				public void tick() {
+					LivingEntity livingentity = CustomEntity.this.getAttackTarget();
+					if (CustomEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+						CustomEntity.this.attackEntityAsMob(livingentity);
+					} else {
+						double d0 = CustomEntity.this.getDistanceSq(livingentity);
+						if (d0 < 16) {
+							Vector3d vec3d = livingentity.getEyePosition(1);
+							CustomEntity.this.moveController.setMoveTo(vec3d.x, vec3d.y, vec3d.z, 1);
+						}
+					}
+				}
+			});
+			this.goalSelector.addGoal(2, new RandomWalkingGoal(this, 0.8, 20) {
 				@Override
 				protected Vector3d getPosition() {
 					Random random = CustomEntity.this.getRNG();
@@ -108,9 +152,15 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 					return new Vector3d(dir_x, dir_y, dir_z);
 				}
 			});
-			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
-			this.targetSelector.addGoal(3, new HurtByTargetGoal(this));
-			this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, HeiferEntity.CustomEntity.class, false, true));
+			this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+				@Override
+				protected double getAttackReachSqr(LivingEntity entity) {
+					return (double) (4.0 + entity.getWidth() * entity.getWidth());
+				}
+			});
+			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, HeiferEntity.CustomEntity.class, true, true));
+			this.targetSelector.addGoal(6, new HurtByTargetGoal(this).setCallsForHelp());
 		}
 
 		@Override

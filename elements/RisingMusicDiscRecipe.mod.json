@@ -15,7 +15,7 @@
       "value": "CUSTOM:ExyrianeBlock"
     },
     "smithingReturnStack": {
-      "value": "CUSTOM:Rising"
+      "value": "CUSTOM:Parallelify"
     },
     "name": "rising_music_disc_recipe",
     "namespace": "mod"

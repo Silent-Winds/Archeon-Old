@@ -28,7 +28,7 @@ public class AntropyPlanksBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyPlanksBlock(ArcheonModElements instance) {
-		super(instance, 24);
+		super(instance, 22);
 	}
 
 	@Override

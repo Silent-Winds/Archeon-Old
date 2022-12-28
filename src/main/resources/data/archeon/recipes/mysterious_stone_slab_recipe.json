@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:mysterious_stone"
+    },
+    "1": {
+      "item": "archeon:mysterious_stone"
+    },
+    "2": {
+      "item": "archeon:mysterious_stone"
+    }
+  },
+  "result": {
+    "item": "archeon:mysterious_stone_slab",
+    "count": 6
+  }
+}

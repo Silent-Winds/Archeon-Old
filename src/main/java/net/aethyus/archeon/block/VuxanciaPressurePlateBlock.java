@@ -33,7 +33,7 @@ public class VuxanciaPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 52);
+		super(instance, 50);
 	}
 
 	@Override

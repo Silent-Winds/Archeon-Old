@@ -118,7 +118,7 @@ public class ShellsandBlock extends ArcheonModElements.ModElement {
 				}
 			};
 			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(100)
-					.square().func_242731_b(8);
+					.square().func_242731_b(14);
 			event.getRegistry().register(feature.setRegistryName("shellsand"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("archeon:shellsand"), configuredFeature);
 		}

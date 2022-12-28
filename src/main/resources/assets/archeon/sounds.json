@@ -126,5 +126,14 @@
         "stream": true
       }
     ]
+  },
+  "archeon_christmas": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:archeon_christmas",
+        "stream": true
+      }
+    ]
   }
 }

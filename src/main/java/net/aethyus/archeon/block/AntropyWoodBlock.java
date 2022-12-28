@@ -33,7 +33,7 @@ public class AntropyWoodBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AntropyWoodBlock(ArcheonModElements instance) {
-		super(instance, 22);
+		super(instance, 20);
 	}
 
 	@Override

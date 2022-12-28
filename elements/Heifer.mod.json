@@ -112,7 +112,7 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 50,
+    "spawningProbability": 40,
     "mobSpawningType": "creature",
     "minNumberOfMobsPerGroup": 3,
     "maxNumberOfMobsPerGroup": 4,
@@ -122,6 +122,9 @@
       },
       {
         "value": "CUSTOM:AntropyGrove"
+      },
+      {
+        "value": "CUSTOM:RockyFields"
       }
     ],
     "spawnInDungeons": false

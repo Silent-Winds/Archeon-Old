@@ -19,7 +19,7 @@ public class Tropicstone_ToolsAxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Tropicstone_ToolsAxeItem(ArcheonModElements instance) {
-		super(instance, 255);
+		super(instance, 254);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class VuxanciaButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaButtonBlock(ArcheonModElements instance) {
-		super(instance, 53);
+		super(instance, 51);
 	}
 
 	@Override

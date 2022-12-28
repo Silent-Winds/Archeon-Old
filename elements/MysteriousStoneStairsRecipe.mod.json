@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 4,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.END_STONE"
+        "value": "CUSTOM:MysteriousStone"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_STONE"
+        "value": ""
       },
       {
-        "value": "Items.SHULKER_SHELL"
+        "value": "CUSTOM:MysteriousStone"
       },
       {
-        "value": "Blocks.END_STONE"
+        "value": "CUSTOM:MysteriousStone"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.END_STONE"
+        "value": "CUSTOM:MysteriousStone"
       },
       {
-        "value": ""
+        "value": "CUSTOM:MysteriousStone"
+      },
+      {
+        "value": "CUSTOM:MysteriousStone"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Parallelify"
+      "value": "CUSTOM:MysteriousStoneStairs"
     },
-    "name": "end_music_disc_recipe",
+    "name": "mysterious_stone_stairs_recipe",
     "namespace": "mod"
   }
 }

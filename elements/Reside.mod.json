@@ -2,8 +2,8 @@
   "_fv": 33,
   "_type": "musicdisc",
   "definition": {
-    "texture": "music_disc_4",
-    "name": "Nature Music Disc",
+    "texture": "music_disc_5",
+    "name": "End Music Disc",
     "description": "Tiramisu Audio - Reside",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"

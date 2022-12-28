@@ -426,7 +426,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeon:southstone_pendant",
+          "name": "archeon:deleted_mod_element",
           "weight": 1,
           "functions": [
             {

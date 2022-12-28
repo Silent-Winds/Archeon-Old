@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:exyriane_crystal"
+    },
+    "1": {
+      "item": "archeon:tropicstone"
+    },
+    "2": {
+      "item": "archeon:tropicstone"
+    },
+    "3": {
+      "item": "archeon:exyriane_crystal"
+    }
+  },
+  "result": {
+    "item": "archeon:mysterious_stone",
+    "count": 1
+  }
+}

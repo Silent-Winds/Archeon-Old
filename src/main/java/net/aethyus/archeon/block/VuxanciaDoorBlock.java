@@ -33,7 +33,7 @@ public class VuxanciaDoorBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaDoorBlock(ArcheonModElements instance) {
-		super(instance, 54);
+		super(instance, 52);
 	}
 
 	@Override

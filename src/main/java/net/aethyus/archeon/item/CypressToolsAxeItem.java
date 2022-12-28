@@ -19,7 +19,7 @@ public class CypressToolsAxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsAxeItem(ArcheonModElements instance) {
-		super(instance, 272);
+		super(instance, 271);
 	}
 
 	@Override

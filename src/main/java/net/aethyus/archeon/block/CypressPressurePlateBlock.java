@@ -33,7 +33,7 @@ public class CypressPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 41);
+		super(instance, 39);
 	}
 
 	@Override

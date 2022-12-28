@@ -33,7 +33,7 @@ public class PalmPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 18);
+		super(instance, 16);
 	}
 
 	@Override

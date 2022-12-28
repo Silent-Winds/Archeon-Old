@@ -26,7 +26,7 @@ public class GoldenGrapeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GoldenGrapeItem(ArcheonModElements instance) {
-		super(instance, 311);
+		super(instance, 316);
 	}
 
 	@Override

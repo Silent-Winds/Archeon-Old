@@ -28,7 +28,7 @@ public class CypressPlanksBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressPlanksBlock(ArcheonModElements instance) {
-		super(instance, 36);
+		super(instance, 34);
 	}
 
 	@Override

@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "dusty_disc_fragment",
     "customModelName": "Normal",
-    "name": "Record Fragment",
+    "name": "Record Fragments",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"

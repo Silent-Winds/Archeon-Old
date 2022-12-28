@@ -4,7 +4,7 @@ import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.block.Blocks;
 
-import net.aethyus.archeon.block.FaeliteBlockBlock;
+import net.aethyus.archeon.block.VuxanciaLogBlock;
 import net.aethyus.archeon.ArcheonMod;
 
 import java.util.Map;
@@ -37,16 +37,16 @@ public class VuxanciaPlacementProcedureProcedure {
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
 		if ((world.getBlockState(new BlockPos(x + 3, y - 1, z + 3))).getBlock() == Blocks.AIR) {
-			world.setBlockState(new BlockPos(x, y - 1, z), FaeliteBlockBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos(x, y - 1, z), VuxanciaLogBlock.block.getDefaultState(), 3);
 		}
 		if ((world.getBlockState(new BlockPos(x + 3, y - 1, z + 3))).getBlock() == Blocks.AIR) {
-			world.setBlockState(new BlockPos(x, y - 2, z), FaeliteBlockBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos(x, y - 2, z), VuxanciaLogBlock.block.getDefaultState(), 3);
 		}
 		if ((world.getBlockState(new BlockPos(x + 3, y - 1, z + 3))).getBlock() == Blocks.AIR) {
-			world.setBlockState(new BlockPos(x, y - 3, z), FaeliteBlockBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos(x, y - 3, z), VuxanciaLogBlock.block.getDefaultState(), 3);
 		}
 		if ((world.getBlockState(new BlockPos(x + 3, y - 1, z + 3))).getBlock() == Blocks.AIR) {
-			world.setBlockState(new BlockPos(x, y - 4, z), FaeliteBlockBlock.block.getDefaultState(), 3);
+			world.setBlockState(new BlockPos(x, y - 4, z), VuxanciaLogBlock.block.getDefaultState(), 3);
 		}
 	}
 }
