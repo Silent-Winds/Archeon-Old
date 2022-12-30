@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "stripped_palm_log_side",
+    "texture": "stripped_palm_log",
     "textureTop": "stripped_neclane_log_top",
     "textureLeft": "stripped_neclane_log_side",
     "textureFront": "stripped_neclane_log_side",

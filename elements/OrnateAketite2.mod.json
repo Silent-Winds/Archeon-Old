@@ -4,10 +4,10 @@
   "definition": {
     "texture": "aketite_bricks",
     "textureTop": "aketite_bricks",
-    "textureLeft": "ornate_aketite_3_new",
-    "textureFront": "ornate_aketite_3_new",
-    "textureRight": "ornate_aketite_3_new",
-    "textureBack": "ornate_aketite_3_new",
+    "textureLeft": "ornate_aketite_tears",
+    "textureFront": "ornate_aketite_tears",
+    "textureRight": "ornate_aketite_tears",
+    "textureBack": "ornate_aketite_tears",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -38,7 +38,7 @@
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": false,
+    "isWaterloggable": true,
     "creativeTab": {
       "value": "CUSTOM:ArcheonBlocks"
     },

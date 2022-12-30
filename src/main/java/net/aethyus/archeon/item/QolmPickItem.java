@@ -35,7 +35,7 @@ public class QolmPickItem extends ArcheonModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new PickaxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 100;
+				return 2031;
 			}
 
 			public float getEfficiency() {
@@ -51,7 +51,7 @@ public class QolmPickItem extends ArcheonModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 22;
 			}
 
 			public Ingredient getRepairMaterial() {

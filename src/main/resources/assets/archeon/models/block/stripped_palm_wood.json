@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "archeon:blocks/stripped_palm_log_side",
-    "particle": "archeon:blocks/stripped_palm_log_side"
+    "all": "archeon:blocks/stripped_palm_log",
+    "particle": "archeon:blocks/stripped_palm_log"
   }
 }

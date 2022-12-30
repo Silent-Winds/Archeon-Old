@@ -3,10 +3,10 @@
   "textures": {
     "down": "archeon:blocks/aketite_bricks",
     "up": "archeon:blocks/aketite_bricks",
-    "north": "archeon:blocks/ornate_aketite_3_new",
-    "east": "archeon:blocks/ornate_aketite_3_new",
-    "south": "archeon:blocks/ornate_aketite_3_new",
-    "west": "archeon:blocks/ornate_aketite_3_new",
+    "north": "archeon:blocks/ornate_aketite_tears",
+    "east": "archeon:blocks/ornate_aketite_tears",
+    "south": "archeon:blocks/ornate_aketite_tears",
+    "west": "archeon:blocks/ornate_aketite_tears",
     "particle": "archeon:blocks/aketite_bricks"
   }
 }

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "archeon:blocks/palm_log_top_new",
-    "up": "archeon:blocks/palm_log_top_new",
-    "north": "archeon:blocks/palm_log_face",
-    "east": "archeon:blocks/palm_log_face",
-    "south": "archeon:blocks/palm_log_face",
-    "west": "archeon:blocks/palm_log_face",
-    "particle": "archeon:blocks/palm_log_top_new"
+    "down": "archeon:blocks/palm_log_top",
+    "up": "archeon:blocks/palm_log_top",
+    "north": "archeon:blocks/palm_log",
+    "east": "archeon:blocks/palm_log",
+    "south": "archeon:blocks/palm_log",
+    "west": "archeon:blocks/palm_log",
+    "particle": "archeon:blocks/palm_log_top"
   }
 }
