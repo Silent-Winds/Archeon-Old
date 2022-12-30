@@ -4,13 +4,11 @@ package net.aethyus.archeon.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.AxeItem;
 
 import net.aethyus.archeon.itemgroup.ArcheonCombatAndToolsItemGroup;
-import net.aethyus.archeon.block.CypressPlanksBlock;
 import net.aethyus.archeon.ArcheonModElements;
 
 @ArcheonModElements.ModElement.Tag
@@ -19,14 +17,14 @@ public class CypressToolsAxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsAxeItem(ArcheonModElements instance) {
-		super(instance, 271);
+		super(instance, 280);
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new AxeItem(new IItemTier() {
 			public int getMaxUses() {
-				return 250;
+				return 59;
 			}
 
 			public float getEfficiency() {
@@ -34,11 +32,11 @@ public class CypressToolsAxeItem extends ArcheonModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 1.5f;
 			}
 
 			public int getHarvestLevel() {
-				return 0;
+				return 1;
 			}
 
 			public int getEnchantability() {
@@ -46,7 +44,7 @@ public class CypressToolsAxeItem extends ArcheonModElements.ModElement {
 			}
 
 			public Ingredient getRepairMaterial() {
-				return Ingredient.fromStacks(new ItemStack(CypressPlanksBlock.block));
+				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab)) {
 		}.setRegistryName("cypress_tools_axe"));

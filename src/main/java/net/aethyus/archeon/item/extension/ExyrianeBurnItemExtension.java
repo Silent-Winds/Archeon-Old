@@ -18,7 +18,7 @@ public class ExyrianeBurnItemExtension {
 			ItemStack itemstack = event.getItemStack();
 			if (itemstack.getItem() == ExyrianeCrystalItem.block)
 
-				event.setBurnTime(150);
+				event.setBurnTime(40);
 		}
 	}
 }

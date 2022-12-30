@@ -36,7 +36,7 @@ public class LootUrnBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LootUrnBlock(ArcheonModElements instance) {
-		super(instance, 208);
+		super(instance, 215);
 	}
 
 	@Override

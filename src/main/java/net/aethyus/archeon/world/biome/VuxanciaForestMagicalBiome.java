@@ -46,7 +46,7 @@ public class VuxanciaForestMagicalBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public VuxanciaForestMagicalBiome(ArcheonModElements instance) {
-		super(instance, 828);
+		super(instance, 841);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
@@ -57,7 +57,7 @@ public class VuxanciaForestMagicalBiome extends ArcheonModElements.ModElement {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(-14892886).setWaterFogColor(329011)
 						.withSkyColor(7972607).withFoliageColor(-8608956).withGrassColor(-10583510)
 						.setMoodSound(new MoodSoundAmbience(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:sunny")), 1500, 8,
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:sunny")), 3000, 8,
 								2))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()

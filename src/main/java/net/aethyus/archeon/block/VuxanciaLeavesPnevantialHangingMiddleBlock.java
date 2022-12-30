@@ -55,7 +55,7 @@ public class VuxanciaLeavesPnevantialHangingMiddleBlock extends ArcheonModElemen
 	public static final Block block = null;
 
 	public VuxanciaLeavesPnevantialHangingMiddleBlock(ArcheonModElements instance) {
-		super(instance, 158);
+		super(instance, 165);
 	}
 
 	@Override

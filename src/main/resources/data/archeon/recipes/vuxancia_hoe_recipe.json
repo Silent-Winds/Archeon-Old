@@ -1,23 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "01",
+    " 3",
+    " 5"
   ],
   "key": {
     "0": {
-      "item": "archeon:deleted_mod_element"
+      "item": "archeon:vuxancia_planks"
     },
     "1": {
+      "item": "archeon:vuxancia_planks"
+    },
+    "3": {
       "item": "minecraft:stick"
     },
-    "2": {
+    "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "archeon:tropics",
+    "item": "archeon:vuxancia_hoe",
     "count": 1
   }
 }

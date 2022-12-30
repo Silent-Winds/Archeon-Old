@@ -18,7 +18,7 @@ public class GrapeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GrapeItem(ArcheonModElements instance) {
-		super(instance, 315);
+		super(instance, 329);
 	}
 
 	@Override

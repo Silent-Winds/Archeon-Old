@@ -5,25 +5,21 @@
     "renderType": 0,
     "texture": "neclane_axe",
     "customModelName": "Normal",
-    "name": "Neclane Wood Axe",
+    "name": "Neclane Hatchet",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ArcheonCombatAndTools"
     },
     "toolType": "Axe",
-    "harvestLevel": 0,
+    "harvestLevel": 1,
     "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
-    "damageVsEntity": 4.0,
-    "usageCount": 250,
+    "damageVsEntity": 3.5,
+    "usageCount": 59,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:AntropyPlanks"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

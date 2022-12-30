@@ -46,7 +46,7 @@ public class TropicalOceanBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public TropicalOceanBiome(ArcheonModElements instance) {
-		super(instance, 345);
+		super(instance, 358);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
@@ -57,7 +57,7 @@ public class TropicalOceanBiome extends ArcheonModElements.ModElement {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(-14892886).setWaterFogColor(329011)
 						.withSkyColor(7972607).withFoliageColor(-9399763).withGrassColor(-9399763)
 						.setMoodSound(new MoodSoundAmbience(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:brile")), 1000, 8,
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:brile")), 3000, 8,
 								2))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()

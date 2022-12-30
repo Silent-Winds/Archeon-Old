@@ -44,7 +44,7 @@ public class SouthMeadowsBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public SouthMeadowsBiome(ArcheonModElements instance) {
-		super(instance, 366);
+		super(instance, 379);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
@@ -56,7 +56,7 @@ public class SouthMeadowsBiome extends ArcheonModElements.ModElement {
 						.withSkyColor(7972607).withFoliageColor(-10650825).withGrassColor(-10650825)
 						.setMoodSound(new MoodSoundAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:no_ones_around")),
-								1500, 8, 2))
+								3000, 8, 2))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WetGrassBlockBlock.block.getDefaultState(),

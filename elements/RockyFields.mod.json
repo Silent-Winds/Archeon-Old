@@ -36,7 +36,7 @@
     "moodSound": {
       "value": "CUSTOM:dotted_sky"
     },
-    "moodSoundDelay": 300,
+    "moodSoundDelay": 3000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

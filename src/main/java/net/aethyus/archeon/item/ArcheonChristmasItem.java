@@ -17,7 +17,7 @@ public class ArcheonChristmasItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ArcheonChristmasItem(ArcheonModElements instance) {
-		super(instance, 307);
+		super(instance, 321);
 	}
 
 	@Override

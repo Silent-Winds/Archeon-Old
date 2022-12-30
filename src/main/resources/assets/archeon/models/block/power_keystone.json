@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "archeon:blocks/fancy_chiseled_artemnite",
+    "up": "archeon:blocks/fancy_chiseled_artemnite",
+    "north": "archeon:blocks/power_keystone",
+    "east": "archeon:blocks/fancy_chiseled_artemnite",
+    "south": "archeon:blocks/fancy_chiseled_artemnite",
+    "west": "archeon:blocks/fancy_chiseled_artemnite",
+    "particle": "archeon:blocks/fancy_chiseled_artemnite"
+  }
+}

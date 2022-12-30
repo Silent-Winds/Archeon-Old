@@ -36,7 +36,7 @@
     "moodSound": {
       "value": "CUSTOM:brile"
     },
-    "moodSoundDelay": 1000,
+    "moodSoundDelay": 3000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

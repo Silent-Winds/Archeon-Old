@@ -62,7 +62,7 @@ public class AeroliaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AeroliaBlock(ArcheonModElements instance) {
-		super(instance, 213);
+		super(instance, 220);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

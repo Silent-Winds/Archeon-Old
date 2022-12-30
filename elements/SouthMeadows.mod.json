@@ -36,7 +36,7 @@
     "moodSound": {
       "value": "CUSTOM:no_ones_around"
     },
-    "moodSoundDelay": 1500,
+    "moodSoundDelay": 3000,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

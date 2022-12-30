@@ -5,25 +5,21 @@
     "renderType": 0,
     "texture": "cypress_sword",
     "customModelName": "Normal",
-    "name": "Cypress Wood Sword",
+    "name": "Cypress Sword",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ArcheonCombatAndTools"
     },
     "toolType": "Sword",
-    "harvestLevel": 0,
+    "harvestLevel": 1,
     "efficiency": 2.0,
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 3.5,
-    "usageCount": 250,
+    "usageCount": 59,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [
-      {
-        "value": "CUSTOM:CypressPlanks"
-      }
-    ],
+    "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

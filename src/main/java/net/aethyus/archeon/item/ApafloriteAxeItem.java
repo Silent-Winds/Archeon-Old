@@ -17,7 +17,7 @@ public class ApafloriteAxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloriteAxeItem(ArcheonModElements instance) {
-		super(instance, 260);
+		super(instance, 269);
 	}
 
 	@Override

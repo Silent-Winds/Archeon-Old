@@ -46,11 +46,11 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Nature Wand",
+    "igniterName": "Wand of Nature",
     "igniterTab": {
       "value": "CUSTOM:ArcheonCombatAndTools"
     },
-    "texture": "new_nature_wand",
+    "texture": "nature_wand",
     "portalTexture": "archeon_portal",
     "enablePortal": true
   }

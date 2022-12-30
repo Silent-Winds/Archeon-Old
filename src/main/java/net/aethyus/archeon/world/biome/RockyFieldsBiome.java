@@ -45,7 +45,7 @@ public class RockyFieldsBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public RockyFieldsBiome(ArcheonModElements instance) {
-		super(instance, 632);
+		super(instance, 645);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 
@@ -57,7 +57,7 @@ public class RockyFieldsBiome extends ArcheonModElements.ModElement {
 						.withSkyColor(7972607).withFoliageColor(-8608956).withGrassColor(-10583510)
 						.setMoodSound(new MoodSoundAmbience(
 								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
-								300, 8, 2))
+								3000, 8, 2))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WetGrassBlockBlock.block.getDefaultState(),

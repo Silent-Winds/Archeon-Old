@@ -13,7 +13,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:RawExyrianeCrystal"
+        "value": "CUSTOM:VuxanciaPlanks"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:VuxanciaPlanks"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Tropics"
+      "value": "CUSTOM:VuxanciaSword"
     },
-    "name": "tropics_activator_recipe",
+    "name": "vuxancia_sword_recipe",
     "namespace": "mod"
   }
 }

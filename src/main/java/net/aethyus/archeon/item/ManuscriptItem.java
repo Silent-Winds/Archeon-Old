@@ -18,7 +18,7 @@ public class ManuscriptItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ManuscriptItem(ArcheonModElements instance) {
-		super(instance, 281);
+		super(instance, 295);
 	}
 
 	@Override
