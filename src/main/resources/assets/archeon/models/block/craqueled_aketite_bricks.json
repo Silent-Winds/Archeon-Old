@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "archeon:blocks/craqueled_aketite_bricks",
-    "particle": "archeon:blocks/craqueled_aketite_bricks"
+    "all": "archeon:blocks/cracked_aketite_bricks",
+    "particle": "archeon:blocks/cracked_aketite_bricks"
   }
 }

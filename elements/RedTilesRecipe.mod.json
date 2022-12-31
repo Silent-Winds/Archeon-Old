@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedLycorisPetal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedLycorisPetal"
+      },
+      {
+        "value": "CUSTOM:CrimsonTiles"
+      },
+      {
+        "value": "CUSTOM:RedLycorisPetal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RedLycorisPetal"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedTiles"
+    },
+    "name": "red_tiles_recipe",
+    "namespace": "mod"
+  }
+}

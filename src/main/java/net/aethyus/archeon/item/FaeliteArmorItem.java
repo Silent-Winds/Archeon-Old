@@ -30,7 +30,7 @@ public class FaeliteArmorItem extends ArcheonModElements.ModElement {
 	public static final Item boots = null;
 
 	public FaeliteArmorItem(ArcheonModElements instance) {
-		super(instance, 273);
+		super(instance, 298);
 	}
 
 	@Override

@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 9,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueShell"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlueShell"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlueShell"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlueShell"
+      },
+      {
+        "value": "CUSTOM:TropicstoneBricks"
+      },
+      {
+        "value": "CUSTOM:BlueShell"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WarpedTiles"
+    },
+    "name": "warped_tiles_recipe",
+    "namespace": "mod"
+  }
+}

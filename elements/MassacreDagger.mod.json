@@ -1,0 +1,30 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "massacre_dagger",
+    "customModelName": "Normal",
+    "name": "§dDagger of the Massacre",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonCombatAndTools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 2031,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "MassacreDaggerLivingEntityIsHitWithTool"
+    }
+  }
+}

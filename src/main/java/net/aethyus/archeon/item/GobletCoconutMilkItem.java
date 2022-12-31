@@ -28,7 +28,7 @@ public class GobletCoconutMilkItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GobletCoconutMilkItem(ArcheonModElements instance) {
-		super(instance, 307);
+		super(instance, 332);
 	}
 
 	@Override

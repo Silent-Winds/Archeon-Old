@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:red_tiles"
+    },
+    "1": {
+      "item": "archeon:red_tiles"
+    },
+    "2": {
+      "item": "archeon:red_tiles"
+    },
+    "3": {
+      "item": "archeon:red_tiles"
+    },
+    "4": {
+      "item": "archeon:red_tiles"
+    },
+    "5": {
+      "item": "archeon:red_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:red_tiles_wall",
+    "count": 6
+  }
+}

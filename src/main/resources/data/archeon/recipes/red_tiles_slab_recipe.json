@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:red_tiles"
+    },
+    "1": {
+      "item": "archeon:red_tiles"
+    },
+    "2": {
+      "item": "archeon:red_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:red_tiles_slab",
+    "count": 6
+  }
+}

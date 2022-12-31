@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "archeon:blocks/terracotta_urn_5",
-    "up": "archeon:blocks/terracotta_urn_5",
-    "north": "archeon:blocks/terracotta_urn_5",
-    "east": "archeon:blocks/terracotta_urn_5",
-    "south": "archeon:blocks/terracotta_urn_5",
-    "west": "archeon:blocks/terracotta_urn_5",
-    "particle": "archeon:blocks/terracotta_urn_5"
+    "down": "archeon:blocks/ceramic",
+    "up": "archeon:blocks/ceramic",
+    "north": "archeon:blocks/ceramic",
+    "east": "archeon:blocks/ceramic",
+    "south": "archeon:blocks/ceramic",
+    "west": "archeon:blocks/ceramic",
+    "particle": "archeon:blocks/ceramic"
   }
 }

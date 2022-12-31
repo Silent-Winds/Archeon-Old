@@ -18,7 +18,7 @@ public class BloodOrangeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public BloodOrangeItem(ArcheonModElements instance) {
-		super(instance, 328);
+		super(instance, 353);
 	}
 
 	@Override

@@ -18,7 +18,7 @@ public class JamPotItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public JamPotItem(ArcheonModElements instance) {
-		super(instance, 309);
+		super(instance, 334);
 	}
 
 	@Override

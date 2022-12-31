@@ -19,7 +19,7 @@ public class Tropicstone_ToolsPickaxeItem extends ArcheonModElements.ModElement 
 	public static final Item block = null;
 
 	public Tropicstone_ToolsPickaxeItem(ArcheonModElements instance) {
-		super(instance, 262);
+		super(instance, 287);
 	}
 
 	@Override

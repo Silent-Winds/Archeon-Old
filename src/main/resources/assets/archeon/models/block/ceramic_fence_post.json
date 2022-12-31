@@ -1,7 +1,7 @@
 {
   "parent": "block/fence_post",
   "textures": {
-    "texture": "archeon:blocks/terracotta_urn_5",
-    "particle": "archeon:blocks/terracotta_urn_5"
+    "texture": "archeon:blocks/ceramic",
+    "particle": "archeon:blocks/ceramic"
   }
 }

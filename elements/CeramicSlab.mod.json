@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "terracotta_urn_5",
-    "textureTop": "terracotta_urn_5",
+    "texture": "ceramic",
+    "textureTop": "ceramic",
     "textureLeft": "",
-    "textureFront": "terracotta_urn_5",
+    "textureFront": "ceramic",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,

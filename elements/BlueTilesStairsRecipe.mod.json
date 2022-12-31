@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlueTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueTiles"
+      },
+      {
+        "value": "CUSTOM:BlueTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlueTiles"
+      },
+      {
+        "value": "CUSTOM:BlueTiles"
+      },
+      {
+        "value": "CUSTOM:BlueTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueTilesStairs"
+    },
+    "name": "blue_tiles_stairs_recipe",
+    "namespace": "mod"
+  }
+}

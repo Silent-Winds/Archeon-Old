@@ -58,7 +58,7 @@ public class WitheredArgandeaneBlossomBlock extends ArcheonModElements.ModElemen
 	public static final Block block = null;
 
 	public WitheredArgandeaneBlossomBlock(ArcheonModElements instance) {
-		super(instance, 241);
+		super(instance, 265);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

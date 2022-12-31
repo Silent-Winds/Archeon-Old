@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ExyrianeCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ExyrianeCrystal"
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": "CUSTOM:ExyrianeCrystal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ExyrianeCrystal"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlueTiles"
+    },
+    "name": "blue_tiles_recipe",
+    "namespace": "mod"
+  }
+}

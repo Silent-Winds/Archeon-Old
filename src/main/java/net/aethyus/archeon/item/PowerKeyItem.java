@@ -17,7 +17,7 @@ public class PowerKeyItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public PowerKeyItem(ArcheonModElements instance) {
-		super(instance, 261);
+		super(instance, 286);
 	}
 
 	@Override

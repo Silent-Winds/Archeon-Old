@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      },
+      {
+        "value": "CUSTOM:WarpedTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WarpedTilesStairs"
+    },
+    "name": "warped_tiles_stairs_recipe",
+    "namespace": "mod"
+  }
+}

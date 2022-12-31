@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:warped_tiles"
+    },
+    "3": {
+      "item": "archeon:warped_tiles"
+    },
+    "4": {
+      "item": "archeon:warped_tiles"
+    },
+    "6": {
+      "item": "archeon:warped_tiles"
+    },
+    "7": {
+      "item": "archeon:warped_tiles"
+    },
+    "8": {
+      "item": "archeon:warped_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:warped_tiles_stairs",
+    "count": 4
+  }
+}

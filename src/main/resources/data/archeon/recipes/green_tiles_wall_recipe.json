@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:green_tiles"
+    },
+    "1": {
+      "item": "archeon:green_tiles"
+    },
+    "2": {
+      "item": "archeon:green_tiles"
+    },
+    "3": {
+      "item": "archeon:green_tiles"
+    },
+    "4": {
+      "item": "archeon:green_tiles"
+    },
+    "5": {
+      "item": "archeon:green_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:green_tiles_wall",
+    "count": 6
+  }
+}

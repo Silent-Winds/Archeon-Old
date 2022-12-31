@@ -46,7 +46,7 @@ public class VuxanciaForestMagicalBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public VuxanciaForestMagicalBiome(ArcheonModElements instance) {
-		super(instance, 841);
+		super(instance, 864);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

@@ -1,8 +1,8 @@
 {
   "parent": "block/inner_stairs",
   "textures": {
-    "bottom": "archeon:blocks/terracotta_urn_5",
-    "top": "archeon:blocks/terracotta_urn_5",
-    "side": "archeon:blocks/terracotta_urn_5"
+    "bottom": "archeon:blocks/ceramic",
+    "top": "archeon:blocks/ceramic",
+    "side": "archeon:blocks/ceramic"
   }
 }

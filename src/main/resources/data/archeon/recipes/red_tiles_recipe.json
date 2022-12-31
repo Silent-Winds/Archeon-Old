@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:red_lycoris_petal"
+    },
+    "3": {
+      "item": "archeon:red_lycoris_petal"
+    },
+    "4": {
+      "item": "archeon:crimson_tiles"
+    },
+    "5": {
+      "item": "archeon:red_lycoris_petal"
+    },
+    "7": {
+      "item": "archeon:red_lycoris_petal"
+    }
+  },
+  "result": {
+    "item": "archeon:red_tiles",
+    "count": 5
+  }
+}

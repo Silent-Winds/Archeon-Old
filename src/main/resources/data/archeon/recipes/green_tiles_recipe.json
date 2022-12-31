@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:yellow_shell"
+    },
+    "3": {
+      "item": "archeon:yellow_shell"
+    },
+    "4": {
+      "item": "archeon:warped_tiles"
+    },
+    "5": {
+      "item": "archeon:yellow_shell"
+    },
+    "7": {
+      "item": "archeon:yellow_shell"
+    }
+  },
+  "result": {
+    "item": "archeon:green_tiles",
+    "count": 5
+  }
+}
