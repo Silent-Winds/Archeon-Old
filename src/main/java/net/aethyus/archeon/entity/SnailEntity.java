@@ -73,7 +73,7 @@ public class SnailEntity extends ArcheonModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.25);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 16);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 1);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);

@@ -153,5 +153,23 @@
         "stream": false
       }
     ]
+  },
+  "the_nature_core": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:the_nature_core_temporary",
+        "stream": true
+      }
+    ]
+  },
+  "the_nature_core_end": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:the_nature_core_temporary_end",
+        "stream": true
+      }
+    ]
   }
 }
