@@ -41,7 +41,7 @@ public class MassacreDaggerItem extends ArcheonModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getHarvestLevel() {
@@ -55,7 +55,7 @@ public class MassacreDaggerItem extends ArcheonModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, -3f, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
+		}, 3, -0.5f, new Item.Properties().group(ArcheonCombatAndToolsItemGroup.tab).isImmuneToFire()) {
 			@Override
 			public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 				boolean retval = super.hitEntity(itemstack, entity, sourceentity);

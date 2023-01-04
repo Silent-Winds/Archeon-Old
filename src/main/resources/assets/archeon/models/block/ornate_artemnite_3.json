@@ -1,7 +1,7 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "archeon:blocks/ornate_chiseled_artemnite",
-    "particle": "archeon:blocks/ornate_chiseled_artemnite"
+    "all": "archeon:blocks/ornate_artemnite_bricks_tears",
+    "particle": "archeon:blocks/ornate_artemnite_bricks_tears"
   }
 }

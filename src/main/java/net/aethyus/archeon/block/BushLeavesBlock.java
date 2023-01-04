@@ -46,7 +46,7 @@ public class BushLeavesBlock extends ArcheonModElements.ModElement {
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0)
-					.doesNotBlockMovement().speedFactor(0.6f).notSolid().setOpaque((bs, br, bp) -> false));
+					.doesNotBlockMovement().speedFactor(0.4f).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("bush_leaves");
 		}
 

@@ -135,5 +135,23 @@
         "stream": true
       }
     ]
+  },
+  "catalyst.ambient": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "archeon:catalyst_ambient",
+        "stream": false
+      }
+    ]
+  },
+  "catalyst.hit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "archeon:catalyst_hit",
+        "stream": false
+      }
+    ]
   }
 }
