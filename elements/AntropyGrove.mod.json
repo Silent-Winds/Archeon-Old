@@ -109,8 +109,17 @@
         },
         "minGroup": 2,
         "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "creature"
+        "weight": 2,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Snail"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 2,
+        "spawnType": "ambient"
       }
     ]
   }

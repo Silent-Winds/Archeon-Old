@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "archeon:items/yellow_shell_new"
+    "layer0": "archeon:items/yellow_seashell"
   }
 }

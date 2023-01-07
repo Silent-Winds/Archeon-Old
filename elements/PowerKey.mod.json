@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "power_key",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "Power Key",
     "rarity": "RARE",
     "creativeTab": {

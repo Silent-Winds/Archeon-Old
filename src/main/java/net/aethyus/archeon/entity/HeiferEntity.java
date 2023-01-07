@@ -39,12 +39,12 @@ import net.aethyus.archeon.ArcheonModElements;
 
 @ArcheonModElements.ModElement.Tag
 public class HeiferEntity extends ArcheonModElements.ModElement {
-	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.9f, 1.4f)).build("heifer").setRegistryName("heifer");
 
 	public HeiferEntity(ArcheonModElements instance) {
-		super(instance, 319);
+		super(instance, 362);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HeiferRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

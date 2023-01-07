@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "pink_lycoris_new",
+    "texture": "pink_lycoris",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",

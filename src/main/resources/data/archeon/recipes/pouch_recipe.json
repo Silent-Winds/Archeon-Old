@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:sunstradiver_feather"
+    },
+    "3": {
+      "item": "archeon:moss_ball"
+    },
+    "4": {
+      "item": "minecraft:chest"
+    },
+    "5": {
+      "item": "archeon:moss_ball"
+    },
+    "6": {
+      "item": "archeon:plant_fiber"
+    },
+    "7": {
+      "item": "archeon:moss_ball"
+    },
+    "8": {
+      "item": "archeon:plant_fiber"
+    }
+  },
+  "result": {
+    "item": "archeon:pouch",
+    "count": 1
+  }
+}

@@ -7,6 +7,9 @@
     "mobModelName": "Modelcatalyst",
     "mobModelTexture": "catalyst.png",
     "mobModelGlowTexture": "catalyst.png",
+    "transparentModelCondition": {
+      "name": "AuroraCatalystTransparentEntityModelCondition"
+    },
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
@@ -112,7 +115,7 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningProbability": 5,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 4,

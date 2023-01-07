@@ -31,6 +31,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.block.Blocks;
 
+import net.aethyus.archeon.entity.SnailEntity;
 import net.aethyus.archeon.entity.HeiferEntity;
 import net.aethyus.archeon.block.WetGrassBlockBlock;
 import net.aethyus.archeon.block.WetDirtBlock;
@@ -78,7 +79,8 @@ public class AntropyGroveBiome extends ArcheonModElements.ModElement {
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				mobSpawnInfo.withSpawner(EntityClassification.CREATURE, new MobSpawnInfo.Spawners(HeiferEntity.entity, 20, 2, 4));
+				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(HeiferEntity.entity, 2, 2, 4));
+				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(SnailEntity.entity, 2, 1, 3));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.PLAINS).depth(0.2f).scale(0.1f)
 						.temperature(0.7f).downfall(0.1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

@@ -112,8 +112,8 @@
     "rangedItemType": "Default item",
     "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
-    "mobSpawningType": "creature",
+    "spawningProbability": 4,
+    "mobSpawningType": "ambient",
     "minNumberOfMobsPerGroup": 2,
     "maxNumberOfMobsPerGroup": 3,
     "restrictionBiomes": [

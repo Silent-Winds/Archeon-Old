@@ -14,29 +14,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:WhiteShell"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 3,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": true,
-            "explosionDecay": false,
-            "silkTouchMode": 2
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:BlueShell"
             },
             "weight": 1,

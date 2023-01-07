@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.aethyus.archeon.block.LycorisRadiataBlock;
+import net.aethyus.archeon.block.RedLycorisBlock;
 import net.aethyus.archeon.ArcheonModElements;
 
 @ArcheonModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class ArcheonFaunaItemGroup extends ArcheonModElements.ModElement {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(LycorisRadiataBlock.block);
+				return new ItemStack(RedLycorisBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

@@ -1,24 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    "0",
+    "1",
+    "2"
   ],
   "key": {
+    "0": {
+      "item": "archeon:apaflorite_gemstone"
+    },
     "1": {
       "item": "archeon:apaflorite_gemstone"
     },
-    "3": {
-      "item": "archeon:apaflorite_gemstone"
-    },
-    "4": {
-      "item": "archeon:deleted_mod_element"
-    },
-    "5": {
-      "item": "archeon:apaflorite_gemstone"
-    },
-    "7": {
+    "2": {
       "item": "minecraft:stick"
     }
   },

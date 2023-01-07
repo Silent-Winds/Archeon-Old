@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "pink_shell_new",
+    "texture": "pink_seashell",
     "customModelName": "Normal",
     "name": "Pink Seashell",
     "rarity": "COMMON",

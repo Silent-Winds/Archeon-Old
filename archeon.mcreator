@@ -988,14 +988,6 @@
       "registry_name": "craft_purple_aerolia"
     },
     {
-      "name": "WhiteShell",
-      "type": "item",
-      "sortid": 326,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_shell"
-    },
-    {
       "name": "BlueShell",
       "type": "item",
       "sortid": 327,
@@ -1018,14 +1010,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "yellow_shell"
-    },
-    {
-      "name": "WhiteShellToWhite",
-      "type": "recipe",
-      "sortid": 430,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_shell_to_white"
     },
     {
       "name": "BlueShellToBlue",
@@ -1440,7 +1424,7 @@
       "type": "livingentity",
       "sortid": 362,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "heifer"
     },
     {
@@ -2556,30 +2540,6 @@
       "registry_name": "withered_argandeane_blossom"
     },
     {
-      "name": "WitheredRedLycoris",
-      "type": "plant",
-      "sortid": 252,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_red_lycoris"
-    },
-    {
-      "name": "WitheredPinkLycoris",
-      "type": "plant",
-      "sortid": 250,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_pink_lycoris"
-    },
-    {
-      "name": "WitheredOrangeLycoris",
-      "type": "plant",
-      "sortid": 254,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_orange_lycoris"
-    },
-    {
       "name": "WitheredSepticeolia",
       "type": "plant",
       "sortid": 268,
@@ -2610,30 +2570,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "withered_argandeane_blossom_to_gray"
-    },
-    {
-      "name": "WitheredRedLycorisToGray",
-      "type": "recipe",
-      "sortid": 551,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_red_lycoris_to_gray"
-    },
-    {
-      "name": "WitheredPinkLycorisToGray",
-      "type": "recipe",
-      "sortid": 552,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_pink_lycoris_to_gray"
-    },
-    {
-      "name": "WitheredOrangeLycorisToGray",
-      "type": "recipe",
-      "sortid": 553,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "withered_orange_lycoris_to_gray"
     },
     {
       "name": "WitheredSepticeoliaToGray",
@@ -5172,14 +5108,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "exyriane_burn"
-    },
-    {
-      "name": "Shell1",
-      "type": "itemextension",
-      "sortid": 771,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "shell_1"
     },
     {
       "name": "Shell2",
@@ -8012,6 +7940,74 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nature_core"
+    },
+    {
+      "name": "SummerAntropyTrapdoor",
+      "type": "block",
+      "sortid": 968,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_trapdoor"
+    },
+    {
+      "name": "SummerAntropyDoor",
+      "type": "block",
+      "sortid": 969,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_door"
+    },
+    {
+      "name": "SummerAntropyDoor1",
+      "type": "recipe",
+      "sortid": 970,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_door_1"
+    },
+    {
+      "name": "SummerAntropyDoor2",
+      "type": "recipe",
+      "sortid": 971,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_door_2"
+    },
+    {
+      "name": "SummerAntropyTrapdoor1",
+      "type": "recipe",
+      "sortid": 972,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_trapdoor_1"
+    },
+    {
+      "name": "SummerAntropyTrapdoor2",
+      "type": "recipe",
+      "sortid": 973,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "summer_antropy_trapdoor_2"
+    },
+    {
+      "name": "AuroraCatalystTransparentEntityModelCondition",
+      "type": "procedure",
+      "sortid": 974,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aurora_catalyst_transparent_entity_model_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PouchRecipe",
+      "type": "recipe",
+      "sortid": 975,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pouch_recipe"
     }
   ],
   "variable_elements": [],
@@ -8179,14 +8175,14 @@
       "item.archeon.neclane_wood_pickaxe": "Neclane Pickaxe",
       "item.archeon.aurora_catalyst_spawn_egg": "Aurora Catalyst Spawn Egg",
       "item.archeon.clothes_leggings": "Beige Trousers",
-      "block.archeon.antropy_slab": "Neclane Slab",
       "block.archeon.southstone_pillar": "Southstone Pillar",
+      "block.archeon.antropy_slab": "Neclane Slab",
       "block.archeon.cypress_slab": "Cypress Slab",
       "item.archeon.rising.desc": "Tiramisu Audio - Rising",
       "advancements.flower_advancement_septiceolia.title": "Bright n\u0027 Beautiful",
       "block.archeon.vuxancia_button": "Vuxancia Button",
-      "item.archeon.red_lycoris_petal": "Red Lycoris Petal",
       "block.archeon.aerolia": "Aerolia",
+      "item.archeon.red_lycoris_petal": "Red Lycoris Petal",
       "block.archeon.vuxancia_slab": "Vuxancia Slab",
       "item.archeon.pink_shell": "Pink Seashell",
       "block.archeon.ceramic_slab": "Ceramic Slab",
@@ -8202,8 +8198,8 @@
       "block.archeon.ornate_artemnite_3": "Ornate Artemnite (Center)",
       "block.archeon.gypsum_wall": "Gypsum Wall",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Cut a petal from a Pink Lycoris.",
-      "block.archeon.faelite_block": "Block of Faelite",
       "advancements.orange_and_orange.title": "Orange and Orange?",
+      "block.archeon.faelite_block": "Block of Faelite",
       "item.archeon.faelite_hoe": "Faelite Hoe",
       "block.archeon.gypsum_block": "Gypsum",
       "block.archeon.tropicstone_bricks": "Southstone Bricks",
@@ -8212,18 +8208,17 @@
       "item.archeon.clothes_chestplate": "Pink Sweatshirt",
       "block.archeon.bush_leaves": "Bush Leaves",
       "block.archeon.withered_septiceolia": "Withered Septiceolia",
-      "block.archeon.withered_orange_lycoris": "Withered Orange Lycoris",
       "advancements.biome_vuxancia_forest_magical.descr": "Enter a Magical Vuxancia Forest biome.",
       "block.archeon.hollow_cypress_log": "Hollow Cypress Log",
-      "block.archeon.gypsum_bricks_slab": "Gypsum Brick Slab",
       "block.archeon.ascendia": "Ascendia",
+      "block.archeon.gypsum_bricks_slab": "Gypsum Brick Slab",
       "advancements.yummy_and_greasy.title": "Yummy and Greasy",
       "subtitles.dotted_sky": "",
-      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Dune Sand Glass Pane Tiles Top Left",
       "block.archeon.roughcast_wall": "Roughcast Wall",
+      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Dune Sand Glass Pane Tiles Top Left",
       "advancements.flower_advancement_cokiplant.descr": "Discover a Cokiplant.",
-      "block.archeon.mossy_artemnite_bricks_wall": "Mossy Artemnite Brick Wall",
       "block.archeon.dead_wet_grass_tuffet": "Dead Wet Grass Tuffet",
+      "block.archeon.mossy_artemnite_bricks_wall": "Mossy Artemnite Brick Wall",
       "item.archeon.exyriane_crystal": "Exyriane Shard",
       "block.archeon.tropicstone_pressure_plate": "Southstone Pressure Plate",
       "block.archeon.red_tiles_slab": "Red Tile Slab",
@@ -8265,12 +8260,12 @@
       "advancements.glass_confection.descr": "Craft a stack of Dune Sand Glass Tiles.",
       "block.archeon.tropistone_button": "Southstone Button",
       "block.archeon.dune_sand_glass_pane": "Dune Sand Glass Pane",
-      "block.archeon.withered_argandeane_blossom": "Withered Organdeane Blossom",
       "biome.archeon.tropical_ocean": "Lake or Dune",
+      "block.archeon.withered_argandeane_blossom": "Withered Organdeane Blossom",
       "block.archeon.crimson_tiles_stairs": "Crimson Tile Stairs",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Hanging Orian Vuxancia Leaves",
-      "subtitles.hoxa": "",
       "item.archeon.tropicstone_tools_shovel": "Southstone Shovel",
+      "subtitles.hoxa": "",
       "item.archeon.neclane_wood_hoe": "Neclane Hoe",
       "item.archeon.geometric_fall.desc": "Tim Rurkowski - Geometric Fall",
       "block.archeon.artemnite_tiles_slab": "Artemnite Tiles Slab",
@@ -8280,8 +8275,8 @@
       "item.archeon.goblet_water": "Water Goblet",
       "item.archeon.herbicide": "Herbicide",
       "subtitles.catalyst.hit": "",
-      "block.archeon.aketite_tile": "Smooth Aketite",
       "item.archeon.apaflorite_armor_boots": "Apaflorite Boots",
+      "block.archeon.aketite_tile": "Smooth Aketite",
       "block.archeon.roseypia": "Roseypia",
       "advancements.yummy_and_greasy.descr": "Get a heifer steak.",
       "item.archeon.faelite_armor_boots": "Faelite Boots",
@@ -8291,8 +8286,8 @@
       "block.archeon.red_lycoris": "Red Lycoris ",
       "advancements.flower_advancement_iopea.title": "Bright Blue Sky\u0027s Flower",
       "item.archeon.nature_core_spawn_egg": "Nature\u0027s Core Spawn Egg",
-      "block.archeon.stripped_vuxancia_wood": "Stripped Vuxancia Wood",
       "subtitles.brile": "",
+      "block.archeon.stripped_vuxancia_wood": "Stripped Vuxancia Wood",
       "block.archeon.xetulian_sugar_cane": "Xetulian Sugar Cane",
       "block.archeon.mossy_tropicstone_bricks_wall": "Mossy Southstone Brick Wal",
       "block.archeon.astedibes": "Astedibes",
@@ -8301,8 +8296,8 @@
       "item.archeon.goblet_blood_orange_juice": "Goblet of Blood Orange Juice",
       "item.archeon.cypress_tools_hoe": "Cypress Hoe",
       "block.archeon.warped_tiles_slab": "Warped Tile Slab",
-      "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
+      "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "advancements.biome_vuxancia_forest.descr": "Enter a Vuxancia Forest biome.",
       "block.archeon.vuxancia_fence": "Vuxancia Fence",
       "item.archeon.gear": "Gear",
@@ -8395,7 +8390,6 @@
       "block.archeon.exyriane_block": "Block of Exyriane",
       "block.archeon.gypsum_bricks_fence": "Gypsum Brick Fence",
       "block.archeon.palm_planks": "Palm Planks",
-      "item.archeon.white_shell": "White Seashell",
       "subtitles.pe4k": "Tim Rurkowski - Pe4k",
       "block.archeon.southstone_column": "Sousthone Column",
       "item.archeon.vuxancia_shovel": "Vuxancia Shovel",
@@ -8403,6 +8397,7 @@
       "subtitles.sunny": "",
       "block.archeon.vuxancia_stairs": "Vuxancia Stairs",
       "block.archeon.wet_grass_block": "Wet Grass Block",
+      "block.archeon.summer_antropy_door": "Summer Neclane Door",
       "block.archeon.palm_fence_gate": "Palm Fence Gate",
       "block.archeon.red_tiles_wall": "Red Tile Wall",
       "advancements.like_a_blue_amber.title": "Like a Blue Amber",
@@ -8492,6 +8487,7 @@
       "block.archeon.ceramic_bricks": "Ceramic Bricks",
       "block.archeon.gilded_cobbled_southstone_wall": "Gilded Cobbled Southstone Wall",
       "advancements.flower_advancement_orange_lycoris.descr": "Discover an Orange Lycoris.",
+      "block.archeon.summer_antropy_trapdoor": "Summer Neclane Trapdoor",
       "advancements.the_super_shiny_one.descr": "Craft a Block of Faelite with 9 ingots, and make 64 of those.",
       "block.archeon.stripped_vuxancia_log": "Stripped Vuxancia Log",
       "block.archeon.antropy_planks": "Neclane Planks",
@@ -8595,7 +8591,6 @@
       "block.archeon.false_mossy_southstone_bricks": "False Mossy Southstone Bricks",
       "item.archeon.qolm_pick": "§dPick of Qolm",
       "item.archeon.vuxancia_hoe": "Vuxancia Hoe",
-      "block.archeon.withered_pink_lycoris": "Withered Pink Lycoris",
       "item.archeon.moss_ball": "Ball of Moss",
       "item.archeon.exyriane_fishing_rod": "Exyriane Fishing Rod",
       "block.archeon.withered_astedibes": "Withered Astedibes",
@@ -8639,7 +8634,6 @@
       "item.archeon.goblet": "Goblet",
       "block.archeon.leaves_carpet_pnevantial": "Carpet of Pnevantial Vuxancia Leaves",
       "advancements.stone_confection.title": "Stone Confection",
-      "block.archeon.withered_red_lycoris": "Withered Red Lycoris",
       "advancements.the_super_shiny_one.title": "The Super Shiny One",
       "advancements.flower_advancement_orange_lycoris.title": "The Miner\u0027s Plant",
       "block.archeon.ochre_tiles_stairs": "Ochre Tile Stairs",
@@ -8708,7 +8702,6 @@
       "item.archeon.clothes_chestplate": "Sweat rose",
       "block.archeon.bush_leaves": "Feuilles de buisson",
       "block.archeon.withered_septiceolia": "Céticée fanée",
-      "block.archeon.withered_orange_lycoris": "Lycoris orange fanée",
       "advancements.biome_vuxancia_forest_magical.descr": "Entrez dans une forêt de vuxancia magique.",
       "block.archeon.hollow_cypress_log": "Bûche de cyprès creuse",
       "block.archeon.ascendia": "Ascendiène",
@@ -8891,7 +8884,6 @@
       "block.archeon.exyriane_block": "Bloc d\u0027éxyriane",
       "block.archeon.palm_planks": "Planches de palmier",
       "block.archeon.gypsum_bricks_fence": "Barrière en gypse taillé",
-      "item.archeon.white_shell": "Coquillage blanc",
       "subtitles.pe4k": "Tim Rurkowski - Pe4k",
       "block.archeon.southstone_column": "Colonne en southstone",
       "item.archeon.vuxancia_shovel": "Pelle en bois de vuxancia",
@@ -8899,6 +8891,7 @@
       "subtitles.sunny": "",
       "block.archeon.vuxancia_stairs": "Escalier en vuxancia",
       "block.archeon.wet_grass_block": "Bloc d\u0027herbe humide",
+      "block.archeon.summer_antropy_door": "Porte en néclane aérée",
       "block.archeon.palm_fence_gate": "Portillon de palmier",
       "block.archeon.red_tiles_wall": "Muret en tuiles rouges",
       "advancements.like_a_blue_amber.title": "Comme une ambre bleue...",
@@ -8988,6 +8981,7 @@
       "block.archeon.ceramic_bricks": "Tuiles de céramique",
       "block.archeon.gilded_cobbled_southstone_wall": "Muret de pierres de southstone dorées",
       "advancements.flower_advancement_orange_lycoris.descr": "Trouvez une lycoris orange.",
+      "block.archeon.summer_antropy_trapdoor": "Trappe en néclane aérée",
       "advancements.the_super_shiny_one.descr": "Fabriquez un bloc de faélite avec 9 lingots, et placez-le. Oui, vous êtes riches, ne faites pas genre. Le genre de trucs à briller trop fort.",
       "block.archeon.stripped_vuxancia_log": "Bûche de vuxancia écorcée",
       "block.archeon.antropy_planks": "Planches de néclane",
@@ -9091,7 +9085,6 @@
       "block.archeon.false_mossy_southstone_bricks": "Fausse southstone taillée moussue",
       "item.archeon.qolm_pick": "§dPioche de Quolme",
       "item.archeon.vuxancia_hoe": "Houe en bois de vuxancia",
-      "block.archeon.withered_pink_lycoris": "Lycoris rose fanée",
       "item.archeon.moss_ball": "Boule de mousse",
       "item.archeon.exyriane_fishing_rod": "Canne à pêche en éxyriane",
       "block.archeon.withered_astedibes": "Astédibées fanées",
@@ -9135,7 +9128,6 @@
       "item.archeon.goblet": "Goblet",
       "block.archeon.leaves_carpet_pnevantial": "Tapis de feuilles de vuxancia pnéventielles",
       "advancements.stone_confection.title": "Architecte",
-      "block.archeon.withered_red_lycoris": "Lycoris rouge fanée",
       "advancements.the_super_shiny_one.title": "Ça brille !",
       "advancements.flower_advancement_orange_lycoris.title": "Qui t\u0027as permis de brûler, toi ?",
       "block.archeon.ochre_tiles_stairs": "Escalier en tuiles ocres",

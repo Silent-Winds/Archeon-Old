@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SunstradiverFeather"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MossBall"
+      },
+      {
+        "value": "Blocks.CHEST"
+      },
+      {
+        "value": "CUSTOM:MossBall"
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      },
+      {
+        "value": "CUSTOM:MossBall"
+      },
+      {
+        "value": "CUSTOM:PlantFiber"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Pouch"
+    },
+    "name": "pouch_recipe",
+    "namespace": "mod"
+  }
+}

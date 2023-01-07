@@ -29,6 +29,7 @@ import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
+import net.minecraft.block.FallingBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -55,7 +56,7 @@ public class SaltBlockBlock extends ArcheonModElements.ModElement {
 				.add(() -> new BlockItem(block, new Item.Properties().group(ArcheonBlocksItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
-	public static class CustomBlock extends Block {
+	public static class CustomBlock extends FallingBlock {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.CLAY).sound(SoundType.SAND).hardnessAndResistance(0.5f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool());

@@ -19,6 +19,6 @@ public class LycorisSanguineaMobplayerCollidesWithPlantProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 120, (int) 3));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.FIRE_RESISTANCE, (int) 120, (int) 1));
 	}
 }

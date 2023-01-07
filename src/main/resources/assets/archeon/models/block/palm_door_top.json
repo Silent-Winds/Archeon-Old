@@ -1,7 +1,7 @@
 {
   "parent": "block/door_top",
   "textures": {
-    "bottom": "archeon:blocks/palm_door_bottom_new",
-    "top": "archeon:blocks/palm_door_top_new"
+    "bottom": "archeon:blocks/palm_door_bottom",
+    "top": "archeon:blocks/palm_door_top"
   }
 }

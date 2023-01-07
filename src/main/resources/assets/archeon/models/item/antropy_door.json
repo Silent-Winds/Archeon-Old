@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "archeon:items/door"
+    "layer0": "archeon:items/neclane_door"
   }
 }

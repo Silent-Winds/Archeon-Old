@@ -46,12 +46,12 @@ import java.util.EnumSet;
 
 @ArcheonModElements.ModElement.Tag
 public class SunstradiverEntity extends ArcheonModElements.ModElement {
-	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.CREATURE)
+	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.AMBIENT)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(30).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
 			.size(0.4f, 0.3f)).build("sunstradiver").setRegistryName("sunstradiver");
 
 	public SunstradiverEntity(ArcheonModElements instance) {
-		super(instance, 881);
+		super(instance, 361);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SunstradiverRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

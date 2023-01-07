@@ -107,37 +107,37 @@
         "entity": {
           "value": "CUSTOM:Heifer"
         },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 18,
-        "spawnType": "creature"
-      },
-      {
-        "entity": {
-          "value": "EntityHorse"
-        },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 18,
-        "spawnType": "creature"
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 3,
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityPig"
         },
         "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 18,
-        "spawnType": "creature"
+        "maxGroup": 3,
+        "weight": 5,
+        "spawnType": "ambient"
       },
       {
         "entity": {
           "value": "EntityChicken"
         },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 18,
-        "spawnType": "creature"
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 5,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Snail"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 5,
+        "spawnType": "ambient"
       }
     ]
   }

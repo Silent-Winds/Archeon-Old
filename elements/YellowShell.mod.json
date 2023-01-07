@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "yellow_shell_new",
+    "texture": "yellow_seashell",
     "customModelName": "Normal",
     "name": "Yellow Seashell",
     "rarity": "COMMON",

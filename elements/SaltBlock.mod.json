@@ -37,7 +37,7 @@
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 10.0,
-    "hasGravity": false,
+    "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:ArcheonBlocks"
