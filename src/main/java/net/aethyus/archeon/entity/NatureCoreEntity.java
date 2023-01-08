@@ -47,7 +47,9 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.procedures.NatureCoreOnInitialEntitySpawnProcedure;
+import net.aethyus.archeon.procedures.NatureCoreEntityIsHurtProcedure;
 import net.aethyus.archeon.procedures.NatureCoreEntityDiesProcedure;
+import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.entity.renderer.NatureCoreRenderer;
 import net.aethyus.archeon.ArcheonModElements;
 
@@ -63,8 +65,8 @@ import java.util.AbstractMap;
 @ArcheonModElements.ModElement.Tag
 public class NatureCoreEntity extends ArcheonModElements.ModElement {
 	public static EntityType entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER)
-			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new)
-			.size(0.6f, 1.7f)).build("nature_core").setRegistryName("nature_core");
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire()
+			.size(0.6f, 1.95f)).build("nature_core").setRegistryName("nature_core");
 
 	public NatureCoreEntity(ArcheonModElements instance) {
 		super(instance, 966);
@@ -75,8 +77,8 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> entity);
-		elements.items
-				.add(() -> new SpawnEggItem(entity, -9056260, -13002656, new Item.Properties().group(null)).setRegistryName("nature_core_spawn_egg"));
+		elements.items.add(() -> new SpawnEggItem(entity, -9056260, -13002656, new Item.Properties().group(ArcheonMiscItemGroup.tab))
+				.setRegistryName("nature_core_spawn_egg"));
 	}
 
 	@Override
@@ -88,10 +90,10 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 300);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 650);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 3);
-			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
+			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 100);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.5);
 			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.4);
@@ -106,7 +108,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 70;
+			experienceValue = 300;
 			setNoAI(false);
 			enablePersistence();
 			this.moveController = new FlyingMovementController(this, 10, true);
@@ -178,7 +180,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 				}
 			});
 			this.goalSelector.addGoal(4, new LookRandomlyGoal(this));
-			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, false, true));
+			this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, PlayerEntity.class, true, true));
 			this.targetSelector.addGoal(6, new HurtByTargetGoal(this));
 		}
 
@@ -214,6 +216,16 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+			Entity sourceentity = source.getTrueSource();
+
+			NatureCoreEntityIsHurtProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			if (source == DamageSource.FALL)
 				return false;
 			if (source == DamageSource.CACTUS)
@@ -223,6 +235,10 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
 			if (source.isExplosion())
+				return false;
+			if (source == DamageSource.WITHER)
+				return false;
+			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}

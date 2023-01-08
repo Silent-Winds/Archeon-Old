@@ -87,7 +87,7 @@ public class RockyFieldsBiome extends ArcheonModElements.ModElement {
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
 				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(SnailEntity.entity, 2, 1, 3));
 				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(HeiferEntity.entity, 5, 1, 4));
-				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(AuroraCatalystEntity.entity, 5, 1, 3));
+				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(AuroraCatalystEntity.entity, 1, 1, 1));
 				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(EntityType.FOX, 4, 1, 2));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.FOREST).depth(0.3f).scale(0.1f)
 						.temperature(0.4f).downfall(0.1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())

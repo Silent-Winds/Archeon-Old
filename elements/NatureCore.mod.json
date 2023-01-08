@@ -2,13 +2,16 @@
   "_fv": 33,
   "_type": "livingentity",
   "definition": {
-    "mobName": "Nature's Core",
+    "mobName": "Heart of Nature",
     "mobLabel": "",
-    "mobModelName": "Creeper",
+    "mobModelName": "Modelnature_core",
     "mobModelTexture": "nature_core.png",
-    "mobModelGlowTexture": "",
+    "mobModelGlowTexture": "nature_core.png",
+    "transparentModelCondition": {
+      "name": "AuroraCatalystTransparentEntityModelCondition"
+    },
     "modelWidth": 0.6,
-    "modelHeight": 1.7,
+    "modelHeight": 1.95,
     "modelShadowSize": 0.5,
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
@@ -21,7 +24,7 @@
       "falpha": 0.0
     },
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:ArcheonMisc"
     },
     "isBoss": true,
     "bossBarColor": "GREEN",
@@ -46,15 +49,15 @@
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
-    "attackStrength": 3,
+    "attackStrength": 10,
     "attackKnockback": 0.5,
     "knockbackResistance": 0.2,
     "movementSpeed": 0.4,
     "armorBaseValue": 2.0,
     "trackingRange": 64,
-    "followRange": 16,
-    "health": 300,
-    "xpAmount": 70,
+    "followRange": 100,
+    "health": 650,
+    "xpAmount": 300,
     "waterMob": false,
     "flyingMob": true,
     "guiBoundTo": "<NONE>",
@@ -64,7 +67,7 @@
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "immuneToArrows": false,
     "immuneToFallDamage": true,
     "immuneToCactus": true,
@@ -75,7 +78,7 @@
     "immuneToExplosion": true,
     "immuneToTrident": false,
     "immuneToAnvil": false,
-    "immuneToWither": false,
+    "immuneToWither": true,
     "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
@@ -102,12 +105,15 @@
     "whenMobDies": {
       "name": "NatureCoreEntityDies"
     },
+    "whenMobIsHurt": {
+      "name": "NatureCoreEntityIsHurt"
+    },
     "onInitialSpawn": {
       "name": "NatureCoreOnInitialEntitySpawn"
     },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_fly\"><field name=\"radius\">16</field><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"fly\"><field name=\"speed\">0.8</field><field name=\"condition\">null,null</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field><next><block type=\"attack_entity\"><field name=\"insight\">TRUE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
@@ -121,7 +127,7 @@
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [],
     "spawnInDungeons": false
   }
