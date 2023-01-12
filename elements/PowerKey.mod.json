@@ -10,7 +10,7 @@
     "creativeTab": {
       "value": "CUSTOM:ArcheonCombatAndTools"
     },
-    "stackSize": 4,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onRightClickedOnBlock": {
+      "name": "PowerKeyRightclickedOnBlock"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

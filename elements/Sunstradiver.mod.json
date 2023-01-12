@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:SunstradiverFeather"
+      "value": ""
     },
     "livingSound": {
       "value": "entity.parrot.ambient"

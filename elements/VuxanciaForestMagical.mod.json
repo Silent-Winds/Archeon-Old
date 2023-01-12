@@ -31,10 +31,10 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:sunny"
     },
     "moodSound": {
-      "value": "CUSTOM:sunny"
+      "value": ""
     },
     "moodSoundDelay": 3000,
     "spawnParticles": false,

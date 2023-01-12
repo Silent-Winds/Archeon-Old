@@ -31,10 +31,10 @@
       "value": ""
     },
     "music": {
-      "value": ""
+      "value": "CUSTOM:brile"
     },
     "moodSound": {
-      "value": "CUSTOM:brile"
+      "value": ""
     },
     "moodSoundDelay": 3000,
     "spawnParticles": false,

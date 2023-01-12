@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "raw_heifer_steak",
+    "texture": "cooked_sunstradiver_chop",
     "customModelName": "Normal",
-    "name": "Raw Heifer",
+    "name": "Cooked Sunstradiver Chop",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
@@ -30,8 +30,8 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 2,
-    "saturation": 0.3,
+    "nutritionalValue": 7,
+    "saturation": 1.0,
     "eatResultItem": {
       "value": ""
     },

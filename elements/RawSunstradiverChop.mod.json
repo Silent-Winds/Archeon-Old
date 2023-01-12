@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "raw_heifer_steak",
+    "texture": "raw_sunstradiver_chop",
     "customModelName": "Normal",
-    "name": "Raw Heifer",
+    "name": "Raw Sunstradiver Chop",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"

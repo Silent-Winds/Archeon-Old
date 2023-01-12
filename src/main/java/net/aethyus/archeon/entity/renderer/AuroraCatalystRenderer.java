@@ -7,9 +7,7 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.World;
 import net.minecraft.util.ResourceLocation;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.model.ModelRenderer;
@@ -20,10 +18,7 @@ import net.minecraft.client.renderer.entity.IEntityRenderer;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 
-import net.aethyus.archeon.procedures.AuroraCatalystTransparentEntityModelConditionProcedure;
 import net.aethyus.archeon.entity.AuroraCatalystEntity;
-
-import java.util.Collections;
 
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
@@ -43,16 +38,6 @@ public class AuroraCatalystRenderer {
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
 						return new ResourceLocation("archeon:textures/entities/catalyst.png");
-					}
-
-					@Override
-					protected boolean isVisible(LivingEntity _ent) {
-						Entity entity = _ent;
-						World world = entity.world;
-						double x = entity.getPosX();
-						double y = entity.getPosY();
-						double z = entity.getPosZ();
-						return !AuroraCatalystTransparentEntityModelConditionProcedure.executeProcedure(Collections.emptyMap());
 					}
 				};
 			});

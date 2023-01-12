@@ -1,27 +1,7 @@
 {
   "variants": {
-    "facing=north": {
+    "": {
       "model": "archeon:block/power_keystone"
-    },
-    "facing=east": {
-      "model": "archeon:block/power_keystone",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "archeon:block/power_keystone",
-      "y": 180
-    },
-    "facing=west": {
-      "model": "archeon:block/power_keystone",
-      "y": 270
-    },
-    "facing=up": {
-      "model": "archeon:block/power_keystone",
-      "x": 270
-    },
-    "facing=down": {
-      "model": "archeon:block/power_keystone",
-      "x": 90
     }
   }
 }

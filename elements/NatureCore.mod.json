@@ -7,9 +7,6 @@
     "mobModelName": "Modelnature_core",
     "mobModelTexture": "nature_core.png",
     "mobModelGlowTexture": "nature_core.png",
-    "transparentModelCondition": {
-      "name": "AuroraCatalystTransparentEntityModelCondition"
-    },
     "modelWidth": 0.6,
     "modelHeight": 1.95,
     "modelShadowSize": 0.5,

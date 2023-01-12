@@ -17,7 +17,6 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.pathfinding.FlyingPathNavigator;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
 import net.minecraft.entity.ai.goal.NearestAttackableTargetGoal;
@@ -37,7 +36,6 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
-import net.aethyus.archeon.item.SunstradiverFeatherItem;
 import net.aethyus.archeon.entity.renderer.SunstradiverRenderer;
 import net.aethyus.archeon.ArcheonModElements;
 
@@ -166,11 +164,6 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
-		}
-
-		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
-			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(SunstradiverFeatherItem.block));
 		}
 
 		@Override

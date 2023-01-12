@@ -13,12 +13,12 @@ import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.ArcheonModElements;
 
 @ArcheonModElements.ModElement.Tag
-public class RawHeiferItem extends ArcheonModElements.ModElement {
-	@ObjectHolder("archeon:raw_heifer")
+public class RawSunstradiverChopItem extends ArcheonModElements.ModElement {
+	@ObjectHolder("archeon:raw_sunstradiver_chop")
 	public static final Item block = null;
 
-	public RawHeiferItem(ArcheonModElements instance) {
-		super(instance, 350);
+	public RawSunstradiverChopItem(ArcheonModElements instance) {
+		super(instance, 990);
 	}
 
 	@Override
@@ -32,7 +32,7 @@ public class RawHeiferItem extends ArcheonModElements.ModElement {
 					.food((new Food.Builder()).hunger(2).saturation(0.3f)
 
 							.meat().build()));
-			setRegistryName("raw_heifer");
+			setRegistryName("raw_sunstradiver_chop");
 		}
 
 		@Override
