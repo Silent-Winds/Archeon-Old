@@ -40,7 +40,7 @@ public class RoughcastWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public RoughcastWallBlock(ArcheonModElements instance) {
-		super(instance, 196);
+		super(instance, 198);
 	}
 
 	@Override

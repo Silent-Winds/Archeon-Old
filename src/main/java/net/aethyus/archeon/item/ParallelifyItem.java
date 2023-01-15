@@ -17,7 +17,7 @@ public class ParallelifyItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ParallelifyItem(ArcheonModElements instance) {
-		super(instance, 344);
+		super(instance, 342);
 	}
 
 	@Override

@@ -104,34 +104,6 @@
       "Ores",
       "FrozenTopLayer"
     ],
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:AuroraCatalyst"
-        },
-        "minGroup": 1,
-        "maxGroup": 2,
-        "weight": 3,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "EntityCod"
-        },
-        "minGroup": 3,
-        "maxGroup": 5,
-        "weight": 5,
-        "spawnType": "waterAmbient"
-      },
-      {
-        "entity": {
-          "value": "EntityTropicalFish"
-        },
-        "minGroup": 3,
-        "maxGroup": 5,
-        "weight": 5,
-        "spawnType": "waterAmbient"
-      }
-    ]
+    "spawnEntries": []
   }
 }

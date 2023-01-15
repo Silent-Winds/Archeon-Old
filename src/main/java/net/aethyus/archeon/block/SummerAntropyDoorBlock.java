@@ -33,7 +33,7 @@ public class SummerAntropyDoorBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SummerAntropyDoorBlock(ArcheonModElements instance) {
-		super(instance, 969);
+		super(instance, 32);
 	}
 
 	@Override

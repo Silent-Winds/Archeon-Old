@@ -47,7 +47,7 @@ public class ArtemniteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ArtemniteBlock(ArcheonModElements instance) {
-		super(instance, 129);
+		super(instance, 131);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

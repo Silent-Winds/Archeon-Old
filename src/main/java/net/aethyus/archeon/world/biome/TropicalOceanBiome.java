@@ -32,12 +32,9 @@ import net.minecraft.util.registry.WorldGenRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EntityClassification;
 import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
-import net.aethyus.archeon.entity.AuroraCatalystEntity;
 import net.aethyus.archeon.block.TropicalSandBlock;
 import net.aethyus.archeon.block.SaltBlockBlock;
 import net.aethyus.archeon.block.AntropyLogBlock;
@@ -86,9 +83,6 @@ public class TropicalOceanBiome extends ArcheonModElements.ModElement {
 				DefaultBiomeFeatures.withOverworldOres(biomeGenerationSettings);
 				DefaultBiomeFeatures.withFrozenTopLayer(biomeGenerationSettings);
 				MobSpawnInfo.Builder mobSpawnInfo = new MobSpawnInfo.Builder().isValidSpawnBiomeForPlayer();
-				mobSpawnInfo.withSpawner(EntityClassification.AMBIENT, new MobSpawnInfo.Spawners(AuroraCatalystEntity.entity, 3, 1, 2));
-				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.COD, 5, 3, 5));
-				mobSpawnInfo.withSpawner(EntityClassification.MONSTER, new MobSpawnInfo.Spawners(EntityType.TROPICAL_FISH, 5, 3, 5));
 				biome = new Biome.Builder().precipitation(Biome.RainType.RAIN).category(Biome.Category.OCEAN).depth(-0.2f).scale(0f).temperature(0.5f)
 						.downfall(0.1f).setEffects(effects).withMobSpawnSettings(mobSpawnInfo.copy())
 						.withGenerationSettings(biomeGenerationSettings.build()).build();

@@ -55,7 +55,7 @@ public class VuxanciaLeavesOrianHangingMiddleBlock extends ArcheonModElements.Mo
 	public static final Block block = null;
 
 	public VuxanciaLeavesOrianHangingMiddleBlock(ArcheonModElements instance) {
-		super(instance, 167);
+		super(instance, 169);
 	}
 
 	@Override

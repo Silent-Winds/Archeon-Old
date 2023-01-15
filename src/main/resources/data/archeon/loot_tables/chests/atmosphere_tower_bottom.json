@@ -145,20 +145,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "archeon:power_key",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 2,
-                "max": 2
-              }
-            }
-          ]
         }
       ]
     },
@@ -308,7 +294,7 @@
         {
           "type": "minecraft:item",
           "name": "archeon:power_key",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "set_count",

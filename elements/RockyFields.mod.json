@@ -125,15 +125,6 @@
       },
       {
         "entity": {
-          "value": "CUSTOM:AuroraCatalyst"
-        },
-        "minGroup": 1,
-        "maxGroup": 1,
-        "weight": 1,
-        "spawnType": "ambient"
-      },
-      {
-        "entity": {
           "value": "EntityFox"
         },
         "minGroup": 1,

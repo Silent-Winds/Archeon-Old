@@ -32,7 +32,7 @@ public class VineWithoutBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VineWithoutBlock(ArcheonModElements instance) {
-		super(instance, 279);
+		super(instance, 278);
 	}
 
 	@Override

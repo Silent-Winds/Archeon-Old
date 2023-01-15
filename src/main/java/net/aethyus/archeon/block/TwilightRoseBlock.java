@@ -62,7 +62,7 @@ public class TwilightRoseBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TwilightRoseBlock(ArcheonModElements instance) {
-		super(instance, 248);
+		super(instance, 250);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

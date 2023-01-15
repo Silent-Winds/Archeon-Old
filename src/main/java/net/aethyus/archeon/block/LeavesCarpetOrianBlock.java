@@ -45,7 +45,7 @@ public class LeavesCarpetOrianBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LeavesCarpetOrianBlock(ArcheonModElements instance) {
-		super(instance, 177);
+		super(instance, 179);
 	}
 
 	@Override

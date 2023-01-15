@@ -27,7 +27,7 @@ public class FaeliteBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public FaeliteBlockBlock(ArcheonModElements instance) {
-		super(instance, 97);
+		super(instance, 99);
 	}
 
 	@Override

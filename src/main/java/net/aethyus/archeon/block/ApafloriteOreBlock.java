@@ -43,7 +43,7 @@ public class ApafloriteOreBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ApafloriteOreBlock(ArcheonModElements instance) {
-		super(instance, 89);
+		super(instance, 91);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

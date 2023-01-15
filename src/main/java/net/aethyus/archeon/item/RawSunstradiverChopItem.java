@@ -18,7 +18,7 @@ public class RawSunstradiverChopItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RawSunstradiverChopItem(ArcheonModElements instance) {
-		super(instance, 990);
+		super(instance, 350);
 	}
 
 	@Override

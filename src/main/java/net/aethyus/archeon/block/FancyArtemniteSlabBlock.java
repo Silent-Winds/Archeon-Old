@@ -27,7 +27,7 @@ public class FancyArtemniteSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public FancyArtemniteSlabBlock(ArcheonModElements instance) {
-		super(instance, 138);
+		super(instance, 140);
 	}
 
 	@Override

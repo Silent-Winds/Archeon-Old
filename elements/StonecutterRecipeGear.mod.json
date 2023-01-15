@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:WhiteShell"
+        "value": ""
       },
       {
-        "value": "CUSTOM:WhiteShell"
+        "value": "CUSTOM:Gear"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:CypressPlanks"
+        "value": "CUSTOM:FalseSouthstoneBricks"
       },
       {
-        "value": "CUSTOM:CypressPlanks"
+        "value": "CUSTOM:FalseSouthstoneBricks"
       },
       {
-        "value": ""
+        "value": "CUSTOM:FalseSouthstoneBricks"
       }
     ],
     "recipeReturnStack": {
-      "value": "Blocks.FLETCHING_TABLE"
+      "value": "Blocks.STONECUTTER"
     },
-    "name": "onetite_1",
+    "name": "stonecutter_recipe_gear",
     "namespace": "mod"
   }
 }

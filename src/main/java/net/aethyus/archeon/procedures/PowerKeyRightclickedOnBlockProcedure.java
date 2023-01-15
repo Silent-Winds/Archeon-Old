@@ -74,9 +74,9 @@ public class PowerKeyRightclickedOnBlockProcedure {
 				((PlayerEntity) entity).inventory.func_234564_a_(p -> _stktoremove.getItem() == p.getItem(), (int) 0,
 						((PlayerEntity) entity).container.func_234641_j_());
 			}
-			world.setBlockState(new BlockPos(x, y, z), PowerKeystoneBlock.block.getDefaultState(), 3);
 			if (entity instanceof PlayerEntity && !entity.world.isRemote()) {
-				((PlayerEntity) entity).sendStatusMessage(new StringTextComponent("You need to have a Power Key to open this room!"), (true));
+				((PlayerEntity) entity).sendStatusMessage(
+						new StringTextComponent("The block should be a Power Keystone, and you need a Power Key to unlock it!"), (true));
 			}
 		}
 	}

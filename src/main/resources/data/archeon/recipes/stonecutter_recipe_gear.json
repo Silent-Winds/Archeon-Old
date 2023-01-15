@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:gear"
+    },
+    "3": {
+      "item": "archeon:false_southstone_bricks"
+    },
+    "4": {
+      "item": "archeon:false_southstone_bricks"
+    },
+    "5": {
+      "item": "archeon:false_southstone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:stonecutter",
+    "count": 1
+  }
+}
