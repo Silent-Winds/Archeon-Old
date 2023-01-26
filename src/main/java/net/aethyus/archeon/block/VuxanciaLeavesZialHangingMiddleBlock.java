@@ -27,9 +27,11 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.FluidState;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.IWaterLoggable;
@@ -168,6 +170,21 @@ public class VuxanciaLeavesZialHangingMiddleBlock extends ArcheonModElements.Mod
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			VuxanciaLeavesHangingMiddleBlockValidPlacementConditionProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

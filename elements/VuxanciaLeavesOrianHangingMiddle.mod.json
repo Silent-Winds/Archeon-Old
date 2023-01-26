@@ -126,6 +126,9 @@
     "onTickUpdate": {
       "name": "VuxanciaLeavesHangingMiddleBlockValidPlacementCondition"
     },
+    "onRandomUpdateEvent": {
+      "name": "VuxanciaLeavesHangingMiddleBlockValidPlacementCondition"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

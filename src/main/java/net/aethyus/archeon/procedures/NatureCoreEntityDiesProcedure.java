@@ -50,14 +50,19 @@ public class NatureCoreEntityDiesProcedure {
 					Vector2f.ZERO, (ServerWorld) world, 4, "", new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 					"stopsound @a music");
 		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z),
+					Vector2f.ZERO, (ServerWorld) world, 4, "", new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a ambient");
+		}
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos(x, y, z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:the_nature_core_end")),
-					SoundCategory.MUSIC, (float) 5, (float) 1);
+					SoundCategory.AMBIENT, (float) 5, (float) 1);
 		} else {
 			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:the_nature_core_end")),
-					SoundCategory.MUSIC, (float) 5, (float) 1, false);
+					SoundCategory.AMBIENT, (float) 5, (float) 1, false);
 		}
 	}
 }

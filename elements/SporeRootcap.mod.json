@@ -68,7 +68,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DEFAULT",
+    "aiPathNodeType": "COCOA",
     "flammability": 1,
     "fireSpreadSpeed": 4,
     "isLadder": true,

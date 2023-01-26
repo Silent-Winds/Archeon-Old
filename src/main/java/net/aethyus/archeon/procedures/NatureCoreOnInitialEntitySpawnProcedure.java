@@ -2,11 +2,17 @@ package net.aethyus.archeon.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.math.vector.Vector3d;
+import net.minecraft.util.math.vector.Vector2f;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.util.ResourceLocation;
+import net.minecraft.command.ICommandSource;
+import net.minecraft.command.CommandSource;
 
 import net.aethyus.archeon.ArcheonMod;
 
@@ -39,14 +45,24 @@ public class NatureCoreOnInitialEntitySpawnProcedure {
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z),
+					Vector2f.ZERO, (ServerWorld) world, 4, "", new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z),
+					Vector2f.ZERO, (ServerWorld) world, 4, "", new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a ambient");
+		}
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos(x, y, z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:the_nature_core")),
-					SoundCategory.MUSIC, (float) 5, (float) 1);
+					SoundCategory.AMBIENT, (float) 5, (float) 1);
 		} else {
 			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:the_nature_core")),
-					SoundCategory.MUSIC, (float) 5, (float) 1, false);
+					SoundCategory.AMBIENT, (float) 5, (float) 1, false);
 		}
 	}
 }

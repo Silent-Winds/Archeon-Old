@@ -90,7 +90,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 650);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 550);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 100);

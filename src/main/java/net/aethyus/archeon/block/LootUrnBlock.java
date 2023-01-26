@@ -57,7 +57,7 @@ public class LootUrnBlock extends ArcheonModElements.ModElement {
 
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.BONE).hardnessAndResistance(0.7999999999999999f, 10f).setLightLevel(s -> 2)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
+					.harvestLevel(0).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(WATERLOGGED, false));
 			setRegistryName("loot_urn");
 		}

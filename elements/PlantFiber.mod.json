@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "plant_fibers",
     "customModelName": "Normal",
-    "name": "Plant Fiber",
+    "name": "Plant Fibers",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"

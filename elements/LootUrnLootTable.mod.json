@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Grape"
+              "value": "CUSTOM:GoldenGrape"
             },
             "weight": 1,
             "minCount": 1,
@@ -279,20 +279,6 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:WhiteShell"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 2,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
               "value": "CUSTOM:Salt"
             },
             "weight": 1,
@@ -409,21 +395,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SouthstonePendant"
-            },
-            "weight": 1,
-            "minCount": 1,
-            "maxCount": 1,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:Pe4k"
+              "value": "CUSTOM:Reside"
             },
             "weight": 1,
             "minCount": 0,

@@ -8332,6 +8332,34 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "stonecutter_recipe_gear"
+    },
+    {
+      "name": "SporeRootcapBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 996,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spore_rootcap_block_valid_placement_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -8351,14 +8379,6 @@
       ],
       "category": "record",
       "subtitle": "TiramisuAudio - Devouring"
-    },
-    {
-      "name": "ambient",
-      "files": [
-        "ambient"
-      ],
-      "category": "ambient",
-      "subtitle": ""
     },
     {
       "name": "dotted_sky",
@@ -8956,7 +8976,7 @@
       "block.archeon.vuxancia_leaves_pnevantial_hanging_middle": "Hanging Pnevantial Vuxancia Leaves",
       "block.archeon.vuxancia_leaves_orian": "Orian Vuxancia Leaves",
       "entity.archeon.aurora_catalyst": "Aurora Catalyst",
-      "item.archeon.plant_fiber": "Plant Fiber",
+      "item.archeon.plant_fiber": "Plant Fibers",
       "block.archeon.tropicstone_cobblestone": "Cobbled Southstone",
       "item.archeon.goblet": "Goblet",
       "block.archeon.leaves_carpet_pnevantial": "Carpet of Pnevantial Vuxancia Leaves",
@@ -9492,7 +9512,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3-snapshot-1.3.9-92",
+    "version": "1.1.3-pre_release-1.4",
     "description": "The official Archeon mod by the Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski)! Archeon is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure.  Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see.  The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.  - To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ - Contribute to the project, support \u0026 more - our GitHub page: https://github.com/Silent-Winds/Archeon  Made with \u003c3 by the Silent Winds Team",
     "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski). Contributors: Paros974, Mystoxi.",
     "websiteURL": "https://mcreator.net",

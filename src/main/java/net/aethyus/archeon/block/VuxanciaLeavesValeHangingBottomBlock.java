@@ -15,6 +15,7 @@ import net.minecraft.util.math.vector.Vector3d;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
+import net.minecraft.util.math.BlockRayTraceResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.Direction;
 import net.minecraft.state.properties.BlockStateProperties;
@@ -27,6 +28,7 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.fluid.FluidState;
+import net.minecraft.entity.projectile.ProjectileEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -168,6 +170,23 @@ public class VuxanciaLeavesValeHangingBottomBlock extends ArcheonModElements.Mod
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
+		}
+
+		@Override
+		public void onProjectileCollision(World world, BlockState blockstate, BlockRayTraceResult hit, ProjectileEntity entity) {
+			BlockPos pos = hit.getPos();
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			double hitX = hit.getHitVec().x;
+			double hitY = hit.getHitVec().y;
+			double hitZ = hit.getHitVec().z;
+			Direction direction = hit.getFace();
+
+			VuxanciaLeavesHangingMiddleBlockValidPlacementConditionProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

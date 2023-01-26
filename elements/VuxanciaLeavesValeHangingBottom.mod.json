@@ -126,6 +126,9 @@
     "onTickUpdate": {
       "name": "VuxanciaLeavesHangingMiddleBlockValidPlacementCondition"
     },
+    "onHitByProjectile": {
+      "name": "VuxanciaLeavesHangingMiddleBlockValidPlacementCondition"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

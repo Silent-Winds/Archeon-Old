@@ -18,11 +18,13 @@ import net.minecraft.util.Mirror;
 import net.minecraft.util.Direction;
 import net.minecraft.state.StateContainer;
 import net.minecraft.state.DirectionProperty;
+import net.minecraft.pathfinding.PathNodeType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.MobEntity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
@@ -136,6 +138,11 @@ public class SporeRootcapBlock extends ArcheonModElements.ModElement {
 		@Override
 		public int getFireSpreadSpeed(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
 			return 4;
+		}
+
+		@Override
+		public PathNodeType getAiPathNodeType(BlockState state, IBlockReader world, BlockPos pos, MobEntity entity) {
+			return PathNodeType.COCOA;
 		}
 
 		@Override
