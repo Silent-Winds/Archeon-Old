@@ -23,6 +23,7 @@ import net.minecraft.world.gen.feature.Feature;
 import net.minecraft.world.gen.feature.BaseTreeFeatureConfig;
 import net.minecraft.world.gen.blockstateprovider.SimpleBlockStateProvider;
 import net.minecraft.world.gen.GenerationStage;
+import net.minecraft.world.biome.MoodSoundAmbience;
 import net.minecraft.world.biome.MobSpawnInfo;
 import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
@@ -34,7 +35,6 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
-import net.minecraft.client.audio.BackgroundMusicSelector;
 import net.minecraft.block.Blocks;
 
 import net.aethyus.archeon.entity.SunstradiverEntity;
@@ -60,9 +60,9 @@ public class VuxanciaForestBiome extends ArcheonModElements.ModElement {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(12638463).setWaterColor(-14892886).setWaterFogColor(329011)
 						.withSkyColor(7972607).withFoliageColor(-8608956).withGrassColor(-10583510)
-						.setMusic(new BackgroundMusicSelector(
-								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:genesis")), 12000,
-								24000, true))
+						.setMoodSound(new MoodSoundAmbience(
+								(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:hoxa")), 3600, 8,
+								2))
 						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(WetGrassBlockBlock.block.getDefaultState(),

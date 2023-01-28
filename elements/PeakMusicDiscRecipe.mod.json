@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:RecordFragment"
       },
       {
         "value": "CUSTOM:RecordFragment"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RecordFragment"
       },
       {
         "value": "CUSTOM:RecordFragment"
@@ -28,13 +28,13 @@
         "value": "CUSTOM:RecordFragment"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RecordFragment"
       },
       {
         "value": "CUSTOM:RecordFragment"
       },
       {
-        "value": ""
+        "value": "CUSTOM:RecordFragment"
       }
     ],
     "recipeReturnStack": {

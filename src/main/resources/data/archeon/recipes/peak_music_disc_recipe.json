@@ -1,12 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
+    "012",
     "345",
-    " 7 "
+    "678"
   ],
   "key": {
+    "0": {
+      "item": "archeon:record_fragment"
+    },
     "1": {
+      "item": "archeon:record_fragment"
+    },
+    "2": {
       "item": "archeon:record_fragment"
     },
     "3": {
@@ -18,7 +24,13 @@
     "5": {
       "item": "archeon:record_fragment"
     },
+    "6": {
+      "item": "archeon:record_fragment"
+    },
     "7": {
+      "item": "archeon:record_fragment"
+    },
+    "8": {
       "item": "archeon:record_fragment"
     }
   },

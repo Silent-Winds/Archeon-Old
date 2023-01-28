@@ -46,11 +46,6 @@ public class ArcheonModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public ArcheonModElements() {
-		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
-		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
-		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
-		sounds.put(new ResourceLocation("archeon", "sunny"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "sunny")));
-		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
 		sounds.put(new ResourceLocation("archeon", "genesis"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "genesis")));
 		sounds.put(new ResourceLocation("archeon", "hoxa"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "hoxa")));
 		sounds.put(new ResourceLocation("archeon", "no_ones_around"),
@@ -59,7 +54,6 @@ public class ArcheonModElements {
 		sounds.put(new ResourceLocation("archeon", "geometric_fall"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "geometric_fall")));
 		sounds.put(new ResourceLocation("archeon", "reside"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "reside")));
-		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		sounds.put(new ResourceLocation("archeon", "parallelify"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "parallelify")));
 		sounds.put(new ResourceLocation("archeon", "archeon_christmas"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "archeon_christmas")));
@@ -67,10 +61,18 @@ public class ArcheonModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "catalyst.ambient")));
 		sounds.put(new ResourceLocation("archeon", "catalyst.hit"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "catalyst.hit")));
-		sounds.put(new ResourceLocation("archeon", "the_nature_core"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "the_nature_core")));
-		sounds.put(new ResourceLocation("archeon", "the_nature_core_end"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "the_nature_core_end")));
+		sounds.put(new ResourceLocation("archeon", "sunny"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "sunny")));
+		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
+		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
+		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
+		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
+		sounds.put(new ResourceLocation("archeon", "heart_of_nature"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature")));
+		sounds.put(new ResourceLocation("archeon", "heart_of_nature_loop"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_loop")));
+		sounds.put(new ResourceLocation("archeon", "heart_of_nature_end"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_end")));
+		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

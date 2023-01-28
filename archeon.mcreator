@@ -7891,6 +7891,10 @@
       "metadata": {
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -8360,50 +8364,70 @@
           }
         ]
       }
+    },
+    {
+      "name": "PlayerMusicManager",
+      "type": "procedure",
+      "sortid": 997,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_music_manager",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlayerMusicManager2",
+      "type": "procedure",
+      "sortid": 998,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_music_manager_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [
-    {
-      "name": "pe4k",
-      "files": [
-        "pe4k"
-      ],
-      "category": "record",
-      "subtitle": "Tim Rurkowski - Pe4k"
-    },
-    {
-      "name": "devouring",
-      "files": [
-        "devouring"
-      ],
-      "category": "record",
-      "subtitle": "TiramisuAudio - Devouring"
-    },
-    {
-      "name": "dotted_sky",
-      "files": [
-        "dotted_sky"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "sunny",
-      "files": [
-        "sunny"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "wild_breath",
-      "files": [
-        "wild_breath"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
     {
       "name": "genesis",
       "files": [
@@ -8453,14 +8477,6 @@
       "subtitle": ""
     },
     {
-      "name": "rising",
-      "files": [
-        "rising"
-      ],
-      "category": "record",
-      "subtitle": ""
-    },
-    {
       "name": "parallelify",
       "files": [
         "parallelify"
@@ -8493,19 +8509,75 @@
       "subtitle": ""
     },
     {
-      "name": "the_nature_core",
+      "name": "sunny",
       "files": [
-        "the_nature_core_temporary"
+        "sunny"
       ],
       "category": "music",
       "subtitle": ""
     },
     {
-      "name": "the_nature_core_end",
+      "name": "pe4k",
       "files": [
-        "the_nature_core_temporary_end"
+        "pe4k"
+      ],
+      "category": "record",
+      "subtitle": "Tim Rurkowski - Pe4k"
+    },
+    {
+      "name": "devouring",
+      "files": [
+        "devouring"
+      ],
+      "category": "record",
+      "subtitle": "Aeramisu - Devouring"
+    },
+    {
+      "name": "dotted_sky",
+      "files": [
+        "dotted_sky"
       ],
       "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "wild_breath",
+      "files": [
+        "wild_breath"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "heart_of_nature",
+      "files": [
+        "heart_of_nature"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "heart_of_nature_loop",
+      "files": [
+        "heart_of_nature_loop"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "heart_of_nature_end",
+      "files": [
+        "heart_of_nature_end"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "rising",
+      "files": [
+        "rising"
+      ],
+      "category": "record",
       "subtitle": ""
     }
   ],
@@ -8735,6 +8807,7 @@
       "block.archeon.exyriane_block": "Block of Exyriane",
       "block.archeon.gypsum_bricks_fence": "Gypsum Brick Fence",
       "block.archeon.palm_planks": "Palm Planks",
+      "subtitles.heart_of_nature_loop": "",
       "subtitles.pe4k": "Tim Rurkowski - Pe4k",
       "block.archeon.southstone_column": "Sousthone Column",
       "item.archeon.vuxancia_shovel": "Vuxancia Shovel",
@@ -8921,6 +8994,7 @@
       "block.archeon.warped_tiles": "Warped Tiles",
       "item.archeon.parallelify": "Panopticon Music Disc",
       "block.archeon.artemnite_bricks": "Artemnite Bricks",
+      "subtitles.heart_of_nature_end": "",
       "block.archeon.artemnite_bricks_stairs": "Artemnite Brick Stairs",
       "block.archeon.tall_wet_grass": "Tall Wet Grass",
       "block.archeon.mossy_artemnite_bricks": "Mossy Artemnite Bricks",
@@ -8928,7 +9002,7 @@
       "block.archeon.blue_tiles_wall": "Blue Tile Wall",
       "advancements.archeon.descr": "The original mod.",
       "item.archeon.raw_sunstradiver_chop": "Raw Sunstradiver Chop",
-      "subtitles.devouring": "TiramisuAudio - Devouring",
+      "subtitles.devouring": "Aeramisu - Devouring",
       "block.archeon.southstone_pillar_top": "Southstone Pillar Top",
       "item.archeon.faelite_ingot": "Faelite Ingot",
       "block.archeon.vine_without": "Bush",
@@ -8949,6 +9023,7 @@
       "advancements.flower_advancement_astedibes.title": "Little Brownies",
       "item.archeon.apaflorite_shovel": "Apaflorite Shovel",
       "block.archeon.warped_tiles_wall": "Warped Tile Wall",
+      "subtitles.heart_of_nature": "",
       "block.archeon.cypress_planks": "Cypress Planks",
       "subtitles.no_ones_around": "",
       "block.archeon.aketite_baseboard": "Aketite Baseboard",
@@ -9232,6 +9307,7 @@
       "block.archeon.exyriane_block": "Bloc d\u0027éxyriane",
       "block.archeon.palm_planks": "Planches de palmier",
       "block.archeon.gypsum_bricks_fence": "Barrière en gypse taillé",
+      "subtitles.heart_of_nature_loop": "",
       "subtitles.pe4k": "Tim Rurkowski - Pe4k",
       "block.archeon.southstone_column": "Colonne en southstone",
       "item.archeon.vuxancia_shovel": "Pelle en bois de vuxancia",
@@ -9418,6 +9494,7 @@
       "block.archeon.warped_tiles": "Tuiles biscornues",
       "item.archeon.parallelify": "Disque du Panoptique",
       "block.archeon.artemnite_bricks": "Artémnite taillée",
+      "subtitles.heart_of_nature_end": "",
       "block.archeon.artemnite_bricks_stairs": "Escalier d\u0027artémnite taillée",
       "block.archeon.tall_wet_grass": "Hautes herbes humides",
       "block.archeon.mossy_artemnite_bricks": "Artémnite taillée moussue",
@@ -9446,6 +9523,7 @@
       "advancements.flower_advancement_astedibes.title": "Des marrons ? Eh... Non.",
       "item.archeon.apaflorite_shovel": "Pelle en apaflorite",
       "block.archeon.warped_tiles_wall": "Muret en tuiles biscornues",
+      "subtitles.heart_of_nature": "",
       "block.archeon.cypress_planks": "Planches de cyprès",
       "subtitles.no_ones_around": "",
       "block.archeon.aketite_baseboard": "Plinthe en akétite",
@@ -9512,9 +9590,9 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3-pre_release-1.4",
+    "version": "1.1.3-pre_release-1.7",
     "description": "The official Archeon mod by the Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski)! Archeon is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure.  Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see.  The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.  - To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ - Contribute to the project, support \u0026 more - our GitHub page: https://github.com/Silent-Winds/Archeon  Made with \u003c3 by the Silent Winds Team",
-    "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski). Contributors: Paros974, Mystoxi.",
+    "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski, Rotch Gwylt). Contributors: Paros974, Mystoxi.",
     "websiteURL": "https://mcreator.net",
     "license": "All Rights Reserved, Archeon, 2023.",
     "disableForgeVersionCheck": true,

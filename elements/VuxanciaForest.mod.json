@@ -31,12 +31,12 @@
       "value": ""
     },
     "music": {
-      "value": "CUSTOM:genesis"
-    },
-    "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 3000,
+    "moodSound": {
+      "value": "CUSTOM:hoxa"
+    },
+    "moodSoundDelay": 3600,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
