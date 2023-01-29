@@ -136,38 +136,20 @@
       }
     ]
   },
-  "heart_of_nature": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:heart_of_nature",
-        "stream": true
-      }
-    ]
-  },
-  "heart_of_nature_loop": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:heart_of_nature_loop",
-        "stream": true
-      }
-    ]
-  },
-  "heart_of_nature_end": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:heart_of_nature_end",
-        "stream": true
-      }
-    ]
-  },
   "rising": {
     "category": "record",
     "sounds": [
       {
         "name": "archeon:rising",
+        "stream": true
+      }
+    ]
+  },
+  "heart_of_nature": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:heart_of_nature",
         "stream": true
       }
     ]

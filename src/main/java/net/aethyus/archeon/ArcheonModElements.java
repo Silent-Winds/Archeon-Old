@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -66,13 +67,9 @@ public class ArcheonModElements {
 		sounds.put(new ResourceLocation("archeon", "devouring"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "devouring")));
 		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
 		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
+		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		sounds.put(new ResourceLocation("archeon", "heart_of_nature"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature")));
-		sounds.put(new ResourceLocation("archeon", "heart_of_nature_loop"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_loop")));
-		sounds.put(new ResourceLocation("archeon", "heart_of_nature_end"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_end")));
-		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
@@ -88,6 +85,7 @@ public class ArcheonModElements {
 		}
 		Collections.sort(elements);
 		elements.forEach(ArcheonModElements.ModElement::initElements);
+		MinecraftForge.EVENT_BUS.register(new ArcheonModVariables(this));
 	}
 
 	public void registerSounds(RegistryEvent.Register<net.minecraft.util.SoundEvent> event) {

@@ -36,9 +36,6 @@
     "sleepResult": "ALLOW",
     "hasSkyLight": true,
     "imitateOverworldBehaviour": true,
-    "onPlayerEntersDimension": {
-      "name": "PlayerMusicManager"
-    },
     "onPlayerLeavesDimension": {
       "name": "PlayerMusicManager2"
     },

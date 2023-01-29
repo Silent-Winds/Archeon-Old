@@ -55,7 +55,6 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
 
-import net.aethyus.archeon.procedures.PlayerMusicManagerProcedure;
 import net.aethyus.archeon.procedures.PlayerMusicManager2Procedure;
 import net.aethyus.archeon.item.TropicsItem;
 import net.aethyus.archeon.block.TropicstoneBlock;
@@ -658,13 +657,6 @@ public class TropicsDimension extends ArcheonModElements.ModElement {
 			PlayerMusicManager2Procedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-		}
-		if (event.getTo() == RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("archeon:tropics"))) {
-
-			PlayerMusicManagerProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}

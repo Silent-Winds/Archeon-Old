@@ -7891,10 +7891,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
             "name": "x",
             "type": "number"
           },
@@ -8424,9 +8420,120 @@
           }
         ]
       }
+    },
+    {
+      "name": "PlayerMusicManager3",
+      "type": "procedure",
+      "sortid": 999,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_music_manager_3",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OSTManager",
+      "type": "procedure",
+      "sortid": 1000,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ost_manager",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OSTManager2",
+      "type": "procedure",
+      "sortid": 1001,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ost_manager_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "player_lifetime",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "soundpick",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    },
+    {
+      "name": "soundtimer",
+      "type": "number",
+      "scope": "map",
+      "value": "0.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "genesis",
@@ -8549,35 +8656,19 @@
       "subtitle": ""
     },
     {
-      "name": "heart_of_nature",
-      "files": [
-        "heart_of_nature"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "heart_of_nature_loop",
-      "files": [
-        "heart_of_nature_loop"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
-      "name": "heart_of_nature_end",
-      "files": [
-        "heart_of_nature_end"
-      ],
-      "category": "music",
-      "subtitle": ""
-    },
-    {
       "name": "rising",
       "files": [
         "rising"
       ],
       "category": "record",
+      "subtitle": ""
+    },
+    {
+      "name": "heart_of_nature",
+      "files": [
+        "heart_of_nature"
+      ],
+      "category": "music",
       "subtitle": ""
     }
   ],
@@ -8591,14 +8682,14 @@
       "item.archeon.neclane_wood_pickaxe": "Neclane Pickaxe",
       "item.archeon.aurora_catalyst_spawn_egg": "Aurora Catalyst Spawn Egg",
       "item.archeon.clothes_leggings": "Beige Trousers",
-      "block.archeon.southstone_pillar": "Southstone Pillar",
       "block.archeon.antropy_slab": "Neclane Slab",
+      "block.archeon.southstone_pillar": "Southstone Pillar",
       "block.archeon.cypress_slab": "Cypress Slab",
       "item.archeon.rising.desc": "Tiramisu Audio - Rising",
       "advancements.flower_advancement_septiceolia.title": "Bright n\u0027 Beautiful",
       "block.archeon.vuxancia_button": "Vuxancia Button",
-      "block.archeon.aerolia": "Aerolia",
       "item.archeon.red_lycoris_petal": "Red Lycoris Petal",
+      "block.archeon.aerolia": "Aerolia",
       "block.archeon.vuxancia_slab": "Vuxancia Slab",
       "item.archeon.pink_shell": "Pink Seashell",
       "block.archeon.ceramic_slab": "Ceramic Slab",
@@ -8614,8 +8705,8 @@
       "block.archeon.ornate_artemnite_3": "Ornate Artemnite (Center)",
       "block.archeon.gypsum_wall": "Gypsum Wall",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Cut a petal from a Pink Lycoris.",
-      "advancements.orange_and_orange.title": "Orange and Orange?",
       "block.archeon.faelite_block": "Block of Faelite",
+      "advancements.orange_and_orange.title": "Orange and Orange?",
       "item.archeon.faelite_hoe": "Faelite Hoe",
       "block.archeon.gypsum_block": "Gypsum",
       "block.archeon.tropicstone_bricks": "Southstone Bricks",
@@ -8626,15 +8717,15 @@
       "block.archeon.withered_septiceolia": "Withered Septiceolia",
       "advancements.biome_vuxancia_forest_magical.descr": "Enter a Magical Vuxancia Forest biome.",
       "block.archeon.hollow_cypress_log": "Hollow Cypress Log",
-      "block.archeon.ascendia": "Ascendia",
       "block.archeon.gypsum_bricks_slab": "Gypsum Brick Slab",
+      "block.archeon.ascendia": "Ascendia",
       "advancements.yummy_and_greasy.title": "Yummy and Greasy",
       "subtitles.dotted_sky": "",
-      "block.archeon.roughcast_wall": "Roughcast Wall",
       "block.archeon.dune_sand_glass_pane_tiles_top_left": "Dune Sand Glass Pane Tiles Top Left",
+      "block.archeon.roughcast_wall": "Roughcast Wall",
       "advancements.flower_advancement_cokiplant.descr": "Discover a Cokiplant.",
-      "block.archeon.dead_wet_grass_tuffet": "Dead Wet Grass Tuffet",
       "block.archeon.mossy_artemnite_bricks_wall": "Mossy Artemnite Brick Wall",
+      "block.archeon.dead_wet_grass_tuffet": "Dead Wet Grass Tuffet",
       "item.archeon.exyriane_crystal": "Exyriane Shard",
       "block.archeon.tropicstone_pressure_plate": "Southstone Pressure Plate",
       "block.archeon.red_tiles_slab": "Red Tile Slab",
@@ -8676,23 +8767,23 @@
       "advancements.glass_confection.descr": "Craft a stack of Dune Sand Glass Tiles.",
       "block.archeon.tropistone_button": "Southstone Button",
       "block.archeon.dune_sand_glass_pane": "Dune Sand Glass Pane",
-      "biome.archeon.tropical_ocean": "Lake or Dune",
       "block.archeon.withered_argandeane_blossom": "Withered Organdeane Blossom",
+      "biome.archeon.tropical_ocean": "Lake or Dune",
       "block.archeon.crimson_tiles_stairs": "Crimson Tile Stairs",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Hanging Orian Vuxancia Leaves",
-      "item.archeon.tropicstone_tools_shovel": "Southstone Shovel",
       "subtitles.hoxa": "",
+      "item.archeon.tropicstone_tools_shovel": "Southstone Shovel",
       "item.archeon.neclane_wood_hoe": "Neclane Hoe",
       "item.archeon.geometric_fall.desc": "Tim Rurkowski - Geometric Fall",
-      "block.archeon.artemnite_tiles_slab": "Artemnite Tiles Slab",
-      "item.archeon.cypress_tools_axe": "Cypress Hatchet",
       "subtitles.geometric_fall": "",
+      "item.archeon.cypress_tools_axe": "Cypress Hatchet",
+      "block.archeon.artemnite_tiles_slab": "Artemnite Tiles Slab",
       "block.archeon.vuxancia_leaves_zial": "Zial Vuxancia Leaves",
       "item.archeon.goblet_water": "Water Goblet",
       "item.archeon.herbicide": "Herbicide",
       "subtitles.catalyst.hit": "",
-      "item.archeon.apaflorite_armor_boots": "Apaflorite Boots",
       "block.archeon.aketite_tile": "Smooth Aketite",
+      "item.archeon.apaflorite_armor_boots": "Apaflorite Boots",
       "block.archeon.roseypia": "Roseypia",
       "advancements.yummy_and_greasy.descr": "Get a heifer steak.",
       "item.archeon.faelite_armor_boots": "Faelite Boots",
@@ -8702,8 +8793,8 @@
       "block.archeon.red_lycoris": "Red Lycoris ",
       "advancements.flower_advancement_iopea.title": "Bright Blue Sky\u0027s Flower",
       "item.archeon.nature_core_spawn_egg": "Heart of Nature Spawn Egg",
-      "subtitles.brile": "",
       "block.archeon.stripped_vuxancia_wood": "Stripped Vuxancia Wood",
+      "subtitles.brile": "",
       "block.archeon.xetulian_sugar_cane": "Xetulian Sugar Cane",
       "block.archeon.mossy_tropicstone_bricks_wall": "Mossy Southstone Brick Wal",
       "block.archeon.astedibes": "Astedibes",
@@ -8712,8 +8803,8 @@
       "item.archeon.goblet_blood_orange_juice": "Goblet of Blood Orange Juice",
       "item.archeon.cypress_tools_hoe": "Cypress Hoe",
       "block.archeon.warped_tiles_slab": "Warped Tile Slab",
-      "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
       "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
+      "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
       "advancements.biome_vuxancia_forest.descr": "Enter a Vuxancia Forest biome.",
       "block.archeon.vuxancia_fence": "Vuxancia Fence",
       "item.archeon.gear": "Gear",
@@ -8969,6 +9060,7 @@
       "block.archeon.stripped_neclane_wood": "Stripped Neclane Wood",
       "block.archeon.vine": "Vine",
       "advancements.pots.descr": "Craft a jam pot.",
+      "subtitles.heart_of_nature_start": "",
       "block.archeon.cypress_leaves": "Cypress Leaves",
       "block.archeon.aketite_brick_stairs": "Aketite Brick Stairs",
       "item.archeon.neclane_wood_shovel": "Neclane Shovel",
@@ -9091,14 +9183,14 @@
       "item.archeon.neclane_wood_pickaxe": "Pioche en bois de néclane",
       "item.archeon.aurora_catalyst_spawn_egg": "Oeuf d\u0027apparition de cristal de l\u0027aurore",
       "item.archeon.clothes_leggings": "Pantalon beige",
-      "block.archeon.southstone_pillar": "Pillier de southstone",
       "block.archeon.antropy_slab": "Dalle de néclane",
+      "block.archeon.southstone_pillar": "Pillier de southstone",
       "block.archeon.cypress_slab": "Dalle de cyprès",
       "item.archeon.rising.desc": "Tiramisu Audio - Rising",
       "advancements.flower_advancement_septiceolia.title": "Belle et claire",
       "block.archeon.vuxancia_button": "Bouton en vuxancia",
-      "item.archeon.red_lycoris_petal": "Pétal de lycoris rouge",
       "block.archeon.aerolia": "Aérolia",
+      "item.archeon.red_lycoris_petal": "Pétal de lycoris rouge",
       "block.archeon.vuxancia_slab": "Dalle en vuxancia",
       "item.archeon.pink_shell": "Coquillage rose",
       "block.archeon.ceramic_slab": "Dalle en céramique",
@@ -9114,8 +9206,8 @@
       "block.archeon.ornate_artemnite_3": "Artémnite ornée (centrée)",
       "block.archeon.gypsum_wall": "Muret de gypse",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Coupez un pétal de lycoris rose.",
-      "advancements.orange_and_orange.title": "Orange ou orange ?",
       "block.archeon.faelite_block": "Bloc de faélite",
+      "advancements.orange_and_orange.title": "Orange ou orange ?",
       "item.archeon.faelite_hoe": "Houe en faélite",
       "block.archeon.gypsum_block": "Gypse",
       "block.archeon.tropicstone_bricks": "Southstone taillée",
@@ -9126,15 +9218,15 @@
       "block.archeon.withered_septiceolia": "Céticée fanée",
       "advancements.biome_vuxancia_forest_magical.descr": "Entrez dans une forêt de vuxancia magique.",
       "block.archeon.hollow_cypress_log": "Bûche de cyprès creuse",
-      "block.archeon.gypsum_bricks_slab": "Dalle de gypse taillé",
       "block.archeon.ascendia": "Ascendiène",
+      "block.archeon.gypsum_bricks_slab": "Dalle de gypse taillé",
       "advancements.yummy_and_greasy.title": "Bon car gras...",
       "subtitles.dotted_sky": "",
-      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
       "block.archeon.roughcast_wall": "Muret de crépi",
+      "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
       "advancements.flower_advancement_cokiplant.descr": "Trouvez une coquillofleur.",
-      "block.archeon.mossy_artemnite_bricks_wall": "Muret en artémnite taillée moussue",
       "block.archeon.dead_wet_grass_tuffet": "Touffe d\u0027herbe humide morte",
+      "block.archeon.mossy_artemnite_bricks_wall": "Muret en artémnite taillée moussue",
       "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
       "block.archeon.tropicstone_pressure_plate": "Plaque de pression en southstone",
       "block.archeon.red_tiles_slab": "Dalle en tuiles rouges",
@@ -9176,23 +9268,23 @@
       "advancements.glass_confection.descr": "Fabriquez 64 blocs de verre carrelé de sable des dunes. Ne le casse pas tout de suite, tu en auras peut-être besoin.",
       "block.archeon.dune_sand_glass_pane": "Vitre en sable des dunes",
       "block.archeon.tropistone_button": "Bouton de southstone",
-      "block.archeon.withered_argandeane_blossom": "Organdéane fanée",
       "biome.archeon.tropical_ocean": "Lac d\u0027eaux chaudes",
+      "block.archeon.withered_argandeane_blossom": "Organdéane fanée",
       "block.archeon.crimson_tiles_stairs": "Escalier en tuiles carmin",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Feuilles de vuxancia oriènes pendantes",
-      "subtitles.hoxa": "",
       "item.archeon.tropicstone_tools_shovel": "Pelle en southstone",
+      "subtitles.hoxa": "",
       "item.archeon.neclane_wood_hoe": "Houe en bois de néclane",
       "item.archeon.geometric_fall.desc": "Tim Rurkowski - Geometric Fall",
-      "subtitles.geometric_fall": "",
-      "item.archeon.cypress_tools_axe": "Hache en bois de cyprès",
       "block.archeon.artemnite_tiles_slab": "Dalle d\u0027artémnite carrelée",
+      "item.archeon.cypress_tools_axe": "Hache en bois de cyprès",
+      "subtitles.geometric_fall": "",
       "block.archeon.vuxancia_leaves_zial": "Feuilles de vuxancia zialées",
       "item.archeon.goblet_water": "Goblet d\u0027eau",
       "item.archeon.herbicide": "Herbicide",
       "subtitles.catalyst.hit": "",
-      "block.archeon.aketite_tile": "Akétite lisse",
       "item.archeon.apaflorite_armor_boots": "Bottes en apaflorite",
+      "block.archeon.aketite_tile": "Akétite lisse",
       "block.archeon.roseypia": "Rosépia",
       "advancements.yummy_and_greasy.descr": "Obtenez de la viande de génisse.",
       "item.archeon.faelite_armor_boots": "Bottes en faélite",
@@ -9202,8 +9294,8 @@
       "block.archeon.red_lycoris": "Lycoris rouge",
       "advancements.flower_advancement_iopea.title": "Ô, fleur du ciel",
       "item.archeon.nature_core_spawn_egg": "Oeuf d\u0027apparition du Coeur de la Nature",
-      "subtitles.brile": "",
       "block.archeon.stripped_vuxancia_wood": "Bois de vuxancia écorcé",
+      "subtitles.brile": "",
       "block.archeon.xetulian_sugar_cane": "Canne à sucre xétulienne",
       "block.archeon.mossy_tropicstone_bricks_wall": "Muret en southstone taillée moussue",
       "block.archeon.astedibes": "Astédibées",
@@ -9212,8 +9304,8 @@
       "item.archeon.goblet_blood_orange_juice": "Goblet de jus d\u0027orange sanguine",
       "item.archeon.cypress_tools_hoe": "Houe en bois de cyprès",
       "block.archeon.warped_tiles_slab": "Dalle en tuiles biscornues",
-      "block.archeon.gilded_cobbled_southstone_slab": "Dalle de pierres de southstone dorées",
       "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
+      "block.archeon.gilded_cobbled_southstone_slab": "Dalle de pierres de southstone dorées",
       "advancements.biome_vuxancia_forest.descr": "Entrez dans une forêt de vuxancia.",
       "block.archeon.vuxancia_fence": "Barrière en vuxancia",
       "item.archeon.gear": "Engrenage métallique",
@@ -9469,6 +9561,7 @@
       "block.archeon.stripped_neclane_wood": "Bois de néclane écorcé",
       "block.archeon.vine": "Vigne",
       "advancements.pots.descr": "Fabriquez un pot à confiture.",
+      "subtitles.heart_of_nature_start": "",
       "block.archeon.cypress_leaves": "Feuilles de cyprès",
       "block.archeon.aketite_brick_stairs": "Escalier en akétite taillée",
       "item.archeon.neclane_wood_shovel": "Pelle en bois de néclane",
@@ -9590,7 +9683,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3-pre_release-1.7",
+    "version": "1.1.3-pre_release-1.9.12",
     "description": "The official Archeon mod by the Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski)! Archeon is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure.  Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see.  The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.  - To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ - Contribute to the project, support \u0026 more - our GitHub page: https://github.com/Silent-Winds/Archeon  Made with \u003c3 by the Silent Winds Team",
     "author": "Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Tim Rurkowski, Rotch Gwylt). Contributors: Paros974, Mystoxi.",
     "websiteURL": "https://mcreator.net",
