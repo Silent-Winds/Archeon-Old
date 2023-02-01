@@ -68,6 +68,8 @@ public class ArcheonModElements {
 		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
 		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
 		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
+		sounds.put(new ResourceLocation("archeon", "heart_of_nature_end"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_end")));
 		sounds.put(new ResourceLocation("archeon", "heart_of_nature"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature")));
 		try {

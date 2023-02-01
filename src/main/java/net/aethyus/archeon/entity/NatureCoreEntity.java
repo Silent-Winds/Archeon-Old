@@ -23,6 +23,7 @@ import net.minecraft.particles.ParticleTypes;
 import net.minecraft.network.IPacket;
 import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.SpawnEggItem;
+import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
@@ -51,6 +52,7 @@ import net.aethyus.archeon.procedures.NatureCoreEntityIsHurtProcedure;
 import net.aethyus.archeon.procedures.NatureCoreEntityDiesProcedure;
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.entity.renderer.NatureCoreRenderer;
+import net.aethyus.archeon.block.HeartOfNatureTrophyBlock;
 import net.aethyus.archeon.ArcheonModElements;
 
 import javax.annotation.Nullable;
@@ -194,6 +196,11 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			return false;
 		}
 
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(HeartOfNatureTrophyBlock.block));
+		}
+
 		@Override
 		public net.minecraft.util.SoundEvent getAmbientSound() {
 			return (net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.beacon.ambient"));
@@ -254,7 +261,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 			NatureCoreEntityDiesProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 

@@ -78,7 +78,7 @@
     "immuneToWither": true,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:HeartOfNatureTrophy"
     },
     "livingSound": {
       "value": "block.beacon.ambient"

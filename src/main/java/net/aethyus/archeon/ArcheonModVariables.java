@@ -109,7 +109,6 @@ public class ArcheonModVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "archeon_mapvars";
 		public double soundpick = 0.0;
-		public double soundtimer = 0.0;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -122,13 +121,11 @@ public class ArcheonModVariables {
 		@Override
 		public void read(CompoundNBT nbt) {
 			soundpick = nbt.getDouble("soundpick");
-			soundtimer = nbt.getDouble("soundtimer");
 		}
 
 		@Override
 		public CompoundNBT write(CompoundNBT nbt) {
 			nbt.putDouble("soundpick", soundpick);
-			nbt.putDouble("soundtimer", soundtimer);
 			return nbt;
 		}
 
@@ -219,6 +216,7 @@ public class ArcheonModVariables {
 		public INBT writeNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side) {
 			CompoundNBT nbt = new CompoundNBT();
 			nbt.putDouble("player_lifetime", instance.player_lifetime);
+			nbt.putDouble("soundtimer", instance.soundtimer);
 			return nbt;
 		}
 
@@ -226,11 +224,13 @@ public class ArcheonModVariables {
 		public void readNBT(Capability<PlayerVariables> capability, PlayerVariables instance, Direction side, INBT inbt) {
 			CompoundNBT nbt = (CompoundNBT) inbt;
 			instance.player_lifetime = nbt.getDouble("player_lifetime");
+			instance.soundtimer = nbt.getDouble("soundtimer");
 		}
 	}
 
 	public static class PlayerVariables {
 		public double player_lifetime = 0.0;
+		public double soundtimer = 0.0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -267,6 +267,7 @@ public class ArcheonModVariables {
 		PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null).orElse(new PlayerVariables()));
 		if (!event.isWasDeath()) {
 			clone.player_lifetime = original.player_lifetime;
+			clone.soundtimer = original.soundtimer;
 		}
 	}
 
@@ -293,6 +294,7 @@ public class ArcheonModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
 					variables.player_lifetime = message.data.player_lifetime;
+					variables.soundtimer = message.data.soundtimer;
 				}
 			});
 			context.setPacketHandled(true);

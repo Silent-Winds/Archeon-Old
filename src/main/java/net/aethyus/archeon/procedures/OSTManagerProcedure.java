@@ -77,18 +77,32 @@ public class OSTManagerProcedure {
 		double soundpick = 0;
 		double soundtimer = 0;
 		if (!((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("archeon:tropics"))))
-				&& ArcheonModVariables.MapVariables.get(world).soundtimer > 0) {
-			ArcheonModVariables.MapVariables.get(world).soundtimer = 0;
-			ArcheonModVariables.MapVariables.get(world).syncData(world);
+				&& (entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new ArcheonModVariables.PlayerVariables())).soundtimer > 0) {
+			{
+				double _setval = 0;
+				entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.soundtimer = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		} else if ((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("archeon:tropics")))
-				&& ArcheonModVariables.MapVariables.get(world).soundtimer > 0) {
-			ArcheonModVariables.MapVariables.get(world).soundtimer = (ArcheonModVariables.MapVariables.get(world).soundtimer - 1);
-			ArcheonModVariables.MapVariables.get(world).syncData(world);
+				&& (entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new ArcheonModVariables.PlayerVariables())).soundtimer > 0) {
+			{
+				double _setval = ((entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new ArcheonModVariables.PlayerVariables())).soundtimer - 1);
+				entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
+					capability.soundtimer = _setval;
+					capability.syncPlayerVariables(entity);
+				});
+			}
 		} else if ((entity.world.getDimensionKey()) == (RegistryKey.getOrCreateKey(Registry.WORLD_KEY, new ResourceLocation("archeon:tropics")))
-				&& ArcheonModVariables.MapVariables.get(world).soundtimer == 0) {
-			OSTManager2Procedure.executeProcedure(Stream
+				&& (entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						.orElse(new ArcheonModVariables.PlayerVariables())).soundtimer == 0) {
+			OSTManager3Procedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}

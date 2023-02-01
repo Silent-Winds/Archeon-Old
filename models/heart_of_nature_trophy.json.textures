@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "heart_of_nature_trophy",
+        "missing": "heart_of_nature_trophy"
+      },
+      "name": "default"
+    }
+  }
+}

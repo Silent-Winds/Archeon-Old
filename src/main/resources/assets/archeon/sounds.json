@@ -145,6 +145,15 @@
       }
     ]
   },
+  "heart_of_nature_end": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:heart_of_nature_end",
+        "stream": true
+      }
+    ]
+  },
   "heart_of_nature": {
     "category": "music",
     "sounds": [

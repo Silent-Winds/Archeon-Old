@@ -29,7 +29,7 @@ public class GrapeItem extends ArcheonModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(0.3f)
+					.food((new Food.Builder()).hunger(1).saturation(0.3f)
 
 							.build()));
 			setRegistryName("grape");
@@ -42,7 +42,7 @@ public class GrapeItem extends ArcheonModElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack itemstack) {
-			return 8;
+			return 10;
 		}
 
 		@Override

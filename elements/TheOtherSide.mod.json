@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "The Other Side",
-    "achievementDescription": "Enter the South dimension.",
+    "achievementDescription": "Enter the Rocky Fields biome.",
     "achievementIcon": {
       "value": "CUSTOM:WetGrassBlock"
     },
