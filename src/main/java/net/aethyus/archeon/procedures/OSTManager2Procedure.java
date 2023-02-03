@@ -133,11 +133,13 @@ public class OSTManager2Procedure {
 			delay = 4800;
 		}
 		{
-			double _setval = (delay + Math.random() * 100);
+			double _setval = (delay + Math.round(Math.random() * 100));
 			entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.soundtimer = _setval;
 				capability.syncPlayerVariables(entity);
 			});
 		}
+		System.out.println((entity.getCapability(ArcheonModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+				.orElse(new ArcheonModVariables.PlayerVariables())).soundtimer + "|" + delay + "|" + soundpick);
 	}
 }
