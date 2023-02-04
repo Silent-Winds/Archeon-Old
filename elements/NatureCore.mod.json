@@ -105,6 +105,9 @@
     "whenMobIsHurt": {
       "name": "NatureCoreEntityIsHurt"
     },
+    "onMobTickUpdate": {
+      "name": "NatureCoreOnEntityTickUpdate"
+    },
     "onInitialSpawn": {
       "name": "NatureCoreOnInitialEntitySpawn"
     },

@@ -55,50 +55,46 @@ public class NatureCoreEntityIsHurtProcedure {
 			world.addEntity(entityToSpawn);
 		}
 		if (world instanceof ServerWorld) {
-			((World) world).getServer().getCommandManager()
-					.handleCommand(
-							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							"stopsound @p archeon:brile");
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:brile");
 		}
 		if (world instanceof ServerWorld) {
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"stopsound @p archeon:no_ones_around");
+					"stopsound @a music archeon:no_ones_around");
 		}
 		if (world instanceof ServerWorld) {
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"stopsound @p archeon:dotted_sky");
-		}
-		if (world instanceof ServerWorld) {
-			((World) world).getServer().getCommandManager()
-					.handleCommand(
-							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							"stopsound @p archeon:sunny");
-		}
-		if (world instanceof ServerWorld) {
-			((World) world).getServer().getCommandManager()
-					.handleCommand(
-							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							"stopsound @p archeon:hoxa");
-		}
-		if (world instanceof ServerWorld) {
-			((World) world).getServer().getCommandManager()
-					.handleCommand(
-							new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
-									new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-							"stopsound @p archeon:genesis");
+					"stopsound @a music archeon:dotted_sky");
 		}
 		if (world instanceof ServerWorld) {
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"stopsound @p archeon:wild_breath");
+					"stopsound @a music archeon:sunny");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:hoxa");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:genesis");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:wild_breath");
 		}
 	}
 }

@@ -48,6 +48,7 @@ import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.procedures.NatureCoreOnInitialEntitySpawnProcedure;
+import net.aethyus.archeon.procedures.NatureCoreOnEntityTickUpdateProcedure;
 import net.aethyus.archeon.procedures.NatureCoreEntityIsHurtProcedure;
 import net.aethyus.archeon.procedures.NatureCoreEntityDiesProcedure;
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
@@ -279,6 +280,20 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			return retval;
+		}
+
+		@Override
+		public void baseTick() {
+			super.baseTick();
+			double x = this.getPosX();
+			double y = this.getPosY();
+			double z = this.getPosZ();
+			Entity entity = this;
+
+			NatureCoreOnEntityTickUpdateProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 
 		@Override

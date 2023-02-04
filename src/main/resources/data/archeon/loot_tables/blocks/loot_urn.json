@@ -27,7 +27,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 3
               }
             }
           ]
@@ -54,8 +54,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 3,
-                "max": 7
+                "min": 1,
+                "max": 4
               }
             },
             {
@@ -74,7 +74,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 1
               }
             },
             {
@@ -111,8 +111,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 3
               }
             }
           ]
@@ -126,7 +126,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 2
               }
             },
             {
@@ -145,7 +145,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -178,7 +178,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 3
+                "max": 1
               }
             },
             {
@@ -197,7 +197,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -210,26 +210,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "archeon:faelite_ingot",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
+                "min": 1,
                 "max": 2
               }
             },
@@ -267,8 +248,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 9
+                "min": 1,
+                "max": 3
               }
             },
             {
@@ -355,33 +336,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "archeon:faelite_ingot",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "archeon:exyriane_crystal",
           "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 1,
+                "max": 2
               }
             },
             {
@@ -432,8 +394,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 3
               }
             },
             {
@@ -485,7 +447,7 @@
               "function": "set_count",
               "count": {
                 "min": 0,
-                "max": 2
+                "max": 1
               }
             }
           ]
@@ -498,8 +460,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 3
               }
             },
             {

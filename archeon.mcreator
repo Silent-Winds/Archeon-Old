@@ -8412,6 +8412,322 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "heart_of_nature_trophy"
+    },
+    {
+      "name": "CypressWoodToLog",
+      "type": "recipe",
+      "sortid": 1007,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cypress_wood_to_log"
+    },
+    {
+      "name": "AntropyWoodToLog",
+      "type": "recipe",
+      "sortid": 1008,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "antropy_wood_to_log"
+    },
+    {
+      "name": "PalmWoodToLog",
+      "type": "recipe",
+      "sortid": 1009,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "palm_wood_to_log"
+    },
+    {
+      "name": "VuxanciaWoodToLog",
+      "type": "recipe",
+      "sortid": 1010,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vuxancia_wood_to_log"
+    },
+    {
+      "name": "StripLogNeclane",
+      "type": "procedure",
+      "sortid": 1011,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_neclane",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NatureCoreOnEntityTickUpdate",
+      "type": "procedure",
+      "sortid": 1012,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nature_core_on_entity_tick_update",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogCypress",
+      "type": "procedure",
+      "sortid": 1013,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_cypress",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogPalm",
+      "type": "procedure",
+      "sortid": 1014,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_palm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogVuxancia",
+      "type": "procedure",
+      "sortid": 1015,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_vuxancia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodVuxancia",
+      "type": "procedure",
+      "sortid": 1016,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_vuxancia",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodCypress",
+      "type": "procedure",
+      "sortid": 1017,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_cypress",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodPalm",
+      "type": "procedure",
+      "sortid": 1018,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_palm",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodNeclane",
+      "type": "procedure",
+      "sortid": 1019,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_neclane",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -9593,7 +9909,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "description": "Archeon: Rebirth of History is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure. Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see. The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.",
     "author": "The Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt and Tim Rurkowski)",
     "websiteURL": "- To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon  - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev  - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ  - Contribute to the project, support \u0026 more on our GitHub page: https://github.com/Silent-Winds/Archeon  - Follow Tim Rurkowski on Bandcamp: https://timrurkowski.bandcamp.com/  - Follow Rotch Gwylt on SoundCloud:  https://soundcloud.com/rotch-gwylt  - Follow Aeramisu on SoundCloud: https://soundcloud.com/aeramisu  - Follow Aethyus on Twitter: https://twitter.com/ArcheonAethyus  - Join now our official Discord Server:  https://discord.gg/reyywJwFBQ",
