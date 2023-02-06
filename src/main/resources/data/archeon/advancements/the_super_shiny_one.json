@@ -23,7 +23,7 @@
             "item": "archeon:faelite_block",
             "count": {
               "min": 64,
-              "max": 64
+              "max": 10000
             }
           }
         ]

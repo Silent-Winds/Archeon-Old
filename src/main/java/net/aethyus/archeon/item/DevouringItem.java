@@ -27,7 +27,7 @@ public class DevouringItem extends ArcheonModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, ArcheonModElements.sounds.get(new ResourceLocation("archeon:devouring")),
+			super(0, ArcheonModElements.sounds.get(new ResourceLocation("archeon:glaive")),
 					new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("devouring");
 		}

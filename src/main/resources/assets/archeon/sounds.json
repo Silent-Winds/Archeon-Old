@@ -162,5 +162,14 @@
         "stream": true
       }
     ]
+  },
+  "glaive": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:glaive",
+        "stream": true
+      }
+    ]
   }
 }

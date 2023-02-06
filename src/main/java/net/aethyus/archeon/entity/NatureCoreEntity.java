@@ -92,14 +92,14 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.4);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.7);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 550);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 100);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.5);
-			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.4);
+			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.7);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -242,7 +242,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 				return false;
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
-			if (source.isExplosion())
+			if (source == DamageSource.DRAGON_BREATH)
 				return false;
 			if (source == DamageSource.WITHER)
 				return false;

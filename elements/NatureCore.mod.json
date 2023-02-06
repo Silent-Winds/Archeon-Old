@@ -49,7 +49,7 @@
     "attackStrength": 10,
     "attackKnockback": 0.5,
     "knockbackResistance": 0.2,
-    "movementSpeed": 0.4,
+    "movementSpeed": 0.7,
     "armorBaseValue": 2.0,
     "trackingRange": 64,
     "followRange": 100,
@@ -72,11 +72,11 @@
     "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
-    "immuneToExplosion": true,
+    "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
     "immuneToWither": true,
-    "immuneToDragonBreath": false,
+    "immuneToDragonBreath": true,
     "mobDrop": {
       "value": "CUSTOM:HeartOfNatureTrophy"
     },

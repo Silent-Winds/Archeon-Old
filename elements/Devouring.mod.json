@@ -4,12 +4,12 @@
   "definition": {
     "texture": "broken_disc",
     "name": "Damaged Music Disc",
-    "description": "Tiramisu Audio - Devouring",
+    "description": "Tiramisu Audio - Glaive",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
     },
     "music": {
-      "value": "CUSTOM:devouring"
+      "value": "CUSTOM:glaive"
     },
     "specialInfo": [],
     "hasGlow": false

@@ -72,6 +72,7 @@ public class ArcheonModElements {
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_end")));
 		sounds.put(new ResourceLocation("archeon", "heart_of_nature"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature")));
+		sounds.put(new ResourceLocation("archeon", "glaive"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "glaive")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

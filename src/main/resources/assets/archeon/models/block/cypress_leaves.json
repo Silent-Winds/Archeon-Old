@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "archeon:blocks/cypress_leaves",
-    "up": "archeon:blocks/cypress_leaves",
-    "north": "archeon:blocks/cypress_leaves",
-    "east": "archeon:blocks/cypress_leaves",
-    "south": "archeon:blocks/cypress_leaves",
-    "west": "archeon:blocks/cypress_leaves",
+    "all": "archeon:blocks/cypress_leaves",
     "particle": "archeon:blocks/cypress_leaves"
   }
 }

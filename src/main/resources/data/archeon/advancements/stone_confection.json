@@ -23,7 +23,7 @@
             "item": "archeon:southstone_column",
             "count": {
               "min": 64,
-              "max": 64
+              "max": 10000
             }
           }
         ]

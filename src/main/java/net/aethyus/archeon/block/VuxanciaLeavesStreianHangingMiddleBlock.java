@@ -70,7 +70,7 @@ public class VuxanciaLeavesStreianHangingMiddleBlock extends ArcheonModElements.
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getTranslucent());
+		RenderTypeLookup.setRenderLayer(block, RenderType.getCutoutMipped());
 	}
 
 	public static class CustomBlock extends Block implements IWaterLoggable {
