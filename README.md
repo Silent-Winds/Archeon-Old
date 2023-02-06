@@ -1,9 +1,9 @@
 # Archeon
-![](https://media.discordapp.net/attachments/938106904129986590/1048343689791025213/image.png?width=888&height=498)
+![](https://media.discordapp.net/attachments/938106904129986590/1065303612634447994/image.png?width=886&height=498)
 
 ## 🏷️ Welcome to Archeon: Rebirth of History
 
-The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, currently in the last phase before official release of the Rebirth of History update. 
+The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, but we just released the Rebirth of History update a few days ago! Go check it out on CurseForge: https://www.curseforge.com/minecraft/mc-mods/archeon/files - Some newer versions might also be released in a few days to fix some bugs!
 <a class="github-button" href="https://discord.gg/hhGPj8sMzT
 " data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
 
