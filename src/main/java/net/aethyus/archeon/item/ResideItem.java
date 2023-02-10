@@ -17,7 +17,7 @@ public class ResideItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ResideItem(ArcheonModElements instance) {
-		super(instance, 343);
+		super(instance, 363);
 	}
 
 	@Override

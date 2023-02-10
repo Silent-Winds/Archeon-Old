@@ -52,7 +52,7 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.8f)).build("aurora_catalyst").setRegistryName("aurora_catalyst");
 
 	public AuroraCatalystEntity(ArcheonModElements instance) {
-		super(instance, 364);
+		super(instance, 386);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AuroraCatalystRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

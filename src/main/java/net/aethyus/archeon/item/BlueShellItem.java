@@ -18,7 +18,7 @@ public class BlueShellItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public BlueShellItem(ArcheonModElements instance) {
-		super(instance, 325);
+		super(instance, 345);
 	}
 
 	@Override

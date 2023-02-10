@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:clementium_ingot"
+    },
+    "1": {
+      "item": "archeon:clementium_ingot"
+    },
+    "2": {
+      "item": "archeon:clementium_ingot"
+    },
+    "3": {
+      "item": "archeon:clementium_ingot"
+    },
+    "4": {
+      "item": "archeon:clementium_ingot"
+    },
+    "5": {
+      "item": "archeon:clementium_ingot"
+    },
+    "6": {
+      "item": "archeon:clementium_ingot"
+    },
+    "7": {
+      "item": "archeon:clementium_ingot"
+    },
+    "8": {
+      "item": "archeon:clementium_ingot"
+    }
+  },
+  "result": {
+    "item": "archeon:clementium_block",
+    "count": 1
+  }
+}

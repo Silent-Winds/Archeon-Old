@@ -300,6 +300,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "archeon:clementium_ingot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
         }
       ]
     },

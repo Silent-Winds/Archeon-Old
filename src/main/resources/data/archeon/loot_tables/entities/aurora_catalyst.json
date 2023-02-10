@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeon:exyriane_crystal",
+          "name": "archeon:aurora_crystal",
           "weight": 1,
           "functions": [
             {

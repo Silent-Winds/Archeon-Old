@@ -1,0 +1,31 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "lusonyth_pickaxe",
+    "customModelName": "Normal",
+    "name": "Lusonyth Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ArcheonCombatAndTools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 0.9,
+    "enchantability": 14,
+    "damageVsEntity": 2.0,
+    "usageCount": 250,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:LusonythGemstone"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -2,7 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "dune_sand"
+        "0": "dune_sand_castle"
       },
       "name": "default"
     }

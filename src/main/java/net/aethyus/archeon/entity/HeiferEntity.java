@@ -44,7 +44,7 @@ public class HeiferEntity extends ArcheonModElements.ModElement {
 			.size(0.9f, 1.4f)).build("heifer").setRegistryName("heifer");
 
 	public HeiferEntity(ArcheonModElements instance) {
-		super(instance, 362);
+		super(instance, 384);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new HeiferRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

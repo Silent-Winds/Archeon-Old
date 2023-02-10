@@ -61,7 +61,7 @@ public class OrchidBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OrchidBlock(ArcheonModElements instance) {
-		super(instance, 243);
+		super(instance, 244);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

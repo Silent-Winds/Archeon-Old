@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "1": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "2": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "3": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "4": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "5": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "6": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "7": {
+      "item": "archeon:lusonyth_gemstone"
+    },
+    "8": {
+      "item": "archeon:lusonyth_gemstone"
+    }
+  },
+  "result": {
+    "item": "archeon:lusonyth_block",
+    "count": 1
+  }
+}

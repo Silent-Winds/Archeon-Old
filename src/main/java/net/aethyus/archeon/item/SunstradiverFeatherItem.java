@@ -17,7 +17,7 @@ public class SunstradiverFeatherItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public SunstradiverFeatherItem(ArcheonModElements instance) {
-		super(instance, 359);
+		super(instance, 380);
 	}
 
 	@Override
