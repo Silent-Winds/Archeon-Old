@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "3 5",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "2": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "3": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "5": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "6": {
+      "item": "archeon:apaflorite_gemstone"
+    },
+    "7": {
+      "item": "archeon:apaflorite_gemstone"
+    }
+  },
+  "result": {
+    "item": "archeon:apaflorite_ring",
+    "count": 1
+  }
+}

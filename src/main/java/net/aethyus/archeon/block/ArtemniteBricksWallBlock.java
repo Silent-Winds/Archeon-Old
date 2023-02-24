@@ -40,7 +40,7 @@ public class ArtemniteBricksWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ArtemniteBricksWallBlock(ArcheonModElements instance) {
-		super(instance, 126);
+		super(instance, 128);
 	}
 
 	@Override

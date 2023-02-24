@@ -23,7 +23,7 @@ public class FaeliteRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public FaeliteRingItem(ArcheonModElements instance) {
-		super(instance, 330);
+		super(instance, 343);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class FaeliteRingItem extends ArcheonModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Grants the ability to give to player a permanent effect of Strenght."));
+			list.add(new StringTextComponent("\u00A77Grants the ability to give the player a permanent effect of Strenght."));
 		}
 	}
 }

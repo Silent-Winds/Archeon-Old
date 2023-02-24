@@ -18,7 +18,7 @@ public class FaeliteHoeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public FaeliteHoeItem(ArcheonModElements instance) {
-		super(instance, 303);
+		super(instance, 316);
 	}
 
 	@Override

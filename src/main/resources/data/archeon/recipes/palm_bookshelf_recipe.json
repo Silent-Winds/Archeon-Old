@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:palm_planks"
+    },
+    "1": {
+      "item": "archeon:palm_planks"
+    },
+    "2": {
+      "item": "archeon:palm_planks"
+    },
+    "3": {
+      "item": "minecraft:book"
+    },
+    "4": {
+      "item": "minecraft:book"
+    },
+    "5": {
+      "item": "minecraft:book"
+    },
+    "6": {
+      "item": "archeon:palm_planks"
+    },
+    "7": {
+      "item": "archeon:palm_planks"
+    },
+    "8": {
+      "item": "archeon:palm_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:palm_bookshelf",
+    "count": 1
+  }
+}

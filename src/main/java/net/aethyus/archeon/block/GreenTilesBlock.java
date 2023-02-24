@@ -26,7 +26,7 @@ public class GreenTilesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public GreenTilesBlock(ArcheonModElements instance) {
-		super(instance, 237);
+		super(instance, 249);
 	}
 
 	@Override

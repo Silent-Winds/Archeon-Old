@@ -57,7 +57,7 @@ public class VuxanciaLeavesStreianHangingBottomBlock extends ArcheonModElements.
 	public static final Block block = null;
 
 	public VuxanciaLeavesStreianHangingBottomBlock(ArcheonModElements instance) {
-		super(instance, 173);
+		super(instance, 175);
 	}
 
 	@Override

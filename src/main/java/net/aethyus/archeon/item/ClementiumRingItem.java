@@ -23,7 +23,7 @@ public class ClementiumRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ClementiumRingItem(ArcheonModElements instance) {
-		super(instance, 332);
+		super(instance, 345);
 	}
 
 	@Override
@@ -50,7 +50,7 @@ public class ClementiumRingItem extends ArcheonModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Grants the ability to give to player a permanent effect of Speed."));
+			list.add(new StringTextComponent("\u00A77Grants the ability to give the player a permanent effect of Speed."));
 		}
 	}
 }

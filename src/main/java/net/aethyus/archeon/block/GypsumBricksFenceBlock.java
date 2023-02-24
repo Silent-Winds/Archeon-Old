@@ -28,7 +28,7 @@ public class GypsumBricksFenceBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public GypsumBricksFenceBlock(ArcheonModElements instance) {
-		super(instance, 203);
+		super(instance, 205);
 	}
 
 	@Override

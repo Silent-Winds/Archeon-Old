@@ -27,7 +27,7 @@ public class CeramicSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CeramicSlabBlock(ArcheonModElements instance) {
-		super(instance, 185);
+		super(instance, 187);
 	}
 
 	@Override

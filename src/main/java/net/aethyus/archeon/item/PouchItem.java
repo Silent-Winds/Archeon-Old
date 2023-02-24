@@ -51,7 +51,7 @@ public class PouchItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public PouchItem(ArcheonModElements instance) {
-		super(instance, 379);
+		super(instance, 392);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "G",
+    "keyBindingName": "Ring of Wahven (Dragon Breath)",
+    "keyBindingCategoryKey": "gameplay",
+    "onKeyPressed": {
+      "name": "RingOfWahvenItemInInventoryTick"
+    }
+  }
+}

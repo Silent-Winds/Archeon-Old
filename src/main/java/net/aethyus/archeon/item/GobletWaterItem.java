@@ -22,7 +22,7 @@ public class GobletWaterItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GobletWaterItem(ArcheonModElements instance) {
-		super(instance, 349);
+		super(instance, 362);
 	}
 
 	@Override

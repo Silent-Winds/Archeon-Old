@@ -27,7 +27,7 @@ public class ClementiumBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ClementiumBlockBlock(ArcheonModElements instance) {
-		super(instance, 1088);
+		super(instance, 101);
 	}
 
 	@Override

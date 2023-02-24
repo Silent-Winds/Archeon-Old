@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": "CUSTOM:FaeliteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FaeliteRing"
+    },
+    "name": "faelite_ring_recipe",
+    "namespace": "mod"
+  }
+}

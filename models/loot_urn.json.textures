@@ -2,10 +2,7 @@
   "mappings": {
     "default": {
       "map": {
-        "pot_block_center_top": "pot_block_center_top",
-        "pot_block_top": "pot_block_top",
-        "pot_block_bottom": "pot_block_bottom",
-        "pot_block_center": "pot_block_center"
+        "1": "urn"
       },
       "name": "default"
     }

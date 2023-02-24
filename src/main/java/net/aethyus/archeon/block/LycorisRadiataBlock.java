@@ -68,7 +68,7 @@ public class LycorisRadiataBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LycorisRadiataBlock(ArcheonModElements instance) {
-		super(instance, 252);
+		super(instance, 264);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

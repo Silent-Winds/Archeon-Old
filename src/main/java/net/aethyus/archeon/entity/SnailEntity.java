@@ -53,7 +53,7 @@ public class SnailEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.8f)).build("snail").setRegistryName("snail");
 
 	public SnailEntity(ArcheonModElements instance) {
-		super(instance, 385);
+		super(instance, 398);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SnailRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

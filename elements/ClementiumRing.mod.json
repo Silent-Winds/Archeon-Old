@@ -25,7 +25,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [
-      "Grants the ability to give to player a permanent effect of Speed."
+      "§7Grants the ability to give the player a permanent effect of Speed."
     ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

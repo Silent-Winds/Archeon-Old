@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:book"
+    },
+    "1": {
+      "item": "archeon:ink_bottle"
+    },
+    "2": {
+      "item": "archeon:sunstradiver_feather"
+    }
+  },
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}
