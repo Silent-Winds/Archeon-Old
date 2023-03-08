@@ -75,7 +75,7 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0.1);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 1);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 5);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
 			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.3);
 			event.put(entity, ammma.create());

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "archeon:nyreth_planks"
+    }
+  ],
+  "result": {
+    "item": "archeon:nyreth_button",
+    "count": 1
+  }
+}

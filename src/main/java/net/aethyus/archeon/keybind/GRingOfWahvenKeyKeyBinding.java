@@ -32,6 +32,7 @@ import java.util.AbstractMap;
 public class GRingOfWahvenKeyKeyBinding extends ArcheonModElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	private KeyBinding keys;
+	private long lastpress = 0;
 
 	public GRingOfWahvenKeyKeyBinding(ArcheonModElements instance) {
 		super(instance, 1117);
@@ -53,8 +54,11 @@ public class GRingOfWahvenKeyKeyBinding extends ArcheonModElements.ModElement {
 		if (Minecraft.getInstance().currentScreen == null) {
 			if (event.getKey() == keys.getKey().getKeyCode()) {
 				if (event.getAction() == GLFW.GLFW_PRESS) {
-					ArcheonMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(0, 0));
-					pressAction(Minecraft.getInstance().player, 0, 0);
+					lastpress = System.currentTimeMillis();
+				} else if (event.getAction() == GLFW.GLFW_RELEASE) {
+					int dt = (int) (System.currentTimeMillis() - lastpress);
+					ArcheonMod.PACKET_HANDLER.sendToServer(new KeyBindingPressedMessage(1, dt));
+					pressAction(Minecraft.getInstance().player, 1, dt);
 				}
 			}
 		}
@@ -95,7 +99,7 @@ public class GRingOfWahvenKeyKeyBinding extends ArcheonModElements.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (type == 0) {
+		if (type == 1) {
 
 			RingOfWahvenItemInInventoryTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
 					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

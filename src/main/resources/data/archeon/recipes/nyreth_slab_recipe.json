@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:nyreth_planks"
+    },
+    "1": {
+      "item": "archeon:nyreth_planks"
+    },
+    "2": {
+      "item": "archeon:nyreth_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:nyreth_slab",
+    "count": 6
+  }
+}

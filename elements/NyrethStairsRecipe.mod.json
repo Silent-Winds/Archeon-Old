@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:NyrethStairs"
+    },
+    "name": "nyreth_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -3738,14 +3738,6 @@
       "registry_name": "neclane_wood_hoe_recipe"
     },
     {
-      "name": "StrippedPlamLogRecipe",
-      "type": "recipe",
-      "sortid": 697,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_plam_log_recipe"
-    },
-    {
       "name": "StrippedCypressLogRecipe",
       "type": "recipe",
       "sortid": 698,
@@ -9676,6 +9668,660 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "palm_bookshelf_recipe"
+    },
+    {
+      "name": "Lusonyth",
+      "type": "armor",
+      "sortid": 1122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lusonyth",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Deer",
+      "type": "livingentity",
+      "sortid": 1123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deer"
+    },
+    {
+      "name": "PaleNyrethLeaves",
+      "type": "block",
+      "sortid": 1124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pale_nyreth_leaves"
+    },
+    {
+      "name": "NyrethWood",
+      "type": "block",
+      "sortid": 1125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_wood"
+    },
+    {
+      "name": "NyrethLog",
+      "type": "block",
+      "sortid": 1126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_log"
+    },
+    {
+      "name": "NyrethPlanks",
+      "type": "block",
+      "sortid": 1127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_planks"
+    },
+    {
+      "name": "NyrethLeaves",
+      "type": "block",
+      "sortid": 1128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_leaves"
+    },
+    {
+      "name": "NyrethStairs",
+      "type": "block",
+      "sortid": 1129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_stairs"
+    },
+    {
+      "name": "NyrethSlab",
+      "type": "block",
+      "sortid": 1130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_slab"
+    },
+    {
+      "name": "NyrethFence",
+      "type": "block",
+      "sortid": 1131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_fence"
+    },
+    {
+      "name": "NyrethFenceGate",
+      "type": "block",
+      "sortid": 1132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_fence_gate"
+    },
+    {
+      "name": "NyrethPressurePlate",
+      "type": "block",
+      "sortid": 1133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_pressure_plate"
+    },
+    {
+      "name": "NyrethButton",
+      "type": "block",
+      "sortid": 1134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_button"
+    },
+    {
+      "name": "NyrethItemsTag",
+      "type": "tag",
+      "sortid": 1135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_items_tag"
+    },
+    {
+      "name": "NyrethWoodRecipe",
+      "type": "recipe",
+      "sortid": 1136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_wood_recipe"
+    },
+    {
+      "name": "NyrethPlanksRecipe",
+      "type": "recipe",
+      "sortid": 1137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_planks_recipe"
+    },
+    {
+      "name": "NyrethStairsRecipe",
+      "type": "recipe",
+      "sortid": 1138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_stairs_recipe"
+    },
+    {
+      "name": "NyrethSlabRecipe",
+      "type": "recipe",
+      "sortid": 1139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_slab_recipe"
+    },
+    {
+      "name": "NyrethFenceRecipe",
+      "type": "recipe",
+      "sortid": 1140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_fence_recipe"
+    },
+    {
+      "name": "NyrethFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 1141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_fence_gate_recipe"
+    },
+    {
+      "name": "NyrethPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 1142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_pressure_plate_recipe"
+    },
+    {
+      "name": "NyrethButtonRecipe",
+      "type": "recipe",
+      "sortid": 1143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_button_recipe"
+    },
+    {
+      "name": "NyrethStickRecipe",
+      "type": "recipe",
+      "sortid": 1144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_stick_recipe"
+    },
+    {
+      "name": "NyrethCraftingTable",
+      "type": "recipe",
+      "sortid": 1145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_crafting_table"
+    },
+    {
+      "name": "NyrethBookshelf",
+      "type": "block",
+      "sortid": 1146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_bookshelf"
+    },
+    {
+      "name": "NyrethBookshelfRecipe",
+      "type": "recipe",
+      "sortid": 1147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_bookshelf_recipe"
+    },
+    {
+      "name": "StripLogNyreth",
+      "type": "procedure",
+      "sortid": 1148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_nyreth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodNyreth",
+      "type": "procedure",
+      "sortid": 1149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_nyreth",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrippedNyrethWood",
+      "type": "block",
+      "sortid": 1150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_wood"
+    },
+    {
+      "name": "StrippedNyrethLog",
+      "type": "block",
+      "sortid": 1151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_log"
+    },
+    {
+      "name": "StrippedNyrethWoodToPlanks",
+      "type": "recipe",
+      "sortid": 1152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_wood_to_planks"
+    },
+    {
+      "name": "StrippedNyrethLogToPlanks",
+      "type": "recipe",
+      "sortid": 1153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_log_to_planks"
+    },
+    {
+      "name": "StrippedPalmLogRecipe",
+      "type": "recipe",
+      "sortid": 1154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_palm_log_recipe"
+    },
+    {
+      "name": "StrippedNyrethLogRecipe",
+      "type": "recipe",
+      "sortid": 1155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_log_recipe"
+    },
+    {
+      "name": "StripLogNyreth2",
+      "type": "procedure",
+      "sortid": 1156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_nyreth_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodNyreth2",
+      "type": "procedure",
+      "sortid": 1157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_nyreth_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogCypress2",
+      "type": "procedure",
+      "sortid": 1158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_cypress_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogPalm2",
+      "type": "procedure",
+      "sortid": 1159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_palm_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogVuxancia2",
+      "type": "procedure",
+      "sortid": 1160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_vuxancia_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodNeclane2",
+      "type": "procedure",
+      "sortid": 1161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_neclane_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodVuxancia2",
+      "type": "procedure",
+      "sortid": 1162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_vuxancia_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodCypress2",
+      "type": "procedure",
+      "sortid": 1163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_cypress_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripWoodPalm2",
+      "type": "procedure",
+      "sortid": 1164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_wood_palm_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StripLogNeclane2",
+      "type": "procedure",
+      "sortid": 1165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strip_log_neclane_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrippedNyrethWoodRecipe",
+      "type": "recipe",
+      "sortid": 1166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stripped_nyreth_wood_recipe"
     }
   ],
   "variable_elements": [
@@ -9859,6 +10505,7 @@
       "advancements.look_at_my_pink_diamonds.descr": "Obtain an apaflorite gemstone.",
       "block.archeon.south_wheat": "South Wheat",
       "block.archeon.vuxancia_log": "Vuxancia Log",
+      "block.archeon.nyreth_fence_gate": "Nyreth Fence Gate",
       "block.archeon.crimson_tiles_slab": "Crimson Tile Slab",
       "item.archeon.neclane_wood_pickaxe": "Neclane Pickaxe",
       "item.archeon.aurora_catalyst_spawn_egg": "Aurora Catalyst Spawn Egg",
@@ -9878,9 +10525,11 @@
       "item.archeon.pink_shell": "Pink Seashell",
       "block.archeon.ceramic_slab": "Ceramic Slab",
       "block.archeon.dust": "Dust",
+      "block.archeon.stripped_nyreth_wood": "Stripped Nyreth Wood",
       "item.archeon.faelite_ring": "Faelite Ring",
       "block.archeon.vuxancia_leaves_orian_hanging_middle": "Hanging Orian Vuxancia Leaves",
       "block.archeon.cypress_fence_gate": "Cypress Fence Gate",
+      "block.archeon.nyreth_button": "Nyreth Button",
       "block.archeon.green_tiles_stairs": "Green Tile Stairs",
       "block.archeon.neclane_bookshelf": "Neclane Bookshelf",
       "advancements.stone_confection.descr": "Craft a stack of Southstone Columns.",
@@ -9891,6 +10540,7 @@
       "block.archeon.ornate_artemnite_3": "Ornate Artemnite (Center)",
       "block.archeon.gypsum_wall": "Gypsum Wall",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Cut a petal from a Pink Lycoris.",
+      "item.archeon.lusonyth_chestplate": "Lusonyth Chestplate",
       "block.archeon.faelite_block": "Block of Faelite",
       "advancements.orange_and_orange.title": "Orange and Orange?",
       "item.archeon.faelite_hoe": "Faelite Hoe",
@@ -9900,6 +10550,7 @@
       "item.archeon.ink_bottle": "Ink Bottle",
       "block.archeon.artemnite_tiles": "Artemnite Tiles",
       "item.archeon.clothes_chestplate": "Pink Sweatshirt",
+      "item.archeon.lusonyth_helmet": "Lusonyth Helmet",
       "block.archeon.bush_leaves": "Bush Leaves",
       "block.archeon.withered_septiceolia": "Withered Septiceolia",
       "advancements.biome_vuxancia_forest_magical.descr": "Enter a Magical Vuxancia Forest biome.",
@@ -9909,14 +10560,16 @@
       "block.archeon.ascendia": "Ascendia",
       "advancements.yummy_and_greasy.title": "Yummy and Greasy",
       "subtitles.dotted_sky": "",
+      "item.archeon.lusonyth_boots": "Lusonyth Boots",
       "block.archeon.dune_sand_glass_pane_tiles_top_left": "Dune Sand Glass Pane Tiles Top Left",
       "block.archeon.roughcast_wall": "Roughcast Wall",
       "item.archeon.clementium_axe": "Clementium Axe",
       "advancements.flower_advancement_cokiplant.descr": "Discover a Cokiplant.",
       "block.archeon.mossy_artemnite_bricks_wall": "Mossy Artemnite Brick Wall",
       "block.archeon.dead_wet_grass_tuffet": "Dead Wet Grass Tuffet",
-      "item.archeon.exyriane_crystal": "Exyriane Shard",
+      "block.archeon.nyreth_planks": "Nyreth Planks",
       "block.archeon.vuxancia_bookshelf": "Vuxancia Bookshelf",
+      "item.archeon.exyriane_crystal": "Exyriane Shard",
       "block.archeon.tropicstone_pressure_plate": "Southstone Pressure Plate",
       "block.archeon.red_tiles_slab": "Red Tile Slab",
       "itemGroup.tabarcheon_combat_and_tools": "Archeon Equipment",
@@ -9958,10 +10611,11 @@
       "block.archeon.snowy_southstone": "Snowy Southstone",
       "block.archeon.tropistone_button": "Southstone Button",
       "block.archeon.dune_sand_glass_pane": "Dune Sand Glass Pane",
-      "block.archeon.withered_argandeane_blossom": "Withered Organdeane Blossom",
       "biome.archeon.tropical_ocean": "Lake or Dune",
+      "block.archeon.withered_argandeane_blossom": "Withered Organdeane Blossom",
       "block.archeon.crimson_tiles_stairs": "Crimson Tile Stairs",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Hanging Orian Vuxancia Leaves",
+      "block.archeon.nyreth_wood": "Nyreth Wood",
       "item.archeon.tropicstone_tools_shovel": "Southstone Shovel",
       "subtitles.hoxa": "",
       "item.archeon.neclane_wood_hoe": "Neclane Hoe",
@@ -9977,6 +10631,7 @@
       "block.archeon.aketite_tile": "Smooth Aketite",
       "block.archeon.roseypia": "Roseypia",
       "advancements.yummy_and_greasy.descr": "Get a heifer steak.",
+      "block.archeon.nyreth_leaves": "Nyreth Leaves",
       "item.archeon.faelite_armor_boots": "Faelite Boots",
       "block.archeon.mysterious_stone_slab": "Mysterious Stone Slab",
       "block.archeon.red_tiles": "Red Tiles",
@@ -10003,12 +10658,14 @@
       "item.archeon.lore_scrap_6": "Lore Scrap",
       "item.archeon.lore_scrap_5": "Lore Scrap",
       "item.archeon.lore_scrap_4": "Lore Scrap",
+      "block.archeon.pale_nyreth_leaves": "Pale Nyreth Leaves",
       "block.archeon.warped_tiles_slab": "Warped Tile Slab",
       "block.archeon.southstone_gold_ore": "Southstone Gold Ore",
       "block.archeon.gilded_cobbled_southstone_slab": "Gilded Cobbled Southstone Slab",
       "advancements.biome_vuxancia_forest.descr": "Enter a Vuxancia Forest biome.",
       "item.archeon.lusonyth_gemstone": "Lusonyth Gemstone",
       "block.archeon.vuxancia_fence": "Vuxancia Fence",
+      "block.archeon.nyreth_log": "Nyreth Log",
       "item.archeon.gear": "Gear",
       "block.archeon.exyriane_ore": "Exyriane Ore",
       "block.archeon.red_tiles_stairs": "Red Tile Stairs",
@@ -10018,6 +10675,7 @@
       "block.archeon.false_southstone_bricks": "False Southstone Bricks",
       "block.archeon.fancy_artemnite_tiles": "Fancy Artemnite Tiles",
       "advancements.flower_advancement_aerolia.descr": "Discover an Aerolia.",
+      "block.archeon.nyreth_bookshelf": "Nyreth Bookshelf",
       "advancements.flower_advancement_aerolia.title": "The New Allium",
       "block.archeon.chiseled_artemnite": "Chiseled Artemnite",
       "item.archeon.clothes_boots": "White and Black Sneakers",
@@ -10086,10 +10744,12 @@
       "block.archeon.withered_iopea": "Withered Iopea",
       "advancements.orange_and_orange.descr": "Mine and smelt a Faelite Ore to obtain an ingot.",
       "advancements.flower_advancement_organdeane.descr": "Discover an Organdeane.",
+      "item.archeon.deer_spawn_egg": "Deer Spawn Egg",
       "advancements.flower_advancement_pink_lycoris.descr": "Discover a Pink Lycoris.",
       "block.archeon.vuxancia_leaves_vale_hanging_bottom": "Hanging Vale Vuxancia Leaves",
       "item.archeon.tropicstone_tools_pickaxe": "Southstone Pickaxe",
       "block.archeon.spore_rootcap": "Spore Rootcap",
+      "entity.archeon.deer": "Deer",
       "block.archeon.blue_tiles": "Blue Tiles",
       "block.archeon.artemnite_baseboard": "Artemnite Baseboard",
       "block.archeon.roughcast_slab": "Roughcast Slab",
@@ -10108,6 +10768,7 @@
       "item.archeon.vuxancia_shovel": "Vuxancia Shovel",
       "advancements.flower_advancement_orange_lycoris_petal.descr": "Cut a petal from an Orange Lycoris.",
       "subtitles.sunny": "",
+      "block.archeon.nyreth_slab": "Nyreth Slab",
       "block.archeon.vuxancia_stairs": "Vuxancia Stairs",
       "block.archeon.peaks_snow": "Peaks Snow",
       "block.archeon.wet_grass_block": "Wet Grass Block",
@@ -10122,13 +10783,14 @@
       "item.archeon.neclane_wood_axe": "Neclane Hatchet",
       "item.archeon.faelite_armor_chestplate": "Faelite Chestplate",
       "block.archeon.aketite_tiles_stairs": "Aketite Tiles Stairs",
+      "block.archeon.nyreth_fence": "Nyreth Fence",
       "subtitles.archeon_christmas": "",
       "block.archeon.green_tiles_wall": "Green Tile Wall",
       "item.archeon.faelite_shovel": "Faelite Shovel",
       "biome.archeon.antropy_grove": "South Meadows",
       "item.archeon.apaflorite_gemstone": "Apaflorite Gemstone",
       "entity.archeon.heifer": "Heifer",
-      "key.archeon.g_ring_of_wahven_key": "Ring of Wahven (Dragon Breath)",
+      "key.archeon.g_ring_of_wahven_key": "Ring of Wahven (Fireball)",
       "block.archeon.smooth_tropicstone": "Smooth Southstone",
       "item.archeon.apaflorite_saber": "Apaflorite Saber",
       "block.archeon.wet_dirt": "Wet Dirt",
@@ -10136,6 +10798,7 @@
       "block.archeon.dune_sand_glass_tiles_bottom_left": "Dune Sand Glass Tiles Bottom Left",
       "subtitles.the_nature_core_end": "",
       "block.archeon.aketite_tiles_wall": "Aketite Tiles Wall",
+      "block.archeon.nyreth_stairs": "Nyreth Stairs",
       "block.archeon.palm_button": "Palm Button",
       "item.archeon.raw_heifer": "Raw Heifer",
       "block.archeon.dune_sand_glass_pane_tiles": "Dune Sand Glass Pane Tiles",
@@ -10190,6 +10853,7 @@
       "block.archeon.mysterious_stone": "Mysterious Stone",
       "item.archeon.faelite_pickaxe": "Faelite Pickaxe",
       "block.archeon.cypress_wood": "Cypress Wood",
+      "item.archeon.lusonyth_leggings": "Lusonyth Leggings",
       "item.archeon.clementium_ingot": "Clementium Ingot",
       "advancements.dont_use_it.descr": "Just don\u0027t use it.",
       "advancements.flower_advancement_cokiplant.title": "Strange One",
@@ -10353,6 +11017,7 @@
       "block.archeon.cypress_planks": "Cypress Planks",
       "subtitles.no_ones_around": "",
       "block.archeon.aketite_baseboard": "Aketite Baseboard",
+      "block.archeon.stripped_nyreth_log": "Stripped Nyreth Log",
       "block.archeon.ceramic_bricks_stairs": "Ceramic Brick Stairs",
       "item.archeon.devouring": "Damaged Music Disc",
       "block.archeon.craqueled_tropicstone_bricks": "Cracked Southstone Bricks",
@@ -10413,6 +11078,7 @@
       "block.archeon.iopea": "Iopea",
       "block.archeon.ceramic_button": "Ceramic Button",
       "item.archeon.clementium_sword": "Clementium Sword",
+      "block.archeon.nyreth_pressure_plate": "Nyreth Pressure Plate",
       "block.archeon.palm_fence": "Palm Fence",
       "advancements.like_when_you_were_little.title": "Like When you were Little",
       "advancements.dont_use_it.title": "Not Well Anymore"
@@ -10423,6 +11089,7 @@
       "advancements.look_at_my_pink_diamonds.descr": "Obtenez une gemme d\u0027apaflorite.",
       "block.archeon.south_wheat": "Blé du Sud",
       "block.archeon.vuxancia_log": "Bûche de vuxancia",
+      "block.archeon.nyreth_fence_gate": "Nyreth Fence Gate",
       "block.archeon.crimson_tiles_slab": "Dalle en tuiles carmin",
       "item.archeon.neclane_wood_pickaxe": "Pioche en bois de néclane",
       "item.archeon.aurora_catalyst_spawn_egg": "Oeuf d\u0027apparition de cristal de l\u0027aurore",
@@ -10442,9 +11109,11 @@
       "item.archeon.pink_shell": "Coquillage rose",
       "block.archeon.ceramic_slab": "Dalle en céramique",
       "block.archeon.dust": "Cendres",
+      "block.archeon.stripped_nyreth_wood": "Nyreth Wood",
       "item.archeon.faelite_ring": "Anneau en faélite",
       "block.archeon.vuxancia_leaves_orian_hanging_middle": "Feuilles de vuxancia oriènes pendantes",
       "block.archeon.cypress_fence_gate": "Portillon de cyprès",
+      "block.archeon.nyreth_button": "Nyreth Button",
       "block.archeon.green_tiles_stairs": "Escalier en tuiles vertes",
       "block.archeon.neclane_bookshelf": "Bibliothèque en néclane",
       "advancements.stone_confection.descr": "Fabriquez 64 colonnes en sousthone. Tu es dorénavant une pierre, une vraie.",
@@ -10455,6 +11124,7 @@
       "block.archeon.ornate_artemnite_3": "Artémnite ornée (centrée)",
       "block.archeon.gypsum_wall": "Muret de gypse",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Coupez un pétal de lycoris rose.",
+      "item.archeon.lusonyth_chestplate": "Lusonyth Chestplate",
       "advancements.orange_and_orange.title": "Orange ou orange ?",
       "block.archeon.faelite_block": "Bloc de faélite",
       "item.archeon.faelite_hoe": "Houe en faélite",
@@ -10464,6 +11134,7 @@
       "item.archeon.ink_bottle": "Bouteille d\u0027encre",
       "block.archeon.artemnite_tiles": "Artémnite carrelée",
       "item.archeon.clothes_chestplate": "Sweat rose",
+      "item.archeon.lusonyth_helmet": "Lusonyth Helmet",
       "block.archeon.bush_leaves": "Feuilles de buisson",
       "block.archeon.withered_septiceolia": "Céticée fanée",
       "advancements.biome_vuxancia_forest_magical.descr": "Entrez dans une forêt de vuxancia magique.",
@@ -10473,14 +11144,16 @@
       "block.archeon.ascendia": "Ascendiène",
       "advancements.yummy_and_greasy.title": "Bon car gras...",
       "subtitles.dotted_sky": "",
+      "item.archeon.lusonyth_boots": "Lusonyth Boots",
       "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
       "block.archeon.roughcast_wall": "Muret de crépi",
       "item.archeon.clementium_axe": "Hache en clémentium",
       "advancements.flower_advancement_cokiplant.descr": "Trouvez une coquillofleur.",
       "block.archeon.mossy_artemnite_bricks_wall": "Muret en artémnite taillée moussue",
       "block.archeon.dead_wet_grass_tuffet": "Touffe d\u0027herbe humide morte",
-      "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
+      "block.archeon.nyreth_planks": "Nyreth Planks",
       "block.archeon.vuxancia_bookshelf": "Bibliothèque en vuxancia",
+      "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
       "block.archeon.tropicstone_pressure_plate": "Plaque de pression en southstone",
       "block.archeon.red_tiles_slab": "Dalle en tuiles rouges",
       "itemGroup.tabarcheon_combat_and_tools": "Archeon - Combat \u0026 Outils",
@@ -10522,10 +11195,11 @@
       "block.archeon.snowy_southstone": "Southstone enneigée",
       "block.archeon.dune_sand_glass_pane": "Vitre en sable des dunes",
       "block.archeon.tropistone_button": "Bouton de southstone",
-      "block.archeon.withered_argandeane_blossom": "Organdéane fanée",
       "biome.archeon.tropical_ocean": "Lac d\u0027eaux chaudes",
+      "block.archeon.withered_argandeane_blossom": "Organdéane fanée",
       "block.archeon.crimson_tiles_stairs": "Escalier en tuiles carmin",
       "block.archeon.vuxancia_leaves_orian_hanging_bottom": "Feuilles de vuxancia oriènes pendantes",
+      "block.archeon.nyreth_wood": "Nyreth Wood",
       "item.archeon.tropicstone_tools_shovel": "Pelle en southstone",
       "subtitles.hoxa": "",
       "item.archeon.neclane_wood_hoe": "Houe en bois de néclane",
@@ -10541,6 +11215,7 @@
       "item.archeon.apaflorite_armor_boots": "Bottes en apaflorite",
       "block.archeon.roseypia": "Rosépia",
       "advancements.yummy_and_greasy.descr": "Obtenez de la viande de génisse.",
+      "block.archeon.nyreth_leaves": "Nyreth Leaves",
       "item.archeon.faelite_armor_boots": "Bottes en faélite",
       "block.archeon.mysterious_stone_slab": "Dalle en pierre mystérieuse",
       "block.archeon.red_tiles": "Tuiles rouges",
@@ -10567,12 +11242,14 @@
       "item.archeon.lore_scrap_6": "Lore Scrap",
       "item.archeon.lore_scrap_5": "Lore Scrap",
       "item.archeon.lore_scrap_4": "Lore Scrap",
+      "block.archeon.pale_nyreth_leaves": "Vale Vuxancia Leaves",
       "block.archeon.warped_tiles_slab": "Dalle en tuiles biscornues",
       "block.archeon.gilded_cobbled_southstone_slab": "Dalle de pierres de southstone dorées",
       "block.archeon.southstone_gold_ore": "Minerai d\u0027or de southstone",
       "advancements.biome_vuxancia_forest.descr": "Entrez dans une forêt de vuxancia.",
       "item.archeon.lusonyth_gemstone": "Gemme de lusonithe",
       "block.archeon.vuxancia_fence": "Barrière en vuxancia",
+      "block.archeon.nyreth_log": "Nyreth Log",
       "item.archeon.gear": "Engrenage métallique",
       "block.archeon.exyriane_ore": "Minerai d\u0027éxyriane",
       "block.archeon.red_tiles_stairs": "Escalier en tuiles rouges",
@@ -10582,6 +11259,7 @@
       "block.archeon.false_southstone_bricks": "Fausse southstone taillée",
       "block.archeon.fancy_artemnite_tiles": "Artémnite carrelée détaillée",
       "advancements.flower_advancement_aerolia.descr": "Trouvez une aérolia.",
+      "block.archeon.nyreth_bookshelf": "Cypress Bookshelf",
       "advancements.flower_advancement_aerolia.title": "Allium ou pas ?",
       "block.archeon.chiseled_artemnite": "Artémnite sculptée",
       "item.archeon.clothes_boots": "Baskets blanches et noires",
@@ -10650,10 +11328,12 @@
       "block.archeon.withered_iopea": "Iopée fanée",
       "advancements.orange_and_orange.descr": "Minez de la faélite et faites-en un lingot.",
       "advancements.flower_advancement_organdeane.descr": "Trouvez une organdéane.",
+      "item.archeon.deer_spawn_egg": "Heifer Spawn Egg",
       "advancements.flower_advancement_pink_lycoris.descr": "Trouvez une lycoris rose.",
       "block.archeon.vuxancia_leaves_vale_hanging_bottom": "Feuilles de vuxancia vialiennes pendantes",
       "item.archeon.tropicstone_tools_pickaxe": "Pioche en southstone",
       "block.archeon.spore_rootcap": "Champignon sporifère",
+      "entity.archeon.deer": "Heifer",
       "block.archeon.blue_tiles": "Tuiles bleues",
       "block.archeon.artemnite_baseboard": "Plinthe en artémnite",
       "block.archeon.roughcast_slab": "Dalle de crépi",
@@ -10672,6 +11352,7 @@
       "item.archeon.vuxancia_shovel": "Pelle en bois de vuxancia",
       "advancements.flower_advancement_orange_lycoris_petal.descr": "Coupez un pétal de lycoris orange.",
       "subtitles.sunny": "",
+      "block.archeon.nyreth_slab": "Nyreth Slab",
       "block.archeon.vuxancia_stairs": "Escalier en vuxancia",
       "block.archeon.peaks_snow": "Neige des monts",
       "block.archeon.wet_grass_block": "Bloc d\u0027herbe humide",
@@ -10686,6 +11367,7 @@
       "item.archeon.neclane_wood_axe": "Hache en bois de néclane",
       "item.archeon.faelite_armor_chestplate": "Plastron en faélite",
       "block.archeon.aketite_tiles_stairs": "Escalier d\u0027akétite carrelée",
+      "block.archeon.nyreth_fence": "Nyreth Fence",
       "subtitles.archeon_christmas": "",
       "block.archeon.green_tiles_wall": "Muret en tuiles vertes",
       "item.archeon.faelite_shovel": "Pelle en faélite",
@@ -10700,6 +11382,7 @@
       "block.archeon.dune_sand_glass_tiles_bottom_left": "Verre en sable des dunes carrelé",
       "subtitles.the_nature_core_end": "",
       "block.archeon.aketite_tiles_wall": "Muret d\u0027akétite carrelée",
+      "block.archeon.nyreth_stairs": "Nyreth Stairs",
       "block.archeon.palm_button": "Bouton de palmier",
       "item.archeon.raw_heifer": "Viande de génisse crue",
       "block.archeon.dune_sand_glass_pane_tiles": "Vitre carrelée en sable des dunes",
@@ -10754,6 +11437,7 @@
       "block.archeon.mysterious_stone": "Pierre mystérieuse",
       "item.archeon.faelite_pickaxe": "Pioche en faélite",
       "block.archeon.cypress_wood": "Bois de cyprès",
+      "item.archeon.lusonyth_leggings": "Lusonyth Leggings",
       "item.archeon.clementium_ingot": "Lingot de clémentium",
       "advancements.dont_use_it.descr": "Pauvre Thérèse dans son jardin, elle a plein de mauvaises herbes ! Comment va-t-elle bien pouvoir éliminer celles-ci ? Je me demande bien...",
       "advancements.flower_advancement_cokiplant.title": "Est-elle mutante ?",
@@ -10917,6 +11601,7 @@
       "block.archeon.cypress_planks": "Planches de cyprès",
       "subtitles.no_ones_around": "",
       "block.archeon.aketite_baseboard": "Plinthe en akétite",
+      "block.archeon.stripped_nyreth_log": "Nyreth Log",
       "block.archeon.ceramic_bricks_stairs": "Escalier en tuiles de céramique",
       "item.archeon.devouring": "Disque érodé",
       "block.archeon.craqueled_tropicstone_bricks": "Southstone taillée craquelée",
@@ -10977,6 +11662,7 @@
       "block.archeon.iopea": "Iopée",
       "block.archeon.ceramic_button": "Bouton en céramique",
       "item.archeon.clementium_sword": "Épée en clémentium",
+      "block.archeon.nyreth_pressure_plate": "Nyreth Pressure Plate",
       "block.archeon.palm_fence": "Barrière de palmier",
       "advancements.like_when_you_were_little.title": "Comme quand on était p\u0027tits!",
       "advancements.dont_use_it.title": "Mauvaises graines !"
@@ -10989,7 +11675,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.7-snapshot-1.0.3",
+    "version": "1.1.7-snapshot-1.0.5",
     "description": "Archeon and the Echo of the Worlds is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure. Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see. The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.",
     "author": "The Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt and Tim Rurkowski)",
     "websiteURL": "- To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon  - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev  - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ  - Contribute to the project, support \u0026 more on our GitHub page: https://github.com/Silent-Winds/Archeon  - Follow Tim Rurkowski on Bandcamp: https://timrurkowski.bandcamp.com/  - Follow Rotch Gwylt on SoundCloud:  https://soundcloud.com/rotch-gwylt  - Follow Aeramisu on SoundCloud: https://soundcloud.com/aeramisu  - Follow Aethyus on Twitter: https://twitter.com/ArcheonAethyus  - Join now our official Discord Server:  https://discord.gg/reyywJwFBQ",

@@ -42,11 +42,11 @@
     "creativeTab": {
       "value": "CUSTOM:ArcheonBlocks"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "axe",
     "customDrop": {
-      "value": ""
+      "value": "Items.BOOK"
     },
-    "dropAmount": 1,
+    "dropAmount": 2,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 1.0,

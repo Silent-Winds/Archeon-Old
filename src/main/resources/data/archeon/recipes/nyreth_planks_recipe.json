@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:nyreth_log"
+    }
+  ],
+  "result": {
+    "item": "archeon:nyreth_planks",
+    "count": 4
+  }
+}

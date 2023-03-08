@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:nyreth_planks"
+    },
+    "3": {
+      "item": "archeon:nyreth_planks"
+    },
+    "4": {
+      "item": "archeon:nyreth_planks"
+    },
+    "6": {
+      "item": "archeon:nyreth_planks"
+    },
+    "7": {
+      "item": "archeon:nyreth_planks"
+    },
+    "8": {
+      "item": "archeon:nyreth_planks"
+    }
+  },
+  "result": {
+    "item": "archeon:nyreth_stairs",
+    "count": 4
+  }
+}

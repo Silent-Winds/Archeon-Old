@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:nyreth_log"
+    },
+    "1": {
+      "item": "archeon:nyreth_log"
+    },
+    "2": {
+      "item": "archeon:nyreth_log"
+    },
+    "3": {
+      "item": "archeon:nyreth_log"
+    }
+  },
+  "result": {
+    "item": "archeon:nyreth_wood",
+    "count": 3
+  }
+}

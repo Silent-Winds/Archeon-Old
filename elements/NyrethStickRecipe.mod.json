@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 4,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:PalmPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:PalmPlanks"
+        "value": ""
       },
       {
-        "value": "CUSTOM:PalmLog"
-      },
-      {
-        "value": "CUSTOM:PalmPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:PalmPlanks"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StrippedPalmLog"
+      "value": "Items.STICK"
     },
-    "name": "stripped_plam_log_recipe",
+    "name": "nyreth_stick_recipe",
     "namespace": "mod"
   }
 }

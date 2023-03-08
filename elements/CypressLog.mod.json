@@ -56,7 +56,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
