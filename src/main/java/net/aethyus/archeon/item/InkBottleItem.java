@@ -17,7 +17,7 @@ public class InkBottleItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public InkBottleItem(ArcheonModElements instance) {
-		super(instance, 391);
+		super(instance, 435);
 	}
 
 	@Override

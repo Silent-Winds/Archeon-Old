@@ -19,7 +19,7 @@ public class Tropicstone_ToolsShovelItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Tropicstone_ToolsShovelItem(ArcheonModElements instance) {
-		super(instance, 303);
+		super(instance, 334);
 	}
 
 	@Override

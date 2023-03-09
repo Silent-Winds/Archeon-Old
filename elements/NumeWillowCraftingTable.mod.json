@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nume_WillowPlanks"
+      },
+      {
+        "value": "CUSTOM:Nume_WillowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Nume_WillowPlanks"
+      },
+      {
+        "value": "CUSTOM:Nume_WillowPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.CRAFTING_TABLE"
+    },
+    "name": "nume_willow_crafting_table",
+    "namespace": "mod"
+  }
+}

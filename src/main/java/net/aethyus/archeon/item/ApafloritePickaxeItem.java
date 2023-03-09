@@ -17,7 +17,7 @@ public class ApafloritePickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloritePickaxeItem(ArcheonModElements instance) {
-		super(instance, 306);
+		super(instance, 337);
 	}
 
 	@Override

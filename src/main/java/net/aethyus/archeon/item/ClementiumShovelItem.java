@@ -18,7 +18,7 @@ public class ClementiumShovelItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ClementiumShovelItem(ArcheonModElements instance) {
-		super(instance, 325);
+		super(instance, 357);
 	}
 
 	@Override

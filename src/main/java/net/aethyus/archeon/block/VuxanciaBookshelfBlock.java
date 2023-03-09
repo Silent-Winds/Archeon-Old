@@ -29,7 +29,7 @@ public class VuxanciaBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 1112);
+		super(instance, 216);
 	}
 
 	@Override

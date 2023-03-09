@@ -29,7 +29,7 @@ public class CypressBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CypressBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 1111);
+		super(instance, 213);
 	}
 
 	@Override

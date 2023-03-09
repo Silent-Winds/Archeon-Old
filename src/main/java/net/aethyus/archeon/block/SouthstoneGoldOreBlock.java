@@ -47,7 +47,7 @@ public class SouthstoneGoldOreBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SouthstoneGoldOreBlock(ArcheonModElements instance) {
-		super(instance, 94);
+		super(instance, 116);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

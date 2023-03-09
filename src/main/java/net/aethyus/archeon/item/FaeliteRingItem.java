@@ -23,7 +23,7 @@ public class FaeliteRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public FaeliteRingItem(ArcheonModElements instance) {
-		super(instance, 343);
+		super(instance, 385);
 	}
 
 	@Override

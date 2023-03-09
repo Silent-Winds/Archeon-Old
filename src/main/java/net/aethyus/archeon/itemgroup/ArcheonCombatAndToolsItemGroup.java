@@ -13,7 +13,7 @@ import net.aethyus.archeon.ArcheonModElements;
 @ArcheonModElements.ModElement.Tag
 public class ArcheonCombatAndToolsItemGroup extends ArcheonModElements.ModElement {
 	public ArcheonCombatAndToolsItemGroup(ArcheonModElements instance) {
-		super(instance, 462);
+		super(instance, 507);
 	}
 
 	@Override

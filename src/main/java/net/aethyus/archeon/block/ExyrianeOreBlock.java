@@ -43,7 +43,7 @@ public class ExyrianeOreBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ExyrianeOreBlock(ArcheonModElements instance) {
-		super(instance, 92);
+		super(instance, 114);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

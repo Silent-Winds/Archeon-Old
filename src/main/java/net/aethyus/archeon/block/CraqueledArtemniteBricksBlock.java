@@ -27,7 +27,7 @@ public class CraqueledArtemniteBricksBlock extends ArcheonModElements.ModElement
 	public static final Block block = null;
 
 	public CraqueledArtemniteBricksBlock(ArcheonModElements instance) {
-		super(instance, 132);
+		super(instance, 154);
 	}
 
 	@Override

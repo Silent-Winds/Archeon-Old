@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:tropicstone"
+    },
+    "3": {
+      "item": "archeon:tropicstone"
+    },
+    "4": {
+      "item": "archeon:tropicstone"
+    },
+    "6": {
+      "item": "archeon:tropicstone"
+    },
+    "7": {
+      "item": "archeon:tropicstone"
+    },
+    "8": {
+      "item": "archeon:tropicstone"
+    }
+  },
+  "result": {
+    "item": "archeon:tropicstone_stairs",
+    "count": 4
+  }
+}

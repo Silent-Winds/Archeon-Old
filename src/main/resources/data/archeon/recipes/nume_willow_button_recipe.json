@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "archeon:nume_willow_planks"
+    }
+  ],
+  "result": {
+    "item": "archeon:nume_willow_button",
+    "count": 1
+  }
+}

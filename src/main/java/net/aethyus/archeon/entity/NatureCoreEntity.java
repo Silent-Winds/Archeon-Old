@@ -72,7 +72,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.95f)).build("nature_core").setRegistryName("nature_core");
 
 	public NatureCoreEntity(ArcheonModElements instance) {
-		super(instance, 400);
+		super(instance, 444);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NatureCoreRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -28,7 +28,7 @@ public class NyrethButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NyrethButtonBlock(ArcheonModElements instance) {
-		super(instance, 1134);
+		super(instance, 75);
 	}
 
 	@Override

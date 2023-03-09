@@ -18,7 +18,7 @@ public class MossBallItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public MossBallItem(ArcheonModElements instance) {
-		super(instance, 357);
+		super(instance, 399);
 	}
 
 	@Override

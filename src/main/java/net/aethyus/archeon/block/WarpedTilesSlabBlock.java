@@ -26,7 +26,7 @@ public class WarpedTilesSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WarpedTilesSlabBlock(ArcheonModElements instance) {
-		super(instance, 231);
+		super(instance, 262);
 	}
 
 	@Override

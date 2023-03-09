@@ -22,7 +22,7 @@ public class SnowySouthstoneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SnowySouthstoneBlock(ArcheonModElements instance) {
-		super(instance, 219);
+		super(instance, 256);
 	}
 
 	@Override

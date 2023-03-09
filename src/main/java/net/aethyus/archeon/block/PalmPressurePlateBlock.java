@@ -3,6 +3,7 @@ package net.aethyus.archeon.block;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -52,7 +53,7 @@ public class PalmPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static class CustomBlock extends PressurePlateBlock {
 		public CustomBlock() {
 			super(Sensitivity.EVERYTHING, Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(2f, 3f)
-					.setLightLevel(s -> 0).notSolid().setOpaque((bs, br, bp) -> false));
+					.setLightLevel(s -> 0).harvestLevel(0).harvestTool(ToolType.AXE).notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("palm_pressure_plate");
 		}
 

@@ -33,7 +33,7 @@ public class StrippedNeclaneLogBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public StrippedNeclaneLogBlock(ArcheonModElements instance) {
-		super(instance, 155);
+		super(instance, 177);
 	}
 
 	@Override

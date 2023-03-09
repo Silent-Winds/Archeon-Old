@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "01",
-    "2 "
+    "23"
   ],
   "key": {
     "0": {
@@ -13,6 +13,9 @@
     },
     "2": {
       "item": "archeon:sunstradiver_feather"
+    },
+    "3": {
+      "item": "archeon:manuscript"
     }
   },
   "result": {

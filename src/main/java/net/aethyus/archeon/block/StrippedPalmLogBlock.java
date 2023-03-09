@@ -33,7 +33,7 @@ public class StrippedPalmLogBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public StrippedPalmLogBlock(ArcheonModElements instance) {
-		super(instance, 157);
+		super(instance, 181);
 	}
 
 	@Override

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:nume_willow_log"
+    }
+  ],
+  "result": {
+    "item": "archeon:nume_willow_planks",
+    "count": 4
+  }
+}

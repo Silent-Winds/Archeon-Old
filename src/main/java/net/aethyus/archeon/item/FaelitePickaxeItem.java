@@ -18,7 +18,7 @@ public class FaelitePickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public FaelitePickaxeItem(ArcheonModElements instance) {
-		super(instance, 313);
+		super(instance, 344);
 	}
 
 	@Override

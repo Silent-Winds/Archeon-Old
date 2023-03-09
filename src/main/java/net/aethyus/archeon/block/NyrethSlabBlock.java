@@ -29,7 +29,7 @@ public class NyrethSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NyrethSlabBlock(ArcheonModElements instance) {
-		super(instance, 1130);
+		super(instance, 71);
 	}
 
 	@Override

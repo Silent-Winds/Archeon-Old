@@ -18,7 +18,7 @@ public class CookedSunstradiverChopItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CookedSunstradiverChopItem(ArcheonModElements instance) {
-		super(instance, 384);
+		super(instance, 426);
 	}
 
 	@Override

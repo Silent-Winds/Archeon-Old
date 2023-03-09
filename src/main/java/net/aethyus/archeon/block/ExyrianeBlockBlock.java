@@ -32,7 +32,7 @@ public class ExyrianeBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ExyrianeBlockBlock(ArcheonModElements instance) {
-		super(instance, 98);
+		super(instance, 120);
 	}
 
 	@Override

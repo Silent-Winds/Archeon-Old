@@ -17,7 +17,7 @@ public class LusonythGemstoneItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public LusonythGemstoneItem(ArcheonModElements instance) {
-		super(instance, 354);
+		super(instance, 396);
 	}
 
 	@Override

@@ -59,7 +59,7 @@ public class TallWitheredOrgandeaneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TallWitheredOrgandeaneBlock(ArcheonModElements instance) {
-		super(instance, 278);
+		super(instance, 309);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

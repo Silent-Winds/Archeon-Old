@@ -33,7 +33,7 @@ public class VuxanciaLeavesPnevantialBlock extends ArcheonModElements.ModElement
 	public static final Block block = null;
 
 	public VuxanciaLeavesPnevantialBlock(ArcheonModElements instance) {
-		super(instance, 164);
+		super(instance, 193);
 	}
 
 	@Override
