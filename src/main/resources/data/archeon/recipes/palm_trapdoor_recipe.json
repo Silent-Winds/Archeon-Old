@@ -1,7 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012"
+    "012",
+    "345"
   ],
   "key": {
     "0": {
@@ -11,6 +12,15 @@
       "item": "archeon:palm_planks"
     },
     "2": {
+      "item": "archeon:palm_planks"
+    },
+    "3": {
+      "item": "archeon:palm_planks"
+    },
+    "4": {
+      "item": "archeon:palm_planks"
+    },
+    "5": {
       "item": "archeon:palm_planks"
     }
   },

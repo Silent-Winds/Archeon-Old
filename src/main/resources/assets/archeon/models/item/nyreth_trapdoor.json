@@ -1,5 +1,5 @@
 {
-  "parent": "archeon:block/test",
+  "parent": "archeon:block/nyreth_trapdoor",
   "display": {
     "thirdperson": {
       "rotation": [

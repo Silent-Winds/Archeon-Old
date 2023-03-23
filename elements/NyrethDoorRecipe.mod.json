@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 3,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
         "value": ""
       },
       {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
+        "value": "CUSTOM:NyrethPlanks"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
-      },
-      {
-        "value": "CUSTOM:VuxanciaPlanks"
-      },
-      {
-        "value": "CUSTOM:VuxanciaPlanks"
-      },
-      {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VuxanciaTrapdoor"
+      "value": "CUSTOM:NyrethDoor"
     },
-    "name": "vuxancia_trapdoor_recipe",
+    "name": "nyreth_door_recipe",
     "namespace": "mod"
   }
 }

@@ -19,28 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       },
       {
-        "value": "CUSTOM:VuxanciaPlanks"
+        "value": "CUSTOM:NyrethPlanks"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:VuxanciaTrapdoor"
+      "value": "CUSTOM:NyrethTrapdoor"
     },
-    "name": "vuxancia_trapdoor_recipe",
+    "name": "nyreth_trapdoor_recipe",
     "namespace": "mod"
   }
 }
