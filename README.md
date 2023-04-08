@@ -23,11 +23,14 @@ Scarecrowman, musician.
 " data-icon="octicon-comment-discussion" aria-label="Listen to Scarecrowman's Music"> Listen to Scarecrowman's Music</a>;
 Tim Rurkowski, musician.
 <a class="github-button" href="https://timrurkowski.bandcamp.com/ 
-" data-icon="octicon-comment-discussion" aria-label="Listen to Tim Rurkowski's Music"> Listen to Tim Rurkowski's Music</a>.
+" data-icon="octicon-comment-discussion" aria-label="Listen to Tim Rurkowski's Music"> Listen to Tim Rurkowski's Music</a>;
+Rotch Gwylt, musician.
+<a class="github-button" href="https://soundcloud.com/rotch-gwylt 
+" data-icon="octicon-comment-discussion" aria-label="Listen to Rotch Gwylt's Music"> Listen to Rotch Gwylt's Music</a>.
  
 ## 📜 Credits
 
-The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman and Tim Rurkowski).
+The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt and Tim Rurkowski).
 Special Thanks/Contributors: Paros974, Mystoxi. The use of the Archeon's assets is prohibited. 
 
 ## 💎 Found an Issue?
