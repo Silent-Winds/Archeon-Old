@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "archeon:lusonyth_gemstone"
+  },
+  "result": {
+    "item": "archeon:lusonyth_ingot"
+  }
+}

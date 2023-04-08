@@ -10,22 +10,22 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:LusonythIngot"
+      },
+      {
+        "value": "CUSTOM:LusonythIngot"
+      },
+      {
+        "value": "CUSTOM:LusonythIngot"
+      },
+      {
+        "value": "CUSTOM:LusonythIngot"
       },
       {
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Goblet"
-      },
-      {
-        "value": "Items.WATER_BUCKET"
+        "value": "CUSTOM:LusonythIngot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:GobletWater"
+      "value": "CUSTOM:Lusonyth.helmet"
     },
-    "name": "goblet_water_recipe",
+    "name": "lusonyth_helmet_recipe",
     "namespace": "mod"
   }
 }

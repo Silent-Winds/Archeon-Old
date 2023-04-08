@@ -44,6 +44,7 @@ import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.item.RawHeiferItem;
+import net.aethyus.archeon.item.RawDeerItem;
 import net.aethyus.archeon.item.BloodOrangeItem;
 import net.aethyus.archeon.entity.renderer.DeerRenderer;
 import net.aethyus.archeon.ArcheonModElements;
@@ -55,7 +56,7 @@ public class DeerEntity extends ArcheonModElements.ModElement {
 			.size(0.9f, 1.4f)).build("deer").setRegistryName("deer");
 
 	public DeerEntity(ArcheonModElements instance) {
-		super(instance, 445);
+		super(instance, 447);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DeerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -121,6 +122,11 @@ public class DeerEntity extends ArcheonModElements.ModElement {
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
 			return CreatureAttribute.UNDEFINED;
+		}
+
+		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
+			super.dropSpecialItems(source, looting, recentlyHitIn);
+			this.entityDropItem(new ItemStack(RawDeerItem.block));
 		}
 
 		@Override

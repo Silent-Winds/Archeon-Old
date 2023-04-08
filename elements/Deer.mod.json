@@ -78,7 +78,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": ""
+      "value": "CUSTOM:RawDeer"
     },
     "livingSound": {
       "value": "entity.horse.ambient"

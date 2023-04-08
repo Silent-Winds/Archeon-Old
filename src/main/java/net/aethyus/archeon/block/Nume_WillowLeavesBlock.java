@@ -33,7 +33,7 @@ public class Nume_WillowLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public Nume_WillowLeavesBlock(ArcheonModElements instance) {
-		super(instance, 186);
+		super(instance, 188);
 	}
 
 	@Override
@@ -51,8 +51,8 @@ public class Nume_WillowLeavesBlock extends ArcheonModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0)
-					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.LEAVES).sound(SoundType.PLANT).hardnessAndResistance(0.2f, 0.2f).setLightLevel(s -> 0).notSolid()
+					.setOpaque((bs, br, bp) -> false));
 			setRegistryName("nume_willow_leaves");
 		}
 
