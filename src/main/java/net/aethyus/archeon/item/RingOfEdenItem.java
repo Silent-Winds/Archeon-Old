@@ -23,7 +23,7 @@ public class RingOfEdenItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RingOfEdenItem(ArcheonModElements instance) {
-		super(instance, 388);
+		super(instance, 390);
 	}
 
 	@Override

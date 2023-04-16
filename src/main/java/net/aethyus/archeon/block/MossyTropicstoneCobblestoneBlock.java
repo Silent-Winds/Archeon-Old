@@ -27,7 +27,7 @@ public class MossyTropicstoneCobblestoneBlock extends ArcheonModElements.ModElem
 	public static final Block block = null;
 
 	public MossyTropicstoneCobblestoneBlock(ArcheonModElements instance) {
-		super(instance, 103);
+		super(instance, 105);
 	}
 
 	@Override

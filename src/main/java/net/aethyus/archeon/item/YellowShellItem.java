@@ -18,7 +18,7 @@ public class YellowShellItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public YellowShellItem(ArcheonModElements instance) {
-		super(instance, 402);
+		super(instance, 404);
 	}
 
 	@Override

@@ -61,7 +61,7 @@ public class BloodOrangeBushBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public BloodOrangeBushBlock(ArcheonModElements instance) {
-		super(instance, 322);
+		super(instance, 324);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

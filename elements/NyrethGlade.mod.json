@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "biome",
   "definition": {
-    "name": "Vuxancia Forest",
+    "name": "Nyreth Glade",
     "groundBlock": {
       "value": "CUSTOM:WetGrassBlock"
     },

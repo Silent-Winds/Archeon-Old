@@ -18,7 +18,7 @@ public class PinkShellItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public PinkShellItem(ArcheonModElements instance) {
-		super(instance, 401);
+		super(instance, 403);
 	}
 
 	@Override

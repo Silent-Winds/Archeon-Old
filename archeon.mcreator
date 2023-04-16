@@ -4632,7 +4632,7 @@
     {
       "name": "FaeliteArmor",
       "type": "armor",
-      "sortid": 344,
+      "sortid": 349,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_armor",
@@ -6796,7 +6796,7 @@
     {
       "name": "FaelitePickaxe",
       "type": "tool",
-      "sortid": 346,
+      "sortid": 345,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_pickaxe"
@@ -6804,7 +6804,7 @@
     {
       "name": "FaeliteAxe",
       "type": "tool",
-      "sortid": 347,
+      "sortid": 346,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_axe"
@@ -6812,7 +6812,7 @@
     {
       "name": "FaeliteSword",
       "type": "tool",
-      "sortid": 345,
+      "sortid": 344,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_sword"
@@ -6820,7 +6820,7 @@
     {
       "name": "FaeliteShovel",
       "type": "tool",
-      "sortid": 348,
+      "sortid": 347,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_shovel"
@@ -6828,7 +6828,7 @@
     {
       "name": "FaeliteHoe",
       "type": "tool",
-      "sortid": 349,
+      "sortid": 348,
       "compiles": true,
       "locked_code": false,
       "registry_name": "faelite_hoe"
@@ -11074,6 +11074,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nyreth_glade"
+    },
+    {
+      "name": "Nyreth1",
+      "type": "structure",
+      "sortid": 1248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_1"
+    },
+    {
+      "name": "Nyreth2",
+      "type": "structure",
+      "sortid": 1249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_2"
+    },
+    {
+      "name": "Nyreth3",
+      "type": "structure",
+      "sortid": 1250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_3"
+    },
+    {
+      "name": "Nyreth4",
+      "type": "structure",
+      "sortid": 1251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_4"
+    },
+    {
+      "name": "Nyreth6",
+      "type": "structure",
+      "sortid": 1252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nyreth_6"
+    },
+    {
+      "name": "UndergroundDungeon",
+      "type": "structure",
+      "sortid": 1253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "underground_dungeon"
+    },
+    {
+      "name": "ArcheonAdvancementPlayerJoined",
+      "type": "procedure",
+      "sortid": 1254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archeon_advancement_player_joined",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11387,7 +11451,7 @@
       "subtitles.catalyst.hit": "",
       "item.archeon.apaflorite_armor_boots": "Apaflorite Boots",
       "block.archeon.aketite_tile": "Smooth Aketite",
-      "biome.archeon.nyreth_glade": "Vuxancia Forest",
+      "biome.archeon.nyreth_glade": "Nyreth Glade",
       "block.archeon.roseypia": "Roseypia",
       "advancements.yummy_and_greasy.descr": "Get a heifer steak.",
       "block.archeon.nyreth_leaves": "Nyreth Leaves",
@@ -11484,7 +11548,7 @@
       "block.archeon.lusonyth_block": "Block of Lusonyth",
       "block.archeon.aketite_brick_wall": "Aketite Brick Wall",
       "advancements.fungustairs.title": "Fungustairs!",
-      "biome.archeon.nume_swamp": "Vuxancia Forest",
+      "biome.archeon.nume_swamp": "Nume Swamp",
       "subtitles.the_nature_core": "",
       "block.archeon.southstone_coal_ore": "Southstone Coal Ore",
       "block.archeon.cypress_door": "Cypress Door",
@@ -11771,7 +11835,7 @@
       "block.archeon.mossy_artemnite_bricks": "Mossy Artemnite Bricks",
       "block.archeon.naturite": "Naturite",
       "block.archeon.blue_tiles_wall": "Blue Tile Wall",
-      "advancements.archeon.descr": "The original mod.",
+      "advancements.archeon.descr": "Archeon, a brand new dimension to the game, remember! Access via Mysterious Stone and Wand of Nature. Maybe try something like the Nether portal shape?",
       "item.archeon.raw_sunstradiver_chop": "Raw Sunstradiver Chop",
       "subtitles.devouring": "Aeramisu - Devouring",
       "block.archeon.southstone_pillar_top": "Southstone Pillar Top",
@@ -11882,21 +11946,21 @@
       "item.archeon.aurora_catalyst_spawn_egg": "Oeuf d\u0027apparition de cristal de l\u0027aurore",
       "block.archeon.snowy_grass_tuffet": "Touffe d\u0027herbe enneigée",
       "item.archeon.clothes_leggings": "Pantalon beige",
-      "block.archeon.antropy_slab": "Dalle de néclane",
       "block.archeon.southstone_pillar": "Pillier de southstone",
+      "block.archeon.antropy_slab": "Dalle de néclane",
       "block.archeon.cypress_slab": "Dalle de cyprès",
       "item.archeon.rising.desc": "Tiramisu Audio - Rising",
       "item.archeon.lusonyth_ring": "Anneau en lusonithe",
       "advancements.flower_advancement_septiceolia.title": "Belle et claire",
       "item.archeon.lusonyth_hoe": "Houe en lusonithe",
       "block.archeon.vuxancia_button": "Bouton en vuxancia",
-      "block.archeon.aerolia": "Aérolia",
       "item.archeon.red_lycoris_petal": "Pétal de lycoris rouge",
+      "block.archeon.aerolia": "Aérolia",
       "block.archeon.vuxancia_slab": "Dalle en vuxancia",
       "item.archeon.pink_shell": "Coquillage rose",
       "block.archeon.ceramic_slab": "Dalle en céramique",
-      "block.archeon.stripped_nyreth_wood": "Bois de nyrèthe écorcé",
       "block.archeon.dust": "Cendres",
+      "block.archeon.stripped_nyreth_wood": "Bois de nyrèthe écorcé",
       "item.archeon.faelite_ring": "Anneau en faélite",
       "block.archeon.vuxancia_leaves_orian_hanging_middle": "Feuilles de vuxancia oriènes pendantes",
       "item.archeon.nyreth_shovel": "Pelle en bois de nyrèthe",
@@ -11912,9 +11976,9 @@
       "block.archeon.ornate_artemnite_3": "Artémnite ornée (centrée)",
       "block.archeon.gypsum_wall": "Muret de gypse",
       "advancements.flower_advancement_pink_lycoris_petal.descr": "Coupez un pétal de lycoris rose.",
-      "block.archeon.faelite_block": "Bloc de faélite",
-      "advancements.orange_and_orange.title": "Orange ou orange ?",
       "item.archeon.lusonyth_chestplate": "Plastron en lusonithe",
+      "advancements.orange_and_orange.title": "Orange ou orange ?",
+      "block.archeon.faelite_block": "Bloc de faélite",
       "item.archeon.faelite_hoe": "Houe en faélite",
       "block.archeon.gypsum_block": "Gypse",
       "block.archeon.tropicstone_bricks": "Southstone taillée",
@@ -11933,22 +11997,22 @@
       "advancements.yummy_and_greasy.title": "Bon car gras...",
       "subtitles.dotted_sky": "",
       "item.archeon.lusonyth_boots": "Bottes en lusonithe",
-      "block.archeon.roughcast_wall": "Muret de crépi",
       "block.archeon.dune_sand_glass_pane_tiles_top_left": "Vitre carrelée en sable des dunes",
+      "block.archeon.roughcast_wall": "Muret de crépi",
       "item.archeon.clementium_axe": "Hache en clémentium",
       "advancements.flower_advancement_cokiplant.descr": "Trouvez une coquillofleur.",
       "block.archeon.mossy_artemnite_bricks_wall": "Muret en artémnite taillée moussue",
       "block.archeon.dead_wet_grass_tuffet": "Touffe d\u0027herbe humide morte",
       "block.archeon.nyreth_planks": "Planches de nyrèthe",
-      "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
       "block.archeon.vuxancia_bookshelf": "Bibliothèque en vuxancia",
+      "item.archeon.exyriane_crystal": "Crystal d\u0027éxyriane",
       "block.archeon.tropicstone_pressure_plate": "Plaque de pression en southstone",
       "block.archeon.red_tiles_slab": "Dalle en tuiles rouges",
       "itemGroup.tabarcheon_combat_and_tools": "Équipement d\u0027Archeon",
       "block.archeon.antropy_door": "Porte de néclane",
       "block.archeon.mossy_tropicstone_cobblestone": "Pierres de southstone moussue",
-      "block.archeon.palm_leaves": "Feuilles de palmier",
       "block.archeon.fancy_artemnite_slab": "Dalle en artémnite carrelée détaillée",
+      "block.archeon.palm_leaves": "Feuilles de palmier",
       "advancements.the_stone_pickaxes_reborn.descr": "Fabriquez une pioche en southstone.",
       "block.archeon.aketite_slab": "Dalle d\u0027akétite",
       "item.archeon.salt": "Sel",
@@ -11956,8 +12020,8 @@
       "item.archeon.pink_lycoris_jam_pot": "Pot de confiture de lycoris rose",
       "item.archeon.apaflorite_axe": "Hache en apaflorite",
       "block.archeon.mossy_artemnite_bricks_stairs": "Escalier en artémnite taillée moussue",
-      "item.archeon.nyreth_sword": "Épée en bois de nyrèthe",
       "block.archeon.ornate_aketite_3": "Akétite ornée (centrée)",
+      "item.archeon.nyreth_sword": "Épée en bois de nyrèthe",
       "block.archeon.ornate_aketite_2": "Akétite ornée (larmes)",
       "block.archeon.dune_sand_glass_tiles_top_right": "Verre en sable des dunes carrelé",
       "item.archeon.sunstradiver_spawn_egg": "Oeuf d\u0027apparition de sinstradin",
@@ -12006,7 +12070,7 @@
       "subtitles.catalyst.hit": "",
       "block.archeon.aketite_tile": "Akétite lisse",
       "item.archeon.apaflorite_armor_boots": "Bottes en apaflorite",
-      "biome.archeon.nyreth_glade": "Vuxancia Forest",
+      "biome.archeon.nyreth_glade": "Clairière de nyrèthes",
       "block.archeon.roseypia": "Rosépia",
       "advancements.yummy_and_greasy.descr": "Obtenez de la viande de génisse.",
       "block.archeon.nyreth_leaves": "Feuilles de nyrèthe",
@@ -12103,7 +12167,7 @@
       "block.archeon.lusonyth_block": "Bloc de lusonithe",
       "block.archeon.aketite_brick_wall": "Muret en akétite taillée",
       "advancements.fungustairs.title": "Champi-scaliers !",
-      "biome.archeon.nume_swamp": "Vuxancia Forest",
+      "biome.archeon.nume_swamp": "Marais numéen",
       "subtitles.the_nature_core": "",
       "block.archeon.southstone_coal_ore": "Minerai de charbon de southstone",
       "block.archeon.cypress_door": "Porte de cyprès",
@@ -12497,9 +12561,9 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.7-snapshot-1.0.6",
+    "version": "1.1.7-snapshot-1.0.7",
     "description": "Archeon and the Echo of the Worlds is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure. Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see. The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.",
-    "author": "The Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt and Tim Rurkowski)",
+    "author": "The Silent Winds Team (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt, FirstMegaGame4 and Tim Rurkowski)",
     "websiteURL": "- To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon  - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev  - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ  - Contribute to the project, support \u0026 more on our GitHub page: https://github.com/Silent-Winds/Archeon  - Follow Tim Rurkowski on Bandcamp: https://timrurkowski.bandcamp.com/  - Follow Rotch Gwylt on SoundCloud:  https://soundcloud.com/rotch-gwylt  - Follow Aeramisu on SoundCloud: https://soundcloud.com/aeramisu  - Follow Aethyus on Twitter: https://twitter.com/ArcheonAethyus  - Join now our official Discord Server:  https://discord.gg/reyywJwFBQ",
     "license": "All Rights Reserved, Archeon, 2023.",
     "disableForgeVersionCheck": true,

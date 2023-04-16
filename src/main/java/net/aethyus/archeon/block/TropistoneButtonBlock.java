@@ -25,7 +25,7 @@ public class TropistoneButtonBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TropistoneButtonBlock(ArcheonModElements instance) {
-		super(instance, 101);
+		super(instance, 103);
 	}
 
 	@Override

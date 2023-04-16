@@ -53,7 +53,7 @@ public class SnailEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.8f)).build("snail").setRegistryName("snail");
 
 	public SnailEntity(ArcheonModElements instance) {
-		super(instance, 442);
+		super(instance, 444);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SnailRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -74,7 +74,7 @@ public class SnailEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.15);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 16);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 7);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 1);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 0);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
@@ -89,7 +89,7 @@ public class SnailEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 0;
+			experienceValue = 2;
 			setNoAI(false);
 		}
 

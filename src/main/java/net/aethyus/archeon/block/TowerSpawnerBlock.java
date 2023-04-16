@@ -42,7 +42,7 @@ public class TowerSpawnerBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TowerSpawnerBlock(ArcheonModElements instance) {
-		super(instance, 1084);
+		super(instance, 1086);
 	}
 
 	@Override

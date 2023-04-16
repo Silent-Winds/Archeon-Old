@@ -27,7 +27,7 @@ public class TropicstoneSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TropicstoneSlabBlock(ArcheonModElements instance) {
-		super(instance, 78);
+		super(instance, 80);
 	}
 
 	@Override

@@ -55,7 +55,7 @@ public class WetFernBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WetFernBlock(ArcheonModElements instance) {
-		super(instance, 314);
+		super(instance, 316);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

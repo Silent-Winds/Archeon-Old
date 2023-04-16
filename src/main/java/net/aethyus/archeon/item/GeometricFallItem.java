@@ -17,7 +17,7 @@ public class GeometricFallItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GeometricFallItem(ArcheonModElements instance) {
-		super(instance, 415);
+		super(instance, 417);
 	}
 
 	@Override

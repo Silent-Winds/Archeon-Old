@@ -17,7 +17,7 @@ public class GobletItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GobletItem(ArcheonModElements instance) {
-		super(instance, 403);
+		super(instance, 405);
 	}
 
 	@Override

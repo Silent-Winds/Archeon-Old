@@ -20,6 +20,9 @@
       },
       {
         "value": "CUSTOM:VuxanciaForestMagical"
+      },
+      {
+        "value": "CUSTOM:NyrethGlade"
       }
     ],
     "worldGenType": "Normal world gen",

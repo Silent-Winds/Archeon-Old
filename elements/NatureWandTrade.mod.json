@@ -10,13 +10,13 @@
         "entries": [
           {
             "price1": {
-              "value": "Items.STICK"
+              "value": "Items.NETHER_STAR"
             },
             "countPrice1": 1,
             "price2": {
-              "value": "Blocks.TORCH"
+              "value": "Items.NAUTILUS_SHELL"
             },
-            "countPrice2": 1,
+            "countPrice2": 3,
             "offer": {
               "value": "CUSTOM:Tropics"
             },

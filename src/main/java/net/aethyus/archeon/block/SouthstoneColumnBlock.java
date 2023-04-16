@@ -47,7 +47,7 @@ public class SouthstoneColumnBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SouthstoneColumnBlock(ArcheonModElements instance) {
-		super(instance, 94);
+		super(instance, 96);
 	}
 
 	@Override

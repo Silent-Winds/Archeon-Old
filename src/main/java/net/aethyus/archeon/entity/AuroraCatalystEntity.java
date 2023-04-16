@@ -52,7 +52,7 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.8f)).build("aurora_catalyst").setRegistryName("aurora_catalyst");
 
 	public AuroraCatalystEntity(ArcheonModElements instance) {
-		super(instance, 443);
+		super(instance, 445);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AuroraCatalystRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -73,10 +73,12 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.3);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 10);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 9);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0.1);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 5);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
+			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.1);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.1);
 			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.3);
 			event.put(entity, ammma.create());
 		}

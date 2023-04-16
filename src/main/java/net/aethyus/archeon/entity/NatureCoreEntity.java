@@ -72,7 +72,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.95f)).build("nature_core").setRegistryName("nature_core");
 
 	public NatureCoreEntity(ArcheonModElements instance) {
-		super(instance, 444);
+		super(instance, 446);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NatureCoreRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -92,14 +92,14 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 		@SubscribeEvent
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
-			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.7);
+			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.7000000000000001);
 			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 550);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 100);
 			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.5);
-			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.7);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.7000000000000001);
 			event.put(entity, ammma.create());
 		}
 	}
@@ -111,7 +111,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 300;
+			experienceValue = 270;
 			setNoAI(false);
 			enablePersistence();
 			this.moveController = new FlyingMovementController(this, 10, true);

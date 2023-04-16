@@ -32,7 +32,7 @@ public class TropicstoneCobblestoneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TropicstoneCobblestoneBlock(ArcheonModElements instance) {
-		super(instance, 83);
+		super(instance, 85);
 	}
 
 	@Override

@@ -19,7 +19,7 @@ public class Nume_WillowPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Nume_WillowPickaxeItem(ArcheonModElements instance) {
-		super(instance, 379);
+		super(instance, 381);
 	}
 
 	@Override

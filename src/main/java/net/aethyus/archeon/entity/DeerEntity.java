@@ -77,7 +77,7 @@ public class DeerEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.2);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 22);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 15);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 0.2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 2);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 16);
@@ -94,7 +94,7 @@ public class DeerEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 4;
+			experienceValue = 3;
 			setNoAI(false);
 		}
 

@@ -31,7 +31,7 @@ public class SmoothTropicstoneStairsBlock extends ArcheonModElements.ModElement 
 	public static final Block block = null;
 
 	public SmoothTropicstoneStairsBlock(ArcheonModElements instance) {
-		super(instance, 96);
+		super(instance, 98);
 	}
 
 	@Override

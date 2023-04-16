@@ -10,7 +10,6 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.merchant.villager.VillagerTrades;
 import net.minecraft.entity.merchant.villager.VillagerProfession;
-import net.minecraft.block.Blocks;
 
 import net.aethyus.archeon.item.TropicsItem;
 
@@ -24,7 +23,8 @@ public class NatureWandTradeTrade {
 	public static void registerTrades(VillagerTradesEvent event) {
 		Int2ObjectMap<List<VillagerTrades.ITrade>> trades = event.getTrades();
 		if (event.getType() == VillagerProfession.CLERIC) {
-			trades.get(3).add(new BasicTrade(new ItemStack(Items.STICK), new ItemStack(Blocks.TORCH), new ItemStack(TropicsItem.block), 3, 5, 0.05f));
+			trades.get(3).add(new BasicTrade(new ItemStack(Items.NETHER_STAR), new ItemStack(Items.NAUTILUS_SHELL, (int) (3)),
+					new ItemStack(TropicsItem.block), 3, 5, 0.05f));
 		}
 	}
 }

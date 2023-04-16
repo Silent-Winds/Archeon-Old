@@ -59,7 +59,7 @@ public class SnowyGrassTuffetBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SnowyGrassTuffetBlock(ArcheonModElements instance) {
-		super(instance, 318);
+		super(instance, 320);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

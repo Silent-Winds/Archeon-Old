@@ -12,26 +12,12 @@
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": true,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {
     "archeon": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "item": "archeon:tropics",
-            "count": {
-              "min": 1,
-              "max": 10000
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
-  },
-  "rewards": {
-    "experience": 1
   }
 }

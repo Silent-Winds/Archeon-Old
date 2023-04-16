@@ -40,7 +40,7 @@ public class AketiteBrickWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AketiteBrickWallBlock(ArcheonModElements instance) {
-		super(instance, 127);
+		super(instance, 129);
 	}
 
 	@Override

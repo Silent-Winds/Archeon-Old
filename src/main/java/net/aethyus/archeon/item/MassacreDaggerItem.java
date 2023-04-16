@@ -26,7 +26,7 @@ public class MassacreDaggerItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public MassacreDaggerItem(ArcheonModElements instance) {
-		super(instance, 329);
+		super(instance, 331);
 	}
 
 	@Override

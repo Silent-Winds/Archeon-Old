@@ -86,7 +86,7 @@ public class TropicsDimension extends ArcheonModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public TropicsDimension(ArcheonModElements instance) {
-		super(instance, 327);
+		super(instance, 329);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}
@@ -110,6 +110,10 @@ public class TropicsDimension extends ArcheonModElements.ModElement {
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("archeon:rocky_fields")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("archeon:rocky_fields")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("archeon:nyreth_glade")).getGenerationSettings()
+				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
+		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("archeon:nyreth_glade")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getUnder().getBlock());
 		replaceableBlocks.add(ForgeRegistries.BIOMES.getValue(new ResourceLocation("archeon:antropy_grove")).getGenerationSettings()
 				.getSurfaceBuilder().get().getConfig().getTop().getBlock());
