@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "archeon:wills_of_light"
+    },
+    "title": {
+      "translate": "advancements.flower_advancement_wills_of_light.title"
+    },
+    "description": {
+      "translate": "advancements.flower_advancement_wills_of_light.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "flower_advancement_wills_of_light": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "archeon:wills_of_light",
+            "count": {
+              "min": 1,
+              "max": 10000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "archeon:flower_advancement_organdeane"
+}

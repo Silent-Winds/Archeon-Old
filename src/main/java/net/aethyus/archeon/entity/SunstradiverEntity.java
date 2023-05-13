@@ -49,7 +49,7 @@ public class SunstradiverEntity extends ArcheonModElements.ModElement {
 			.size(0.4f, 0.3f)).build("sunstradiver").setRegistryName("sunstradiver");
 
 	public SunstradiverEntity(ArcheonModElements instance) {
-		super(instance, 361);
+		super(instance, 451);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new SunstradiverRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -86,7 +86,7 @@ public class TropicsDimension extends ArcheonModElements.ModElement {
 	public static final CustomPortalBlock portal = null;
 
 	public TropicsDimension(ArcheonModElements instance) {
-		super(instance, 329);
+		super(instance, 338);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new POIRegisterHandler());
 	}

@@ -19,7 +19,7 @@ public class NyrethPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public NyrethPickaxeItem(ArcheonModElements instance) {
-		super(instance, 376);
+		super(instance, 385);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ public class NumeSwampBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public NumeSwampBiome(ArcheonModElements instance) {
-		super(instance, 1246);
+		super(instance, 1257);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

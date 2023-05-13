@@ -26,7 +26,7 @@ public class OchreTilesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OchreTilesBlock(ArcheonModElements instance) {
-		super(instance, 274);
+		super(instance, 276);
 	}
 
 	@Override

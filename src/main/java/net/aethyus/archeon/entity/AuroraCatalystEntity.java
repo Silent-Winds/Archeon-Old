@@ -19,6 +19,7 @@ import net.minecraft.particles.ParticleTypes;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.Item;
+import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.RandomWalkingGoal;
@@ -36,6 +37,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.entity.AreaEffectCloudEntity;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
@@ -52,7 +54,7 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.8f)).build("aurora_catalyst").setRegistryName("aurora_catalyst");
 
 	public AuroraCatalystEntity(ArcheonModElements instance) {
-		super(instance, 445);
+		super(instance, 455);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new AuroraCatalystRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -193,6 +195,8 @@ public class AuroraCatalystEntity extends ArcheonModElements.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
+			if (source.getImmediateSource() instanceof PotionEntity || source.getImmediateSource() instanceof AreaEffectCloudEntity)
+				return false;
 			if (source == DamageSource.FALL)
 				return false;
 			if (source == DamageSource.DROWN)

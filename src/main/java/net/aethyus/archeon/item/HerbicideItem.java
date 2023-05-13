@@ -30,7 +30,7 @@ public class HerbicideItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public HerbicideItem(ArcheonModElements instance) {
-		super(instance, 436);
+		super(instance, 445);
 	}
 
 	@Override

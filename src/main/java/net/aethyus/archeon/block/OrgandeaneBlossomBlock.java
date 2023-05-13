@@ -62,7 +62,7 @@ public class OrgandeaneBlossomBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OrgandeaneBlossomBlock(ArcheonModElements instance) {
-		super(instance, 308);
+		super(instance, 310);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

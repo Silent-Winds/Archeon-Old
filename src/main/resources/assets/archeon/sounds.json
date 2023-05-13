@@ -80,15 +80,6 @@
       }
     ]
   },
-  "catalyst.hit": {
-    "category": "neutral",
-    "sounds": [
-      {
-        "name": "archeon:catalyst_hit",
-        "stream": false
-      }
-    ]
-  },
   "sunny": {
     "category": "music",
     "sounds": [
@@ -108,16 +99,6 @@
       }
     ]
   },
-  "devouring": {
-    "category": "record",
-    "subtitle": "subtitles.devouring",
-    "sounds": [
-      {
-        "name": "archeon:devouring",
-        "stream": true
-      }
-    ]
-  },
   "dotted_sky": {
     "category": "music",
     "sounds": [
@@ -132,15 +113,6 @@
     "sounds": [
       {
         "name": "archeon:wild_breath",
-        "stream": true
-      }
-    ]
-  },
-  "rising": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "archeon:rising",
         "stream": true
       }
     ]
@@ -169,6 +141,24 @@
       {
         "name": "archeon:glaive",
         "stream": true
+      }
+    ]
+  },
+  "rising": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:rising",
+        "stream": true
+      }
+    ]
+  },
+  "catalyst.hit": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "archeon:catalyst_hit",
+        "stream": false
       }
     ]
   }

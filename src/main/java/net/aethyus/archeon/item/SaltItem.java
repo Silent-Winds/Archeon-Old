@@ -18,7 +18,7 @@ public class SaltItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public SaltItem(ArcheonModElements instance) {
-		super(instance, 424);
+		super(instance, 433);
 	}
 
 	@Override

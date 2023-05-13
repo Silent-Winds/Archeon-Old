@@ -123,7 +123,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "CUSTOM:Tropics"
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:VuxanciaForestMagical"

@@ -19,7 +19,7 @@ public class NyrethHoeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public NyrethHoeItem(ArcheonModElements instance) {
-		super(instance, 380);
+		super(instance, 389);
 	}
 
 	@Override

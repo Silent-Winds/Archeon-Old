@@ -25,6 +25,7 @@ import net.minecraft.nbt.CompoundNBT;
 import net.minecraft.item.SpawnEggItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.projectile.PotionEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
@@ -45,6 +46,7 @@ import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
+import net.minecraft.entity.AreaEffectCloudEntity;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.procedures.NatureCoreOnInitialEntitySpawnProcedure;
@@ -72,7 +74,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.95f)).build("nature_core").setRegistryName("nature_core");
 
 	public NatureCoreEntity(ArcheonModElements instance) {
-		super(instance, 446);
+		super(instance, 458);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NatureCoreRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -234,6 +236,8 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			if (source.getImmediateSource() instanceof PotionEntity || source.getImmediateSource() instanceof AreaEffectCloudEntity)
+				return false;
 			if (source == DamageSource.FALL)
 				return false;
 			if (source == DamageSource.CACTUS)
@@ -242,11 +246,9 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 				return false;
 			if (source == DamageSource.LIGHTNING_BOLT)
 				return false;
+			if (source.isExplosion())
+				return false;
 			if (source == DamageSource.DRAGON_BREATH)
-				return false;
-			if (source == DamageSource.WITHER)
-				return false;
-			if (source.getDamageType().equals("witherSkull"))
 				return false;
 			return super.attackEntityFrom(source, amount);
 		}

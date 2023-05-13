@@ -17,7 +17,7 @@ public class VuxanciaSwordItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public VuxanciaSwordItem(ArcheonModElements instance) {
-		super(instance, 373);
+		super(instance, 382);
 	}
 
 	@Override

@@ -50,7 +50,7 @@ public class ExyrianeBlockBlock extends ArcheonModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(4f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("exyriane_block");
 		}

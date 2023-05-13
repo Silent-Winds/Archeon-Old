@@ -71,11 +71,11 @@ public class NatureCoreEntityDiesProcedure {
 		if (world instanceof World && !world.isRemote()) {
 			((World) world).playSound(null, new BlockPos(x, y, z),
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:heart_of_nature_end")),
-					SoundCategory.NEUTRAL, (float) 1, (float) 1);
+					SoundCategory.MUSIC, (float) 1, (float) 1);
 		} else {
 			((World) world).playSound(x, y, z,
 					(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:heart_of_nature_end")),
-					SoundCategory.NEUTRAL, (float) 1, (float) 1, false);
+					SoundCategory.MUSIC, (float) 1, (float) 1, false);
 		}
 		new Object() {
 			private int ticks = 0;

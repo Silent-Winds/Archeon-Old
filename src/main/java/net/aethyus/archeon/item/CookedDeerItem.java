@@ -18,7 +18,7 @@ public class CookedDeerItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CookedDeerItem(ArcheonModElements instance) {
-		super(instance, 430);
+		super(instance, 439);
 	}
 
 	@Override

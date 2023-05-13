@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "archeon:blocks/eternal_fortunes",
+    "particle": "archeon:blocks/eternal_fortunes"
+  }
+}

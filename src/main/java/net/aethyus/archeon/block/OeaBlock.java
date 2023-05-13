@@ -62,7 +62,7 @@ public class OeaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OeaBlock(ArcheonModElements instance) {
-		super(instance, 302);
+		super(instance, 304);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

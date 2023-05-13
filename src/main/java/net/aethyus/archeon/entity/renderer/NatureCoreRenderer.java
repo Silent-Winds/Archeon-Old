@@ -37,7 +37,7 @@ public class NatureCoreRenderer {
 
 					@Override
 					public ResourceLocation getEntityTexture(Entity entity) {
-						return new ResourceLocation("archeon:textures/entities/nature_core.png");
+						return new ResourceLocation("archeon:textures/entities/heart_of__nature.png");
 					}
 				};
 			});
@@ -52,7 +52,8 @@ public class NatureCoreRenderer {
 
 		public void render(MatrixStack matrixStackIn, IRenderTypeBuffer bufferIn, int packedLightIn, T entitylivingbaseIn, float limbSwing,
 				float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
-			IVertexBuilder ivertexbuilder = bufferIn.getBuffer(RenderType.getEyes(new ResourceLocation("archeon:textures/entities/nature_core.png")));
+			IVertexBuilder ivertexbuilder = bufferIn
+					.getBuffer(RenderType.getEyes(new ResourceLocation("archeon:textures/entities/heart_of__nature.png")));
 			this.getEntityModel().render(matrixStackIn, ivertexbuilder, 15728640, OverlayTexture.NO_OVERLAY, 1, 1, 1, 1);
 		}
 	}

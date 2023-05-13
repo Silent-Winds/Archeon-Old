@@ -35,7 +35,7 @@ public class GRingOfWahvenKeyKeyBinding extends ArcheonModElements.ModElement {
 	private long lastpress = 0;
 
 	public GRingOfWahvenKeyKeyBinding(ArcheonModElements instance) {
-		super(instance, 1165);
+		super(instance, 1176);
 		elements.addNetworkMessage(KeyBindingPressedMessage.class, KeyBindingPressedMessage::buffer, KeyBindingPressedMessage::new,
 				KeyBindingPressedMessage::handler);
 	}

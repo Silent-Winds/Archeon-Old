@@ -35,8 +35,8 @@
     ],
     "name": "§bHeart of Nature's Trophy",
     "specialInfo": [],
-    "hardness": 0.7999999999999999,
-    "resistance": 10.0,
+    "hardness": 1.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": true,
     "creativeTab": {

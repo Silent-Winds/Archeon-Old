@@ -50,7 +50,7 @@ public class DunesandCastleBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public DunesandCastleBlock(ArcheonModElements instance) {
-		super(instance, 286);
+		super(instance, 288);
 	}
 
 	@Override
@@ -71,7 +71,7 @@ public class DunesandCastleBlock extends ArcheonModElements.ModElement {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 2).harvestLevel(1)
+			super(Block.Properties.create(Material.SAND).sound(SoundType.SAND).hardnessAndResistance(0.7f, 0f).setLightLevel(s -> 2).harvestLevel(1)
 					.harvestTool(ToolType.SHOVEL).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 			setRegistryName("dunesand_castle");

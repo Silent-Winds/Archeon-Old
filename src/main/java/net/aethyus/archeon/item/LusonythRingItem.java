@@ -23,7 +23,7 @@ public class LusonythRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public LusonythRingItem(ArcheonModElements instance) {
-		super(instance, 388);
+		super(instance, 397);
 	}
 
 	@Override

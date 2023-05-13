@@ -18,7 +18,7 @@ public class GearItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public GearItem(ArcheonModElements instance) {
-		super(instance, 435);
+		super(instance, 444);
 	}
 
 	@Override

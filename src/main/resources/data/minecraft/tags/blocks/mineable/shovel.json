@@ -7,6 +7,15 @@
     "archeon:golden_sand",
     "archeon:sandy_soil",
     "archeon:dust",
-    "archeon:dunesand_castle"
+    "archeon:cave_mycelium_block",
+    "archeon:peaks_snow",
+    "archeon:peaks_snow_layer_4",
+    "archeon:dunesand_castle",
+    "archeon:peaks_snow_layer_1",
+    "archeon:peaks_snow_layer_2",
+    "archeon:peaks_snow_layer_3",
+    "archeon:peaks_snow_layer_5",
+    "archeon:peaks_snow_layer_6",
+    "archeon:peaks_snow_layer_7"
   ]
 }

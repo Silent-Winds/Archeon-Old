@@ -19,7 +19,7 @@ public class Nume_WillowShovelItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Nume_WillowShovelItem(ArcheonModElements instance) {
-		super(instance, 384);
+		super(instance, 393);
 	}
 
 	@Override

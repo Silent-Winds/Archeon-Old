@@ -28,7 +28,7 @@ public class QolmPickItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public QolmPickItem(ArcheonModElements instance) {
-		super(instance, 330);
+		super(instance, 339);
 	}
 
 	@Override

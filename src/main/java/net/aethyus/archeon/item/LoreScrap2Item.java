@@ -60,7 +60,7 @@ public class LoreScrap2Item extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public LoreScrap2Item(ArcheonModElements instance) {
-		super(instance, 449);
+		super(instance, 460);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 

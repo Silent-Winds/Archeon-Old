@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "archeon:blocks/glowsprouts",
+    "particle": "archeon:blocks/glowsprouts"
+  }
+}

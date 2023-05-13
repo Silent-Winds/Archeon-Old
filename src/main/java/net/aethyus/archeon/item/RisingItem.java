@@ -17,7 +17,7 @@ public class RisingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RisingItem(ArcheonModElements instance) {
-		super(instance, 418);
+		super(instance, 427);
 	}
 
 	@Override

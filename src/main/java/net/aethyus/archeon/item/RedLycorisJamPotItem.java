@@ -28,7 +28,7 @@ public class RedLycorisJamPotItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RedLycorisJamPotItem(ArcheonModElements instance) {
-		super(instance, 411);
+		super(instance, 420);
 	}
 
 	@Override

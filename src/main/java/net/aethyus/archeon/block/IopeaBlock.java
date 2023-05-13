@@ -62,7 +62,7 @@ public class IopeaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public IopeaBlock(ArcheonModElements instance) {
-		super(instance, 304);
+		super(instance, 306);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

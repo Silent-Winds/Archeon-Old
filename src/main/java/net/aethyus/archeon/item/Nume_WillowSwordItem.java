@@ -19,7 +19,7 @@ public class Nume_WillowSwordItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Nume_WillowSwordItem(ArcheonModElements instance) {
-		super(instance, 383);
+		super(instance, 392);
 	}
 
 	@Override

@@ -45,7 +45,7 @@ public class HeartOfNatureTrophyBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public HeartOfNatureTrophyBlock(ArcheonModElements instance) {
-		super(instance, 288);
+		super(instance, 290);
 	}
 
 	@Override
@@ -66,8 +66,8 @@ public class HeartOfNatureTrophyBlock extends ArcheonModElements.ModElement {
 		public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.LODESTONE).hardnessAndResistance(0.7999999999999999f, 10f)
-					.setLightLevel(s -> 2).harvestLevel(1).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.LODESTONE).hardnessAndResistance(1f, 6f).setLightLevel(s -> 2)
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
 			this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH).with(WATERLOGGED, false));
 			setRegistryName("heart_of_nature_trophy");
 		}
