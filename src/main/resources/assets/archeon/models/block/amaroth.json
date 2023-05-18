@@ -1,7 +1,7 @@
 {
   "parent": "block/cross",
   "textures": {
-    "cross": "archeon:blocks/amaroths",
-    "particle": "archeon:blocks/amaroths"
+    "cross": "archeon:blocks/purple_amaroth",
+    "particle": "archeon:blocks/purple_amaroth"
   }
 }

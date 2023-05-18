@@ -169,11 +169,11 @@ public class PoisonousAuroraCatalystRenderer {
 		}
 
 		public void setRotationAngles(Entity e, float f, float f1, float f2, float f3, float f4) {
-			this.upper_shields.rotateAngleX = f2;
-			this.bottom_shields.rotateAngleX = f2;
-			this.shields3.rotateAngleX = f2 / 20.f;
-			this.shields2.rotateAngleX = f2;
-			this.shields1.rotateAngleX = f2 / 20.f;
+			this.upper_shields.rotateAngleY = f2;
+			this.bottom_shields.rotateAngleY = f2 / 20.f;
+			this.shields3.rotateAngleY = f2 / 20.f;
+			this.shields2.rotateAngleY = f2;
+			this.shields1.rotateAngleY = f2;
 		}
 	}
 

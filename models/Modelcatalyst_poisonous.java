@@ -126,10 +126,10 @@ public static class Modelcatalyst_poisonous extends EntityModel<Entity> {
 	}
 
 	public void setRotationAngles(float f, float f1, float f2, float f3, float f4, float f5, Entity e) {
-		this.upper_shields.rotateAngleX = f2;
-		this.bottom_shields.rotateAngleX = f2;
-		this.shields3.rotateAngleX = f2 / 20.f;
-		this.shields2.rotateAngleX = f2;
-		this.shields1.rotateAngleX = f2 / 20.f;
+		this.upper_shields.rotateAngleY = f2;
+		this.bottom_shields.rotateAngleY = f2 / 20.f;
+		this.shields3.rotateAngleY = f2 / 20.f;
+		this.shields2.rotateAngleY = f2;
+		this.shields1.rotateAngleY = f2;
 	}
 }
