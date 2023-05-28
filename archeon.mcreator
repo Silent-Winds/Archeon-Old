@@ -11338,6 +11338,86 @@
           }
         ]
       }
+    },
+    {
+      "name": "NumeWillow1",
+      "type": "structure",
+      "sortid": 1274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nume_willow_1"
+    },
+    {
+      "name": "NumeWillow2",
+      "type": "structure",
+      "sortid": 1275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nume_willow_2"
+    },
+    {
+      "name": "NumeWillow3",
+      "type": "structure",
+      "sortid": 1276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nume_willow_3"
+    },
+    {
+      "name": "NumeWillow4",
+      "type": "structure",
+      "sortid": 1277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nume_willow_4"
+    },
+    {
+      "name": "NumeWillow5",
+      "type": "structure",
+      "sortid": 1278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nume_willow_5"
+    },
+    {
+      "name": "SwampPool1",
+      "type": "structure",
+      "sortid": 1279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_pool_1"
+    },
+    {
+      "name": "SwampPool2",
+      "type": "structure",
+      "sortid": 1280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_pool_2"
+    },
+    {
+      "name": "SwampPool3",
+      "type": "structure",
+      "sortid": 1281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_pool_3"
+    },
+    {
+      "name": "SwampPool4",
+      "type": "structure",
+      "sortid": 1282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_pool_4"
+    },
+    {
+      "name": "SwampPool5",
+      "type": "structure",
+      "sortid": 1283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_pool_5"
     }
   ],
   "variable_elements": [

@@ -100,6 +100,10 @@ public class RockyFieldsWater5Structure {
 			biomeCriteria = true;
 		if (new ResourceLocation("archeon:vuxancia_forest").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("archeon:nume_swamp").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("archeon:nyreth_glade").equals(event.getName()))
+			biomeCriteria = true;
 		if (!biomeCriteria)
 			return;
 		event.getGeneration().getFeatures(GenerationStage.Decoration.SURFACE_STRUCTURES).add(() -> configuredFeature);

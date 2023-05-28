@@ -29,6 +29,9 @@
       },
       {
         "value": "CUSTOM:VuxanciaForest"
+      },
+      {
+        "value": "CUSTOM:NumeSwamp"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

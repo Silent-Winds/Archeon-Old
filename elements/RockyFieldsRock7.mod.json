@@ -29,6 +29,12 @@
       },
       {
         "value": "CUSTOM:VuxanciaForest"
+      },
+      {
+        "value": "CUSTOM:NyrethGlade"
+      },
+      {
+        "value": "CUSTOM:NumeSwamp"
       }
     ],
     "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"

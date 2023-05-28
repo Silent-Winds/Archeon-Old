@@ -1,0 +1,42 @@
+{
+  "_fv": 33,
+  "_type": "structure",
+  "definition": {
+    "structure": "nume_willow2",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 265000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": -4,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:Tropics"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "CUSTOM:WetGrassBlock"
+      },
+      {
+        "value": "CUSTOM:TropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:MossyTropicstoneCobblestone"
+      },
+      {
+        "value": "CUSTOM:WetDirt"
+      },
+      {
+        "value": "CUSTOM:SandySoil"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:NumeSwamp"
+      }
+    ],
+    "ignoreBlocks": "AIR_AND_STRUCTURE_BLOCK"
+  }
+}
