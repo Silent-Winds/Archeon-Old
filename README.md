@@ -3,7 +3,7 @@
 
 ## 🏷️ Welcome to Archeon: Rebirth of History
 
-The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, but we just released the Rebirth of History update a few days ago! Go check it out on CurseForge: https://www.curseforge.com/minecraft/mc-mods/archeon/files - Some newer versions might also be released in a few days to fix some bugs!
+The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, but we already released the Rebirth of History update a a few months ago! Go check it out on CurseForge: https://www.curseforge.com/minecraft/mc-mods/archeon/files - The current in-dev update of Archeon is called Archeon and the Echo of the Worlds, the third arc of the mod!
 <a class="github-button" href="https://discord.gg/hhGPj8sMzT
 " data-icon="octicon-comment-discussion" aria-label="Chat on Discord"> 💬 Chat on Discord</a>
 
@@ -15,9 +15,6 @@ Aethyus, main developer, game designer.
 Aeramisu/Tiramisu, game designer, lorist, musician.
 <a class="github-button" href="https://soundcloud.com/aeramisu
 " data-icon="octicon-comment-discussion" aria-label="Listen to Aeramisu's Music"> Listen to Aeramisu's Music</a>;
-Aerod, game designer.
-<a class="github-button" href="https://twitter.com/AerodDev
-" data-icon="octicon-comment-discussion" aria-label="Follow Aerod on Twitter"> Follow Aerod on Twitter</a>;
 Scarecrowman, musician.
 <a class="github-button" href="https://soundcloud.com/scarecr0wman
 " data-icon="octicon-comment-discussion" aria-label="Listen to Scarecrowman's Music"> Listen to Scarecrowman's Music</a>;
@@ -30,8 +27,8 @@ Rotch Gwylt, musician.
  
 ## 📜 Credits
 
-The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Aerod, Scarecrowman, Rotch Gwylt and Tim Rurkowski).
-Special Thanks/Contributors: Paros974, Mystoxi. The use of the Archeon's assets is prohibited. 
+The rights to this mod belongs to the Silent Winds team, and all its members, (Aethyus, Aeramisu, Scarecrowman, Rotch Gwylt and Tim Rurkowski).
+Special Thanks/Contributors: Paros974, Mystoxi and Aerod. The use of the Archeon's assets is prohibited. 
 
 ## 💎 Found an Issue?
 
