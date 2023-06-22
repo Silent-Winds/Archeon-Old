@@ -83,6 +83,63 @@ public class OSTManager2Procedure {
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:genesis")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
+			}
 			delay = 4800;
 		} else if (soundpick == 2) {
 			if (world instanceof ServerWorld) {
@@ -106,6 +163,62 @@ public class OSTManager2Procedure {
 				((World) world).playSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:hoxa")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
 			}
 			delay = 4800;
 		} else if (soundpick == 3) {
@@ -131,6 +244,63 @@ public class OSTManager2Procedure {
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:no_ones_around")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
+			}
 			delay = 4800;
 		} else if (soundpick == 4) {
 			if (world instanceof ServerWorld) {
@@ -154,6 +324,62 @@ public class OSTManager2Procedure {
 				((World) world).playSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:brile")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
 			}
 			delay = 4800;
 		} else if (soundpick == 5) {
@@ -179,6 +405,63 @@ public class OSTManager2Procedure {
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
+			}
 			delay = 4800;
 		} else if (soundpick == 6) {
 			if (world instanceof ServerWorld) {
@@ -202,6 +485,63 @@ public class OSTManager2Procedure {
 				((World) world).playSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:by_the_river")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
 			}
 			delay = 4800;
 		} else if (soundpick == 7) {
@@ -227,6 +567,63 @@ public class OSTManager2Procedure {
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:forest_of_anomeia")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
+			}
 			delay = 4800;
 		} else if (soundpick == 8) {
 			if (world instanceof ServerWorld) {
@@ -251,6 +648,63 @@ public class OSTManager2Procedure {
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:organdeane_fields")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:watery_constancy");
+			}
 			delay = 4800;
 		} else if (soundpick == 9) {
 			if (world instanceof ServerWorld) {
@@ -274,6 +728,63 @@ public class OSTManager2Procedure {
 				((World) world).playSound(x, y, z,
 						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:watery_constancy")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:hoxa");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:no_ones_around");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p archeon:brile");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:dotted_sky");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:by_the_river");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:forest_of_anomeia");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:organdeane_fields");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p archeon:genesis");
 			}
 			delay = 4800;
 		}

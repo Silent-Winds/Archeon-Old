@@ -100,7 +100,7 @@ public class NatureCoreOnInitialEntitySpawnProcedure {
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"stopsound @a music archeon:sunny");
+					"stopsound @a music archeon:organdeane_fields");
 		}
 		if (world instanceof ServerWorld) {
 			((World) world).getServer().getCommandManager().handleCommand(
@@ -118,7 +118,19 @@ public class NatureCoreOnInitialEntitySpawnProcedure {
 			((World) world).getServer().getCommandManager().handleCommand(
 					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
-					"stopsound @a music archeon:wild_breath");
+					"stopsound @a music archeon:watery_constancy");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:forest_of_anomeia");
+		}
+		if (world instanceof ServerWorld) {
+			((World) world).getServer().getCommandManager().handleCommand(
+					new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+					"stopsound @a music archeon:by_the_river");
 		}
 	}
 }
