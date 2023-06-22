@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "archeon:block/cattails"
+    },
+    "half=lower": {
+      "model": "archeon:block/cattails_bottom"
+    }
+  }
+}

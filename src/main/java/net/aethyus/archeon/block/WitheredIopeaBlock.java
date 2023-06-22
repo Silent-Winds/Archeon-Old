@@ -58,7 +58,7 @@ public class WitheredIopeaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WitheredIopeaBlock(ArcheonModElements instance) {
-		super(instance, 308);
+		super(instance, 312);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

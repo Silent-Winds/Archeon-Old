@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "1": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "2": {
+      "item": "archeon:cobbled_aketite"
+    }
+  },
+  "result": {
+    "item": "archeon:cobbled_aketite_slab",
+    "count": 6
+  }
+}

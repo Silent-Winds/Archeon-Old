@@ -23,7 +23,7 @@ public class ClementiumRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ClementiumRingItem(ArcheonModElements instance) {
-		super(instance, 398);
+		super(instance, 403);
 	}
 
 	@Override

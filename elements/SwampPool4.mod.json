@@ -5,11 +5,11 @@
     "structure": "swamp_pool4",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 265000,
+    "spawnProbability": 130000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
-    "spawnHeightOffset": -2,
+    "spawnHeightOffset": -1,
     "spawnXOffset": 0,
     "spawnZOffset": 0,
     "spawnWorldTypes": [
@@ -18,9 +18,6 @@
     "restrictionBlocks": [
       {
         "value": "CUSTOM:WetGrassBlock"
-      },
-      {
-        "value": "CUSTOM:WetDirt"
       }
     ],
     "restrictionBiomes": [

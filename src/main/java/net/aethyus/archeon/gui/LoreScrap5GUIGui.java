@@ -34,7 +34,7 @@ public class LoreScrap5GUIGui extends ArcheonModElements.ModElement {
 	private static ContainerType<GuiContainerMod> containerType = null;
 
 	public LoreScrap5GUIGui(ArcheonModElements instance) {
-		super(instance, 1130);
+		super(instance, 1135);
 		elements.addNetworkMessage(ButtonPressedMessage.class, ButtonPressedMessage::buffer, ButtonPressedMessage::new,
 				ButtonPressedMessage::handler);
 		elements.addNetworkMessage(GUISlotChangedMessage.class, GUISlotChangedMessage::buffer, GUISlotChangedMessage::new,

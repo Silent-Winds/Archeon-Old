@@ -17,7 +17,7 @@ public class RisingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RisingItem(ArcheonModElements instance) {
-		super(instance, 427);
+		super(instance, 432);
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class RisingItem extends ArcheonModElements.ModElement {
 
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, ArcheonModElements.sounds.get(new ResourceLocation("archeon:rising")),
+			super(0, ArcheonModElements.sounds.get(new ResourceLocation("archeon:emergence")),
 					new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("rising");
 		}

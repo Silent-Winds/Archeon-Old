@@ -9,12 +9,12 @@
     "group": "",
     "recipeShapeless": false,
     "smeltingInputStack": {
-      "value": "CUSTOM:SouthstoneGoldOre"
+      "value": "CUSTOM:CobbledAketite"
     },
     "smeltingReturnStack": {
-      "value": "Items.GOLD_INGOT"
+      "value": "CUSTOM:Aketite"
     },
-    "name": "southstone_gold_ore_smelting",
+    "name": "cobbled_aketite_smelt",
     "namespace": "mod"
   }
 }

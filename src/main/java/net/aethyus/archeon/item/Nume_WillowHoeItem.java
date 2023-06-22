@@ -19,7 +19,7 @@ public class Nume_WillowHoeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public Nume_WillowHoeItem(ArcheonModElements instance) {
-		super(instance, 394);
+		super(instance, 399);
 	}
 
 	@Override

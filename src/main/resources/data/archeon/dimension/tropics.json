@@ -7,28 +7,28 @@
       "type": "minecraft:multi_noise",
       "seed": 5284883525189338100,
       "temperature_noise": {
-        "firstOctave": -6.37,
+        "firstOctave": -6.58,
         "amplitudes": [
           2,
           2
         ]
       },
       "humidity_noise": {
-        "firstOctave": -6.37,
+        "firstOctave": -6.58,
         "amplitudes": [
           2,
           2
         ]
       },
       "altitude_noise": {
-        "firstOctave": -6.37,
+        "firstOctave": -6.58,
         "amplitudes": [
           2,
           2
         ]
       },
       "weirdness_noise": {
-        "firstOctave": -6.37,
+        "firstOctave": -6.58,
         "amplitudes": [
           2,
           2
@@ -48,8 +48,8 @@
         {
           "biome": "archeon:tropical_ocean",
           "parameters": {
-            "temperature": 0.666666666666,
-            "humidity": -0.666666666666,
+            "temperature": 0.714285714286,
+            "humidity": -0.714285714286,
             "altitude": -0.75,
             "weirdness": 1.5,
             "offset": 0
@@ -58,8 +58,8 @@
         {
           "biome": "archeon:vuxancia_forest_magical",
           "parameters": {
-            "temperature": 0.333333333334,
-            "humidity": -0.333333333334,
+            "temperature": 0.428571428572,
+            "humidity": -0.428571428572,
             "altitude": 0.75,
             "weirdness": -1.5,
             "offset": 0
@@ -68,8 +68,8 @@
         {
           "biome": "archeon:rocky_fields",
           "parameters": {
-            "temperature": 0,
-            "humidity": 0,
+            "temperature": 0.142857142858,
+            "humidity": -0.142857142858,
             "altitude": -0.75,
             "weirdness": 1.5,
             "offset": 0
@@ -78,20 +78,30 @@
         {
           "biome": "archeon:nyreth_glade",
           "parameters": {
-            "temperature": -0.333333333334,
-            "humidity": 0.333333333334,
+            "temperature": -0.142857142858,
+            "humidity": 0.142857142858,
             "altitude": 0.75,
             "weirdness": -1.5,
             "offset": 0
           }
         },
         {
-          "biome": "archeon:antropy_grove",
+          "biome": "archeon:nume_swamp",
           "parameters": {
-            "temperature": -0.666666666666,
-            "humidity": 0.666666666666,
+            "temperature": -0.428571428572,
+            "humidity": 0.428571428572,
             "altitude": -0.75,
             "weirdness": 1.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "archeon:antropy_grove",
+          "parameters": {
+            "temperature": -0.714285714286,
+            "humidity": 0.714285714286,
+            "altitude": 0.75,
+            "weirdness": -1.5,
             "offset": 0
           }
         },
@@ -100,8 +110,8 @@
           "parameters": {
             "temperature": -1,
             "humidity": 1,
-            "altitude": 0.75,
-            "weirdness": -1.5,
+            "altitude": -0.75,
+            "weirdness": 1.5,
             "offset": 0
           }
         }

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "3": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "4": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "6": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "7": {
+      "item": "archeon:cobbled_aketite"
+    },
+    "8": {
+      "item": "archeon:cobbled_aketite"
+    }
+  },
+  "result": {
+    "item": "archeon:cobbled_aketite_stairs",
+    "count": 4
+  }
+}

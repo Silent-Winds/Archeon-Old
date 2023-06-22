@@ -26,7 +26,7 @@ public class MossyArtemniteBricksStairsBlock extends ArcheonModElements.ModEleme
 	public static final Block block = null;
 
 	public MossyArtemniteBricksStairsBlock(ArcheonModElements instance) {
-		super(instance, 160);
+		super(instance, 164);
 	}
 
 	@Override

@@ -23,7 +23,7 @@ public class ApafloriteRingItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ApafloriteRingItem(ArcheonModElements instance) {
-		super(instance, 395);
+		super(instance, 400);
 	}
 
 	@Override

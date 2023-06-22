@@ -2,7 +2,7 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "southstone_gold_ore",
+    "texture": "cobbled_aketite",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -18,7 +18,7 @@
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Southstone Gold Ore",
+    "name": "Cobbled Aketite",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -98,7 +98,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -123,19 +123,17 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "CUSTOM:Tropics"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "CUSTOM:Tropicstone"
+        "value": "Blocks.STONE"
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 6,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 30
+    "maxGenerateHeight": 64
   }
 }

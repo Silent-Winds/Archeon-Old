@@ -100,8 +100,6 @@ public class RockyFieldsWater8Structure {
 			biomeCriteria = true;
 		if (new ResourceLocation("archeon:vuxancia_forest").equals(event.getName()))
 			biomeCriteria = true;
-		if (new ResourceLocation("archeon:nume_swamp").equals(event.getName()))
-			biomeCriteria = true;
 		if (new ResourceLocation("archeon:nyreth_glade").equals(event.getName()))
 			biomeCriteria = true;
 		if (!biomeCriteria)

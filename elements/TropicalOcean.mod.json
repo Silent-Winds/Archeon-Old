@@ -42,7 +42,7 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.1,
-    "biomeCategory": "OCEAN",
+    "biomeCategory": "NONE",
     "rainingPossibility": 0.1,
     "temperature": 0.5,
     "baseHeight": -0.2,
@@ -51,9 +51,7 @@
     "spawnBiomeNether": false,
     "spawnInCaves": false,
     "biomeWeight": 2,
-    "biomeDictionaryTypes": [
-      "OCEAN"
-    ],
+    "biomeDictionaryTypes": [],
     "grassPerChunk": 4,
     "seagrassPerChunk": 8,
     "flowersPerChunk": 4,

@@ -44,10 +44,10 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CobbledAketite"
     },
     "dropAmount": 1,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "requiresCorrectTool": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,

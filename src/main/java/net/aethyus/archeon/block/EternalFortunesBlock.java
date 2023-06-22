@@ -63,7 +63,7 @@ public class EternalFortunesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public EternalFortunesBlock(ArcheonModElements instance) {
-		super(instance, 319);
+		super(instance, 323);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

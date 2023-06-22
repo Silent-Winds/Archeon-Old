@@ -4,12 +4,12 @@
   "definition": {
     "texture": "music_disc_4",
     "name": "Nature Music Disc",
-    "description": "Aeramisu - Rising",
+    "description": "Aeramisu - Emergence",
     "creativeTab": {
       "value": "CUSTOM:ArcheonMisc"
     },
     "music": {
-      "value": "CUSTOM:rising"
+      "value": "CUSTOM:emergence"
     },
     "specialInfo": [],
     "hasGlow": false

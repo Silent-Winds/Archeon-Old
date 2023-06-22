@@ -23,6 +23,9 @@
       },
       {
         "value": "CUSTOM:NyrethGlade"
+      },
+      {
+        "value": "CUSTOM:NumeSwamp"
       }
     ],
     "worldGenType": "Normal world gen",

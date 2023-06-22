@@ -57,7 +57,7 @@ public class GlowshroomParasitesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public GlowshroomParasitesBlock(ArcheonModElements instance) {
-		super(instance, 334);
+		super(instance, 339);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

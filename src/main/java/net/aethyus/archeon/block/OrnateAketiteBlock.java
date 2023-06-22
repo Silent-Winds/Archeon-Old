@@ -27,7 +27,7 @@ public class OrnateAketiteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OrnateAketiteBlock(ArcheonModElements instance) {
-		super(instance, 134);
+		super(instance, 138);
 	}
 
 	@Override

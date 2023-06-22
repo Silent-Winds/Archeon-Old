@@ -18,7 +18,7 @@ public class ClementiumPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ClementiumPickaxeItem(ArcheonModElements instance) {
-		super(instance, 366);
+		super(instance, 371);
 	}
 
 	@Override

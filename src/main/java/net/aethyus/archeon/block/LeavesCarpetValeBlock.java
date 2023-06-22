@@ -65,7 +65,7 @@ public class LeavesCarpetValeBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LeavesCarpetValeBlock(ArcheonModElements instance) {
-		super(instance, 213);
+		super(instance, 217);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

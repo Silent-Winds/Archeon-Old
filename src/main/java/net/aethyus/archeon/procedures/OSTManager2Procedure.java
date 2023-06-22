@@ -59,7 +59,7 @@ public class OSTManager2Procedure {
 		double soundtimer = 0;
 		double soundpick = 0;
 		double delay = 0;
-		soundpick = (MathHelper.nextInt(new Random(), 1, 7));
+		soundpick = (MathHelper.nextInt(new Random(), 1, 9));
 		if (soundpick == 1) {
 			if (world instanceof ServerWorld) {
 				((World) world).getServer().getCommandManager().handleCommand(
@@ -172,11 +172,11 @@ public class OSTManager2Procedure {
 			}
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:sunny")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
 						SoundCategory.MUSIC, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:sunny")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
 			delay = 4800;
@@ -196,11 +196,11 @@ public class OSTManager2Procedure {
 			}
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:by_the_river")),
 						SoundCategory.MUSIC, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:dotted_sky")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:by_the_river")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
 			delay = 4800;
@@ -220,11 +220,59 @@ public class OSTManager2Procedure {
 			}
 			if (world instanceof World && !world.isRemote()) {
 				((World) world).playSound(null, new BlockPos(x, y, z),
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:wild_breath")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:forest_of_anomeia")),
 						SoundCategory.MUSIC, (float) 1, (float) 1);
 			} else {
 				((World) world).playSound(x, y, z,
-						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:wild_breath")),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:forest_of_anomeia")),
+						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			delay = 4800;
+		} else if (soundpick == 8) {
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p music.creative");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof World && !world.isRemote()) {
+				((World) world).playSound(null, new BlockPos(x, y, z),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:organdeane_fields")),
+						SoundCategory.MUSIC, (float) 1, (float) 1);
+			} else {
+				((World) world).playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:organdeane_fields")),
+						SoundCategory.MUSIC, (float) 1, (float) 1, false);
+			}
+			delay = 4800;
+		} else if (soundpick == 9) {
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager().handleCommand(
+						new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+								new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+						"stopsound @p music.creative");
+			}
+			if (world instanceof ServerWorld) {
+				((World) world).getServer().getCommandManager()
+						.handleCommand(
+								new CommandSource(ICommandSource.DUMMY, new Vector3d(x, y, z), Vector2f.ZERO, (ServerWorld) world, 4, "",
+										new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
+								"stopsound @p music.game");
+			}
+			if (world instanceof World && !world.isRemote()) {
+				((World) world).playSound(null, new BlockPos(x, y, z),
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:watery_constancy")),
+						SoundCategory.MUSIC, (float) 1, (float) 1);
+			} else {
+				((World) world).playSound(x, y, z,
+						(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("archeon:watery_constancy")),
 						SoundCategory.MUSIC, (float) 1, (float) 1, false);
 			}
 			delay = 4800;

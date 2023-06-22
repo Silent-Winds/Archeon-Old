@@ -57,7 +57,7 @@ public class GlowsproutsBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public GlowsproutsBlock(ArcheonModElements instance) {
-		super(instance, 335);
+		super(instance, 340);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -27,7 +27,7 @@ public class PeaksSnowBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PeaksSnowBlock(ArcheonModElements instance) {
-		super(instance, 262);
+		super(instance, 266);
 	}
 
 	@Override

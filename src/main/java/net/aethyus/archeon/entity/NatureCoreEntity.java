@@ -74,7 +74,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 			.size(0.6f, 1.95f)).build("nature_core").setRegistryName("nature_core");
 
 	public NatureCoreEntity(ArcheonModElements instance) {
-		super(instance, 458);
+		super(instance, 463);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new NatureCoreRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}
@@ -234,7 +234,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 			NatureCoreEntityIsHurtProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			if (source.getImmediateSource() instanceof PotionEntity || source.getImmediateSource() instanceof AreaEffectCloudEntity)
 				return false;
@@ -294,7 +294,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 			NatureCoreOnEntityTickUpdateProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
+							new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 

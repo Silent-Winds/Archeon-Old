@@ -17,7 +17,7 @@ public class CypressToolsSwordItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public CypressToolsSwordItem(ArcheonModElements instance) {
-		super(instance, 372);
+		super(instance, 377);
 	}
 
 	@Override

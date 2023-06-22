@@ -63,7 +63,7 @@ public class OrgandeaneTallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OrgandeaneTallBlock(ArcheonModElements instance) {
-		super(instance, 311);
+		super(instance, 315);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

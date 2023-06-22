@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "archeon:blocks/cattails_bottom",
+    "particle": "archeon:blocks/cattails_bottom"
+  }
+}

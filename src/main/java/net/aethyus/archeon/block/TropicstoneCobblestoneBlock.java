@@ -56,13 +56,8 @@ public class TropicstoneCobblestoneBlock extends ArcheonModElements.ModElement {
 		}
 
 		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
-		}
-
-		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 0;
+			return 15;
 		}
 
 		@Override

@@ -80,7 +80,7 @@ public class NumeWillow4Structure {
 								continue;
 							Rotation rotation = Rotation.values()[random.nextInt(3)];
 							Mirror mirror = Mirror.values()[random.nextInt(2)];
-							BlockPos spawnTo = new BlockPos(i + 0, j + -4, k + 0);
+							BlockPos spawnTo = new BlockPos(i + 0, j + -3, k + 0);
 							int x = spawnTo.getX();
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();

@@ -40,7 +40,7 @@ public class FancyArtemniteTilesWallBlock extends ArcheonModElements.ModElement 
 	public static final Block block = null;
 
 	public FancyArtemniteTilesWallBlock(ArcheonModElements instance) {
-		super(instance, 167);
+		super(instance, 171);
 	}
 
 	@Override

@@ -63,15 +63,24 @@ public class ArcheonModElements {
 		sounds.put(new ResourceLocation("archeon", "sunny"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "sunny")));
 		sounds.put(new ResourceLocation("archeon", "pe4k"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "pe4k")));
 		sounds.put(new ResourceLocation("archeon", "dotted_sky"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "dotted_sky")));
-		sounds.put(new ResourceLocation("archeon", "wild_breath"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "wild_breath")));
 		sounds.put(new ResourceLocation("archeon", "heart_of_nature_end"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature_end")));
 		sounds.put(new ResourceLocation("archeon", "heart_of_nature"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "heart_of_nature")));
 		sounds.put(new ResourceLocation("archeon", "glaive"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "glaive")));
-		sounds.put(new ResourceLocation("archeon", "rising"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "rising")));
 		sounds.put(new ResourceLocation("archeon", "catalyst.hit"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "catalyst.hit")));
+		sounds.put(new ResourceLocation("archeon", "emergence"), new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "emergence")));
+		sounds.put(new ResourceLocation("archeon", "watery_constancy"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "watery_constancy")));
+		sounds.put(new ResourceLocation("archeon", "the_panopticon"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "the_panopticon")));
+		sounds.put(new ResourceLocation("archeon", "organdeane_fields"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "organdeane_fields")));
+		sounds.put(new ResourceLocation("archeon", "forest_of_anomeia"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "forest_of_anomeia")));
+		sounds.put(new ResourceLocation("archeon", "by_the_river"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("archeon", "by_the_river")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("archeon").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

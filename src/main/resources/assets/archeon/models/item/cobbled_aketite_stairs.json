@@ -1,5 +1,5 @@
 {
-  "parent": "archeon:block/southstone_gold_ore",
+  "parent": "archeon:block/cobbled_aketite_stairs",
   "display": {
     "thirdperson": {
       "rotation": [

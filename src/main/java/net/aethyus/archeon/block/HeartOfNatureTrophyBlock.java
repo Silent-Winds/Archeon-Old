@@ -45,7 +45,7 @@ public class HeartOfNatureTrophyBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public HeartOfNatureTrophyBlock(ArcheonModElements instance) {
-		super(instance, 290);
+		super(instance, 294);
 	}
 
 	@Override

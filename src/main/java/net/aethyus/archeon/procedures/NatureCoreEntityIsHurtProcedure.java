@@ -17,7 +17,10 @@ import net.minecraft.command.CommandSource;
 import net.aethyus.archeon.entity.AuroraCatalystEntity;
 import net.aethyus.archeon.ArcheonMod;
 
+import java.util.stream.Stream;
 import java.util.Map;
+import java.util.HashMap;
+import java.util.AbstractMap;
 
 public class NatureCoreEntityIsHurtProcedure {
 
@@ -42,10 +45,16 @@ public class NatureCoreEntityIsHurtProcedure {
 				ArcheonMod.LOGGER.warn("Failed to load dependency z for procedure NatureCoreEntityIsHurt!");
 			return;
 		}
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				ArcheonMod.LOGGER.warn("Failed to load dependency entity for procedure NatureCoreEntityIsHurt!");
+			return;
+		}
 		IWorld world = (IWorld) dependencies.get("world");
 		double x = dependencies.get("x") instanceof Integer ? (int) dependencies.get("x") : (double) dependencies.get("x");
 		double y = dependencies.get("y") instanceof Integer ? (int) dependencies.get("y") : (double) dependencies.get("y");
 		double z = dependencies.get("z") instanceof Integer ? (int) dependencies.get("z") : (double) dependencies.get("z");
+		Entity entity = (Entity) dependencies.get("entity");
 		if (world instanceof ServerWorld) {
 			Entity entityToSpawn = new AuroraCatalystEntity.CustomEntity(AuroraCatalystEntity.entity, (World) world);
 			entityToSpawn.setLocationAndAngles(x, y, z, world.getRandom().nextFloat() * 360F, 0);
@@ -96,5 +105,29 @@ public class NatureCoreEntityIsHurtProcedure {
 							new StringTextComponent(""), ((World) world).getServer(), null).withFeedbackDisabled(),
 					"stopsound @a music archeon:wild_breath");
 		}
+		ExplosiveAndPoisonousCrystalsSpawn2Procedure.executeProcedure(Stream
+				.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+						new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+
+		ExplosiveAndPoisonousCrystalsSpawnProcedure.executeProcedure(Stream
+				.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+						new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+
+		ExplosiveAndPoisonousCrystalsSpawn3Procedure.executeProcedure(Stream
+				.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+						new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+
+		ExplosiveAndPoisonousCrystalsSpawn4Procedure.executeProcedure(Stream
+				.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+						new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+
+		ExplosiveAndPoisonousCrystalsSpawn5Procedure.executeProcedure(Stream
+				.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+						new AbstractMap.SimpleEntry<>("z", z), new AbstractMap.SimpleEntry<>("entity", entity))
+				.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 	}
 }

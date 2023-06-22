@@ -62,7 +62,7 @@ public class SepticeoliaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SepticeoliaBlock(ArcheonModElements instance) {
-		super(instance, 314);
+		super(instance, 318);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

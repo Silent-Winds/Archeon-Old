@@ -29,7 +29,7 @@ public class NeclaneBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NeclaneBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 216);
+		super(instance, 220);
 	}
 
 	@Override

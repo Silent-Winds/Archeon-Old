@@ -118,26 +118,26 @@
         "entity": {
           "value": "CUSTOM:Snail"
         },
-        "minGroup": 1,
+        "minGroup": 2,
         "maxGroup": 2,
         "weight": 5,
         "spawnType": "ambient"
       },
       {
         "entity": {
-          "value": "EntitySheep"
+          "value": "CUSTOM:Heifer"
         },
         "minGroup": 2,
-        "maxGroup": 4,
+        "maxGroup": 3,
         "weight": 5,
         "spawnType": "ambient"
       },
       {
         "entity": {
-          "value": "EntityPig"
+          "value": "CUSTOM:Deer"
         },
         "minGroup": 2,
-        "maxGroup": 4,
+        "maxGroup": 3,
         "weight": 5,
         "spawnType": "ambient"
       }

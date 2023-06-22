@@ -108,15 +108,6 @@
       }
     ]
   },
-  "wild_breath": {
-    "category": "music",
-    "sounds": [
-      {
-        "name": "archeon:wild_breath",
-        "stream": true
-      }
-    ]
-  },
   "heart_of_nature_end": {
     "category": "music",
     "sounds": [
@@ -144,21 +135,66 @@
       }
     ]
   },
-  "rising": {
-    "category": "record",
-    "sounds": [
-      {
-        "name": "archeon:rising",
-        "stream": true
-      }
-    ]
-  },
   "catalyst.hit": {
     "category": "neutral",
     "sounds": [
       {
         "name": "archeon:catalyst_hit",
         "stream": false
+      }
+    ]
+  },
+  "emergence": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "archeon:emergence",
+        "stream": true
+      }
+    ]
+  },
+  "watery_constancy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:watery_constancy",
+        "stream": true
+      }
+    ]
+  },
+  "the_panopticon": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:the_panopticon",
+        "stream": true
+      }
+    ]
+  },
+  "organdeane_fields": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:organdeane_fields",
+        "stream": true
+      }
+    ]
+  },
+  "forest_of_anomeia": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:forest_of_anomeia",
+        "stream": true
+      }
+    ]
+  },
+  "by_the_river": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "archeon:by_the_river",
+        "stream": true
       }
     ]
   }

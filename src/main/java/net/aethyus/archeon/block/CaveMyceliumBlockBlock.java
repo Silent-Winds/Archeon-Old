@@ -27,7 +27,7 @@ public class CaveMyceliumBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CaveMyceliumBlockBlock(ArcheonModElements instance) {
-		super(instance, 259);
+		super(instance, 263);
 	}
 
 	@Override
@@ -39,7 +39,7 @@ public class CaveMyceliumBlockBlock extends ArcheonModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 5).harvestLevel(1)
+			super(Block.Properties.create(Material.EARTH).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.SHOVEL));
 			setRegistryName("cave_mycelium_block");
 		}

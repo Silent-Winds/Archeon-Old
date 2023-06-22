@@ -29,7 +29,7 @@ public class NyrethBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NyrethBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 220);
+		super(instance, 224);
 	}
 
 	@Override

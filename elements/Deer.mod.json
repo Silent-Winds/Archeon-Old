@@ -135,6 +135,18 @@
       },
       {
         "value": "CUSTOM:RockyFields"
+      },
+      {
+        "value": "CUSTOM:NyrethGlade"
+      },
+      {
+        "value": "CUSTOM:NumeSwamp"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForest"
+      },
+      {
+        "value": "CUSTOM:VuxanciaForestMagical"
       }
     ],
     "spawnInDungeons": false

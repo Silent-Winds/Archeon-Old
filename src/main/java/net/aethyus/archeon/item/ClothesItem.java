@@ -29,7 +29,7 @@ public class ClothesItem extends ArcheonModElements.ModElement {
 	public static final Item boots = null;
 
 	public ClothesItem(ArcheonModElements instance) {
-		super(instance, 859);
+		super(instance, 864);
 	}
 
 	@Override

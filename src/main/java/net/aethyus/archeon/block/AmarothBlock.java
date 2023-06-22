@@ -62,7 +62,7 @@ public class AmarothBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AmarothBlock(ArcheonModElements instance) {
-		super(instance, 316);
+		super(instance, 320);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

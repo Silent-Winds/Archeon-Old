@@ -56,7 +56,7 @@ public class DeerEntity extends ArcheonModElements.ModElement {
 			.size(0.9f, 1.4f)).build("deer").setRegistryName("deer");
 
 	public DeerEntity(ArcheonModElements instance) {
-		super(instance, 454);
+		super(instance, 459);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new DeerRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -57,7 +57,7 @@ public class ExplosiveAuroraCatalystEntity extends ArcheonModElements.ModElement
 			.size(0.6f, 1.8f)).build("explosive_aurora_catalyst").setRegistryName("explosive_aurora_catalyst");
 
 	public ExplosiveAuroraCatalystEntity(ArcheonModElements instance) {
-		super(instance, 457);
+		super(instance, 462);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new ExplosiveAuroraCatalystRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -33,7 +33,7 @@ public class VuxanciaLeavesValeBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public VuxanciaLeavesValeBlock(ArcheonModElements instance) {
-		super(instance, 198);
+		super(instance, 202);
 	}
 
 	@Override

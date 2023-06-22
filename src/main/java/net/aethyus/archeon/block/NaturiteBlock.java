@@ -34,7 +34,7 @@ public class NaturiteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NaturiteBlock(ArcheonModElements instance) {
-		super(instance, 174);
+		super(instance, 178);
 	}
 
 	@Override

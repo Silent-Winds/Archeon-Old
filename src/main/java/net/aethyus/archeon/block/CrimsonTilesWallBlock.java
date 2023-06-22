@@ -40,7 +40,7 @@ public class CrimsonTilesWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CrimsonTilesWallBlock(ArcheonModElements instance) {
-		super(instance, 271);
+		super(instance, 275);
 	}
 
 	@Override

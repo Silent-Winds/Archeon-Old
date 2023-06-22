@@ -63,7 +63,7 @@ public class WillsOfLightBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WillsOfLightBlock(ArcheonModElements instance) {
-		super(instance, 318);
+		super(instance, 322);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

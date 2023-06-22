@@ -40,7 +40,7 @@ public class RedTilesWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public RedTilesWallBlock(ArcheonModElements instance) {
-		super(instance, 275);
+		super(instance, 279);
 	}
 
 	@Override

@@ -30,7 +30,7 @@ public class LusonythItem extends ArcheonModElements.ModElement {
 	public static final Item boots = null;
 
 	public LusonythItem(ArcheonModElements instance) {
-		super(instance, 364);
+		super(instance, 369);
 	}
 
 	@Override
