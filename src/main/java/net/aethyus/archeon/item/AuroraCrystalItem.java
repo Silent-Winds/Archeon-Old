@@ -17,7 +17,7 @@ public class AuroraCrystalItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public AuroraCrystalItem(ArcheonModElements instance) {
-		super(instance, 455);
+		super(instance, 462);
 	}
 
 	@Override

@@ -60,7 +60,7 @@ public class CattailsBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CattailsBlock(ArcheonModElements instance) {
-		super(instance, 333);
+		super(instance, 340);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -59,7 +59,7 @@ public class PoisonousAuroraCatalystEntity extends ArcheonModElements.ModElement
 			.size(0.6f, 1.8f)).build("poisonous_aurora_catalyst").setRegistryName("poisonous_aurora_catalyst");
 
 	public PoisonousAuroraCatalystEntity(ArcheonModElements instance) {
-		super(instance, 461);
+		super(instance, 468);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new PoisonousAuroraCatalystRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

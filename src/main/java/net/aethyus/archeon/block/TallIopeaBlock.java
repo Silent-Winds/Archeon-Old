@@ -63,7 +63,7 @@ public class TallIopeaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TallIopeaBlock(ArcheonModElements instance) {
-		super(instance, 311);
+		super(instance, 318);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:antic_floortile"
+    },
+    "1": {
+      "item": "archeon:antic_floortile"
+    },
+    "2": {
+      "item": "archeon:antic_floortile"
+    }
+  },
+  "result": {
+    "item": "archeon:antic_floortile_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "archeon:blocks/antic_floortile2",
+    "top": "archeon:blocks/antic_floortile2",
+    "side": "archeon:blocks/antic_floortile2"
+  }
+}

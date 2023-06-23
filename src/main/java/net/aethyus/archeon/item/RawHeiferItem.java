@@ -18,7 +18,7 @@ public class RawHeiferItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RawHeiferItem(ArcheonModElements instance) {
-		super(instance, 439);
+		super(instance, 446);
 	}
 
 	@Override

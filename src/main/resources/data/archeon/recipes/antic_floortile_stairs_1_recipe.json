@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:antic_floortile"
+    },
+    "3": {
+      "item": "archeon:antic_floortile"
+    },
+    "4": {
+      "item": "archeon:antic_floortile"
+    },
+    "6": {
+      "item": "archeon:antic_floortile"
+    },
+    "7": {
+      "item": "archeon:antic_floortile"
+    },
+    "8": {
+      "item": "archeon:antic_floortile"
+    }
+  },
+  "result": {
+    "item": "archeon:antic_floortile_1_stairs",
+    "count": 4
+  }
+}

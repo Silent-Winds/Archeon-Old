@@ -23,7 +23,7 @@ public class RingOfWahvenItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RingOfWahvenItem(ArcheonModElements instance) {
-		super(instance, 405);
+		super(instance, 412);
 	}
 
 	@Override

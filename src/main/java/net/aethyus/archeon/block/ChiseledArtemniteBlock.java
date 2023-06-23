@@ -27,7 +27,7 @@ public class ChiseledArtemniteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public ChiseledArtemniteBlock(ArcheonModElements instance) {
-		super(instance, 175);
+		super(instance, 174);
 	}
 
 	@Override

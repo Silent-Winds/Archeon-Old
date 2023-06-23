@@ -17,7 +17,7 @@ public class NeclaneWoodSwordItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public NeclaneWoodSwordItem(ArcheonModElements instance) {
-		super(instance, 382);
+		super(instance, 389);
 	}
 
 	@Override

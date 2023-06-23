@@ -33,7 +33,7 @@ public class FloweredNeclaneLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public FloweredNeclaneLeavesBlock(ArcheonModElements instance) {
-		super(instance, 195);
+		super(instance, 194);
 	}
 
 	@Override

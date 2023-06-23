@@ -27,7 +27,7 @@ public class CrimsonTilesSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CrimsonTilesSlabBlock(ArcheonModElements instance) {
-		super(instance, 274);
+		super(instance, 282);
 	}
 
 	@Override

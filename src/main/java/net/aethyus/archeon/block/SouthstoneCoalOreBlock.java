@@ -43,7 +43,7 @@ public class SouthstoneCoalOreBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SouthstoneCoalOreBlock(ArcheonModElements instance) {
-		super(instance, 119);
+		super(instance, 118);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

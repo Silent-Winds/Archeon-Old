@@ -33,7 +33,7 @@ public class StrippedNumeWillowLogBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public StrippedNumeWillowLogBlock(ArcheonModElements instance) {
-		super(instance, 185);
+		super(instance, 184);
 	}
 
 	@Override

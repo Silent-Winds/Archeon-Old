@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "archeon:blocks/antic_floortile2",
+    "particle": "archeon:blocks/antic_floortile2"
+  }
+}

@@ -26,7 +26,7 @@ public class PowerKeystoneBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PowerKeystoneBlock(ArcheonModElements instance) {
-		super(instance, 177);
+		super(instance, 176);
 	}
 
 	@Override

@@ -56,7 +56,7 @@ public class WetGrassBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public WetGrassBlock(ArcheonModElements instance) {
-		super(instance, 324);
+		super(instance, 331);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

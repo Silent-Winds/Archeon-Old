@@ -29,7 +29,7 @@ public class NumeWillowBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public NumeWillowBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 221);
+		super(instance, 220);
 	}
 
 	@Override

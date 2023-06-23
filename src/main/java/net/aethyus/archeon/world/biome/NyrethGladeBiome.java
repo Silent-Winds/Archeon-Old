@@ -51,7 +51,7 @@ public class NyrethGladeBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public NyrethGladeBiome(ArcheonModElements instance) {
-		super(instance, 1263);
+		super(instance, 1268);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

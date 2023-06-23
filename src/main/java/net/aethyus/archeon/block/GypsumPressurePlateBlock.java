@@ -32,7 +32,7 @@ public class GypsumPressurePlateBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public GypsumPressurePlateBlock(ArcheonModElements instance) {
-		super(instance, 243);
+		super(instance, 250);
 	}
 
 	@Override

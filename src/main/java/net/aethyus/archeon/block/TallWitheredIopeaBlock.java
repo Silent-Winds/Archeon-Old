@@ -59,7 +59,7 @@ public class TallWitheredIopeaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public TallWitheredIopeaBlock(ArcheonModElements instance) {
-		super(instance, 313);
+		super(instance, 320);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

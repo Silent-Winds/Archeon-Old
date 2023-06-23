@@ -18,7 +18,7 @@ public class PlantFiberItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public PlantFiberItem(ArcheonModElements instance) {
-		super(instance, 414);
+		super(instance, 421);
 	}
 
 	@Override

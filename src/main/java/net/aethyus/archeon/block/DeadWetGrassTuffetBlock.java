@@ -38,7 +38,7 @@ public class DeadWetGrassTuffetBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public DeadWetGrassTuffetBlock(ArcheonModElements instance) {
-		super(instance, 329);
+		super(instance, 336);
 	}
 
 	@Override

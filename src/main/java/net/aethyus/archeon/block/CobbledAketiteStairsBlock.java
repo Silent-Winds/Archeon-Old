@@ -31,7 +31,7 @@ public class CobbledAketiteStairsBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CobbledAketiteStairsBlock(ArcheonModElements instance) {
-		super(instance, 135);
+		super(instance, 134);
 	}
 
 	@Override

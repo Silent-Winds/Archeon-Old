@@ -17,7 +17,7 @@ public class VuxanciaPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public VuxanciaPickaxeItem(ArcheonModElements instance) {
-		super(instance, 385);
+		super(instance, 392);
 	}
 
 	@Override

@@ -53,7 +53,7 @@ public class TropicstoneCobblestoneSlabBlock extends ArcheonModElements.ModEleme
 	public static final Block block = null;
 
 	public TropicstoneCobblestoneSlabBlock(ArcheonModElements instance) {
-		super(instance, 87);
+		super(instance, 88);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

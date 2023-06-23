@@ -47,7 +47,7 @@ public class SporeRootcapBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public SporeRootcapBlock(ArcheonModElements instance) {
-		super(instance, 342);
+		super(instance, 349);
 	}
 
 	@Override

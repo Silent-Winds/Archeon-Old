@@ -33,7 +33,7 @@ public class PaleNyrethLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PaleNyrethLeavesBlock(ArcheonModElements instance) {
-		super(instance, 197);
+		super(instance, 196);
 	}
 
 	@Override

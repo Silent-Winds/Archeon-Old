@@ -18,7 +18,7 @@ public class LusonythPickaxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public LusonythPickaxeItem(ArcheonModElements instance) {
-		super(instance, 365);
+		super(instance, 372);
 	}
 
 	@Override

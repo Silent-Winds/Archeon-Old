@@ -62,7 +62,7 @@ public class DottedStoviaBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public DottedStoviaBlock(ArcheonModElements instance) {
-		super(instance, 321);
+		super(instance, 328);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

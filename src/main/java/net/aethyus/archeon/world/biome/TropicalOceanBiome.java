@@ -42,7 +42,7 @@ public class TropicalOceanBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public TropicalOceanBiome(ArcheonModElements instance) {
-		super(instance, 507);
+		super(instance, 514);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

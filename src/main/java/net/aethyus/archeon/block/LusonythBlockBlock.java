@@ -27,7 +27,7 @@ public class LusonythBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public LusonythBlockBlock(ArcheonModElements instance) {
-		super(instance, 124);
+		super(instance, 123);
 	}
 
 	@Override

@@ -33,7 +33,7 @@ public class Nume_WillowLeavesBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public Nume_WillowLeavesBlock(ArcheonModElements instance) {
-		super(instance, 192);
+		super(instance, 191);
 	}
 
 	@Override

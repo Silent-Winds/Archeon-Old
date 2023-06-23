@@ -27,7 +27,7 @@ public class CaveMyceliumBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CaveMyceliumBlock(ArcheonModElements instance) {
-		super(instance, 262);
+		super(instance, 269);
 	}
 
 	@Override

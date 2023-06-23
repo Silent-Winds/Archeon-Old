@@ -27,7 +27,7 @@ public class FancyChiseledArtemniteBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public FancyChiseledArtemniteBlock(ArcheonModElements instance) {
-		super(instance, 167);
+		super(instance, 166);
 	}
 
 	@Override

@@ -21,7 +21,7 @@ public class PeaksGrassBlockBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PeaksGrassBlockBlock(ArcheonModElements instance) {
-		super(instance, 265);
+		super(instance, 272);
 	}
 
 	@Override

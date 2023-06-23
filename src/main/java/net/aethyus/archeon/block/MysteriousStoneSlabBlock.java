@@ -27,7 +27,7 @@ public class MysteriousStoneSlabBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public MysteriousStoneSlabBlock(ArcheonModElements instance) {
-		super(instance, 151);
+		super(instance, 150);
 	}
 
 	@Override

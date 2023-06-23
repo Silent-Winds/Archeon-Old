@@ -58,7 +58,7 @@ public class OrchidWitheredBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public OrchidWitheredBlock(ArcheonModElements instance) {
-		super(instance, 296);
+		super(instance, 303);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

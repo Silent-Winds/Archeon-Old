@@ -18,7 +18,7 @@ public class RecordFragmentItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RecordFragmentItem(ArcheonModElements instance) {
-		super(instance, 437);
+		super(instance, 444);
 	}
 
 	@Override

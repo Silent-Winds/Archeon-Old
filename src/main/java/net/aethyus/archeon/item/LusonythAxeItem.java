@@ -18,7 +18,7 @@ public class LusonythAxeItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public LusonythAxeItem(ArcheonModElements instance) {
-		super(instance, 366);
+		super(instance, 373);
 	}
 
 	@Override

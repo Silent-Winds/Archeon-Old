@@ -45,7 +45,7 @@ public class CobbledAketiteWallBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public CobbledAketiteWallBlock(ArcheonModElements instance) {
-		super(instance, 137);
+		super(instance, 135);
 	}
 
 	@Override

@@ -47,7 +47,7 @@ public class FaeliteOreBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public FaeliteOreBlock(ArcheonModElements instance) {
-		super(instance, 120);
+		super(instance, 119);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

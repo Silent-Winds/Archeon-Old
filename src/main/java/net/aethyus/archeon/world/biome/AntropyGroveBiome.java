@@ -44,7 +44,7 @@ public class AntropyGroveBiome extends ArcheonModElements.ModElement {
 	public static Biome biome;
 
 	public AntropyGroveBiome(ArcheonModElements instance) {
-		super(instance, 530);
+		super(instance, 537);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

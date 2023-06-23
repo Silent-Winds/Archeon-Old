@@ -31,7 +31,7 @@ public class AketiteStairsBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public AketiteStairsBlock(ArcheonModElements instance) {
-		super(instance, 130);
+		super(instance, 129);
 	}
 
 	@Override

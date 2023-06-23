@@ -15,7 +15,7 @@ public class ExyrianeFishingRodItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public ExyrianeFishingRodItem(ArcheonModElements instance) {
-		super(instance, 406);
+		super(instance, 413);
 	}
 
 	@Override

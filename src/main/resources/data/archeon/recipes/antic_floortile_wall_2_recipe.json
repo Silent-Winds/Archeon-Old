@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:antic_floortile_2"
+    },
+    "1": {
+      "item": "archeon:antic_floortile_2"
+    },
+    "2": {
+      "item": "archeon:antic_floortile_2"
+    },
+    "3": {
+      "item": "archeon:antic_floortile_2"
+    },
+    "4": {
+      "item": "archeon:antic_floortile_2"
+    },
+    "5": {
+      "item": "archeon:antic_floortile_2"
+    }
+  },
+  "result": {
+    "item": "archeon:anti_cf_loortil_ew_all_2",
+    "count": 6
+  }
+}

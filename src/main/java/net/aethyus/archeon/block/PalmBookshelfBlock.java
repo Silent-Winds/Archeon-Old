@@ -29,7 +29,7 @@ public class PalmBookshelfBlock extends ArcheonModElements.ModElement {
 	public static final Block block = null;
 
 	public PalmBookshelfBlock(ArcheonModElements instance) {
-		super(instance, 223);
+		super(instance, 222);
 	}
 
 	@Override
