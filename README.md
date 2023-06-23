@@ -1,5 +1,5 @@
 # Archeon
-![](https://media.discordapp.net/attachments/938106904129986590/1065303612634447994/image.png?width=886&height=498)
+![](https://media.discordapp.net/attachments/938106904129986590/1116017304086511626/image.png?width=1663&height=935)
 
 ## 🏷️ Welcome to Archeon: Rebirth of History
 
