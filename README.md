@@ -1,7 +1,7 @@
 # Archeon
-![](https://media.discordapp.net/attachments/938106904129986590/1065303612634447994/image.png?width=886&height=498)
+![](https://media.discordapp.net/attachments/938106904129986590/1116017304086511626/image.png?width=1663&height=935)
 
-## 🏷️ Welcome to Archeon: Rebirth of History
+## 🏷️ Welcome to Archeon and the Echo of the Worlds
 
 The Silent Winds team presents the Archeon mod! Archeon is a brand new dimension, full of new blocks, mobs and more! All you need to get there is a portal made of Mysterious Stone, filled with a magical energy made by the Wand of Nature! The Archeon mod is still in heavy development, but we already released the Rebirth of History update a a few months ago! Go check it out on CurseForge: https://www.curseforge.com/minecraft/mc-mods/archeon/files - The current in-dev update of Archeon is called Archeon and the Echo of the Worlds, the third arc of the mod!
 <a class="github-button" href="https://discord.gg/hhGPj8sMzT
@@ -36,4 +36,4 @@ If you find any issue/bug, report it in the issue tracker of our mod, here, on o
 
 ## 💖 Enjoy the mod? Contribute with us!
 
-If you’d like to help/contribute in any thing (texture making, music, development, modeler, translator, etc) contact us on our Discord server! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
+If you’d like to help/contribute in any thing (mostly music, development, modeling, translating, etc) contact us on our Discord server! Players who contribute to the mod will be marked on our CurseForge page, here, and a special role on our Discord, and many other things! 
