@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "archeon:golden_grape",
+          "name": "archeon:grape",
           "weight": 1,
           "functions": [
             {
@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "name": "archeon:exyriane_crystal",
           "weight": 1,
           "functions": [
             {
@@ -91,7 +91,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "archeon:plant_fiber",
+          "name": "archeon:moss_ball",
           "weight": 1,
           "functions": [
             {

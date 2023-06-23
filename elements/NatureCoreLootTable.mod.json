@@ -5,8 +5,8 @@
     "type": "Entity",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 1,
+        "minrolls": 4,
+        "maxrolls": 4,
         "minbonusrolls": 1,
         "maxbonusrolls": 1,
         "hasbonusrolls": false,
@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:HeartOfNatureTrophy"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:RingOfWahven"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:PinkLycorisPetal"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 1,
             "maxCount": 3,
             "minEnchantmentLevel": 0,
@@ -58,7 +58,7 @@
             "item": {
               "value": "CUSTOM:AuroraCrystal"
             },
-            "weight": 2,
+            "weight": 1,
             "minCount": 3,
             "maxCount": 5,
             "minEnchantmentLevel": 0,

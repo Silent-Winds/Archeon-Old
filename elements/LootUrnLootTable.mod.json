@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:GoldenGrape"
+              "value": "CUSTOM:Grape"
             },
             "weight": 1,
             "minCount": 1,
@@ -56,7 +56,7 @@
           {
             "type": "item",
             "item": {
-              "value": "Items.COAL#0"
+              "value": "CUSTOM:ExyrianeCrystal"
             },
             "weight": 1,
             "minCount": 1,
@@ -93,7 +93,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:PlantFiber"
+              "value": "CUSTOM:MossBall"
             },
             "weight": 1,
             "minCount": 0,

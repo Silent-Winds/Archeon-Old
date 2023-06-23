@@ -2,12 +2,12 @@
   "type": "minecraft:entity",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": 4,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "archeon:heart_of_nature_trophy",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -21,7 +21,7 @@
         {
           "type": "minecraft:item",
           "name": "archeon:ring_of_wahven",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -35,7 +35,7 @@
         {
           "type": "minecraft:item",
           "name": "archeon:pink_lycoris_petal",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
@@ -49,7 +49,7 @@
         {
           "type": "minecraft:item",
           "name": "archeon:aurora_crystal",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "set_count",
