@@ -29,7 +29,7 @@ public class RawDeerItem extends ArcheonModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(2).saturation(0.3f)
+					.food((new Food.Builder()).hunger(1).saturation(0.3f)
 
 							.meat().build()));
 			setRegistryName("raw_deer");

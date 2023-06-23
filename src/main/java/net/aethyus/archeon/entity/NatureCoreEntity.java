@@ -95,12 +95,12 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 		public void onEntityAttributeCreation(EntityAttributeCreationEvent event) {
 			AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();
 			ammma = ammma.createMutableAttribute(Attributes.MOVEMENT_SPEED, 0.7000000000000001);
-			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 550);
+			ammma = ammma.createMutableAttribute(Attributes.MAX_HEALTH, 65);
 			ammma = ammma.createMutableAttribute(Attributes.ARMOR, 2);
 			ammma = ammma.createMutableAttribute(Attributes.ATTACK_DAMAGE, 10);
 			ammma = ammma.createMutableAttribute(Attributes.FOLLOW_RANGE, 100);
-			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.2);
-			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.3);
+			ammma = ammma.createMutableAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.1);
+			ammma = ammma.createMutableAttribute(Attributes.ATTACK_KNOCKBACK, 0.2);
 			ammma = ammma.createMutableAttribute(Attributes.FLYING_SPEED, 0.7000000000000001);
 			event.put(entity, ammma.create());
 		}
@@ -113,7 +113,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 		public CustomEntity(EntityType<CustomEntity> type, World world) {
 			super(type, world);
-			experienceValue = 270;
+			experienceValue = 170;
 			setNoAI(false);
 			enablePersistence();
 			this.moveController = new FlyingMovementController(this, 10, true);

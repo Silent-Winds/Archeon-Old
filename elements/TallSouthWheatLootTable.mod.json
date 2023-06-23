@@ -17,8 +17,22 @@
               "value": "Blocks.WHEAT"
             },
             "weight": 1,
-            "minCount": 2,
-            "maxCount": 4,
+            "minCount": 0,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": true,
+            "explosionDecay": false,
+            "silkTouchMode": 2
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.WHEAT_SEEDS"
+            },
+            "weight": 1,
+            "minCount": 1,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

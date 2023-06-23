@@ -15,6 +15,9 @@
     "useDuration": 8,
     "toolType": 0.0,
     "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
     "destroyAnyBlock": false,
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
@@ -23,13 +26,14 @@
     "damageVsEntity": 0.0,
     "specialInfo": [],
     "hasGlow": false,
+    "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
       "name": "GoldenGrapeFoodEaten"
     },
     "isFood": true,
-    "nutritionalValue": 5,
+    "nutritionalValue": 3,
     "saturation": 2.5,
     "eatResultItem": {
       "value": ""

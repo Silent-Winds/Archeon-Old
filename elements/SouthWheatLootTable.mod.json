@@ -17,8 +17,8 @@
               "value": "Items.WHEAT_SEEDS"
             },
             "weight": 1,
-            "minCount": 3,
-            "maxCount": 4,
+            "minCount": 1,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,

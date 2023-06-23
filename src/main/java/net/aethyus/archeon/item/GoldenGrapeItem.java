@@ -37,7 +37,7 @@ public class GoldenGrapeItem extends ArcheonModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(64).rarity(Rarity.UNCOMMON)
-					.food((new Food.Builder()).hunger(5).saturation(2.5f).setAlwaysEdible().build()));
+					.food((new Food.Builder()).hunger(3).saturation(2.5f).setAlwaysEdible().build()));
 			setRegistryName("golden_grape");
 		}
 

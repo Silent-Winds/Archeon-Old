@@ -29,9 +29,9 @@ public class BloodOrangeItem extends ArcheonModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(4).saturation(4f)
+					.food((new Food.Builder()).hunger(2).saturation(2.5f)
 
-							.meat().build()));
+							.build()));
 			setRegistryName("blood_orange");
 		}
 

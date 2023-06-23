@@ -19,10 +19,10 @@ public class GoldenGrapeFoodEatenProcedure {
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 160, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.STRENGTH, (int) 60, (int) 1));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, (int) 160, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.INSTANT_HEALTH, (int) 30, (int) 1));
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 160, (int) 1));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.SPEED, (int) 60, (int) 1));
 	}
 }

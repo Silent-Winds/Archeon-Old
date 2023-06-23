@@ -143,7 +143,7 @@
               "value": "CUSTOM:LoreScrap22"
             },
             "weight": 2,
-            "minCount": 0,
+            "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,

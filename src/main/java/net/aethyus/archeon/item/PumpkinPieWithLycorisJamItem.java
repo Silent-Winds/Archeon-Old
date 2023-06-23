@@ -29,9 +29,7 @@ public class PumpkinPieWithLycorisJamItem extends ArcheonModElements.ModElement 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ArcheonMiscItemGroup.tab).maxStackSize(1).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(20).saturation(20f)
-
-							.build()));
+					.food((new Food.Builder()).hunger(10).saturation(5f).setAlwaysEdible().build()));
 			setRegistryName("pumpkin_pie_with_lycoris_jam");
 		}
 
