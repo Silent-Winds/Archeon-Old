@@ -47,6 +47,7 @@ import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.CreatureAttribute;
 import net.minecraft.entity.AreaEffectCloudEntity;
+import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 
 import net.aethyus.archeon.procedures.NatureCoreOnInitialEntitySpawnProcedure;
@@ -55,7 +56,6 @@ import net.aethyus.archeon.procedures.NatureCoreEntityIsHurtProcedure;
 import net.aethyus.archeon.procedures.NatureCoreEntityDiesProcedure;
 import net.aethyus.archeon.itemgroup.ArcheonMiscItemGroup;
 import net.aethyus.archeon.entity.renderer.NatureCoreRenderer;
-import net.aethyus.archeon.block.HeartOfNatureTrophyBlock;
 import net.aethyus.archeon.ArcheonModElements;
 
 import javax.annotation.Nullable;
@@ -201,7 +201,7 @@ public class NatureCoreEntity extends ArcheonModElements.ModElement {
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
 			super.dropSpecialItems(source, looting, recentlyHitIn);
-			this.entityDropItem(new ItemStack(HeartOfNatureTrophyBlock.block));
+			this.entityDropItem(new ItemStack(Blocks.AIR));
 		}
 
 		@Override

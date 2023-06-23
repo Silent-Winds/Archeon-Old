@@ -11634,6 +11634,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "PanopticonLootTable1",
+      "type": "loottable",
+      "sortid": 1299,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "panopticon_loot_table_1"
+    },
+    {
+      "name": "NatureCoreLootTable",
+      "type": "loottable",
+      "sortid": 1300,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nature_core_loot_table"
     }
   ],
   "variable_elements": [
@@ -13143,7 +13159,7 @@
   "workspaceSettings": {
     "modid": "archeon",
     "modName": "Archeon",
-    "version": "1.1.7-snapshot-1.1.5",
+    "version": "1.1.7-snapshot-1.1.3",
     "description": "Archeon and the Echo of the Worlds is an expansive brand new dimension to Minecraft, including new biomes, blocks, items and many other and different things to craft and discover in this new adventure. Archeon is the first part of Sullen Rifts, an expansive Lore-based sequel of mods with tons of new additions to see. The Sullen Rifts\u0027 Universe contains 3 mods in total, the 3 continents of its planet. You\u0027re in Archeon, the first continent of this universe to discover. Every continent is a mod of the sequel; those mods are for adventure and exploration, with bosses, biomes, and more.",
     "author": "The Silent Winds Team (Aethyus, Aeramisu, Scarecrowman, Rotch Gwylt, FirstMegaGame4 and Tim Rurkowski)",
     "websiteURL": "- To get the new updates of this mod: https://www.curseforge.com/minecraft/mc-mods/archeon  - Follow us on Twitter to see the development: https://twitter.com/ArcheonDev  - Join our Discord server for support, and more: https://discord.gg/reyywJwFBQ  - Contribute to the project, support \u0026 more on our GitHub page: https://github.com/Silent-Winds/Archeon  - Follow Tim Rurkowski on Bandcamp: https://timrurkowski.bandcamp.com/  - Follow Rotch Gwylt on SoundCloud:  https://soundcloud.com/rotch-gwylt  - Follow Aeramisu on SoundCloud: https://soundcloud.com/aeramisu  - Follow Aethyus on Twitter: https://twitter.com/ArcheonAethyus  - Join now our official Discord Server:  https://discord.gg/reyywJwFBQ",
