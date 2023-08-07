@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "1": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "2": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "3": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "4": {
+      "item": "archeon:gypsum_block"
+    },
+    "5": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "6": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "7": {
+      "item": "archeon:gypsum_tiles"
+    },
+    "8": {
+      "item": "archeon:gypsum_tiles"
+    }
+  },
+  "result": {
+    "item": "archeon:chiseled_gypsum",
+    "count": 6
+  }
+}

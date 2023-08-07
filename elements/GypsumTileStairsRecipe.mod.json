@@ -5,15 +5,12 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 4,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:PlantFiber"
+        "value": "CUSTOM:GypsumTiles"
       },
       {
         "value": ""
@@ -22,25 +19,28 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MossBall"
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "CUSTOM:GypsumTiles"
       },
       {
-        "value": "CUSTOM:PlantFiber"
+        "value": "CUSTOM:GypsumTiles"
       },
       {
-        "value": ""
+        "value": "CUSTOM:GypsumTiles"
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.LEATHER"
+      "value": "CUSTOM:GypsumTileStairs"
     },
-    "name": "leather_recipe",
+    "name": "gypsum_tile_stairs_recipe",
     "namespace": "mod"
   }
 }

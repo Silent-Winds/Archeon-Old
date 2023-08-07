@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumBlock"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      },
+      {
+        "value": "CUSTOM:GypsumTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChiseledGypsum"
+    },
+    "name": "chiseled_gypsum_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "archeon:chiseled_gypsum"
+    },
+    "1": {
+      "item": "archeon:gypsum_block"
+    },
+    "2": {
+      "item": "archeon:chiseled_gypsum"
+    }
+  },
+  "result": {
+    "item": "archeon:gypsum_pillar",
+    "count": 3
+  }
+}

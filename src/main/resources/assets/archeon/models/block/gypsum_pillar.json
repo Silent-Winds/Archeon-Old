@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "archeon:blocks/gypsum_pillar_top",
+    "up": "archeon:blocks/gypsum_pillar_top",
+    "north": "archeon:blocks/gypsum_pillar_side",
+    "east": "archeon:blocks/gypsum_pillar_side",
+    "south": "archeon:blocks/gypsum_pillar_side",
+    "west": "archeon:blocks/gypsum_pillar_side",
+    "particle": "archeon:blocks/gypsum_pillar_top"
+  }
+}

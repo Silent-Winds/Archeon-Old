@@ -5,15 +5,15 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 3,
     "group": "",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:PlantFiber"
+        "value": "CUSTOM:ChiseledGypsum"
       },
       {
         "value": ""
@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:MossBall"
+        "value": "CUSTOM:GypsumBlock"
       },
       {
         "value": ""
@@ -31,16 +31,16 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:PlantFiber"
+        "value": "CUSTOM:ChiseledGypsum"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.LEATHER"
+      "value": "CUSTOM:GypsumPillar"
     },
-    "name": "leather_recipe",
+    "name": "gyspum_pillar_recipe",
     "namespace": "mod"
   }
 }
