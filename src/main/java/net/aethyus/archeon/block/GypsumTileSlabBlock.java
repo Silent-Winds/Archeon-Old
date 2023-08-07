@@ -4,8 +4,6 @@ package net.aethyus.archeon.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.common.ToolType;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.state.properties.SlabType;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
@@ -44,11 +42,6 @@ public class GypsumTileSlabBlock extends ArcheonModElements.ModElement {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("gypsum_tile_slab");
-		}
-
-		@Override
-		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-			return 15;
 		}
 
 		@Override
