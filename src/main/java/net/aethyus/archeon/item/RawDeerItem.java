@@ -18,7 +18,7 @@ public class RawDeerItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public RawDeerItem(ArcheonModElements instance) {
-		super(instance, 450);
+		super(instance, 451);
 	}
 
 	@Override

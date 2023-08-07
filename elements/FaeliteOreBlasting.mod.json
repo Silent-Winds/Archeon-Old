@@ -12,7 +12,7 @@
       "value": "CUSTOM:FaeliteOre"
     },
     "blastingReturnStack": {
-      "value": "CUSTOM:FaeliteIngot"
+      "value": "CUSTOM:RawFaelite"
     },
     "name": "faelite_ore_blasting",
     "namespace": "mod"

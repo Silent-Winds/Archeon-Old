@@ -17,7 +17,7 @@ public class SnailShellItem extends ArcheonModElements.ModElement {
 	public static final Item block = null;
 
 	public SnailShellItem(ArcheonModElements instance) {
-		super(instance, 461);
+		super(instance, 462);
 	}
 
 	@Override

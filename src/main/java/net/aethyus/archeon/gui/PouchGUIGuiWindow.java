@@ -35,8 +35,6 @@ public class PouchGUIGuiWindow extends ContainerScreen<PouchGUIGui.GuiContainerM
 		this.ySize = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("archeon:textures/screens/pouch_gui.png");
-
 	@Override
 	public void render(MatrixStack ms, int mouseX, int mouseY, float partialTicks) {
 		this.renderBackground(ms);
@@ -49,10 +47,10 @@ public class PouchGUIGuiWindow extends ContainerScreen<PouchGUIGui.GuiContainerM
 		RenderSystem.color4f(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		Minecraft.getInstance().getTextureManager().bindTexture(texture);
-		int k = (this.width - this.xSize) / 2;
-		int l = (this.height - this.ySize) / 2;
-		this.blit(ms, k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
+
+		Minecraft.getInstance().getTextureManager().bindTexture(new ResourceLocation("archeon:textures/screens/pouch_ui.png"));
+		this.blit(ms, this.guiLeft + -17, this.guiTop + -10, 0, 0, 208, 192, 208, 192);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -72,7 +70,6 @@ public class PouchGUIGuiWindow extends ContainerScreen<PouchGUIGui.GuiContainerM
 
 	@Override
 	protected void drawGuiContainerForegroundLayer(MatrixStack ms, int mouseX, int mouseY) {
-		this.font.drawString(ms, "Pouch", 7, 7, -12829636);
 	}
 
 	@Override

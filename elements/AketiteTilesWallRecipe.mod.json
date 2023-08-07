@@ -38,7 +38,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:AketiteWall"
+      "value": "CUSTOM:AketiteTilesWall"
     },
     "name": "aketite_tiles_wall_recipe",
     "namespace": "mod"
